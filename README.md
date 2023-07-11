@@ -1,4 +1,6 @@
 # ozi.docs
+
+<img src="assets/ozi_logo_master.png" alt="isolated" width="100" align="left"/>
 Public OZI API documentation, software engineering practices, and developer guides.
 
 # Design Quality Policy
