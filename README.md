@@ -1,4 +1,4 @@
-# ozi.docs
+# OZI.docs
 
 <img src="assets/ozi_logo_master.png" alt="isolated" width="74" align="left"/>
 Public OZI API documentation, software engineering practices, and developer guides.
