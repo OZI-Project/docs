@@ -15,6 +15,11 @@ Public OZI API documentation, software engineering practices, and developer guid
 
 ## Software Engineering
 
+These are the guiding principles for OZI's development.
+* Reproducible builds
+* Configuration as code
+* No is temporary but yes is forever
+
 The following documents contain the design quality policy we will implement along with normative references.
 
 * [Safety Assurance Guidance](policy/safety-assurance-guidance.md)
