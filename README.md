@@ -16,7 +16,7 @@ Public OZI API documentation, software engineering practices, and developer guid
 ## Software Engineering
 
 These are the guiding principles for OZI's development.
-* Reproducible builds
+* [Reproducible builds](https://reproducible-builds.org/)(via Meson)
 * Configuration as code
 * No is temporary but yes is forever
 
