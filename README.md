@@ -5,7 +5,7 @@ Public OZI API documentation, software engineering practices, and developer guid
 
 ## API Documentation
 
-[rtfd.io](https://example.com)
+* [readthedocs](https://example.com)
 
 ## Software Engineering
 
