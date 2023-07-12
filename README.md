@@ -7,14 +7,17 @@ Public OZI API documentation, software engineering practices, and developer guid
 
 * [readthedocs](https://example.com)
 
+## Developer Guides
+
+* [Test Strategy](policy/test-strategy.md)
+* [Test Code Standards](policy/test-code-standards.md)
+* [Performance Test Checkist](policy/performance-test-checklist.md)
+
 ## Software Engineering
 
 The following documents contain the design quality policy we will implement along with normative references.
 
-* [Performance Test Checkist](policy/performance-test-checklist.md)
 * [Safety Assurance Guidance](policy/safety-assurance-guidance.md)
-* [Test Code Standards](policy/test-code-standards.md)
 * [Test Policy](policy/test-policy.md)
-* [Test Strategy](policy/test-strategy.md)
 
 
