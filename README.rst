@@ -24,7 +24,8 @@ Developer Guides
 Software Engineering
 --------------------
 
-These are the guiding principles for OZI's development.
+These are the guiding principles for OZI's development:
+
 * `Reproducible builds <https://reproducible-builds.org/>`_ (via Meson)
 * Configuration as code
 * No is temporary but yes is forever
