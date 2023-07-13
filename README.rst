@@ -39,17 +39,17 @@ Design Quality Assurance
 
 The following documents contain the design quality policy we will implement along with normative references.
 
-* [Safety Assurance Guidance](policy/safety-assurance-guidance.md)
-* [Test Policy](policy/test-policy.md)
+* `Safety Assurance Guidance <policy/safety-assurance-guidance.md>`_
+* `Test Policy <policy/test-policy.md>`_
 
 Weekly Monitoring
 *****************
 
 OZI Repository
 
-* [snyk.io(Vulnerabilities)](https://app.snyk.io/org/rjdbcm/project/85aad859-3b4b-44de-94ff-8ced0373513a)
-* [FOSSA(Compliance)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi)
+* `snyk.io(Vulnerabilities) <https://app.snyk.io/org/rjdbcm/project/85aad859-3b4b-44de-94ff-8ced0373513a>`_
+* `FOSSA(Compliance) <https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi>`_
 
 blastpipe Test Repository
 
-* [snyk.io(Integration Vulnerabilities)](https://app.snyk.io/org/rjdbcm/project/de703b4c-a43b-4c64-93cd-a410ad23db82)
+* `snyk.io(Integration Vulnerabilities) <https://app.snyk.io/org/rjdbcm/project/de703b4c-a43b-4c64-93cd-a410ad23db82>`_
