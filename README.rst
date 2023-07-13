@@ -2,11 +2,12 @@
 OZI.docs
 ========
 
-Public OZI API documentation, software engineering practices, and developer guides.
-
 .. image:: assets/ozi_logo_master.png
- :width: 74px 
  :align: left
+ :alt: OZI for Python Packaging Logo
+ :width: 74px
+
+Public OZI API documentation, software engineering practices, and developer guides.
 
 API Documentation
 -----------------
