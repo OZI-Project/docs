@@ -12,7 +12,8 @@ Public OZI API documentation, software engineering practices, and developer guid
 API Documentation
 -----------------
 
-* `readthedocs <https://example.com>`_
+This project serves as the host repository for our documentation site `hosted <https://example.com>`_ at ReadTheDocs.io.
+
 
 Developer Guides
 ----------------
