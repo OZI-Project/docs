@@ -4,7 +4,7 @@ OZI.docs
 
 .. image:: assets/ozi_logo_master.png
    :width: 74 
-   :align: left
+   :align: right
 
 Public OZI API documentation, software engineering practices, and developer guides.
 
