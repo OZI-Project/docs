@@ -31,7 +31,7 @@ The following documents contain the design quality policy we will implement alon
 * [Safety Assurance Guidance](policy/safety-assurance-guidance.md)
 * [Test Policy](policy/test-policy.md)
 
-#### Monitoring
+#### Weekly Monitoring
 
 * [snyk.io(Vulnerabilities)](https://app.snyk.io/org/rjdbcm/project/85aad859-3b4b-44de-94ff-8ced0373513a)
 * [FOSSA(Compliance)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi)
