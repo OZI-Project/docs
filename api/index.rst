@@ -11,6 +11,7 @@ Welcome to OZI's documentation!
    :caption: Contents:
 
    home <self>
+   standards
    dist
    docs
    lint
