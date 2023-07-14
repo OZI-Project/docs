@@ -19,9 +19,6 @@ OZI test
 
 Testing and continuous devolopment.
 
-Default Toolchain
------------------
-
 * Coverage.py_:
   Code coverage testing for Python.
 * Hypothesis_:

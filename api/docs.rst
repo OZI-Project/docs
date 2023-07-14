@@ -19,9 +19,6 @@ OZI docs
 
 Documentation and publishing.
 
-Default Toolchain
-^^^^^^^^^^^^^^^^^
-
 * doc8_:
   An opinionated style checker for reST.
 * pydocstyle_:

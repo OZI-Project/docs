@@ -19,9 +19,6 @@ OZI lint
 
 Codebase linting and formatting.
 
-Default Toolchain
------------------
-
 * Bandit_:
   A tool designed to find common security issues in Python code.
 * Black_:

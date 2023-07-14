@@ -19,8 +19,6 @@ OZI dist
 
 Distribution, provenance, and verification.
 
-Default Toolchain
-^^^^^^^^^^^^^^^^^
 * pyc_wheel_:
   Strips binary of uncompiled sources.
 * semantic-release_ (via python-semantic-release_):
