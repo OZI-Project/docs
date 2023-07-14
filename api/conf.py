@@ -35,6 +35,6 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_logo = 'assets/ozi_logo_master.png'
+html_logo = 'assets/ozi_logo_200dpi.png'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
