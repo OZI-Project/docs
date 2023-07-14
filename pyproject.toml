@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64","setuptools_scm[toml]>=6.2"]
+
+[project]
+name = "OZI"
+authors = [{name = "Ross J. Duff MSc", email = "rjdbcm@mail.umkc.edu"}]
+dynamic = ["version"]
+
+# pyproject.toml
+[tool.setuptools_scm]
+write_to = "api/_version.py"
+tag_regex = "^(?P<prefix>v)?(?P<version>[^\\+]+)(?P<suffix>.*)?$"
+
+[tool.setuptools]
+packages = ["api"]
