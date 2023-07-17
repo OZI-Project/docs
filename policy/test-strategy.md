@@ -6,8 +6,6 @@ Our core principles are:
 
 * [Test early and Often by adopting a Shift Left test methodology](https://smartbear.com/learn/automated-testing/shifting-left-in-testing/)
 * Use automation whenever possible
-* Use codegen to create fuzz tests used as the base of our testing pyramid.
-* Use Meson tests to connect and verify utilities in the 4 upper levels of the pyramid.
 
 ## Methods Of Testing
 
@@ -17,23 +15,19 @@ This section will cover the three core methods of testing utilised with key poin
 
 Automation must be used when possible.
 
+* Use ``hypothesis codegen`` to create fuzz tests. Save an artifact of the code and use ``diffoscope`` at each distributed release with new cod.
+* Use Meson tests to connect and verify utilities for linting, formatting, unit testing, packaging, and distribution.
+
 We suggest that all teams using automation should adhere to these principles:
 
 * New functionality must be covered by passing automated tests (unless there is a legitimate reason not to).
-* Make use of test design patterns and principles.
-* Add tests at the correct level of the test pyramid - lower is better.
 * All tests should be independent of each other.
 
 ### Manual Scripted
 
 * Manual scripted testing should only be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable).
 * Tests will be created using appropriate test design techniques, e.g. risk based, decision tables, boundary values analysis.
-* The team will decide on where these manual tests will be stored and maintained; Azure DevOps or feature files are two examples.
-
-### Exploratory
-
-* Exploratory testing should be used to verify quality in addition to regular automated and manual scripted testing.
-* Sessions should be planned with a charter (including time-box, area to review, personas).
+* The team will decide on where these manual tests will be stored and maintained
 
 ## Test Types
 
@@ -86,16 +80,6 @@ The disaster recovery plan should be tested for a new or significantly changed s
 ### End-To-End
 
 * Testing to ensure the application is performing as designed and expected from start to finish, simulating end user journeys.
-* This should be used minimally and should predominantly cover happy path scenarios.
-
-### Functional
-
-![Test Pyramid](images/the_test_pyramid_updated.png)
-
-The Functional Testing will be focused on the solution's functionality and business logic. The diagram is only to illustrate the type of tests
-you could consider, and the users in terms of Dev/Test/Users are only for illustration purposes and are not fixed.
-The test pyramid indicates where the test effort should be focused in order to provide a better return and a faster feedback loop for failures and defects.
-Tests should be added at the correct level of the test pyramid which directly influences the ROI eg the higher up the pyramid then the return on large number of tests start to deminish caompared to the effort needed to create and maintain them - lower is better.
 
 ### Performance
 
