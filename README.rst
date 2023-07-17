@@ -31,11 +31,6 @@ These are the guiding principles for OZI's development:
 * Configuration as code
 * No is temporary but yes is forever
 
-Python
-^^^^^^
-
-As a convention, we will only support the 3 most recent Python versions that are not `end-of-life`, `prerelease`, or `feature` status.
-
 Design Quality Assurance
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
