@@ -10,7 +10,7 @@ Welcome to OZI's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   home <self>
+   Home <self>
    standards
    dist
    docs
