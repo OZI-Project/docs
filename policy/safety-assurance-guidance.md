@@ -41,15 +41,9 @@ When developing safety-related software, the following process must be followed:
 
 The team's Lead Developer is accountable for this process being followed.  However, note that the process can be run by anyone in team.
 
-## Skills
-
-All participants must have a basic understanding of [bow tie](https://www.youtube.com/watch?v=P7Z6L7fjsi0) risk analysis.  Training material is provided by the Test Practice (search for "safety processes for software engineering" on the corporate Learning Management System).
-
 ## Obtaining more information for the process
 
-At any point during a delivery, the development team can ask for more information about the safety context of their work, in order to effectively carry out safety modelling. Typically, this will consist of further information about wider IT or business processes, how these contribute to safety, and what mitigations already exist.  The recommended format for this information is the [bow tie](https://www.youtube.com/watch?v=P7Z6L7fjsi0) diagram, but this is not mandated. The Product Owner is responsible for obtaining any such information that the team requires.
-
-For more information on Safety assurance guidance, please speak to a memeber of QA Team
+At any point during a delivery, the development team can ask for more information about the safety context of their work, in order to effectively carry out safety modelling. Typically, this will consist of further information about wider IT or business processes, how these contribute to safety, and what mitigations already exist.
 
 ## Safety Debt
 
