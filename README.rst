@@ -1,7 +1,3 @@
-========
-OZI.docs
-========
-
 .. image:: api/assets/ozi_logo_master.png
  :align: left
  :alt: OZI for Python Packaging Logo
