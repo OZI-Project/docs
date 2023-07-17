@@ -1,8 +1,4 @@
-========
-OZI.docs
-========
-
-.. image:: api/_static/assets/ozi_logo_master.png
+.. image:: api/assets/ozi_logo_master.png
  :align: left
  :alt: OZI for Python Packaging Logo
  :width: 74px
@@ -12,7 +8,7 @@ Public OZI API documentation, software engineering practices, and developer guid
 API Documentation
 -----------------
 
-This project serves as the host repository for our `documentation site <https://example.com>`_ at ReadTheDocs.io.
+This project serves as the host repository for our `documentation site <https://ozi.readthedocs.io/en/latest/>`_ at ReadTheDocs.io.
 
 
 Developer Guides
