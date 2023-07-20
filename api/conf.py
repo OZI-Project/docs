@@ -30,7 +30,11 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
+intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
+                       'devguide': ('https://devguide.python.org', None),
+                       'pypa': ('https://packaging.python.org', None),
+                       'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),}
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -38,3 +42,6 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
 html_logo = 'assets/ozi_logo_200dpi.png'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
+
+def setup(app):
+    app.add_css_file("css/custom.css")
