@@ -30,11 +30,12 @@
    :description: Standards for the OZI Python packaging for Meson API.
    :keywords: standards, OZI, Python, API, packaging, Meson
 
-=========
-Standards
-=========
+=============
+API Standards
+=============
 
 This document contains the standards for the OZI Python packaging for Meson API.
+This is a work in progress as a part of Pre-alpha development.
 
 .. index::
    triple: standards; normative; references
