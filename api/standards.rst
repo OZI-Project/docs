@@ -23,6 +23,7 @@
    triple: standards; check; pep517
    triple: standards; check; pep518
    triple: standards; reject; pep660
+   triple: standards; check; pep680
    triple: standards; check; pep639
    triple: standards; check; pep3107
 
@@ -44,13 +45,17 @@ Normative References
 --------------------
 
 This document also contains normative references to :abbr:`RFC (Request for Comments)`,
-:abbr:`PEP (Python Enhancement Proposal)` standards, 
+:abbr:`PEP (Python Enhancement Proposal)` standards,
+gitmoji specification,
 :abbr:`ISO (International Organization for Standardization)`/:abbr:`IEC
 (International Electrotechnical Commission)` standards, 
 :abbr:`PyPA (Python Packaging Authority)` specifications, and
 :abbr:`TOML (Tom's Obvious, Minimal Language)` specification.
 
 .. seealso::
+
+   `gitmoji <https://gitmoji.dev/specification>`_ 
+
    `Python Enhancement Proposal Index <https://peps.python.org/pep-0000/>`_
 
    `Python Packaging Authority specifications <https://packaging.python.org/en/latest/specifications/#pypa-specifications>`_
@@ -86,6 +91,28 @@ Format
 * SHOULD prefer LF over CRLF line-endings
 * MUST respect maximum line width limit 93
 
+Structure
+^^^^^^^^^
+
+MUST have the following top-level layout at minimum:
+
+| .
+| ├ .gitignore
+| ├ LICENSE.txt
+| ├ ``project_name``       
+| │  ├── __init__.py
+| │  └── ...
+| ├ meson.build
+| ├ meson.options
+| ├ pyproject.toml
+| ├ PKG-INFO
+| ├ subprojects
+| │  ├── ozi.wrap
+| │  └── ...
+| ├ ``test_source``
+| │  └── ...
+| └ ...
+
 PEP Compliance
 ^^^^^^^^^^^^^^
 
@@ -93,9 +120,12 @@ PEP Compliance
 * MUST check :pep:`287` - reStructuredText Docstring Format
 * MUST check :pep:`440` - Version Identification and Dependency Specification
 * MUST check :pep:`484` - Type Hints
-* MUST check :pep:`3107` - Function Annotation
 * SHOULD reject :pep:`420` - Implicit Namespace Modules [#f1]_
+* MUST check :pep:`585` - Type Hinting Generics In Standard Collections
+* MUST allow :pep:`593` - Flexible function and variable annotations
 * MUST reject :pep:`660` - Editable installs for pyproject.toml based builds (wheel based)
+* MUST implement :pep:`680` TOML support with ``tomli`` if Python version < 3.11 
+* MUST check :pep:`3107` - Function Annotation
 
 .. rubric:: Footnotes
 
@@ -116,6 +146,36 @@ For each Python version supported:
 * MUST log successful test of :doc:`docs` environment
 * MUST log successful test of :doc:`dist` environment
 
+REQUIRED: tox
+^^^^^^^^^^^^^
+
+In ``pyproject.toml``:
+
+.. code-block:: toml
+
+   [tool.tox]
+   legacy_tox_ini = """
+   [tox]
+   skipsdist = True
+   envlist = py{39,310-type,311}-toml
+
+   [gh]
+   python =
+      3.11 = py311
+      3.10 = py310, toml, type
+      3.9 = py39, toml
+
+   [testenv]
+   package = wheel
+   deps =
+      meson >= 1.1.0
+      setuptools_scm[toml]>=6.2
+      toml: tomli >= 2.0.0
+   commands =
+      meson setup build-{envname} -Ddev=enabled --reconfigure
+      meson test -C build-{envname} {posargs}
+   """
+
 Python Support
 --------------
 
@@ -124,16 +184,13 @@ Python Support
 * MUST normalize unicode version between minor Python releases to the latest ISO/IEC 10646,
   2021 being the most recent and aligned to version 14.0.0 of unidata.
 
-  TODO: check unicodedata2==14.0.0 on Python 3.9 and 3.10  (currently supported versions are using a mix of :py:data:`unicodedata.unidata_version` 
+  TODO: check unicodedata2==14.0.0 on Python 3.9 and 3.10
+  (currently supported versions are using a mix of :py:data:`unicodedata.unidata_version` 
   13.0.0 and 14.0.0)
   TODO: check ``import unicodedata2 as unicodedata`` on Python 3.9 and 3.10
 
-.. index:: pair: standards; utilities
-
-Utilities(lint)
----------------
-
-.. index:: triple: utilities; environment; checkpointing
+Utilities
+---------
 
 .. index::
    triple: meson.options; options; commandline-only
@@ -150,6 +207,56 @@ For all commandline tools:
 * SHOULD provide entry point for OZI as ``subprojects/ozi.wrap``
 * MUST exit successfully
 
+.. index:: triple: standards; utilities; dist
+
+Utilities(dist)
+---------------
+
+REQUIRED: pyc_wheel
+^^^^^^^^^^^^^^^^^^^
+
+REQUIRED: semantic-release
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+REQUIRED: sigstore
+^^^^^^^^^^^^^^^^^^
+
+Utilities(docs)
+---------------
+
+REQUIRED: doc8
+^^^^^^^^^^^^^^
+
+REQUIRED: pydocstyle
+^^^^^^^^^^^^^^^^^^^^
+
+In ``meson.options`` under ``args-pydocstyle``:
+
+* MUST run in verbose mode (``-v``)
+* MUST run in debug mode (``-d``)
+* MUST add ``--config=pyproject.toml``
+* MUST target ``docs_source``
+
+REQUIRED: sphinx-build(sphinx)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+REQUIRED: sphinx-design
+***********************
+
+REQUIRED: sphinxawesome-linter
+******************************
+
+REQUIRED: sphinxawesome-theme
+*****************************
+
+.. index:: triple: standards; utilities; lint
+
+Utilities(lint)
+---------------
+
+.. index:: triple: utilities; environment; checkpointing
+
+
 .. index::
    triple: utilities; security; bandit
    triple: utilities; lint; security
@@ -163,6 +270,7 @@ REQUIRED: bandit
 In ``meson.options`` under ``args-bandit``:
 
 * MUST ignore nosec comments (``--ignore-nosec``)
+* MUST target ``project_name``
 
 .. index:: 
    triple: utilities; formatters; black
@@ -180,13 +288,14 @@ In ``meson.options`` under ``black-args``:
 In ``pyproject.toml`` under ``[tool.black]``:
 
 * MUST set ``line-length = 93``
+* MUST set ``extend-exclude = "\\.pyi"``
 
 .. index::
    triple: utilities; linters; flake8
    triple: utilities; lint; linters
 
-REQUIRED: flake8
-^^^^^^^^^^^^^^^^
+REQUIRED: flake8p(Flake8-pyproject)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * MUST respect noqa comments
 * MUST allow ``# noqa: C901`` if complexity <= 8
@@ -216,7 +325,7 @@ In ``meson.options`` under ``flake8-args``:
 In ``pyproject.toml`` under ``[tool.flake8]``:
 
 * MUST set ``max-line-length = 93``
-* MUST set ``extend-exclude = ["build-env-*", "venv", "build*"]``
+* MUST set ``extend-exclude = ["build-env-*", "venv", "build*", "*.pyi"]``
 * MUST set ``extend-ignore = "E501"``
 * MUST set ``extend-select = "B950"``
 
@@ -276,3 +385,33 @@ In ``meson.options`` under ``pyright-args``:
 
 * MUST show statistics (``--stats``)
 * MUST run with warnings as errors (``--warnings``)
+
+.. index:: triple: standards; utilities; test
+
+Utilities(test)
+---------------
+
+REQUIRED: pytest
+^^^^^^^^^^^^^^^^
+
+In ``meson.options`` under ``pytest-args``:
+
+In ``pyproject.toml`` under ``[tool.pytest.ini_options]``:
+
+* MUST set
+
+.. code-block:: toml
+
+   filterwarnings = ["error","ignore:The --rsyncdir command line argument and rsyncdirs config variable are deprecated.:DeprecationWarning"]
+
+* MUST set ``asyncio_mode = "auto"``
+* MUST set ``log_cli = true``
+* MUST set ``log_cli_date_format = "%Y-%m-%d %H:%M:%S"``
+
+* MUST set
+
+.. code-block:: toml
+
+   log_cli_format = "%(asctime)s [%(levelname)8s] %(name)s: %(message)s (%(filename)s:%(lineno)s)"
+
+* MUST set ``log_cli_level = "INFO"``
