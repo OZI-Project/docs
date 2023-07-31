@@ -12,26 +12,29 @@
    KIND, either express or implied.  See the License for the
    specific language governing permissions and limitations
    under the License.
+.. _test:
 
-.. OZI documentation master file, created by
-   sphinx-quickstart on Thu Jul 13 14:12:26 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+〽️ test
+^^^^^^^^
 
-OZI Documentation
-=================
+.. dropdown:: REQUIRED
+   :open:
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   .. rubric:: coverage
 
-   Home <self>
-   standards
-   backporting
+   * MUST target ``project_source`` and ``test_source``
 
-Indices and tables
-==================
+   .. rubric:: hypothesis
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   .. seealso::
+
+      :ref:`REQUIRED pytest`
+
+   .. _REQUIRED pytest:
+
+   .. rubric:: pytest
+
+   .. dropdown:: REQUIRED project configuration
+      :open:
+
+      .. include:: pytest_pyproject.inc

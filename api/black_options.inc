@@ -13,25 +13,18 @@
    specific language governing permissions and limitations
    under the License.
 
-.. OZI documentation master file, created by
-   sphinx-quickstart on Thu Jul 13 14:12:26 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. code-block:: meson
+   :caption: meson.options
 
-OZI Documentation
-=================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   Home <self>
-   standards
-   backporting
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   option(
+      'args-black',
+      type: 'array', 
+      value: [
+         '-S',
+         '--verbose',
+         '--check',
+         '--diff',
+         '--exclude','.gitignore',
+         '@project_name@'
+      ]
+   )

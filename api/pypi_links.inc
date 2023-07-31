@@ -1,0 +1,67 @@
+
+.. dist
+.. _pyc_wheel: https://pypi.org/project/pyc_wheel/
+.. _semantic-release: https://semantic-release.gitbook.io/semantic-release/
+.. _sigstore: https://www.sigstore.dev/
+.. _sigstore-python: https://pypi.org/project/sigstore
+.. _python-semantic-release: https://pypi.org/project/python-semantic-release
+.. docs
+.. _doc8: https://pypi.org/project/doc8/
+.. _pydocstyle: https://pypi.org/project/pydocstyle/
+.. _Pygments: https://pypi.org/project/pygments/
+.. _pyparsing: https://pypi.org/project/pyparsing/
+.. _Sphinx: https://pypi.org/project/Sphinx/
+.. _sphinx-design: https://pypi.org/project/sphinx-design/
+.. _sphinxawesome-codelinter: https://pypi.org/project/sphinxawesome-codelinter/
+.. _sphinxawesome-theme: https://pypi.org/project/sphinxawesome-theme/
+.. lint
+.. _Bandit: https://pypi.org/project/bandit/
+.. _Black: https://pypi.org/project/black/
+.. _Flake8: https://pypi.org/project/flake8
+.. _Flake8-pyproject: https://pypi.org/project/Flake8-pyproject
+.. _flake8-quotes: https://pypi.org/project/flake8-quotes/
+.. _flake8-docstring-checker: https://pypi.org/project/flake8-docstring-checker/
+.. _flake8-pytest-style: https://pypi.org/project/flake8-pytest-style/
+.. _flake8-type-checking: https://pypi.org/project/flake8-type-checking/
+.. _flake8-annotations: https://pypi.org/project/flake8-annotations/
+.. _flake8-broken-line: https://pypi.org/project/flake8-broken-line/
+.. _flake8-eradicate: https://pypi.org/project/flake8-eradicate/
+.. _flake8-fixme: https://pypi.org/project/flake8-fixme/
+.. _flake8-bugbear: https://pypi.org/project/flake8-bugbear/
+.. _flake8-datetimez: https://pypi.org/project/flake8-datetimez/
+.. _flake8-no-pep420: https://pypi.org/project/flake8-no-pep420/
+.. _flake8-comprehensions: https://pypi.org/project/flake8-comprehensions/
+.. _flake8-leading-blank-lines: https://pypi.org/project/flake8-leading-blank-lines/
+.. _flake8-tidy-imports: https://pypi.org/project/flake8-tidy-imports/
+.. _flake8-pyi: https://pypi.org/project/flake8-pyi/
+.. _Pyflakes: https://pypi.org/project/pyflakes/
+.. _pycodestyle: https://pypi.org/project/pycodestyle/
+.. _McCabe: https://pypi.org/project/mccabe/
+.. _isort: https://pypi.org/project/isort/
+.. _Pylint: https://pypi.org/project/pylint/
+.. _Pyright: https://pypi.org/project/pyright/
+.. _restructuredtext-lint: https://pypi.org/project/restructuredtext-lint/
+.. _flake8-quotes: https://pypi.org/project/flake8-quotes/
+.. _flake8-docstring-checker: https://pypi.org/project/flake8-docstring-checker/
+.. _flake8-pytest-style: https://pypi.org/project/flake8-pytest-style/
+.. _flake8-type-checking: https://pypi.org/project/flake8-type-checking/
+.. _flake8-annotations: https://pypi.org/project/flake8-annotations/
+.. _flake8-broken-line: https://pypi.org/project/flake8-broken-line/
+.. _flake8-eradicate: https://pypi.org/project/flake8-eradicate/
+.. _flake8-fixme: https://pypi.org/project/flake8-fixme/
+.. _flake8-bugbear: https://pypi.org/project/flake8-bugbear/
+.. _flake8-datetimez: https://pypi.org/project/flake8-datetimez/
+.. _flake8-no-pep420: https://pypi.org/project/flake8-no-pep420/
+.. _flake8-comprehensions: https://pypi.org/project/flake8-comprehensions/
+.. _flake8-leading-blank-lines: https://pypi.org/project/flake8-leading-blank-lines/
+.. _flake8-tidy-imports: https://pypi.org/project/flake8-tidy-imports/
+.. _flake8-pyi: https://pypi.org/project/flake8-pyi/
+.. test
+.. _Coverage.py: https://pypi.org/project/coverage
+.. _Hypothesis: https://pypi.org/project/hypothesis
+.. _pytest: https://pypi.org/project/pytest/
+.. _pytest-asyncio: https://pypi.org/project/pytest-asyncio/
+.. _pytest-cov: https://pypi.org/project/pytest-cov/
+.. _pytest-tcpclient: https://pypi.org/pytest-tcpclient/
+.. _pytest-randomly: https://pypi.org/project/pytest-randomly/
+.. _pytest-xdist: https://pypi.org/project/pytest-xdist/

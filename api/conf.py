@@ -7,6 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 from importlib.metadata import version as _version
 
+from sphinxawesome_theme.postprocess import Icons
+
 project = 'OZI'
 copyright = '2023, Ross J. Duff MSc'
 author = 'Ross J. Duff MSc'
@@ -25,6 +27,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinxawesome_theme.highlighting',
+    "sphinx_design",
 ]
 
 templates_path = ['_templates']
@@ -42,6 +45,7 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
 html_logo = 'assets/ozi_logo_200dpi.png'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
-
-def setup(app):
-    app.add_css_file("css/custom.css")
+html_permalinks_icon = Icons.permalinks_icon
+html_context = {
+    "mode": "production",
+}

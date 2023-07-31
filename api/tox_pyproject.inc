@@ -13,25 +13,28 @@
    specific language governing permissions and limitations
    under the License.
 
-.. OZI documentation master file, created by
-   sphinx-quickstart on Thu Jul 13 14:12:26 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. code-block:: toml
+   :caption: pyproject.toml
 
-OZI Documentation
-=================
+   [tool.tox]
+   legacy_tox_ini = """
+   [tox]
+   skipsdist = True
+   envlist = py{39,310-type,311}-toml
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   [gh]
+   python =
+      3.11 = py311
+      3.10 = py310, toml, type
+      3.9 = py39, toml
 
-   Home <self>
-   standards
-   backporting
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   [testenv]
+   package = wheel
+   deps =
+      meson >= 1.1.0
+      setuptools_scm[toml]>=6.2
+      toml: tomli >= 2.0.0
+   commands =
+      meson setup build-{envname} -Ddev=enabled --reconfigure
+      meson test --maxfail=1 -C build-{envname} {posargs}
+   """

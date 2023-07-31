@@ -1,0 +1,59 @@
+
+# Semantic Web Stack
+swx = ["[asgi,i18n,saas,srch]"]
+## Asynchronous Server Gateway Interfaces
+asgi = ["asgiref", "blacksheep", "fastapi", "litestar", "piccolo[all]"]
+## Search and Indexing
+srch = ["PyStemmer", "Whoosh"]
+## Internationalization
+i18n = ["Babel", "chardet", "charset-normalizer", "python-dateutil", "sphinx-intl"]
+## Software as a Service standards
+saas = ["bleach", "certifi", "dotty-dict", "grpclib", "h2", "hpack", "hyperframe", "id",
+        "idna", "keyring", "rfc3986", "oauthlib", "requests", "tuf", "twisted", "urllib3",
+        "webencodings"]
+
+# Neural Network Stack
+nnx = ["[cvor,data,nlpx]"]
+## Computer Vision and Object Recognition
+cvor = ["python-opencv", "Pillow >= 9.3", ]
+## Data Science utilities
+data = ["tensorflow", "sqlite3-to-mysql"]
+
+## Graphical User Interface
+guix = ["kivy"]
+## Textual User Interface
+tuix = ["click", "emoji", "pyfiglet", "tqdm"]
+## Language cross-compilation utilities
+lang = ["astroid", "benigets", "Cython", "gast", "lark", "libcst", "pycparser", "sqlglot",
+        "xdsl"]
+## NLP
+nlpx = ["nltk", "textblob"]
+## Utility functionality that does not fit with another namespace
+util = ["appdirs", "attrs", "atpublic", "bitarray", "imagesize", "iniconfig", "invoke",
+        "Faker", "fakeredis", "jmespath", "lazy-object-proxy", "msgspec", "multidict",
+        "python-benedict", "PyYAML", "redis", "semver", "sortedcontainers", "tomli",
+        "tomlkit", "wrapt"]
+## Utility functionality with trove-classifier "Beta" 
+beta = ["pathspec", "docutils", ]
+
+gitx = ["gitpython", "gitdb", "gitlab-python",]
+
+muse = ["softsynth", "mingus-blakey", "mingus-paganini", "improviser", "mingus"]
+
+c10y = ["pyca", "securesystemslib"]
+# Python blessed distributions
+thon = ["[port,pyca,pypa,pyqa]"]
+## PSF Portability support packages
+port = ["importlib_metadata", "importlib_resources", "mypy", "typing-extensions", "tzdata"]
+## Python Cryptography Authority
+pyca = ["cryptography", "pynacl", "PyOpenSSL", "service-identity"]
+## Python Packaging Authority
+pypa = ["auditwheel", "bandersnatch", "build", "cibuildwheel", "hatch", "flit", "packaging", 
+        "pip-audit", "pipfile", "pipx", "pyproject-hooks", "readme-renderer", "scripttest",
+        "setuptools", "setuptools_scm", "trove-classifiers", "twine", "wheel"]
+## Python Code Quality Authority 
+pyqa = ["autoflake", "bandit", "doc8", "docformatter", "flake8", "flake8-bugbear", 
+        "flake8-commas", "flake8-docstrings", "flake8-import-order", "flake8-json", 
+        "flake8-polyfill", "flake8-pyi", "isort", "mccabe", "mccabe-console-script", 
+        "pep8-naming", "pycodestyle", "pydocstyle", "pyflakes", "pylint", "pylint-celery", 
+        "pylint-django", "pylint-pytest"]
