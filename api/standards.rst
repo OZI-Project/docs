@@ -38,6 +38,12 @@ API Standards
 This document contains the standards for the OZI Python packaging for Meson API.
 This is a work in progress as a part of Pre-alpha development
 
+* TODO: add default ``@script_source@`` to OZI
+* TODO: check unicodedata2==14.0.0 on Python 3.9 and 3.10
+  (currently supported versions are using a mix of :py:obj:`unicodedata.unidata_version` 
+  13.0.0 and 14.0.0)
+* TODO: lint check ``import unicodedata2 as unicodedata``
+
 .. index::
    triple: standards; normative; references
 
@@ -52,6 +58,10 @@ gitmoji specification,
 :abbr:`PyPA (Python Packaging Authority)` specifications, and
 :abbr:`TOML (Tom's Obvious, Minimal Language)` specification.
 
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL"
+in this document are to be interpreted as described in :rfc:`2119`.
+
 .. seealso::
 
    `gitmoji <https://gitmoji.dev/specification>`_ 
@@ -64,86 +74,169 @@ gitmoji specification,
 
    `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL"
-in this document are to be interpreted as described in :rfc:`2119`.
-
 📝 Documentation
 ----------------
 
 .. index:: triple: standards; documentation; format
 
-〽️ Format
-^^^^^^^^^^
+〽 Format
+^^^^^^^^^
 
-* MUST use Mimetype :mimetype:`text/x-rst` for ``README.rst``
-* SHOULD prefer LF over CRLF line-endings
-* MUST respect maximum line width limit 93
+.. card:: REQUIRED
+
+   .. card:: Use mimetype :mimetype:`text/x-rst` for ``README.rst``
+   
+   .. card:: Respect maximum line width limit 93.
+
+.. card:: RECOMMENDED
+   
+   .. card:: Prefer LF over CRLF line-endings.
 
 ✨ Source
 ---------
 
-* SHOULD normalize unicodedata.unidata_version between minor Python releases to the latest 
-  ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0 of unidata.
-  TODO: check unicodedata2==14.0.0 on Python 3.9 and 3.10
-  (currently supported versions are using a mix of :py:obj:`unicodedata.unidata_version` 
-  13.0.0 and 14.0.0)
-  TODO: lint check ``import unicodedata2 as unicodedata``
+.. card:: RECOMMENDED
+
+   .. card:: Normalize unicodedata.unidata_version between minor Python releases.
+
+      Use the latest ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0 of unidata.
 
 .. index:: triple: standards; source; format
 
-〽️ Format
-^^^^^^^^^^
+〽 Format
+^^^^^^^^^
 
-* SHOULD prefer LF over CRLF line-endings
-* MUST respect maximum line width limit 93
+.. card:: REQUIRED
 
-〽️ Structure
-^^^^^^^^^^^^^
+   .. card:: MUST respect maximum line width limit 93
 
+.. card:: RECOMMENDED
 
-.. dropdown:: top-level project layout
-   :open:
+   .. card:: SHOULD prefer LF over CRLF line-endings
 
-   .. dropdown:: ``project_name``/       
-   
-      .. dropdown:: __init__.py
-      .. dropdown:: ...
+〽 Structure
+^^^^^^^^^^^^
 
-   .. dropdown:: ``test_source``/
+.. card:: REQUIRED
 
-      .. dropdown:: ...
+   .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
+      :icon: file-directory
+
+      Python sources, submodules, and stubfiles.
+
+      .. dropdown:: :file:`__init__.py`
+
+         Python package module entry point.
+
+      .. dropdown:: scripts/
+         :icon: file-directory
+
+         OPTIONAL
+
+   .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
+      :icon: file-directory
+
+      Source for pytest_ and :py:mod:`unittest`
 
    .. dropdown:: subprojects/
+      :icon: file-submodule
 
-      .. dropdown:: ozi.wrap
-      .. dropdown:: ...
+      Meson subprojects and wrapfiles.
+
+      .. dropdown:: :file:`ozi.wrap`
+         :icon: file
+         :open:
+
+         Entry point for OZI to initialize a packaging environment.
 
    .. dropdown:: .gitignore
+      :icon: diff-ignored
+
    .. dropdown:: LICENSE.txt
+      :icon: law
+
    .. dropdown:: meson.build
+      :icon: project
+
    .. dropdown:: meson.options
+      :icon: terminal
+
    .. dropdown:: pyproject.toml
+      :icon: package
+
    .. dropdown:: PKG-INFO
-   .. dropdown:: ...
+      :icon: info
 
-〽️ PEP Compliance
-^^^^^^^^^^^^^^^^^^
 
-* SHOULD check :pep:`8` - Style Guide for Python Code
-* MUST check :pep:`287` - reStructuredText Docstring Format
-* MUST check :pep:`440` - Version Identification and Dependency Specification
-* MUST check :pep:`484` - Type Hints
-* SHOULD reject :pep:`420` - Implicit Namespace Modules [#f1]_
-* MUST check :pep:`585` - Type Hinting Generics In Standard Collections
-* MUST allow :pep:`593` - Flexible function and variable annotations
-* MUST reject :pep:`660` - Editable installs for pyproject.toml based builds (wheel based)
-* SHOULD implement :pep:`680` TOML support with ``tomli`` if Python version < 3.11 
-* MUST check :pep:`3107` - Function Annotation
+〽 PEP Compliance
+^^^^^^^^^^^^^^^^^
 
-.. rubric:: Footnotes
 
-.. [#f1] MUST allow in ``@test_source@`` and ``@script_source@`` using ``# noqa: INP001``
+.. card:: RECOMMENDED
+
+   .. grid:: 2
+
+      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`8`
+         :link: https://peps.python.org/pep-0008/
+
+         Style Guide for Python Code
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`420`
+
+         Implicit Namespace Modules [#f1]_
+
+      .. grid-item-card:: :octicon:`checklist;1em;sd-text-info` implement :pep:`680`
+         :link: https://peps.python.org/pep-0680/
+         
+         tomllib: Support for Parsing TOML in the Standard Library
+         
+         SHOULD use ``tomli`` if Python version < 3.11 
+
+   .. rubric:: Footnotes
+
+   .. [#f1] MUST allow in ``@test_source@`` and ``@script_source@`` using ``# noqa: INP001``
+
+.. card:: REQUIRED
+
+   .. grid:: 2
+
+      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`287`
+         :link: https://peps.python.org/pep-0287/
+
+         reStructuredText Docstring Format
+
+      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`440`
+         :link: https://peps.python.org/pep-0440/
+
+         Version Identification and Dependency Specification
+
+      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`484`
+         :link: https://peps.python.org/pep-0484/
+
+         Type Hints
+
+      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`585`
+         :link: https://peps.python.org/pep-0585/
+
+         Type Hinting Generics In Standard Collections
+
+      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`3107`
+         :link: https://peps.python.org/pep-3107/
+
+         Function Annotation
+
+      .. grid-item-card:: :octicon:`skip;1em;sd-text-warning` allow :pep:`593`
+         :link: https://peps.python.org/pep-0593/
+
+         Flexible function and variable annotations
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`660`
+         :link: https://peps.python.org/pep-0660/
+
+         Editable installs for pyproject.toml based builds (wheel based)
+
+
+
 
 .. seealso::
 
@@ -157,50 +250,68 @@ in this document are to be interpreted as described in :rfc:`2119`.
 🚀 Environment
 --------------
 
-〽️ Meson setup
-^^^^^^^^^^^^^^^
-
-* MUST support the 3 most recent :doc:`devguide:versions` that are not
-  ``end-of-life``, ``prerelease``, or ``feature`` status.
-* MAY support ``prerelease`` Python in alpha, beta, and release candidate versions.
-* MUST check :py:mod:`importlib.metadata` version for each utility environment in
-  ``project.optional-dependencies``
-* MUST check that ``README.rst`` matches ``setuptools_scm`` ``write_to_file`` payload and 
-  ``PKG-INFO`` payload during the build step.
-
-〽️ Meson test
+〽 Meson setup
 ^^^^^^^^^^^^^^
 
-* MUST support the 3 most recent :doc:`devguide:versions` that are not
-  ``end-of-life``, ``prerelease``, or ``feature`` status.
-* MAY support ``prerelease`` Python in alpha, beta, and release candidate versions.
+.. card:: REQUIRED
 
-.. code-block:: sh
-   :caption: MUST log successful test of :ref:`dist` environment
+   .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
 
-   tox -- --setup=dist
+      * SHALL NOT support  ``end-of-life``, ``prerelease``, or ``feature`` status in full releases.
 
-.. code-block:: sh
-   :caption: SHOULD log successful test of :ref:`docs` environment
+   .. card:: Check :py:mod:`importlib.metadata` version for each utility environment
 
-   tox -- --setup=docs
+      * MUST have a ``dev`` namespace in ``project.optional-dependencies``.
+      * MUST have ``dist``, ``docs``, ``lint``, and ``test`` namespaces in ``dev``
 
-.. code-block:: sh
-   :caption: MUST log successful test of :ref:`lint` environment
+   .. card:: Check that ``README.rst`` matches ``setuptools_scm`` payload and ``PKG-INFO`` payload.
 
-   tox -- --setup=lint
+.. card:: RECOMMENDED
 
-.. code-block:: sh
-   :caption: MUST log successful test of :ref:`test` environment
-
-   tox -- --setup=test
+   .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
 
 
+〽 Meson test
+^^^^^^^^^^^^^
 
-.. dropdown:: REQUIRED project configuration
-   :open:
+.. card:: REQUIRED
 
-   .. include:: tox_pyproject.inc
+   .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
+
+      SHALL NOT support  ``end-of-life``, ``prerelease``, or ``feature`` status in full releases.
+
+   .. card:: Successful setup of :ref:`dist` environment.
+
+      .. code-block:: sh
+
+         tox -- --setup=dist
+
+   .. card:: Successful setup of :ref:`docs` environment.
+
+      .. code-block:: sh
+
+         tox -- --setup=docs
+
+   .. card:: Successful setup of :ref:`lint` environment
+
+      .. code-block:: sh
+
+         tox -- --setup=lint
+
+   .. card:: Successful setup of :ref:`test` environment
+
+      .. code-block:: sh
+
+         tox -- --setup=test
+
+   .. card:: Use project configuration:
+
+      .. include:: tox_pyproject.inc
+
+.. card:: RECOMMENDED
+
+   .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
+
 
 💚 Utilities
 ------------
@@ -211,12 +322,13 @@ in this document are to be interpreted as described in :rfc:`2119`.
    triple: PKG-INFO; project; version
    triple: utilities; exit; successfully
 
-For all commandline tools:
+.. card:: MUST exit successfully during environment test
 
-* MUST exit successfully during environment test
-* MUST provide packaging configuration with ``pyproject.toml``
-* MUST provide commandline options with ``meson.options``
-* MUST provide single source of truth for project version in ``PKG-INFO``
+.. card:: MUST provide packaging configuration with ``pyproject.toml``
+
+.. card:: MUST provide commandline options with ``meson.options``
+
+.. card:: MUST provide single source of truth for project version in ``PKG-INFO``
   (:doc:`specification <pypa:specifications/core-metadata>`)
 
 .. index:: triple: standards; utilities; dist

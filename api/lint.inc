@@ -14,8 +14,8 @@
    under the License.
 .. _lint:
 
-〽️ lint
-^^^^^^^^
+〽 lint
+^^^^^^^
 
 .. dropdown:: REQUIRED
    :open:
@@ -28,10 +28,19 @@
 
    .. rubric:: bandit
 
-   * MUST respect :doc:`test plugins <bandit:plugins/index>`:
-     B101-B113, B201-B202, B301-B324, B401-B415, B501-B509, B601-B612, B701-B703
-   * MUST ignore nosec comments (``--ignore-nosec``)
-   * MUST target ``@project_name@`` recursively
+   .. card:: MUST respect :doc:`plugins <bandit:plugins/index>`:
+
+      * B101-B113
+      * B201-B202
+      * B301-B324
+      * B401-B415
+      * B501-B509
+      * B601-B612
+      * B701-B703
+
+   .. card:: MUST ignore nosec comments (``--ignore-nosec``)
+   
+   .. card::  MUST target ``@project_name@`` recursively
 
    .. dropdown:: REQUIRED commandline arguments
       :open:

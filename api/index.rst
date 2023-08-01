@@ -21,17 +21,29 @@
 OZI Documentation
 =================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Welcome to the OZI - Python packaging for Meson Projects documentation.
+This covers the standard :abbr:`API (Application Programming Interface)`, 
+the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
-   Home <self>
-   standards
-   backporting
+Contents
+========
+
+.. card::
+
+   .. toctree::
+      :maxdepth: 2
+
+      Home <self>
+      standards
+      backporting
 
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. card:: :ref:`genindex`
+   :link: genindex
+   :link-type: ref
+
+.. card:: :ref:`search`
+   :link: search
+   :link-type: ref

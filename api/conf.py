@@ -36,7 +36,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
                        'devguide': ('https://devguide.python.org', None),
                        'pypa': ('https://packaging.python.org', None),
-                       'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),}
+                       'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
+                       'pytest': ('https://docs.pytest.org/en/stable/', None)}
 
 
 # -- Options for HTML output -------------------------------------------------

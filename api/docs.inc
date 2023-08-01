@@ -14,8 +14,8 @@
    under the License.
 .. _docs:
 
-〽️ docs
-^^^^^^^^
+〽 docs
+^^^^^^^
 
 .. dropdown:: RECOMMENDED
 

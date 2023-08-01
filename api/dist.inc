@@ -14,8 +14,8 @@
    under the License.
 .. _dist:
 
-〽️ dist
-^^^^^^^^
+〽 dist
+^^^^^^^
 
 .. dropdown:: REQUIRED
    :open:

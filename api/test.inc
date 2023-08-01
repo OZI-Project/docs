@@ -14,8 +14,8 @@
    under the License.
 .. _test:
 
-〽️ test
-^^^^^^^^
+〽 test
+^^^^^^^
 
 .. dropdown:: REQUIRED
    :open:
