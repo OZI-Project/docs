@@ -17,8 +17,7 @@
 〽 lint
 ^^^^^^^
 
-.. dropdown:: REQUIRED
-   :open:
+.. card:: REQUIRED
 
    .. index:: triple: utilities; environment; checkpointing
 
@@ -28,27 +27,27 @@
 
    .. rubric:: bandit
 
-   .. card:: MUST respect :doc:`plugins <bandit:plugins/index>`:
+   .. dropdown:: specification
+      :icon: info
 
-      * B101-B113
-      * B201-B202
-      * B301-B324
-      * B401-B415
-      * B501-B509
-      * B601-B612
-      * B701-B703
+      * MUST respect :doc:`plugins <bandit:plugins/index>`:
+         * B101-B113
+         * B201-B202
+         * B301-B324
+         * B401-B415
+         * B501-B509
+         * B601-B612
+         * B701-B703
+      * MUST ignore nosec comments (``--ignore-nosec``)
+      * MUST target ``@project_name@`` recursively
 
-   .. card:: MUST ignore nosec comments (``--ignore-nosec``)
-   
-   .. card::  MUST target ``@project_name@`` recursively
-
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+   .. dropdown:: arguments
+      :icon: terminal
 
       .. include:: bandit_options.inc
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: configuration
+      :icon: package
 
       .. include:: bandit_pyproject.inc
 
@@ -57,20 +56,22 @@
       triple: utilities; lint; formatters
 
    .. rubric:: black
+   .. dropdown:: specification
+      :icon: info
 
-   * MUST exclude gitignore listed (``--exclude .gitignore``)
-   * MUST show differences (``--diff``)
-   * MUST run in check mode (``--check``)
-   * MUST skip string normalization (``-S``)
-   * MUST target ``@project_name@``
+      * MUST exclude gitignore listed (``--exclude .gitignore``)
+      * MUST show differences (``--diff``)
+      * MUST run in check mode (``--check``)
+      * MUST skip string normalization (``-S``)
+      * MUST target ``@project_name@``
 
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+   .. dropdown:: arguments
+      :icon: terminal
 
       .. include:: black_options.inc
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: configuration
+      :icon: package
 
       .. include:: black_pyproject.inc
 
@@ -78,16 +79,20 @@
       triple: utilities; linters; flake8
       triple: utilities; lint; linters
 
-   .. rubric:: flake8p(Flake8-pyproject)See also
+   .. rubric:: flake8p(Flake8-pyproject)
+   
+   .. dropdown:: specification
+      :icon: info
 
-   * MUST respect noqa comments
-   * MUST check maximum complexity between 5 and 8
-   * MUST allow ``# noqa: C901`` if complexity <= 8
-   * MUST allow ``# noqa: INP001`` in ``tests/*.py`` and ``scripts/*.py``
-   * SHOULD check maximum complexity of 5 (``--max-complexity=5``)
-   * SHOULD exclude ``build-env-*``, ``venv``, ``build*``, ``*.pyi``
+      * MUST respect noqa comments
+      * MUST check maximum complexity between 5 and 8
+      * MUST allow ``# noqa: C901`` if complexity <= 8
+      * MUST allow ``# noqa: INP001`` in ``tests/*.py`` and ``scripts/*.py``
+      * SHOULD check maximum complexity of 5 (``--max-complexity=5``)
+      * SHOULD exclude ``build-env-*``, ``venv``, ``build*``, ``*.pyi``
 
-   .. dropdown:: RECOMMENDED Flake8 Plugins
+   .. dropdown:: plugins
+      :icon: plug
 
       * SHOULD check flake8-annotations_ ANN001-ANN003, ANN101-ANN102, ANN201-ANN206
       * SHOULD check flake8-broken-line_ N400
@@ -105,13 +110,13 @@
       * SHOULD check flake8-tidy-imports_ I250, I252
       * SHOULD check flake8-type-checking_ TC001-TC006
 
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+   .. dropdown:: arguments
+      :icon: terminal
 
       .. include:: flake8_options.inc
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: configuration
+      :icon: package
 
       .. include:: flake8_pyproject.inc
 
@@ -121,18 +126,21 @@
 
    .. rubric:: isort
 
-   * MUST show differences (``--diff``)
-   * MUST run in check mode (``--check``)
-   * MUST skip stubfiles (``--skip-glob *.pyi``)
-   * MUST target ``@project_name@``
+   .. dropdown:: specification
+      :icon: info
 
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+      * MUST show differences (``--diff``)
+      * MUST run in check mode (``--check``)
+      * MUST skip stubfiles (``--skip-glob *.pyi``)
+      * MUST target ``@project_name@``
+
+   .. dropdown:: arguments
+      :icon: terminal
 
       .. include:: isort_options.inc
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: configuration
+      :icon: package
 
       .. include:: isort_pyproject.inc
 
@@ -141,33 +149,36 @@
       triple: utilities; lint; linters
 
    .. rubric:: mypy
+   .. dropdown:: specification
+      :icon: info
 
-   * MUST target ``@project_name@`` and ``@test_source@``
-   * MUST run in strict mode
-   * MUST implicitly reexport modules
+      * MUST target ``@project_name@`` and ``@test_source@``
+      * MUST run in strict mode
+      * MUST implicitly reexport modules
 
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+   .. dropdown:: arguments
+      :icon: terminal
 
       .. include:: mypy_options.inc
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: configuration
+      :icon: package
 
       .. include:: mypy_pyproject.inc
 
    .. rubric:: pyright
 
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+   .. dropdown:: arguments
+      :icon: terminal
 
       .. include:: pyright_options.inc
 
-.. dropdown:: OPTIONAL
+.. card:: OPTIONAL
 
    .. rubric:: pylint
 
-   .. dropdown:: RECOMMENDED project configuration
+   .. dropdown:: configuration
+      :icon: package
 
       .. include:: pylint_pyproject.inc
 

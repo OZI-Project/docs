@@ -17,21 +17,23 @@
 〽 dist
 ^^^^^^^
 
-.. dropdown:: REQUIRED
-   :open:
+.. card:: REQUIRED
 
    .. rubric:: pyc_wheel
+      
+   .. dropdown:: configuration
+      :icon: package
 
-   .. seealso:: 
+      .. seealso:: 
 
-      :ref:`REQUIRED semantic-release`
+         :ref:`REQUIRED semantic-release`
 
    .. _REQUIRED semantic-release:
 
    .. rubric:: semantic-release
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: configuration
+      :icon: package
 
       .. code-block:: toml
          :caption: pyproject.toml
@@ -58,7 +60,10 @@
 
    .. rubric:: sigstore
 
-   .. seealso::
+   .. dropdown:: configuration
+      :icon: package
 
-      :ref:`REQUIRED semantic-release`
+      .. seealso::
+
+         :ref:`REQUIRED semantic-release`
 

@@ -17,12 +17,14 @@
 〽 test
 ^^^^^^^
 
-.. dropdown:: REQUIRED
-   :open:
+.. card:: REQUIRED
 
    .. rubric:: coverage
 
-   * MUST target ``project_source`` and ``test_source``
+   .. dropdown:: specification
+      :icon: info
+
+      * MUST target ``project_source`` and ``test_source``
 
    .. rubric:: hypothesis
 
@@ -34,7 +36,7 @@
 
    .. rubric:: pytest
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: configuration
+      :icon: package
 
       .. include:: pytest_pyproject.inc

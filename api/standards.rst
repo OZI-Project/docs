@@ -36,12 +36,12 @@ API Standards
 =============
 
 This document contains the standards for the OZI Python packaging for Meson API.
-This is a work in progress as a part of Pre-alpha development
+This is a work in progress as a part of Pre-alpha development.
 
 * TODO: add default ``@script_source@`` to OZI
 * TODO: check unicodedata2==14.0.0 on Python 3.9 and 3.10
-  (currently supported versions are using a mix of :py:obj:`unicodedata.unidata_version` 
-  13.0.0 and 14.0.0)
+(currently supported versions are using a mix of :py:obj:`unicodedata.unidata_version` 
+13.0.0 and 14.0.0)
 * TODO: lint check ``import unicodedata2 as unicodedata``
 
 .. index::
@@ -108,11 +108,11 @@ in this document are to be interpreted as described in :rfc:`2119`.
 
 .. card:: REQUIRED
 
-   .. card:: MUST respect maximum line width limit 93
+   .. card:: Respect maximum line width limit 93
 
 .. card:: RECOMMENDED
 
-   .. card:: SHOULD prefer LF over CRLF line-endings
+   .. card:: Prefer LF over CRLF line-endings
 
 〽 Structure
 ^^^^^^^^^^^^
@@ -152,20 +152,32 @@ in this document are to be interpreted as described in :rfc:`2119`.
    .. dropdown:: .gitignore
       :icon: diff-ignored
 
+      Specifies intentionally untracked files to ignore.
+
    .. dropdown:: LICENSE.txt
       :icon: law
+
+      License terms for project distribution.
 
    .. dropdown:: meson.build
       :icon: project
 
+      The main project build script.
+
    .. dropdown:: meson.options
       :icon: terminal
+
+      Options for OZI and utility commandline arguments.
 
    .. dropdown:: pyproject.toml
       :icon: package
 
+      Packaging configuration and project metadata template.
+
    .. dropdown:: PKG-INFO
       :icon: info
+
+      Packaged project metadata.
 
 
 〽 PEP Compliance
@@ -257,12 +269,17 @@ in this document are to be interpreted as described in :rfc:`2119`.
 
    .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
 
-      * SHALL NOT support  ``end-of-life``, ``prerelease``, or ``feature`` status in full releases.
+      SHALL NOT support:
+
+      * ``end-of-life``
+      * ``prerelease``
+      * ``feature``
 
    .. card:: Check :py:mod:`importlib.metadata` version for each utility environment
 
-      * MUST have a ``dev`` namespace in ``project.optional-dependencies``.
-      * MUST have ``dist``, ``docs``, ``lint``, and ``test`` namespaces in ``dev``
+      .. card:: Supply a ``dev`` namespace in ``project.optional-dependencies``.
+
+      .. card:: Supply ``dist``, ``docs``, ``lint``, and ``test`` namespaces in ``dev``.
 
    .. card:: Check that ``README.rst`` matches ``setuptools_scm`` payload and ``PKG-INFO`` payload.
 
@@ -322,14 +339,17 @@ in this document are to be interpreted as described in :rfc:`2119`.
    triple: PKG-INFO; project; version
    triple: utilities; exit; successfully
 
-.. card:: MUST exit successfully during environment test
 
-.. card:: MUST provide packaging configuration with ``pyproject.toml``
+.. card:: REQUIRED
 
-.. card:: MUST provide commandline options with ``meson.options``
+   .. card:: Exit successfully during environment test.
 
-.. card:: MUST provide single source of truth for project version in ``PKG-INFO``
-  (:doc:`specification <pypa:specifications/core-metadata>`)
+   .. card:: Provide packaging configuration with ``pyproject.toml``.
+
+   .. card:: Provide commandline arguments with ``meson.options``.
+
+   .. card:: Provide single source of truth for project version in ``PKG-INFO``
+     (:doc:`specification <pypa:specifications/core-metadata>`).
 
 .. index:: triple: standards; utilities; dist
 .. include:: dist.inc

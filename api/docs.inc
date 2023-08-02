@@ -17,14 +17,18 @@
 〽 docs
 ^^^^^^^
 
-.. dropdown:: RECOMMENDED
+.. card:: RECOMMENDED
 
    .. rubric:: doc8
 
-   .. dropdown:: REQUIRED project configuration
-      :open:
+   .. dropdown:: specification
+      :icon: info
 
       * MUST ignore D000 and D002
+
+   .. dropdown:: configuration
+      :icon: package
+
 
       .. code-block:: toml
          :caption: pyproject.toml
@@ -32,8 +36,8 @@
          [tool.doc8]
          ignore = ["D000", "D002"]
 
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+   .. dropdown:: arguments
+      :icon: terminal
 
       .. code-block:: meson
          :caption: meson.options
@@ -51,8 +55,8 @@
 
    .. rubric:: pydocstyle
 
-   .. dropdown:: REQUIRED commandline arguments
-      :open:
+   .. dropdown:: arguments
+      :icon: terminal
 
       * MUST run in verbose mode (``-v``)
       * MUST run in debug mode (``-d``)
@@ -75,7 +79,8 @@
 
    .. rubric:: sphinx-build(sphinx)
 
-   .. dropdown:: RECOMMENDED sphinx extensions
+   .. dropdown:: plugins
+      :icon: plug
 
       * sphinx-design
       * sphinxawesome-linter
