@@ -13,19 +13,6 @@
    specific language governing permissions and limitations
    under the License.
 
-.. index::
-   triple: standards; check; pep8
-   triple: standards; check; pep257
-   triple: standards; check; pep301
-   triple: standards; reject; pep420
-   triple: standards; check; pep440
-   triple: standards; check; pep484
-   triple: standards; check; pep517
-   triple: standards; check; pep518
-   triple: standards; reject; pep660
-   triple: standards; check; pep680
-   triple: standards; check; pep639
-   triple: standards; check; pep3107
 
 .. meta::
    :description: Standards for the OZI Python packaging for Meson API.
@@ -38,11 +25,6 @@ API Standards
 This document contains the standards for the OZI Python packaging for Meson API.
 This is a work in progress as a part of Pre-alpha development.
 
-* TODO: add default ``@script_source@`` to OZI
-* TODO: check unicodedata2==14.0.0 on Python 3.9 and 3.10
-(currently supported versions are using a mix of :py:obj:`unicodedata.unidata_version` 
-13.0.0 and 14.0.0)
-* TODO: lint check ``import unicodedata2 as unicodedata``
 
 .. index::
    triple: standards; normative; references
@@ -77,6 +59,9 @@ in this document are to be interpreted as described in :rfc:`2119`.
 📝 Documentation
 ----------------
 
+The following contains the requirements for the documentation source format of an OZI
+project.
+
 .. index:: triple: standards; documentation; format
 
 〽 Format
@@ -95,11 +80,19 @@ in this document are to be interpreted as described in :rfc:`2119`.
 ✨ Source
 ---------
 
+The following contains the requirements for the source code structure and format of an OZI 
+project.
+
 .. card:: RECOMMENDED
 
+   .. index::
+      triple: standards; python; support
+      triple: python; support; unicodedata
+      pair: unicodedata; unidata_version
    .. card:: Normalize unicodedata.unidata_version between minor Python releases.
 
-      Use the latest ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0 of unidata.
+      Use the latest ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0
+      of unidata.
 
 .. index:: triple: standards; source; format
 
@@ -183,6 +176,20 @@ in this document are to be interpreted as described in :rfc:`2119`.
 〽 PEP Compliance
 ^^^^^^^^^^^^^^^^^
 
+This section contains non-exhaustive lists of PEPs that OZI is an external stakeholder for.
+
+.. index::
+   triple: standards; check; pep8
+   triple: standards; check; pep287
+   triple: standards; reject; pep420
+   triple: standards; check; pep440
+   triple: standards; check; pep484
+   triple: standards; check; pep585
+   triple: standards; allow; pep593
+   triple: standards; reject; pep660
+   triple: standards; check; pep680
+   triple: standards; check; pep639
+   triple: standards; check; pep3107
 
 .. card:: RECOMMENDED
 
@@ -206,7 +213,9 @@ in this document are to be interpreted as described in :rfc:`2119`.
 
    .. rubric:: Footnotes
 
-   .. [#f1] MUST allow in ``@test_source@`` and ``@script_source@`` using ``# noqa: INP001``
+   .. [#f1] allow :pep:`420` in :abbr:`test_source (meson.build variable test_source)`
+      and :abbr:`script_source (meson.build variable script_source)`
+      using ``# noqa: INP001``
 
 .. card:: REQUIRED
 
@@ -247,20 +256,15 @@ in this document are to be interpreted as described in :rfc:`2119`.
 
          Editable installs for pyproject.toml based builds (wheel based)
 
-
-
-
 .. seealso::
 
    :ref:`lint`
 
-.. index::
-   triple: standards; python; support
-   triple: python; support; unicodedata
-   pair: unicodedata; unidata_version
-
 🚀 Environment
 --------------
+
+The following describes the OZI environment expectations for Meson setup and Meson test.
+Project environment configuration for ``tox`` is also provided.
 
 〽 Meson setup
 ^^^^^^^^^^^^^^
@@ -333,30 +337,32 @@ in this document are to be interpreted as described in :rfc:`2119`.
 💚 Utilities
 ------------
 
-.. index::
-   triple: meson.options; options; commandline
-   triple: pyproject.toml; configuration; packaging
-   triple: PKG-INFO; project; version
-   triple: utilities; exit; successfully
-
+This section lists the third-party utility program requirements.
 
 .. card:: REQUIRED
 
+   .. index:: utilities; exit; successfully
    .. card:: Exit successfully during environment test.
 
+   .. index:: pyproject.toml; configuration; packaging
    .. card:: Provide packaging configuration with ``pyproject.toml``.
 
+   .. index:: meson.options; options; commandline
    .. card:: Provide commandline arguments with ``meson.options``.
 
+   .. index:: PKG-INFO; project; version
    .. card:: Provide single source of truth for project version in ``PKG-INFO``
      (:doc:`specification <pypa:specifications/core-metadata>`).
 
 .. index:: triple: standards; utilities; dist
 .. include:: dist.inc
+
 .. index:: triple: standards; utilities; docs
 .. include:: docs.inc
+
 .. index:: triple: standards; utilities; lint
 .. include:: lint.inc
+
 .. index:: triple: standards; utilities; test
 .. include:: test.inc
 
