@@ -29,10 +29,11 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
    .. toctree::
       :maxdepth: 2
+
       Home <self>
-      :octicon:`home;1em;sd-text-info` OZIproject.dev <https://oziproject.dev/>
-      :octicon:`package;1em;sd-text-info` PyPI Package <https://pypi.org/project/OZI/>
-      :octicon:`repo;1em;sd-text-info` Repository <https://github.com/rjdbcm/OZI/>
+      OZIproject.dev <https://oziproject.dev/>
+      Python Package Index <https://pypi.org/project/OZI/>
+      Repository <https://github.com/rjdbcm/OZI/>
       standards
       backporting
 
