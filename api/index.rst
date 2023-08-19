@@ -27,20 +27,22 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
 .. card:: Links
 
-   .. card::
-      :img-background: https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi
-      :img-alt: Static Badge
-      :link: https://pypi.org/project/OZI/
+   .. grid:: 3
 
-   .. card::
-      :img-background: https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git
-      :img-alt: Static Badge
-      :link: https://github.com/rjdbcm/OZI/
+      .. grid-item-card::
+         :img-background: https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi
+         :img-alt: Static Badge
+         :link: https://pypi.org/project/OZI/
 
-   .. card::
-      :img-background: https://img.shields.io/badge/Homepage-grey?style=for-the-badge&logo=googledomains
-      :img-alt: Static Badge
-      :link: https://oziproject.dev/
+      .. grid-item-card::
+         :img-background: https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git
+         :img-alt: Static Badge
+         :link: https://github.com/rjdbcm/OZI/
+
+      .. grid-item-card::
+         :img-background: https://img.shields.io/badge/Homepage-grey?style=for-the-badge&logo=googledomains
+         :img-alt: Static Badge
+         :link: https://oziproject.dev/
 
 .. card:: Contents
 
