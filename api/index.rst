@@ -25,10 +25,21 @@ Welcome to the OZI - Python packaging for Meson Projects documentation.
 This covers the standard :abbr:`API (Application Programming Interface)`, 
 the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
-Contents
-========
+Links
+^^^^^
+.. image:: https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi
+   :alt: Static Badge
+   :link: https://pypi.org/project/OZI/
 
-.. card::
+.. image:: https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git
+   :alt: Static Badge
+   :link: https://github.com/rjdbcm/OZI/
+
+.. image:: https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs
+   :alt: Static Badge
+   :link: https://docs.oziproject.dev/
+
+.. card:: Contents
 
    .. toctree::
       :maxdepth: 2
@@ -37,13 +48,10 @@ Contents
       standards
       backporting
 
-Indices and tables
-==================
+   .. card:: :ref:`genindex`
+      :link: genindex
+      :link-type: ref
 
-.. card:: :ref:`genindex`
-   :link: genindex
-   :link-type: ref
-
-.. card:: :ref:`search`
-   :link: search
-   :link-type: ref
+   .. card:: :ref:`search`
+      :link: search
+      :link-type: ref

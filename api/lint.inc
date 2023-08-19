@@ -17,7 +17,7 @@
 〽 lint
 ^^^^^^^
 
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. index:: triple: utilities; environment; checkpointing
 
@@ -44,12 +44,12 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. include:: bandit_options.inc
+      .. literalinclude:: required.bandit.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. include:: bandit_pyproject.inc
+      .. literalinclude:: required.bandit.pyproject.toml
 
    .. index:: 
       triple: utilities; formatters; black
@@ -68,12 +68,12 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. include:: black_options.inc
+      .. literalinclude:: required.black.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. include:: black_pyproject.inc
+      .. literalinclude:: required.black.pyproject.toml
 
    .. index::
       triple: utilities; linters; flake8
@@ -94,31 +94,31 @@
    .. dropdown:: plugins
       :icon: plug
 
-      * SHOULD check flake8-annotations_ ANN001-ANN003, ANN101-ANN102, ANN201-ANN206
-      * SHOULD check flake8-broken-line_ N400
-      * SHOULD check flake8-bugbear_ B001-B034, B950
-      * SHOULD check flake8-comprehensions_ C400-C419
-      * SHOULD check flake8-datetimez_ DTZ001-DTZ012
-      * SHOULD check flake8-docstring-checker_ DC100-DC104
-      * SHOULD check flake8-eradicate_ E800
-      * SHOULD check flake8-fixme_ T100-T102
-      * SHOULD check flake8-leading-blank-lines_ LBL001
-      * SHOULD check flake8-no-pep420_ INP001
-      * SHOULD check flake8-pyi_ Y001-Y057
-      * SHOULD check flake8-pytest-style_ PT001-PT027
-      * SHOULD check flake8-quotes_ Q000-Q003
-      * SHOULD check flake8-tidy-imports_ I250, I252
-      * SHOULD check flake8-type-checking_ TC001-TC006
+      * flake8-annotations_ ANN001-ANN003, ANN101-ANN102, ANN201-ANN206
+      * flake8-broken-line_ N400
+      * flake8-bugbear_ B001-B034, B950
+      * k flake8-comprehensions_ C400-C406, C408-C419
+      * flake8-datetimez_ DTZ001-DTZ012
+      * flake8-docstring-checker_ DC100-DC104
+      * flake8-eradicate_ E800
+      * flake8-fixme_ T100-T102
+      * flake8-leading-blank-lines_ LBL001
+      * flake8-no-pep420_ INP001
+      * k flake8-pyi_ Y001-Y057
+      * k flake8-pytest-style_ PT001-PT027
+      * flake8-quotes_ Q000-Q003
+      * flake8-tidy-imports_ I250, I252
+      * flake8-type-checking_ TC001-TC006
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. include:: flake8_options.inc
+      .. literalinclude:: required.flake8.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. include:: flake8_pyproject.inc
+      .. literalinclude:: required.flake8.pyproject.toml
 
    .. index:: 
       triple: utilities; formatters; isort
@@ -137,12 +137,12 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. include:: isort_options.inc
+      .. literalinclude:: required.isort.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. include:: isort_pyproject.inc
+      .. literalinclude:: required.isort.pyproject.toml
 
    .. index::
       triple: utilities; linters; pylint
@@ -159,28 +159,28 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. include:: mypy_options.inc
+      .. literalinclude:: required.mypy.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. include:: mypy_pyproject.inc
+      .. literalinclude:: required.mypy.pyproject.toml
 
    .. rubric:: pyright
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. include:: pyright_options.inc
+      .. literalinclude:: required.pyright.meson.options
 
-.. card:: OPTIONAL
+.. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
    .. rubric:: pylint
 
    .. dropdown:: configuration
       :icon: package
 
-      .. include:: pylint_pyproject.inc
+      .. literalinclude:: optional.pylint.pyproject.toml
 
    .. index::
       triple: utilities; typecheckers; pyright

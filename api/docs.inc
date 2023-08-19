@@ -17,7 +17,7 @@
 〽 docs
 ^^^^^^^
 
-.. card:: RECOMMENDED
+.. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
    .. rubric:: doc8
 
@@ -29,53 +29,27 @@
    .. dropdown:: configuration
       :icon: package
 
-
-      .. code-block:: toml
-         :caption: pyproject.toml
-
-         [tool.doc8]
-         ignore = ["D000", "D002"]
+      .. literalinclude:: recommended.doc8.pyproject.toml
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. code-block:: meson
-         :caption: meson.options
-
-         option(
-            'args-doc8',
-            type: 'array',
-            value: [
-               '--config',
-               'pyproject.toml',
-               '@docs_source@'
-            ]
-         )
-
+      .. literalinclude:: recommended.doc8.meson.options
 
    .. rubric:: pydocstyle
 
-   .. dropdown:: arguments
-      :icon: terminal
+   .. dropdown:: specification
+      :icon: info
 
       * MUST run in verbose mode (``-v``)
       * MUST run in debug mode (``-d``)
       * MUST add ``--config=pyproject.toml``
       * MUST target ``docs_source``
 
-      .. code-block:: meson
-         :caption: meson.options
-         
-         option(
-            'args-pydocstyle',
-            type: 'array', 
-            value: [
-               '-v',
-               '-d',
-               '--config=pyproject.toml',
-               '@docs_source@'
-            ]
-         )
+   .. dropdown:: arguments
+      :icon: terminal
+
+      .. literalinclude:: recommended.pydocstyle.meson.options
 
    .. rubric:: sphinx-build(sphinx)
 

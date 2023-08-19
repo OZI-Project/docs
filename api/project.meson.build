@@ -1,0 +1,61 @@
+project(
+    '@project_name@',
+    default_options: ['warning_level=3'],
+    license: 'LICENSE',
+    license_files: ['LICENSE.txt'],
+    meson_version: '>=1.1.0',
+    version: run_command(
+        'python3',
+        [
+            '-c',
+            'from setuptools_scm import get_version;print(get_version(normalize=False))',
+        ],
+        check: true,
+    ).stdout().strip(),
+)
+env = environment()
+source_root = meson.current_source_dir()
+build_root = meson.current_build_dir()
+fs = import('fs')
+pymod = import('python')
+project_name = meson.project_name()
+build_dir = fs.stem(build_root)
+source_to_build = configuration_data()
+docs_source = '@docs_source@'
+test_source = '@test_source@'
+dev = subproject('ozi')
+foreach var : get_option('variables')
+    name = var.replace('-', '_')
+    set_variable(name, dev.get_variable(name))
+endforeach
+scm_version = run_command(
+    python,
+    ['-c', scm_version_snip],
+    check: true,
+).stdout().strip()
+semantic_version = meson.project_version().split('.')
+maj_version = semantic_version.get(0)
+min_version = semantic_version.get(1)
+pat_version = semantic_version.get(2)
+fallback_version = '.'.join(maj_version, min_version, pat_version)
+configure_file(
+    input: 'pyproject.toml',
+    output: 'pyproject.toml',
+    configuration: configuration_data(
+        {
+            'PROJECT_NAME': project_name,
+            'MESON_DIST_FALLBACK_VERSION': fallback_version,
+        },
+    ),
+)
+project_files = ['README.rst', 'CHANGELOG.md', 'LICENSE.txt']
+foreach source : project_files
+    fs.copyfile(source)
+endforeach
+python_files = []
+stub_files = []
+subdir(project_name)
+subdir(test_source)
+foreach file : python_files
+    python.install_sources(file)
+endforeach

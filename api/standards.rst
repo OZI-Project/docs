@@ -23,7 +23,17 @@ API Standards
 =============
 
 This document contains the standards for the OZI Python packaging for Meson API.
-This is a work in progress as a part of Pre-alpha development.
+OZI is meant for Python developers as a standardized and flexible but opinionated
+Python packaging style guide and checkpointing API using the Meson build system.
+The API standard not meant to be used by Python developers seeking OZI for the purposes
+stated above. This document is primarily intended as:
+
+#. An OZI maintainers guide to compliance with the OZI standard.
+#. A place to document major and minor changes to the OZI standard.
+
+This is a work in progress as a part of Alpha development.
+The current milestone version is 0.1.0, meaning that for OZI to release version 0.1.0
+the maintainers need to satisfy the OZI standard.
 
 
 .. index::
@@ -44,7 +54,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL"
 in this document are to be interpreted as described in :rfc:`2119`.
 
-.. seealso::
+.. card:: See also
+   :class-card: seealso
 
    `gitmoji <https://gitmoji.dev/specification>`_ 
 
@@ -67,13 +78,13 @@ project.
 〽 Format
 ^^^^^^^^^
 
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. card:: Use mimetype :mimetype:`text/x-rst` for ``README.rst``
    
    .. card:: Respect maximum line width limit 93.
 
-.. card:: RECOMMENDED
+.. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
    
    .. card:: Prefer LF over CRLF line-endings.
 
@@ -83,7 +94,7 @@ project.
 The following contains the requirements for the source code structure and format of an OZI 
 project.
 
-.. card:: RECOMMENDED
+.. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
    .. index::
       triple: standards; python; support
@@ -99,68 +110,141 @@ project.
 〽 Format
 ^^^^^^^^^
 
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. card:: Respect maximum line width limit 93
+   .. grid:: 2
 
-.. card:: RECOMMENDED
+      .. grid-item-card:: :octicon:`tab;1em;sd-text-info` Respect maximum line width limit 93.
 
-   .. card:: Prefer LF over CRLF line-endings
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow commented-out code.
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow leading blank lines.
+      
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow ``\`` line-breaks.
+      
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow datetime use without timezone info.
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow ``FIXME``, ``TODO``, and ``XXX`` in release.
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow generator expressions for builtin types.
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow ``list``, ``dict``, ``tuple`` calls.
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow :py:func:`map` calls with lambda parameters.
+
+      .. grid-item-card:: :octicon:`typography;1em;sd-text-info` Use ``"""`` for docstrings and multi-line string quotes.
+
+      .. grid-item-card:: :octicon:`typography;1em;sd-text-info` Use ``'`` for string quotes.
+
+      .. grid-item-card:: :octicon:`shield;1em;sd-text-info` Guard type-checking imports.
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow unnecessary import aliases.
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow relative imports from parent modules. 
+
+.. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
+
+   .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
+
+〽 Python Implementation
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. card:: CPython
+      :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
+      :link: https://www.python.org
 
 〽 Structure
 ^^^^^^^^^^^^
 
-.. card:: REQUIRED
+The following is the minimal project structure required by ``ozi`` to be a project.
 
-   .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
-      :icon: file-directory
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-      Python sources, submodules, and stubfiles.
+   .. grid:: 2
 
-      .. dropdown:: :file:`__init__.py`
+      .. grid-item::
+            
+         .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
+            :icon: file-directory
 
-         Python package module entry point.
+            Python sources, submodules, and stubfiles.
 
-      .. dropdown:: scripts/
-         :icon: file-directory
+            .. dropdown:: :file:`__init__.py`
 
-         OPTIONAL
+               Python package module entry point.
 
-   .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
-      :icon: file-directory
+            .. dropdown:: scripts/
+               :icon: file-directory
 
-      Source for pytest_ and :py:mod:`unittest`
+               OPTIONAL
 
-   .. dropdown:: subprojects/
-      :icon: file-submodule
+      .. grid-item::
 
-      Meson subprojects and wrapfiles.
+         .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
+            :icon: file-directory
 
-      .. dropdown:: :file:`ozi.wrap`
-         :icon: file
-         :open:
+            Source for pytest_ and :py:mod:`unittest`
 
-         Entry point for OZI to initialize a packaging environment.
+      .. grid-item::
 
-   .. dropdown:: .gitignore
-      :icon: diff-ignored
+         .. dropdown:: subprojects/
+            :icon: file-submodule
 
-      Specifies intentionally untracked files to ignore.
+            Meson subprojects and wrapfiles.
 
-   .. dropdown:: LICENSE.txt
-      :icon: law
+            .. dropdown:: :file:`ozi.wrap`
+               :icon: file
 
-      License terms for project distribution.
+               Entry point for OZI to initialize a packaging environment.
+
+      .. grid-item::
+
+         .. dropdown:: .gitignore
+            :icon: diff-ignored
+
+            Specifies intentionally untracked files to ignore.
+
+      .. grid-item::
+
+         .. dropdown:: LICENSE.txt
+            :icon: law
+
+            License terms for project distribution.
+
+      .. grid-item::
+
+         .. dropdown:: README.rst
+            :icon: info
+
+            Repository and packaged README file.
 
    .. dropdown:: meson.build
       :icon: project
 
       The main project build script.
+      
+      .. literalinclude:: project.meson.build
 
    .. dropdown:: meson.options
       :icon: terminal
 
       Options for OZI and utility commandline arguments.
+
+      .. rubric:: feature
+         
+      .. literalinclude:: project.feature.meson.options
+         :language: meson
+
+      .. rubric:: integer
+
+      .. literalinclude:: project.integer.meson.options
+         :language: meson
+
+      .. rubric:: array
+
+      .. literalinclude:: project.array.meson.options
 
    .. dropdown:: pyproject.toml
       :icon: package
@@ -172,6 +256,7 @@ project.
 
       Packaged project metadata.
 
+      .. literalinclude:: project.PKG-INFO
 
 〽 PEP Compliance
 ^^^^^^^^^^^^^^^^^
@@ -191,7 +276,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
    triple: standards; check; pep639
    triple: standards; check; pep3107
 
-.. card:: RECOMMENDED
+.. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
    .. grid:: 2
 
@@ -200,24 +285,12 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Style Guide for Python Code
 
-      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`420`
-
-         Implicit Namespace Modules [#f1]_
-
       .. grid-item-card:: :octicon:`checklist;1em;sd-text-info` implement :pep:`680`
-         :link: https://peps.python.org/pep-0680/
          
-         tomllib: Support for Parsing TOML in the Standard Library
-         
-         SHOULD use ``tomli`` if Python version < 3.11 
+         tomllib: Support for Parsing TOML in the Standard Library [#f1]_
 
-   .. rubric:: Footnotes
 
-   .. [#f1] allow :pep:`420` in :abbr:`test_source (meson.build variable test_source)`
-      and :abbr:`script_source (meson.build variable script_source)`
-      using ``# noqa: INP001``
-
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. grid:: 2
 
@@ -225,6 +298,10 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
          :link: https://peps.python.org/pep-0287/
 
          reStructuredText Docstring Format
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`420`
+
+         Implicit Namespace Modules [#f2]_
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`440`
          :link: https://peps.python.org/pep-0440/
@@ -256,20 +333,29 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Editable installs for pyproject.toml based builds (wheel based)
 
-.. seealso::
+.. card:: Footnotes
+
+   .. [#f1] SHOULD use ``tomli`` if Python version < 3.11 
+
+   .. [#f2] SHOULD allow :pep:`420` in :abbr:`test_source (meson.build variable test_source)`
+      and :abbr:`script_source (meson.build variable script_source)`
+      using ``# noqa: INP001``
+
+.. card:: See also
+   :class-card: seealso
 
    :ref:`lint`
 
 🚀 Environment
 --------------
 
-The following describes the OZI environment expectations for Meson setup and Meson test.
-Project environment configuration for ``tox`` is also provided.
+The following describes the OZI environment expectations for Meson projects.
+Project environment configuration expectations for ``tox`` are also provided.
 
-〽 Meson setup
-^^^^^^^^^^^^^^
+〽 Meson
+^^^^^^^^
 
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
 
@@ -279,67 +365,105 @@ Project environment configuration for ``tox`` is also provided.
       * ``prerelease``
       * ``feature``
 
-   .. card:: Check :py:mod:`importlib.metadata` version for each utility environment
+   .. card:: Check :py:mod:`importlib.metadata` version for each utility.
 
-      .. card:: Supply a ``dev`` namespace in ``project.optional-dependencies``.
+      * SHOULD fallback to ``pip show`` for version.
+      * SHOULD indicate version source for each utility.
+      * MUST indicate unknown version if all checks fail.
+   
+   .. card:: Check ``dev`` key in ``project.optional-dependencies``.
 
-      .. card:: Supply ``dist``, ``docs``, ``lint``, and ``test`` namespaces in ``dev``.
+      MUST use the following namespaces:
 
-   .. card:: Check that ``README.rst`` matches ``setuptools_scm`` payload and ``PKG-INFO`` payload.
+      * ``dist``
+      * ``docs``
+      * ``lint``
+      * ``test``
 
-.. card:: RECOMMENDED
+   .. card:: Check ``README.rst`` matches ``setuptools_scm`` payload and ``PKG-INFO`` payload.
+
+   .. card:: Write fallback configuration to ``pyproject.toml``
+
+      * ``MESON_DIST_FALLBACK_VERSION``
+      * ``PROJECT_NAME``
+
+   .. card:: Distribute a binary in wheel format.
+
+   .. card:: Strip binary of any Python source files.
+
+      MUST distribute wheel releases as Python bytecode and stubfiles.
+
+.. card:: :octicon:`skip;1.5em;sd-text-warning` RECOMMENDED
 
    .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
 
 
-〽 Meson test
-^^^^^^^^^^^^^
+.. card:: See also
+   :class-card: seealso
 
-.. card:: REQUIRED
+   :ref:`REQUIRED semantic-release`
 
-   .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
+〽 setuptools_scm
+^^^^^^^^^^^^^^^^^
 
-      SHALL NOT support  ``end-of-life``, ``prerelease``, or ``feature`` status in full releases.
+setuptools_scm_ controls the version information for the project environment.
 
-   .. card:: Successful setup of :ref:`dist` environment.
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-      .. code-block:: sh
-
-         tox -- --setup=dist
-
-   .. card:: Successful setup of :ref:`docs` environment.
-
-      .. code-block:: sh
-
-         tox -- --setup=docs
-
-   .. card:: Successful setup of :ref:`lint` environment
-
-      .. code-block:: sh
-
-         tox -- --setup=lint
-
-   .. card:: Successful setup of :ref:`test` environment
-
-      .. code-block:: sh
-
-         tox -- --setup=test
 
    .. card:: Use project configuration:
 
-      .. include:: tox_pyproject.inc
+      .. literalinclude:: required.setuptools_scm.pyproject.toml
 
-.. card:: RECOMMENDED
 
-   .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
+〽 tox
+^^^^^^
 
+tox_ is a mature solution to the problem of environment integration.
+OZI uses ``tox`` to manage integration testing across supported Python releases.
+Positional arguments are provided to a standardized ``meson test`` configuration.
+
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. grid:: 2
+
+      .. grid-item-card:: Successful setup of :ref:`dist` environment.
+
+         .. code-block:: sh
+
+            tox -- --setup=dist
+
+      .. grid-item-card:: Successful setup of :ref:`docs` environment.
+
+         .. code-block:: sh
+
+            tox -- --setup=docs
+
+      .. grid-item-card:: Successful setup of :ref:`lint` environment
+
+         .. code-block:: sh
+
+            tox -- --setup=lint
+
+      .. grid-item-card:: Successful setup of :ref:`test` environment
+
+         .. code-block:: sh
+
+            tox -- --setup=test
+
+   .. card:: Use project configuration:
+
+      .. literalinclude:: required.tox.pyproject.toml
 
 💚 Utilities
 ------------
 
+〽 General
+^^^^^^^^^^
+
 This section lists the third-party utility program requirements.
 
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. index:: utilities; exit; successfully
    .. card:: Exit successfully during environment test.

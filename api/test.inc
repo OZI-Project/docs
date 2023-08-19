@@ -17,7 +17,7 @@
 〽 test
 ^^^^^^^
 
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. rubric:: coverage
 
@@ -39,4 +39,4 @@
    .. dropdown:: configuration
       :icon: package
 
-      .. include:: pytest_pyproject.inc
+      .. literalinclude:: required.pytest.pyproject.toml

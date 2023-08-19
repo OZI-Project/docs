@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: @PROJECT_NAME@
+Version: {version}
+Summary: @PROJECT_SUMMARY@
+Classifier: License :: @PROJECT_LICENSE@
+Classifier: Development Status :: @PROJECT_STATUS@
+Classifier: Natural Language :: @PROJECT_LANGUAGE@
+Classifier: Intended Audience :: @PROJECT_AUDIENCE@
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: @PROJECT_TOPIC@
+Project-URL: Homepage, @PROJECT_HOMEPAGE@
+Project-URL: Download, @PROJECT_DOWNLOAD@
+Description-Content-Type: text/x-rst
+
+@PROJECT_README@

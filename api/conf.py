@@ -27,7 +27,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinxawesome_theme.highlighting',
-    "sphinx_design",
+    'sphinx_design',
 ]
 
 templates_path = ['_templates']
@@ -36,8 +36,13 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
                        'devguide': ('https://devguide.python.org', None),
                        'pypa': ('https://packaging.python.org', None),
+                       'pytest': ('https://docs.pytest.org/en/stable/', None),
                        'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
-                       'pytest': ('https://docs.pytest.org/en/stable/', None)}
+                       'pytest': ('https://docs.pytest.org/en/stable/', None),
+                       'semantic_release': (
+                           'https://python-semantic-release.readthedocs.io/en/stable/', None
+                           )
+                       }
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -48,5 +53,5 @@ html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
 html_permalinks_icon = Icons.permalinks_icon
 html_context = {
-    "mode": "production",
+    'mode': 'production',
 }

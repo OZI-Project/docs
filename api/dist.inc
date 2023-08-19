@@ -17,53 +17,40 @@
 〽 dist
 ^^^^^^^
 
-.. card:: REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. rubric:: pyc_wheel
-      
-   .. dropdown:: configuration
-      :icon: package
 
-      .. seealso:: 
+   .. card:: See also
+      :class-card: seealso
 
-         :ref:`REQUIRED semantic-release`
+      :ref:`REQUIRED semantic-release`
+
+      :octicon:`alert;1em;sd-text-warning` External
+         pyc_wheel_
 
    .. _REQUIRED semantic-release:
 
    .. rubric:: semantic-release
+   
+   .. dropdown:: specification
+      :icon: info
+
+      Follow the :doc:`semantic_release:algorithm` for release automation.
 
    .. dropdown:: configuration
       :icon: package
 
-      .. code-block:: toml
-         :caption: pyproject.toml
-
-         branch = "main"
-         build_command = """
-         git stash && \
-         python -m build -w && \
-         git stash -- PKG-INFO && \
-         python -m pyc_wheel dist/*.whl && \
-         meson setup dist/build && \
-         git stash drop && \
-         git add PKG-INFO && \
-         git commit PKG-INFO -m \"PKG-INFO Updated\" && \
-         meson dist -C dist/build --formats gztar --no-tests --allow-dirty && \
-         sigstore sign dist/*.whl dist/build/meson-dist/*.tar.gz && \
-         git stash pop && \
-         git add CHANGELOG.md && \
-         git stash clear"""
-         changelog_file = "CHANGELOG.md"
-         changelog_placeholder = "<!--next-version-placeholder-->"
-         commit_version_number = true
-         dist_glob_patterns = "*.dist-info,*.whl,build/meson-dist/*.tar.gz"
+      .. literalinclude:: required.semantic_release.pyproject.toml
 
    .. rubric:: sigstore
 
-   .. dropdown:: configuration
-      :icon: package
+   .. card:: See also
+      :class-card: seealso
 
-      .. seealso::
+      :ref:`REQUIRED semantic-release`
+      
+      :octicon:`alert;1em;sd-text-warning` External
+         sigstore_
 
-         :ref:`REQUIRED semantic-release`
-
+         sigstore-python_
