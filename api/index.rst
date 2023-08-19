@@ -29,15 +29,15 @@ Links
 ^^^^^
 .. image:: https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi
    :alt: Static Badge
-   :link: https://pypi.org/project/OZI/
+   :target: https://pypi.org/project/OZI/
 
 .. image:: https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git
    :alt: Static Badge
-   :link: https://github.com/rjdbcm/OZI/
+   :target: https://github.com/rjdbcm/OZI/
 
 .. image:: https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs
    :alt: Static Badge
-   :link: https://docs.oziproject.dev/
+   :target: https://docs.oziproject.dev/
 
 .. card:: Contents
 
