@@ -35,9 +35,9 @@ Links
    :alt: Static Badge
    :target: https://github.com/rjdbcm/OZI/
 
-.. image:: https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs
+.. image:: https://img.shields.io/badge/Homepage-grey?style=for-the-badge&logo=googledomains
    :alt: Static Badge
-   :target: https://docs.oziproject.dev/
+   :target: https://oziproject.dev/
 
 .. card:: Contents
 
