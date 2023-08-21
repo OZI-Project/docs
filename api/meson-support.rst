@@ -13,12 +13,12 @@
    specific language governing permissions and limitations
    under the License.
 
-===========
-Backporting
-===========
+====================
+Meson Verson Support
+====================
 
-I personally do not see much point in supporting Meson's prior versions.
-`Meson version 1.1 <https://mesonbuild.com/Release-notes-for-1-1-0.html>`_
+The OZI project's minimum supported version of Meson is
+`version 1.1.0 <https://mesonbuild.com/Release-notes-for-1-1-0.html>`_.
 
 There are a number of concerns that would need to be addressed
 to backport OZI to Meson 1.0 and Meson 0.X releases.

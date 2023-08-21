@@ -35,7 +35,7 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
       Python Package Index <https://pypi.org/project/OZI/>
       Repository <https://github.com/rjdbcm/OZI/>
       standards
-      backporting
+      meson-support
 
    .. card:: :ref:`genindex`
       :link: genindex
