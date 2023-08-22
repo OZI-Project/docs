@@ -18,10 +18,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-OZI Documentation
-=================
+Documentation
+=============
 
-Welcome to the OZI - Python packaging for Meson Projects documentation.
+Welcome to the OZI - Python Project Packaging for Meson documentation.
 This covers the standard :abbr:`API (Application Programming Interface)`, 
 the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
