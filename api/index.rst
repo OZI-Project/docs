@@ -30,7 +30,6 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
    .. toctree::
       :maxdepth: 2
 
-      Home <self>
       www.OZIproject.dev <https://oziproject.dev/>
       Python Package Index <https://pypi.org/project/OZI/>
       Repository <https://github.com/rjdbcm/OZI/>
