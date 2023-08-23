@@ -1,6 +1,6 @@
 p abbr {
     cursor: help;
 }
-div a[href="#"]:hover {
+div a[href="index.html"]:hover {
     text-decoration: underline;
 }
