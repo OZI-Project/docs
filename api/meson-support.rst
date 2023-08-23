@@ -13,9 +13,9 @@
    specific language governing permissions and limitations
    under the License.
 
-====================
-Meson Verson Support
-====================
+=====================
+Meson Version Support
+=====================
 
 The OZI project's minimum supported version of Meson is
 `version 1.1.0 <https://mesonbuild.com/Release-notes-for-1-1-0.html>`_.
