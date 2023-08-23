@@ -32,6 +32,7 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
       OZIproject.dev Homepage <https://oziproject.dev/>
       standards
+      roadmap
       meson-support
 
    .. card:: :ref:`genindex`

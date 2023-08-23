@@ -32,8 +32,6 @@ stated above. This document is primarily intended as:
 #. A place to document major and minor changes to the OZI standard.
 
 This is a work in progress as a part of Alpha development.
-The current milestone version is 0.1.0, meaning that for OZI to release version 0.1.0
-the maintainers need to satisfy the OZI standard.
 
 
 .. index::
