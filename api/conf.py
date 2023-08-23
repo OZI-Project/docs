@@ -52,6 +52,7 @@ html_favicon = 'assets/ozi_logo_docs_144.png'
 html_logo = 'assets/ozi_logo_docs_144.png'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
+html_css_files = ['css/custom.css']
 html_permalinks_icon = Icons.permalinks_icon
 html_context = {
     'mode': 'production',
