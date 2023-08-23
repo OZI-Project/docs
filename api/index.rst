@@ -34,11 +34,5 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
       standards
       roadmap
       meson-support
-
-   .. card:: :ref:`genindex`
-      :link: genindex
-      :link-type: ref
-
-   .. card:: :ref:`search`
-      :link: search
-      :link-type: ref
+      genindex
+      search
