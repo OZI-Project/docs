@@ -5,9 +5,22 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+import os
 from importlib.metadata import version as _version
 
 from sphinxawesome_theme.postprocess import Icons
+from dataclasses import asdict
+from sphinxawesome_theme.docsearch import DocSearchConfig
+
+# This gets you code completion and documentation for your configuration options
+config = DocSearchConfig(
+    docsearch_app_id=os.getenv('DOCSEARCH_APP_ID', ''),
+    docsearch_api_key=os.getenv('DOCSEARCH_API_KEY', ''),
+    docsearch_index_name=os.getenv('DOCSEARCH_INDEX_NAME', ''),
+)
+vars = locals()
+for key, value in asdict(config).items():
+    vars.__setitem__(key, value)
 
 project = 'OZI'
 copyright = '2023, Ross J. Duff MSc'
