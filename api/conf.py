@@ -27,6 +27,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinxawesome_theme.highlighting',
+    'sphinxawesome_theme.docsearch',
     'sphinx_design',
 ]
 
