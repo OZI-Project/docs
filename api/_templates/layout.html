@@ -18,9 +18,6 @@ under the License.
 {% block extrahead %}
   {{ super() }}
   <meta http-equiv="Content-Security-Policy" content="default-src https: 'unsafe-eval' 'unsafe-inline'; script-src https: 'unsafe-eval' 'unsafe-inline' https://readthedocs.org/ 'self'">
-  <meta http-equiv="X-Frame-Options" content="DENY">
-  <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="X-XSS-Protection" content="0">
 {% endblock %}
 
 {% block linktags %}
