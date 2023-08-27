@@ -1,4 +1,4 @@
-.. image:: api/assets/ozi_logov2_master.png
+.. image:: api/assets/ozi_logo_v2_master.png
  :align: left
  :alt: OZI for Python Packaging Logo
  :width: 74px
