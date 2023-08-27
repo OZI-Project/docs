@@ -66,6 +66,7 @@ html_logo = 'assets/ozi_logo_docs_144.png'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
+html_extra_path = ['robots.txt']
 html_permalinks_icon = Icons.permalinks_icon
 html_context = {
     'mode': 'production',
