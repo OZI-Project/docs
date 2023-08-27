@@ -35,4 +35,3 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
       roadmap
       meson-support
       genindex
-      search
