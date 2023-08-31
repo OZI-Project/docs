@@ -38,6 +38,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
+    'sphinx_sitemap',
     'sphinxawesome_theme.highlighting',
     'sphinxawesome_theme.docsearch',
     'sphinx_design',
@@ -64,6 +65,7 @@ html_title = 'docs.OZIproject.dev'
 html_favicon = 'assets/ozi_logo_docs_144.png'
 html_logo = 'assets/ozi_logo_docs_144.png'
 html_theme = 'sphinxawesome_theme'
+html_baseurl = 'https://oziproject.dev/'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
 html_extra_path = ['robots.txt']
