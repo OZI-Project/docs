@@ -44,12 +44,12 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/bandit.meson.options
+      .. literalinclude:: assets/ozi/templates/api/required/bandit.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/bandit.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/required/bandit.pyproject.toml
 
    .. index:: 
       triple: utilities; formatters; black
@@ -68,12 +68,12 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/black.meson.options
+      .. literalinclude:: assets/ozi/templates/api/required/black.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/black.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/required/black.pyproject.toml
 
    .. index::
       triple: utilities; linters; flake8
@@ -113,12 +113,12 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/flake8.meson.options
+      .. literalinclude:: assets/ozi/templates/api/required/flake8.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/flake8.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/required/flake8.pyproject.toml
 
    .. index:: 
       triple: utilities; formatters; isort
@@ -137,12 +137,12 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/isort.meson.options
+      .. literalinclude:: assets/ozi/templates/api/required/isort.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/isort.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/required/isort.pyproject.toml
 
    .. index::
       triple: utilities; linters; pylint
@@ -159,19 +159,19 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/mypy.meson.options
+      .. literalinclude:: assets/ozi/templates/api/required/mypy.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/mypy.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/required/mypy.pyproject.toml
 
    .. rubric:: pyright
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/pyright.meson.options
+      .. literalinclude:: assets/ozi/templates/api/required/pyright.meson.options
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
@@ -180,7 +180,7 @@
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/optional/pylint.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/optional/pylint.pyproject.toml
 
    .. index::
       triple: utilities; typecheckers; pyright

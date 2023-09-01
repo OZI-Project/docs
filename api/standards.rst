@@ -411,7 +411,7 @@ setuptools_scm_ controls the version information for the project environment.
 
    .. card:: Use project configuration:
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/setuptools_scm.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/required/setuptools_scm.pyproject.toml
 
 
 〽 tox
@@ -451,7 +451,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
    .. card:: Use project configuration:
 
-      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/required/tox.pyproject.toml
+      .. literalinclude:: assets/ozi/templates/api/required/tox.pyproject.toml
 
 💚 Utilities
 ------------
