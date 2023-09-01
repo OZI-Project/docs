@@ -1,4 +1,0 @@
-[tool.isort]
-line_length = 93
-profile = "black"
-verbose = true

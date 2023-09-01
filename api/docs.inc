@@ -29,12 +29,12 @@
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: recommended.doc8.pyproject.toml
+      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/optional/doc8.pyproject.toml
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: recommended.doc8.meson.options
+      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/optional/doc8.meson.options
 
    .. rubric:: pydocstyle
 
@@ -49,7 +49,7 @@
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: recommended.pydocstyle.meson.options
+      .. literalinclude:: https://raw.githubusercontent.com/rjdbcm/ozi/main/ozi/templates/api/optional/pydocstyle.meson.options
 
    .. rubric:: sphinx-build(sphinx)
 

@@ -1,9 +1,0 @@
-option(
-    'args-doc8',
-    type: 'array',
-    value: [
-        '--config',
-        'pyproject.toml',
-        '@docs_source@'
-    ]
-)
