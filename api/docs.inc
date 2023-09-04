@@ -19,7 +19,7 @@
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. rubric:: doc8
 

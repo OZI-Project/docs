@@ -19,6 +19,8 @@
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: 0.1
+
    .. rubric:: coverage
 
    .. dropdown:: specification

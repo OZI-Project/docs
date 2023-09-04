@@ -13,8 +13,6 @@
    specific language governing permissions and limitations
    under the License.
 
-.. |ozi-spec-version| replace:: 0.1
-
 .. meta::
    :description: specification for the OZI Python packaging for Meson API.
    :keywords: specification, OZI, Python, API, packaging, Meson
@@ -79,7 +77,7 @@ project.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. card:: Use mimetype :mimetype:`text/x-rst` for ``README.rst``
    
@@ -87,7 +85,7 @@ project.
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. card:: Prefer LF over CRLF line-endings.
 
@@ -99,7 +97,7 @@ project.
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. index::
       triple: specification; python; support
@@ -117,7 +115,7 @@ project.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. grid:: 2
 
@@ -149,7 +147,7 @@ project.
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
 
@@ -158,7 +156,7 @@ project.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. card:: CPython
       :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
@@ -171,7 +169,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. grid:: 2
 
@@ -289,7 +287,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. grid:: 2
 
@@ -305,7 +303,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. grid:: 2
 
@@ -372,7 +370,7 @@ Project environment configuration expectations for ``tox`` are also provided.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
 
@@ -427,7 +425,7 @@ setuptools_scm_ controls the version information for the project environment.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. card:: Use project configuration:
 
@@ -443,7 +441,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. grid:: 2
 
@@ -479,7 +477,7 @@ This section lists the third-party utility program requirements.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: |ozi-spec-version|
+   .. versionadded:: 0.1
 
    .. index:: utilities; exit; successfully
    .. card:: Exit successfully during environment test.
