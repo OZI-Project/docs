@@ -19,6 +19,8 @@
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
+   .. versionadded:: |ozi-spec-version|
+
    .. rubric:: doc8
 
    .. dropdown:: specification

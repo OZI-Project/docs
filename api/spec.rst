@@ -13,6 +13,7 @@
    specific language governing permissions and limitations
    under the License.
 
+.. |ozi-spec-version| replace:: 0.1
 
 .. meta::
    :description: specification for the OZI Python packaging for Meson API.
@@ -78,12 +79,16 @@ project.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. card:: Use mimetype :mimetype:`text/x-rst` for ``README.rst``
    
    .. card:: Respect maximum line width limit 93.
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
-   
+
+   .. versionadded:: |ozi-spec-version|
+
    .. card:: Prefer LF over CRLF line-endings.
 
 ✨ Source
@@ -93,6 +98,8 @@ The following contains the requirements for the source code structure and format
 project.
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
+
+   .. versionadded:: |ozi-spec-version|
 
    .. index::
       triple: specification; python; support
@@ -110,6 +117,8 @@ project.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. grid:: 2
 
       .. grid-item-card:: :octicon:`tab;1em;sd-text-info` Respect maximum line width limit 93.
@@ -126,8 +135,6 @@ project.
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow generator expressions for builtin types.
 
-      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow ``list``, ``dict``, ``tuple`` calls.
-
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow :py:func:`map` calls with lambda parameters.
 
       .. grid-item-card:: :octicon:`typography;1em;sd-text-info` Use ``"""`` for docstrings and multi-line string quotes.
@@ -142,12 +149,16 @@ project.
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
 
 〽 Python Implementation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. versionadded:: |ozi-spec-version|
 
    .. card:: CPython
       :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
@@ -159,6 +170,8 @@ project.
 The following is the minimal project structure required by ``ozi`` to be a project.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. versionadded:: |ozi-spec-version|
 
    .. grid:: 2
 
@@ -276,6 +289,8 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. grid:: 2
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`8`
@@ -289,6 +304,8 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. versionadded:: |ozi-spec-version|
 
    .. grid:: 2
 
@@ -355,6 +372,8 @@ Project environment configuration expectations for ``tox`` are also provided.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
 
       SHALL NOT support:
@@ -408,6 +427,7 @@ setuptools_scm_ controls the version information for the project environment.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: |ozi-spec-version|
 
    .. card:: Use project configuration:
 
@@ -423,6 +443,8 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. grid:: 2
 
       .. grid-item-card:: Successful setup of :ref:`dist` environment.
@@ -430,12 +452,6 @@ Positional arguments are provided to a standardized ``meson test`` configuration
          .. code-block:: sh
 
             tox -- --setup=dist
-
-      .. grid-item-card:: Successful setup of :ref:`docs` environment.
-
-         .. code-block:: sh
-
-            tox -- --setup=docs
 
       .. grid-item-card:: Successful setup of :ref:`lint` environment
 
@@ -462,6 +478,8 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 This section lists the third-party utility program requirements.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. versionadded:: |ozi-spec-version|
 
    .. index:: utilities; exit; successfully
    .. card:: Exit successfully during environment test.

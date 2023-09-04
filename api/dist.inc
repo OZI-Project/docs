@@ -19,6 +19,8 @@
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. rubric:: pyc_wheel
 
    .. card:: See also

@@ -19,6 +19,6 @@ Last Updated on |date|
 
 .. card:: API Specification: 🚧 Work in Progress 🚧
 
-    Currently the :ref:`spec` is being actively developed alongside the Pre-Alpha releases.
+    Currently the spec is being actively developed alongside the Pre-Alpha releases.
     This means that we will pin each specification to a ``.. versionadded:: 0.1`` and change 
     the ``API Specification: ...`` title here before work begins on an Alpha release.

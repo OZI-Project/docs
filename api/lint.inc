@@ -19,6 +19,8 @@
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. versionadded:: |ozi-spec-version|
+
    .. index:: triple: utilities; environment; checkpointing
 
    .. index::
@@ -174,6 +176,8 @@
       .. literalinclude:: assets/ozi/ozi/templates/api/required/pyright.meson.options
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
+
+   .. versionadded:: |ozi-spec-version|
 
    .. rubric:: pylint
 
