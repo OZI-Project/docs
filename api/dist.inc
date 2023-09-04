@@ -38,10 +38,15 @@
 
       Follow the :doc:`semantic_release:algorithm` for release automation.
 
+   .. dropdown:: Github actions
+      :icon: workflow
+
+      .. literalinclude:: ozi/ozi/templates/github_workflows/ozi.yml
+
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: required.semantic_release.pyproject.toml
+      .. literalinclude:: ozi/ozi/templates/api/required/semantic_release.pyproject.toml
 
    .. rubric:: sigstore
 

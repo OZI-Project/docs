@@ -39,4 +39,4 @@
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: required.pytest.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/api/required/pytest.pyproject.toml

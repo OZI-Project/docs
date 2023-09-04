@@ -22,7 +22,7 @@ Documentation
 =============
 
 Welcome to the OZI - Python Project Packaging for Meson documentation.
-This covers the standard :abbr:`API (Application Programming Interface)`, 
+This covers the :abbr:`API (Application Programming Interface)` specification, 
 the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
 .. card:: Contents
@@ -31,7 +31,7 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
       :maxdepth: 2
 
       OZIproject.dev Homepage <https://oziproject.dev/>
-      standards
+      spec
       roadmap
       meson-support
       genindex

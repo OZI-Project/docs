@@ -15,27 +15,27 @@
 
 
 .. meta::
-   :description: Standards for the OZI Python packaging for Meson API.
-   :keywords: standards, OZI, Python, API, packaging, Meson
+   :description: specification for the OZI Python packaging for Meson API.
+   :keywords: specification, OZI, Python, API, packaging, Meson
 
-=============
-API Standards
-=============
+=================
+API Specification
+=================
 
-This document contains the standards for the OZI Python packaging for Meson API.
+This document contains the specification for the OZI Python packaging for Meson API.
 OZI is meant for Python developers as a standardized and flexible but opinionated
 Python packaging style guide and checkpointing API using the Meson build system.
-The API standard not meant to be used by Python developers seeking OZI for the purposes
+The API specification not meant to be used by Python developers seeking OZI for the purposes
 stated above. This document is primarily intended as:
 
-#. An OZI maintainers guide to compliance with the OZI standard.
-#. A place to document major and minor changes to the OZI standard.
+#. An OZI maintainers guide to compliance with the OZI specification.
+#. A place to document major and minor changes to the OZI specification.
 
 This is a work in progress as a part of Alpha development.
 
 
 .. index::
-   triple: standards; normative; references
+   triple: specification; normative; references
 
 ➕ Normative References
 -----------------------
@@ -71,7 +71,7 @@ in this document are to be interpreted as described in :rfc:`2119`.
 The following contains the requirements for the documentation source format of an OZI
 project.
 
-.. index:: triple: standards; documentation; format
+.. index:: triple: specification; documentation; format
 
 〽 Format
 ^^^^^^^^^
@@ -95,7 +95,7 @@ project.
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
    .. index::
-      triple: standards; python; support
+      triple: specification; python; support
       triple: python; support; unicodedata
       pair: unicodedata; unidata_version
    .. card:: Normalize unicodedata.unidata_version between minor Python releases.
@@ -103,7 +103,7 @@ project.
       Use the latest ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0
       of unidata.
 
-.. index:: triple: standards; source; format
+.. index:: triple: specification; source; format
 
 〽 Format
 ^^^^^^^^^
@@ -223,7 +223,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       The main project build script.
       
-      .. literalinclude:: project.meson.build
+      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.meson.build
 
    .. dropdown:: meson.options
       :icon: terminal
@@ -232,17 +232,17 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       .. rubric:: feature
          
-      .. literalinclude:: project.feature.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.feature.meson.options
          :language: meson
 
       .. rubric:: integer
 
-      .. literalinclude:: project.integer.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.integer.meson.options
          :language: meson
 
       .. rubric:: array
 
-      .. literalinclude:: project.array.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.array.meson.options
 
    .. dropdown:: pyproject.toml
       :icon: package
@@ -254,7 +254,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       Packaged project metadata.
 
-      .. literalinclude:: project.PKG-INFO
+      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.PKG-INFO
 
 〽 PEP Compliance
 ^^^^^^^^^^^^^^^^^
@@ -262,17 +262,17 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 This section contains non-exhaustive lists of PEPs that OZI is an external stakeholder for.
 
 .. index::
-   triple: standards; check; pep8
-   triple: standards; check; pep287
-   triple: standards; reject; pep420
-   triple: standards; check; pep440
-   triple: standards; check; pep484
-   triple: standards; check; pep585
-   triple: standards; allow; pep593
-   triple: standards; reject; pep660
-   triple: standards; check; pep680
-   triple: standards; check; pep639
-   triple: standards; check; pep3107
+   triple: specification; check; pep8
+   triple: specification; check; pep287
+   triple: specification; reject; pep420
+   triple: specification; check; pep440
+   triple: specification; check; pep484
+   triple: specification; check; pep585
+   triple: specification; allow; pep593
+   triple: specification; reject; pep660
+   triple: specification; check; pep680
+   triple: specification; check; pep639
+   triple: specification; check; pep3107
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
@@ -476,16 +476,16 @@ This section lists the third-party utility program requirements.
    .. card:: Provide single source of truth for project version in ``PKG-INFO``
      (:doc:`specification <pypa:specifications/core-metadata>`).
 
-.. index:: triple: standards; utilities; dist
+.. index:: triple: specification; utilities; dist
 .. include:: dist.inc
 
-.. index:: triple: standards; utilities; docs
+.. index:: triple: specification; utilities; docs
 .. include:: docs.inc
 
-.. index:: triple: standards; utilities; lint
+.. index:: triple: specification; utilities; lint
 .. include:: lint.inc
 
-.. index:: triple: standards; utilities; test
+.. index:: triple: specification; utilities; test
 .. include:: test.inc
 
 .. include:: pypi_links.inc
