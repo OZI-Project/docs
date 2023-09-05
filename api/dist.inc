@@ -43,12 +43,12 @@
    .. dropdown:: Github actions
       :icon: workflow
 
-      .. literalinclude:: ozi/ozi/templates/github_workflows/ozi.yml
+      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/ozi.yml
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: ozi/ozi/templates/api/required/semantic_release.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/api/required/semantic_release.pyproject.toml
 
    .. rubric:: sigstore
 
