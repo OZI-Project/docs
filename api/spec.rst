@@ -410,6 +410,8 @@ Project environment configuration expectations for ``tox`` are also provided.
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` RECOMMENDED
 
+   .. versionadded:: 0.1
+
    .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
 
 
