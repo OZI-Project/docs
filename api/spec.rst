@@ -407,17 +407,20 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`660`
          :link: https://peps.python.org/pep-0660/
 
-      .. versionadded:: 0.1
+         .. versionadded:: 0.1
 
          Editable installs for pyproject.toml based builds (wheel based)
 
 .. card:: Footnotes
 
-   .. [#f1] SHOULD use ``tomli`` if Python version < 3.11 
+   .. [#f1] SHOULD use ``tomli`` if Python version < 3.11
+
+      .. versionadded:: 0.1
 
    .. [#f2] SHOULD allow :pep:`420` in :abbr:`test_source (meson.build variable test_source)`
-      and :abbr:`script_source (meson.build variable script_source)`
       using ``# noqa: INP001``
+
+      .. versionadded:: 0.1
 
 .. card:: See also
    :class-card: seealso
@@ -539,7 +542,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
       .. grid-item-card:: Successful setup of :ref:`test` environment
 
-      .. versionadded:: 0.1
+         .. versionadded:: 0.1
 
          .. code-block:: sh
 
