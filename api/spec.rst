@@ -77,17 +77,20 @@ Format
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: 0.1
-
    .. card:: Use mimetype :mimetype:`text/x-rst` for ``README.rst``
-   
+
+      .. versionadded:: 0.1
+
    .. card:: Respect maximum line width limit 93.
+
+      .. versionadded:: 0.1
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
-   .. versionadded:: 0.1
-
    .. card:: Prefer LF over CRLF line-endings.
+
+      .. versionadded:: 0.1
+
 
 Source
 ------
@@ -97,13 +100,14 @@ project.
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
-   .. versionadded:: 0.1
-
    .. index::
       triple: specification; python; support
       triple: python; support; unicodedata
       pair: unicodedata; unidata_version
+
    .. card:: Normalize unicodedata.unidata_version between minor Python releases.
+
+      .. versionadded:: 0.1
 
       Use the latest ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0
       of unidata.
@@ -115,50 +119,76 @@ Format
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: 0.1
-
    .. grid:: 2
 
       .. grid-item-card:: :octicon:`tab;1em;sd-text-info` Respect maximum line width limit 93.
 
+         .. versionadded:: 0.1
+
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow commented-out code.
 
+         .. versionadded:: 0.1
+
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow leading blank lines.
-      
+
+         .. versionadded:: 0.1
+
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow ``\`` line-breaks.
-      
+
+         .. versionadded:: 0.1
+
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow datetime use without timezone info.
+
+         .. versionadded:: 0.1
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow ``FIXME``, ``TODO``, and ``XXX`` in release.
 
+         .. versionadded:: 0.1
+
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow generator expressions for builtin types.
+
+         .. versionadded:: 0.1
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow :py:func:`map` calls with lambda parameters.
 
+         .. versionadded:: 0.1
+
       .. grid-item-card:: :octicon:`typography;1em;sd-text-info` Use ``"""`` for docstrings and multi-line string quotes.
+
+         .. versionadded:: 0.1
 
       .. grid-item-card:: :octicon:`typography;1em;sd-text-info` Use ``'`` for string quotes.
 
+         .. versionadded:: 0.1
+
       .. grid-item-card:: :octicon:`shield;1em;sd-text-info` Guard type-checking imports.
+
+         .. versionadded:: 0.1
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow unnecessary import aliases.
 
-      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow relative imports from parent modules. 
+         .. versionadded:: 0.1
+
+      .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` Disallow relative imports from parent modules.
+
+         .. versionadded:: 0.1
+
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
-   .. versionadded:: 0.1
-
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
+
+      .. versionadded:: 0.1
 
 Python Implementation
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: 0.1
-
    .. card:: CPython
+
+      .. versionadded:: 0.1
+
       :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
       :link: https://www.python.org
 
@@ -178,21 +208,22 @@ The following is the minimal project structure required by ``ozi`` to be a proje
          .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
             :icon: file-directory
 
+            .. versionadded:: 0.1
+
             Python sources, submodules, and stubfiles.
 
             .. dropdown:: :file:`__init__.py`
 
+               .. versionadded:: 0.1
+
                Python package module entry point.
-
-            .. dropdown:: scripts/
-               :icon: file-directory
-
-               OPTIONAL
 
       .. grid-item::
 
          .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
             :icon: file-directory
+
+            .. versionadded:: 0.1
 
             Source for pytest_ and :py:mod:`unittest`
 
@@ -201,10 +232,14 @@ The following is the minimal project structure required by ``ozi`` to be a proje
          .. dropdown:: subprojects/
             :icon: file-submodule
 
+            .. versionadded:: 0.1
+
             Meson subprojects and wrapfiles.
 
             .. dropdown:: :file:`ozi.wrap`
                :icon: file
+
+               .. versionadded:: 0.1
 
                Entry point for OZI to initialize a packaging environment.
 
@@ -213,12 +248,16 @@ The following is the minimal project structure required by ``ozi`` to be a proje
          .. dropdown:: .gitignore
             :icon: diff-ignored
 
+            .. versionadded:: 0.1
+
             Specifies intentionally untracked files to ignore.
 
       .. grid-item::
 
          .. dropdown:: LICENSE.txt
             :icon: law
+
+            .. versionadded:: 0.1
 
             License terms for project distribution.
 
@@ -227,10 +266,14 @@ The following is the minimal project structure required by ``ozi`` to be a proje
          .. dropdown:: README.rst
             :icon: info
 
+            .. versionadded:: 0.1
+
             Repository and packaged README file.
 
    .. dropdown:: meson.build
       :icon: project
+
+      .. versionadded:: 0.1
 
       The main project build script.
       
@@ -238,6 +281,8 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
    .. dropdown:: meson.options
       :icon: terminal
+
+      .. versionadded:: 0.1
 
       Options for OZI and utility commandline arguments.
 
@@ -258,10 +303,14 @@ The following is the minimal project structure required by ``ozi`` to be a proje
    .. dropdown:: pyproject.toml
       :icon: package
 
+      .. versionadded:: 0.1
+
       Packaging configuration and project metadata template.
 
    .. dropdown:: PKG-INFO
       :icon: info
+
+      .. versionadded:: 0.1
 
       Packaged project metadata.
 
@@ -287,62 +336,78 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
-   .. versionadded:: 0.1
-
    .. grid:: 2
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`8`
          :link: https://peps.python.org/pep-0008/
 
+         .. versionadded:: 0.1
+
          Style Guide for Python Code
 
       .. grid-item-card:: :octicon:`checklist;1em;sd-text-info` implement :pep:`680`
-         
+
+         .. versionadded:: 0.1
+
          tomllib: Support for Parsing TOML in the Standard Library [#f1]_
 
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
-
-   .. versionadded:: 0.1
 
    .. grid:: 2
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`287`
          :link: https://peps.python.org/pep-0287/
 
+         .. versionadded:: 0.1
+
          reStructuredText Docstring Format
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`420`
+
+         .. versionadded:: 0.1
 
          Implicit Namespace Modules [#f2]_
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`440`
          :link: https://peps.python.org/pep-0440/
 
+         .. versionadded:: 0.1
+
          Version Identification and Dependency Specification
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`484`
          :link: https://peps.python.org/pep-0484/
+
+         .. versionadded:: 0.1
 
          Type Hints
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`585`
          :link: https://peps.python.org/pep-0585/
 
+         .. versionadded:: 0.1
+
          Type Hinting Generics In Standard Collections
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`3107`
          :link: https://peps.python.org/pep-3107/
+
+         .. versionadded:: 0.1
 
          Function Annotation
 
       .. grid-item-card:: :octicon:`skip;1em;sd-text-warning` allow :pep:`593`
          :link: https://peps.python.org/pep-0593/
 
+         .. versionadded:: 0.1
+
          Flexible function and variable annotations
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`660`
          :link: https://peps.python.org/pep-0660/
+
+      .. versionadded:: 0.1
 
          Editable installs for pyproject.toml based builds (wheel based)
 
@@ -370,9 +435,9 @@ Meson
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: 0.1
-
    .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
+
+      .. versionadded:: 0.1
 
       SHALL NOT support:
 
@@ -382,11 +447,15 @@ Meson
 
    .. card:: Check :py:mod:`importlib.metadata` version for each utility.
 
+      .. versionadded:: 0.1
+
       * SHOULD fallback to ``pip show`` for version.
       * SHOULD indicate version source for each utility.
       * MUST indicate unknown version if all checks fail.
    
    .. card:: Check ``dev`` key in ``project.optional-dependencies``.
+
+      .. versionadded:: 0.1
 
       MUST use the following namespaces:
 
@@ -397,23 +466,30 @@ Meson
 
    .. card:: Check ``README.rst`` matches ``setuptools_scm`` payload and ``PKG-INFO`` payload.
 
+      .. versionadded:: 0.1
+
    .. card:: Write fallback configuration to ``pyproject.toml``
+
+      .. versionadded:: 0.1
 
       * ``MESON_DIST_FALLBACK_VERSION``
       * ``PROJECT_NAME``
 
    .. card:: Distribute a binary in wheel format.
 
+      .. versionadded:: 0.1
+
    .. card:: Strip binary of any Python source files.
+
+      .. versionadded:: 0.1
 
       MUST distribute wheel releases as Python bytecode and stubfiles.
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` RECOMMENDED
 
-   .. versionadded:: 0.1
-
    .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
 
+      .. versionadded:: 0.1
 
 .. card:: See also
    :class-card: seealso
@@ -443,11 +519,11 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: 0.1
-
    .. grid:: 2
 
       .. grid-item-card:: Successful setup of :ref:`dist` environment.
+
+         .. versionadded:: 0.1
 
          .. code-block:: sh
 
@@ -455,11 +531,15 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
       .. grid-item-card:: Successful setup of :ref:`lint` environment
 
+         .. versionadded:: 0.1
+
          .. code-block:: sh
 
             tox -- --setup=lint
 
       .. grid-item-card:: Successful setup of :ref:`test` environment
+
+      .. versionadded:: 0.1
 
          .. code-block:: sh
 
@@ -479,20 +559,26 @@ This section lists the third-party utility program requirements.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. versionadded:: 0.1
-
    .. index:: utilities; exit; successfully
    .. card:: Exit successfully during environment test.
+
+      .. versionadded:: 0.1
 
    .. index:: pyproject.toml; configuration; packaging
    .. card:: Provide packaging configuration with ``pyproject.toml``.
 
+      .. versionadded:: 0.1
+
    .. index:: meson.options; options; commandline
    .. card:: Provide commandline arguments with ``meson.options``.
+
+      .. versionadded:: 0.1
 
    .. index:: PKG-INFO; project; version
    .. card:: Provide single source of truth for project version in ``PKG-INFO``
      (:doc:`specification <pypa:specifications/core-metadata>`).
+
+      .. versionadded:: 0.1
 
 .. index:: triple: specification; utilities; dist
 .. include:: dist.inc
