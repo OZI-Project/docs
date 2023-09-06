@@ -5,21 +5,20 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-import os
 from importlib.metadata import version as _version
 
 from sphinxawesome_theme.postprocess import Icons
-from sphinxawesome_theme.docsearch import DocSearchConfig
+# from sphinxawesome_theme.docsearch import DocSearchConfig
 
 # This gets you code completion and documentation for your configuration options
-docsearch_app_id = os.getenv('DOCSEARCH_APP_ID', '')
-docsearch_api_key = os.getenv('DOCSEARCH_API_KEY', '')
-docsearch_index_name = os.getenv('DOCSEARCH_INDEX_NAME', '')
-config = DocSearchConfig(
-    docsearch_app_id=docsearch_app_id,
-    docsearch_api_key=docsearch_api_key,
-    docsearch_index_name=docsearch_index_name,
-)
+# docsearch_app_id = os.getenv('DOCSEARCH_APP_ID', '')
+# docsearch_api_key = os.getenv('DOCSEARCH_API_KEY', '')
+# docsearch_index_name = os.getenv('DOCSEARCH_INDEX_NAME', '')
+# config = DocSearchConfig(
+#     docsearch_app_id=docsearch_app_id,
+#     docsearch_api_key=docsearch_api_key,
+#     docsearch_index_name=docsearch_index_name,
+# )
 
 project = 'OZI'
 copyright = '2023, Ross J. Duff MSc'
@@ -40,7 +39,6 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx_sitemap',
     'sphinxawesome_theme.highlighting',
-    'sphinxawesome_theme.docsearch',
     'sphinx_design',
 ]
 

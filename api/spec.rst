@@ -36,8 +36,8 @@ This is a work in progress as a part of Alpha development.
 .. index::
    triple: specification; normative; references
 
-➕ Normative References
------------------------
+Normative References
+--------------------
 
 This document also contains normative references to :abbr:`RFC (Request for Comments)`,
 :abbr:`PEP (Python Enhancement Proposal)` standards,
@@ -64,16 +64,16 @@ in this document are to be interpreted as described in :rfc:`2119`.
 
    `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
 
-📝 Documentation
-----------------
+Documentation
+-------------
 
 The following contains the requirements for the documentation source format of an OZI
 project.
 
 .. index:: triple: specification; documentation; format
 
-〽 Format
-^^^^^^^^^
+Format
+^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -89,8 +89,8 @@ project.
 
    .. card:: Prefer LF over CRLF line-endings.
 
-✨ Source
----------
+Source
+------
 
 The following contains the requirements for the source code structure and format of an OZI 
 project.
@@ -110,8 +110,8 @@ project.
 
 .. index:: triple: specification; source; format
 
-〽 Format
-^^^^^^^^^
+Format
+^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -151,8 +151,8 @@ project.
 
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
 
-〽 Python Implementation
-^^^^^^^^^^^^^^^^^^^^^^^^
+Python Implementation
+^^^^^^^^^^^^^^^^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -162,8 +162,8 @@ project.
       :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
       :link: https://www.python.org
 
-〽 Structure
-^^^^^^^^^^^^
+Structure
+^^^^^^^^^
 
 The following is the minimal project structure required by ``ozi`` to be a project.
 
@@ -267,8 +267,8 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       .. literalinclude:: assets/ozi/ozi/templates/api/required/project.PKG-INFO
 
-〽 PEP Compliance
-^^^^^^^^^^^^^^^^^
+PEP Compliance
+^^^^^^^^^^^^^^
 
 This section contains non-exhaustive lists of PEPs that OZI is an external stakeholder for.
 
@@ -359,14 +359,14 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
    :ref:`lint`
 
-🚀 Environment
---------------
+Environment
+-----------
 
 The following describes the OZI environment expectations for Meson projects.
 Project environment configuration expectations for ``tox`` are also provided.
 
-〽 Meson
-^^^^^^^^
+Meson
+^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -420,8 +420,8 @@ Project environment configuration expectations for ``tox`` are also provided.
 
    :ref:`REQUIRED semantic-release`
 
-〽 setuptools_scm
-^^^^^^^^^^^^^^^^^
+setuptools_scm
+^^^^^^^^^^^^^^
 
 setuptools_scm_ controls the version information for the project environment.
 
@@ -434,8 +434,8 @@ setuptools_scm_ controls the version information for the project environment.
       .. literalinclude:: assets/ozi/ozi/templates/api/required/setuptools_scm.pyproject.toml
 
 
-〽 tox
-^^^^^^
+tox
+^^^
 
 tox_ is a mature solution to the problem of environment integration.
 OZI uses ``tox`` to manage integration testing across supported Python releases.
@@ -469,11 +469,11 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
       .. literalinclude:: assets/ozi/ozi/templates/api/required/tox.pyproject.toml
 
-💚 Utilities
-------------
+Utilities
+---------
 
-〽 General
-^^^^^^^^^^
+General
+^^^^^^^
 
 This section lists the third-party utility program requirements.
 

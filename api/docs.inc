@@ -14,8 +14,8 @@
    under the License.
 .. _docs:
 
-〽 docs
-^^^^^^^
+docs
+^^^^
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 

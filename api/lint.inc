@@ -14,8 +14,8 @@
    under the License.
 .. _lint:
 
-〽 lint
-^^^^^^^
+lint
+^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 

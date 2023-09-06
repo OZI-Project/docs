@@ -14,8 +14,8 @@
    under the License.
 .. _test:
 
-〽 test
-^^^^^^^
+test
+^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
