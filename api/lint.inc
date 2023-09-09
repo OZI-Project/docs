@@ -46,12 +46,12 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/bandit.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/bandit.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/bandit.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/bandit.pyproject.toml
 
    .. index:: 
       triple: utilities; formatters; black
@@ -70,12 +70,12 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/black.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/black.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/black.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/black.pyproject.toml
 
    .. index::
       triple: utilities; linters; flake8
@@ -115,12 +115,12 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/flake8.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/flake8.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/flake8.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/flake8.pyproject.toml
 
    .. index:: 
       triple: utilities; formatters; isort
@@ -139,12 +139,12 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/isort.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/isort.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/isort.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/isort.pyproject.toml
 
    .. index::
       triple: utilities; linters; pylint
@@ -161,19 +161,19 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/mypy.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/mypy.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/mypy.pyproject.toml
 
    .. rubric:: pyright
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/pyright.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
@@ -184,7 +184,7 @@ lint
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/optional/pylint.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/pylint.pyproject.toml
 
    .. index::
       triple: utilities; typecheckers; pyright

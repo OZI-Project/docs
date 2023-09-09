@@ -277,7 +277,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       The main project build script.
       
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.meson.build
+      .. literalinclude:: assets/ozi/ozi/templates/project.meson.build
 
    .. dropdown:: meson.options
       :icon: terminal
@@ -288,17 +288,17 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       .. rubric:: feature
          
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.feature.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/project.feature.meson.options
          :language: meson
 
       .. rubric:: integer
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.integer.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/project.integer.meson.options
          :language: meson
 
       .. rubric:: array
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.array.meson.options
+      .. literalinclude:: assets/ozi/ozi/templates/project.array.meson.options
 
    .. dropdown:: pyproject.toml
       :icon: package
@@ -314,7 +314,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       Packaged project metadata.
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/project.PKG-INFO
+      .. literalinclude:: assets/ozi/ozi/templates/project.PKG-INFO
 
 PEP Compliance
 ^^^^^^^^^^^^^^
@@ -510,7 +510,7 @@ setuptools_scm_ controls the version information for the project environment.
 
    .. card:: Use project configuration:
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/setuptools_scm.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/setuptools_scm.pyproject.toml
 
 
 tox
@@ -550,7 +550,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
    .. card:: Use project configuration:
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/tox.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/tox.pyproject.toml
 
 Utilities
 ---------

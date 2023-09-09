@@ -48,7 +48,7 @@ dist
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/api/required/semantic_release.pyproject.toml
+      .. literalinclude:: assets/ozi/ozi/templates/semantic_release.pyproject.toml
 
    .. rubric:: sigstore
 
