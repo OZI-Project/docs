@@ -186,11 +186,11 @@ Python Implementation
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. card:: CPython
+      :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
+      :link: https://www.python.org
 
       .. versionadded:: 0.1
 
-      :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
-      :link: https://www.python.org
 
 Structure
 ^^^^^^^^^
