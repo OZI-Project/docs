@@ -136,10 +136,9 @@ email archives, and either uphold or reverse them.
 Adapted from the Benevolent dictator governance model:
 http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-	<img alt="Creative Commons Licence"
-    style="border-width:0"
-    src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png">
-</a>
+.. image:: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
+   :target: http://creativecommons.org/licenses/by-sa/4.0/
+   :alt: Creative Commons Licence
+
 Benevolent dictator governance model by Ross Gardler and Gabriel Hanganu is licensed under
 a Creative Commons Attribution-ShareAlike 4.0 International License.
