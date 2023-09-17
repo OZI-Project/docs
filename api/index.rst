@@ -22,7 +22,12 @@ Documentation
 =============
 
 Welcome to the OZI - Python Project Packaging for Meson documentation.
-This covers the :abbr:`API (Application Programming Interface)` specification, 
+The Quick-start guide is the place to start if you want to use OZI as a Python project
+publishing tool. 
+
+The latter part of the documentation covers
+the project governance including roles and responsibilities,
+the :abbr:`API (Application Programming Interface)` specification, 
 the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
 .. card:: Contents
@@ -31,6 +36,8 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
       :maxdepth: 2
 
       OZIproject.dev Homepage <https://oziproject.dev/>
+      quick-start
+      roles-and-responsibilities
       spec
       roadmap
       meson-support
