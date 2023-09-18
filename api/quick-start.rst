@@ -31,15 +31,15 @@ Setup Python Package Index publishing
       You should create a PyPI account and
       `add a new pending publisher <https://pypi.org/manage/account/publishing/>`_ using:
 
-      * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#]_
+      * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#f1]_
       * Owner: :abbr:`GH_USER (your username or organization)`
-      * Repository name: :abbr:`GH_PROJECT_NAME (unique name for your repository)` [#]_
+      * Repository name: :abbr:`GH_PROJECT_NAME (unique name for your repository)` [#f1]_
       * Workflow name: ozi.yml
       * Environment name: publish
 
       .. rubric:: Footnotes
 
-      .. [#] OZI recommends using the same PROJECT_NAME and GH_PROJECT_NAME
+      .. [#f1] OZI recommends using the same PROJECT_NAME and GH_PROJECT_NAME
 
 
    .. grid-item-card::

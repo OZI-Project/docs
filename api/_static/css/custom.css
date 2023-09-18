@@ -4,3 +4,10 @@ p abbr {
 div a[href="index.html"]:hover {
     text-decoration: underline;
 }
+.footnote-reference.brackets {
+    vertical-align: sub;
+    font-size: .75em;
+}
+span .fn-bracket {
+    display: none;
+}
