@@ -2,6 +2,14 @@
 Quick-start Guide
 =================
 
+.. article-info::
+    :avatar: assets/ozi_logo_v2_90px.png
+    :avatar-outline: muted
+    :author: Ross J. Duff MSc
+    :date: 17-Sep-2023
+    :read-time: 5 min read
+    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 Installation
 ^^^^^^^^^^^^
 
@@ -67,25 +75,26 @@ This argument must be
 You should also provide a valid email. Deliverability checking is turned off by default 
 but can be turned on with the ``--verify-email`` flag.
 
-.. card:: :octicon:`terminal;2em;sd-text-info`
+.. card::
 
    Using the terminal emulator of your choice...
    ^^^
+   .. card:: :octicon:`terminal;1em;sd-text-info` List the available License Classifiers with:
 
-   List the available License Classifiers with:
+      .. command-output:: ozi-new --list license
+         :ellipsis: 10
 
-   .. command-output:: ozi-new --list license
-      :ellipsis: 5
+   .. card:: :octicon:`terminal;1em;sd-text-info` List the SPDX Short-ID's that a license expression is composed of with:
 
-   List the SPDX Short-ID's that a license expression is composed of with:
+      .. command-output:: ozi-new --list license-expression
+         :ellipsis: 10
 
-   .. command-output:: ozi-new --list license-expression
-      :ellipsis: 5
+   .. card:: :octicon:`terminal;1em;sd-text-info` Create the new project.
 
-   .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --email=EMAIL --summary=SUMMARY --homepage=HOMEPAGE --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
+      .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --email=EMAIL --summary=SUMMARY --homepage=HOMEPAGE --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
 
-   Navigate to the TARGET directory and follow the CI Provider guide: 
-   initializing-a-git-repository_.
+   .. card:: Navigate to the TARGET directory and follow the CI Provider guide 
+      :link: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository
 
    +++
    This will create a project with ``Development Status :: 1 - Planning``,
@@ -98,7 +107,7 @@ but can be turned on with the ``--verify-email`` flag.
 Find Missing Files and Metadata
 *******************************
 
-.. card:: :octicon:`terminal;2em;sd-text-info`
+.. card:: :octicon:`terminal;1em;sd-text-info` Look for missing files with :abbr:`TAP (Test Anything Protocol)`:
 
    .. command-output:: ozi-fix -m TARGET
 
@@ -106,18 +115,18 @@ Find Missing Files and Metadata
 Create New Sources
 ^^^^^^^^^^^^^^^^^^
 
-.. card:: :octicon:`terminal;2em;sd-text-info`
+.. card:: :octicon:`terminal;1em;sd-text-info` Create new Python source files with:
 
    .. command-output:: ozi-new source --author=AUTHOR TARGET NAME.py
 
 Add Created Sources
 ^^^^^^^^^^^^^^^^^^^
 
-.. card:: :octicon:`terminal;2em;sd-text-info`
+.. card:: :octicon:`terminal;1em;sd-text-info`
 
    .. code-block:: sh
 
       ozi-fix --add PROJECT_NAME/NAME.py . | meson rewrite command
 
 
-.. _initializing-a-git-repository: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository
+.. _initializing-a-git-repository: 
