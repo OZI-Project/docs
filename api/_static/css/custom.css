@@ -12,3 +12,6 @@ div a[href="index.html"]:hover {
 .fn-bracket {
     display: none;
 }
+.sd-avatar-sm {
+    filter: invert(100)
+}
