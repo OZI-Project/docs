@@ -8,6 +8,6 @@ div a[href="index.html"]:hover {
     vertical-align: sub;
     font-size: .75em;
 }
-span .fn-bracket {
+.fn-bracket {
     display: none;
 }
