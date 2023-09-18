@@ -82,7 +82,7 @@ but can be turned on with the ``--verify-email`` flag.
    .. command-output:: ozi-new --list license-expression
       :ellipsis: 5
 
-   .. command-output:: mkdir TARGET && ozi-new project --name=PROJECT_NAME --author=AUTHOR --email=EMAIL --summary=SUMMARY --homepage=HOMEPAGE --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
+   .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --email=EMAIL --summary=SUMMARY --homepage=HOMEPAGE --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
 
    Navigate to the TARGET directory and follow the CI Provider guide: 
    initializing-a-git-repository_.

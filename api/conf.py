@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 from importlib.metadata import version as _version
-
+from pathlib import Path as _Path
 from sphinxawesome_theme.postprocess import Icons
 # from sphinxawesome_theme.docsearch import DocSearchConfig
 
@@ -72,3 +72,7 @@ html_permalinks_icon = Icons.permalinks_icon
 html_context = {
     'mode': 'production',
 }
+
+# -- sphinxcontrib.programoutput ----------------------------------------------
+
+_Path('TARGET').mkdir()
