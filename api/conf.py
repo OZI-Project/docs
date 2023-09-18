@@ -39,6 +39,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx_sitemap',
     'sphinxawesome_theme.highlighting',
+    'sphinxcontrib.programoutput',
     'sphinx_design',
 ]
 

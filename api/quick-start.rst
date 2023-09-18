@@ -72,28 +72,17 @@ but can be turned on with the ``--verify-email`` flag.
    Using the terminal emulator of your choice...
    ^^^
 
-   .. code-block:: sh
-      :caption: List the available License Classifiers with:
+   List the available License Classifiers with:
 
-      ozi-new --list license
+   .. command-output:: ozi-new --list license
+      :ellipsis: 5
 
-   .. code-block:: sh
-      :caption: List the SPDX Short-ID's that a license expression is composed of with:
+   List the SPDX Short-ID's that a license expression is composed of with:
 
-      ozi-new --list license-expression
+   .. command-output:: ozi-new --list license-expression
+      :ellipsis: 5
 
-   .. code-block:: sh
-      :caption: Create a project in a TARGET directory(must be empty) with:
-
-      ozi-new project \
-      --name=PROJECT_NAME \
-      --author=AUTHOR \
-      --email=EMAIL \
-      --summary=SUMMARY \
-      --homepage=HOMEPAGE \
-      --license-expression=SPDX-EXPR \
-      --license=LICENSE \
-      TARGET
+   .. command-output:: mkdir TARGET && ozi-new project --name=PROJECT_NAME --author=AUTHOR --email=EMAIL --summary=SUMMARY --homepage=HOMEPAGE --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
 
    Navigate to the TARGET directory and follow the CI Provider guide: 
    initializing-a-git-repository_.
@@ -106,62 +95,20 @@ but can be turned on with the ``--verify-email`` flag.
 .. [*] the OZI project cannot provide legal advice and nothing in this document is
    intended to be construed as such.
 
-Find Missing Files
-******************
+Find Missing Files and Metadata
+*******************************
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
-   .. code-block:: sh
+   .. command-output:: ozi-fix -m TARGET
 
-      ozi-fix -m TARGET
-
-
-.. card:: :octicon:`ellipsis;2em;sd-text-info`
-
-   .. code-block:: sh
-
-      ok 1 - Parse PKG-INFO
-      ok 2 - Metadata-Version: 2.1
-      ok 3 - Name: PROJECT_NAME
-      ok 4 - Version: {version}
-      ok 5 - Summary: short summary
-      ok 6 - Classifier: Development Status :: 1 - Planning
-      ok 7 - Classifier: Intended Audience :: Other Audience
-      ok 8 - Classifier: License :: LICENSE
-      ok 9 - Classifier: Natural Language :: English
-      ok 10 - Classifier: Programming Language :: Python :: 3
-      ok 11 - Classifier: Programming Language :: Python :: 3.10
-      ok 12 - Classifier: Programming Language :: Python :: 3.11
-      ok 13 - Classifier: Programming Language :: Python :: 3.9
-      ok 14 - Classifier: Programming Language :: Python :: Implementation :: CPython
-      ok 15 - Classifier: Topic :: Utilities
-      ok 16 - Classifier: Typing :: Typed
-      ok 17 - Classifier: Environment :: Other Environment
-      ok 18 - Project-URL: Homepage, HOMEPAGE
-      ok 19 - Description-Content-Type: text/x-rst
-      ok 20 - Classifier: License-Expression :: SPDX-EXPR
-      ok 21 - Classifier: License-File :: LICENSE.txt
-      ok 22 - README.rst
-      ok 23 - .gitignore
-      ok 24 - pyproject.toml
-      ok 25 - meson.build
-      ok 26 - meson.options
-      ok 27 - LICENSE.txt
-      ok 28 - PKG-INFO
-      ok 29 - PROJECT_NAME/meson.build
-      ok 30 - PROJECT_NAME/__init__.py
-      ok 31 - PROJECT_NAME/py.typed
-      ok 32 - tests/meson.build
-      1..32
 
 Create New Sources
 ^^^^^^^^^^^^^^^^^^
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
-   .. code-block:: sh
-
-      ozi-new source NAME.py --author=AUTHOR
+   .. command-output:: ozi-new source NAME.py --author=AUTHOR
 
 Add Created Sources
 ^^^^^^^^^^^^^^^^^^^
