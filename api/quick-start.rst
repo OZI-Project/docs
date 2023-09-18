@@ -60,37 +60,30 @@ New Project
 You should decide the license terms you want to distribute your project with [*]_
 A good place to start is `choosealicense.com <https://choosealicense.com/>`_.
 Once you have decided on a license you should choose a Classifier matching that license.
+By default ``ozi-new project`` will warn you if you have chosen an ambiguous classifier
+per PEP-639 and prompt you to disambiguate with a ``--license-expression`` argument.
+This argument must be
+`SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_
+You should also provide a valid email. Deliverability checking is turned off by default 
+but can be turned on with the ``--verify-email`` flag.
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
    Using the terminal emulator of your choice...
    ^^^
 
-   You can see the available License Classifiers with:
-
    .. code-block:: sh
+      :caption: List the available License Classifiers with:
 
       ozi-new --list license
 
-
-   By default ``ozi-new project`` will warn you if you have chosen an ambiguous classifier
-   per PEP-639 and prompt you to disambiguate with a ``--license-expression`` argument.
-   This argument must be
-   `SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_
-
-   You can list the SPDX Short-ID that a license expression is composed of with:
-
    .. code-block:: sh
+      :caption: List the SPDX Short-ID's that a license expression is composed of with:
 
       ozi-new --list license-expression
 
-
-   You should also provide a valid email. Deliverability checking is turned off by default 
-   but can be turned on with the ``--verify-email`` flag.
-
-   Create a project in a TARGET directory(must be empty) with:
-
    .. code-block:: sh
+      :caption: Create a project in a TARGET directory(must be empty) with:
 
       ozi-new project \
       --name=PROJECT_NAME \
@@ -101,7 +94,6 @@ Once you have decided on a license you should choose a Classifier matching that 
       --license-expression=SPDX-EXPR \
       --license=LICENSE \
       TARGET
-
 
    Navigate to the TARGET directory and follow the CI Provider guide: 
    initializing-a-git-repository_.
