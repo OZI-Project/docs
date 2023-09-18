@@ -3,6 +3,12 @@
 Project Roadmap
 ===============
 
+.. article-info::
+    :author: Ross J. Duff MSc
+    :date: 17-Sep-2023
+    :read-time: 5 min read
+    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 This is the project roadmap for the next year starting on 04-Sep-2023.
 
 Last Updated on |date|

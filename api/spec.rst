@@ -21,6 +21,12 @@
 API Specification
 =================
 
+.. article-info::
+   :author: Ross J. Duff MSc
+   :date: 18-Sep-2023
+   :read-time: 45 min read
+   :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 This document contains the specification for the OZI Python packaging for Meson API.
 OZI is meant for Python developers as a standardized and flexible but opinionated
 Python packaging style guide and checkpointing API using the Meson build system.

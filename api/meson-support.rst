@@ -17,6 +17,12 @@
 Meson Version Support
 =====================
 
+.. article-info::
+   :author: Ross J. Duff MSc
+   :date: 18-Sep-2023
+   :read-time: 1 min read
+   :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 The OZI project's minimum supported version of Meson is
 `version 1.1.0 <https://mesonbuild.com/Release-notes-for-1-1-0.html>`_.
 

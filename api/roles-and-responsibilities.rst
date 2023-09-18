@@ -2,6 +2,12 @@
 Roles and Responsibilities
 ==========================
 
+.. article-info::
+   :author: Ross Gardler and Gabriel Hanganu
+   :date: 07-Nov-2013
+   :read-time: 30 min read
+   :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 Overview
 ^^^^^^^^
 
