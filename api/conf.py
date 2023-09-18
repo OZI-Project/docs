@@ -78,5 +78,5 @@ html_context = {
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
-    app.connect('build-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
+    app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
