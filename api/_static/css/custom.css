@@ -5,8 +5,12 @@ div a[href="index.html"]:hover {
     text-decoration: underline;
 }
 .footnote-reference.brackets {
-    vertical-align: sub;
+    vertical-align: super;
     font-size: .75em;
+    text-decoration-line: none !important;
+}
+.footnote-reference.brackets:hover {
+    text-decoration-line: underline !important;
 }
 .fn-bracket {
     display: none;
