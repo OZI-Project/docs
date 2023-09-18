@@ -77,17 +77,22 @@ but can be turned on with the ``--verify-email`` flag.
 
    Using the terminal emulator of your choice...
    ^^^
-   .. card:: :octicon:`terminal;1em;sd-text-info` List the available License Classifiers with:
+   .. card:: :octicon:`terminal;1.5em;sd-text-info` List the available License Classifiers with:
 
       .. command-output:: ozi-new --list license
          :ellipsis: 10
 
-   .. card:: :octicon:`terminal;1em;sd-text-info` List the SPDX Short-ID's that a license expression is composed of with:
+   .. card:: :octicon:`terminal;1.5em;sd-text-info` List the SPDX Short-IDs that a license expression is composed of with:
 
-      .. command-output:: ozi-new --list license-expression
+      .. command-output:: ozi-new --list license-id
          :ellipsis: 10
 
-   .. card:: :octicon:`terminal;1em;sd-text-info` Create the new project.
+   .. card:: :octicon:`terminal;1.5em;sd-text-info` List the SPDX license exception IDs with:
+
+      .. command-output:: ozi-new --list license-exception-id
+         :ellipsis: 10
+
+   .. card:: :octicon:`terminal;1.5em;sd-text-info` Create the new project.
 
       .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --email=EMAIL --summary=SUMMARY --homepage=HOMEPAGE --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
 
