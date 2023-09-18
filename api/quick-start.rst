@@ -31,24 +31,25 @@ Setup Python Package Index publishing
       You should create a PyPI account and
       `add a new pending publisher <https://pypi.org/manage/account/publishing/>`_ using:
 
-      * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#f1]_
+      * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#]_
       * Owner: :abbr:`GH_USER (your username or organization)`
-      * Repository name: :abbr:`GH_PROJECT_NAME (unique name for your repository)` [#f1]_
+      * Repository name: :abbr:`GH_PROJECT_NAME (unique name for your repository)` [#]_
       * Workflow name: ozi.yml
       * Environment name: publish
 
       .. rubric:: Footnotes
 
-      .. [#f1] OZI recommends using the same PROJECT_NAME and GH_PROJECT_NAME
+      .. [#] OZI recommends using the same PROJECT_NAME and GH_PROJECT_NAME
 
 
    .. grid-item-card::
 
+      Figure 1: PyPI New pending publishing form.
+      ^^^
       .. figure:: assets/Fig1_PyPI_New_pending_publisher.png
          :alt: Screenshot of PyPI New pending publishing form.
-         :scale: 50%
-
-         Screenshot of PyPI New pending publisher form taken 17-Sep-2023.
+      +++
+      Screenshot taken: 17-Sep-2023
 
 It is recommended to enable 2 Factor Authentication on both your CI provider and PyPI 
 account.
@@ -102,12 +103,8 @@ Once you have decided on a license you should choose a Classifier matching that 
       TARGET
 
 
-   Navigate to the TARGET directory and run:
-
-   .. code-block:: sh
-
-      git init
-
+   Navigate to the TARGET directory and follow the CI Provider guide: 
+   initializing-a-git-repository_.
 
    +++
    This will create a project with ``Development Status :: 1 - Planning``,
@@ -184,3 +181,4 @@ Add Created Sources
       ozi-fix --add PROJECT_NAME/NAME.py . | meson rewrite command
 
 
+.. _initializing-a-git-repository: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository
