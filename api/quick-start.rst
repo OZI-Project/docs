@@ -14,28 +14,33 @@ Installation
 Usage
 ^^^^^
 
-Choose a CI Provider
-********************
+Choose a Continuous Integration Provider
+****************************************
 
-Currently the available CI Providers are:
+Currently the available :abbr:`CI (Continuous Integration)` Providers are:
 
 * GitHub
 
-It is recommended that you create an empty project and clone into a local repo folder using
-an IDE of your choice.
+Setup Python Package Index publishing
+*************************************
 
 .. grid:: 2
 
    .. grid-item-card::
 
-      You should also create a PyPI account and
+      You should create a PyPI account and
       `add a new pending publisher <https://pypi.org/manage/account/publishing/>`_ using:
 
-      * PyPI Project Name: PROJECT_NAME
-      * Owner: GH_USER
-      * Repository name: GH_PROJECT_NAME
+      * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#f1]_
+      * Owner: :abbr:`GH_USER (your username or organization)`
+      * Repository name: :abbr:`GH_PROJECT_NAME (unique name for your repository)` [#f1]_
       * Workflow name: ozi.yml
       * Environment name: publish
+
+      .. rubric:: Footnotes
+
+      .. [#f1] OZI recommends using the same PROJECT_NAME and GH_PROJECT_NAME
+
 
    .. grid-item-card::
 
@@ -51,19 +56,62 @@ account.
 New Project
 ***********
 
-Navigate to the cloned repository locally with the terminal emulator of your choice.
+You should decide the license terms you want to distribute your project with [*]_
+A good place to start is `choosealicense.com <https://choosealicense.com/>`_.
+Once you have decided on a license you should choose a Classifier matching that license.
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
+   Using the terminal emulator of your choice...
+   ^^^
+
+   You can see the available License Classifiers with:
+
    .. code-block:: sh
 
-      ozi-new project --name=PROJECT_NAME --author=AUTHOR --email=EMAIL --summary=SUMMARY \
-      --homepage=HOMEPAGE --license-expression SPDX-EXPR --license LICENSE \
+      ozi-new --list license
+
+   By default ``ozi-new project`` will warn you if you have chosen an ambiguous classifier
+   per PEP-639 and prompt you to disambiguate with a ``--license-expression`` argument.
+   This argument must be
+   `SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_
+
+   You can list the SPDX Short-ID that a license expression is composed of with:
+
+   .. code-block:: sh
+
+      ozi-new --list license-expression
+
+   You should also provide a valid email. Deliverability checking is turned off by default 
+   but can be turned on with the ``--verify-email`` flag.
+
+   Create a project in a TARGET directory(must be empty) with:
+
+   .. code-block:: sh
+
+      ozi-new project \
+      --name=PROJECT_NAME \
+      --author=AUTHOR \
+      --email=EMAIL \
+      --summary=SUMMARY \
+      --homepage=HOMEPAGE \
+      --license-expression=SPDX-EXPR
+      --license=LICENSE \
       TARGET
 
-This will create a project with ``Development Status :: 1 - Planning``,
-``Topic :: Utilities``, ``Typing :: Typed``, and ``Natural Language :: English``.
-You can also change these defaults by providing parameters to their respective arguments.
+   Navigate to the TARGET directory and run:
+
+   .. code-block:: sh
+
+      git init
+
+   +++
+   This will create a project with ``Development Status :: 1 - Planning``,
+   ``Topic :: Utilities``, ``Typing :: Typed``, and ``Natural Language :: English``.
+   You can also change these defaults by providing parameters to their respective arguments.
+
+.. [*] the OZI project cannot provide legal advice and nothing in this document is
+   intended to be construed as such.
 
 Find Missing Files
 ******************
