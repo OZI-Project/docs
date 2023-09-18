@@ -71,6 +71,7 @@ Once you have decided on a license you should choose a Classifier matching that 
 
       ozi-new --list license
 
+
    By default ``ozi-new project`` will warn you if you have chosen an ambiguous classifier
    per PEP-639 and prompt you to disambiguate with a ``--license-expression`` argument.
    This argument must be
@@ -81,6 +82,7 @@ Once you have decided on a license you should choose a Classifier matching that 
    .. code-block:: sh
 
       ozi-new --list license-expression
+
 
    You should also provide a valid email. Deliverability checking is turned off by default 
    but can be turned on with the ``--verify-email`` flag.
@@ -99,11 +101,13 @@ Once you have decided on a license you should choose a Classifier matching that 
       --license=LICENSE \
       TARGET
 
+
    Navigate to the TARGET directory and run:
 
    .. code-block:: sh
 
       git init
+
 
    +++
    This will create a project with ``Development Status :: 1 - Planning``,
