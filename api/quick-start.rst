@@ -108,7 +108,7 @@ Create New Sources
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
-   .. command-output:: ozi-new source --author=AUTHOR NAME.py TARGET
+   .. command-output:: ozi-new source --author=AUTHOR TARGET NAME.py
 
 Add Created Sources
 ^^^^^^^^^^^^^^^^^^^
