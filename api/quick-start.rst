@@ -98,7 +98,7 @@ Once you have decided on a license you should choose a Classifier matching that 
       --email=EMAIL \
       --summary=SUMMARY \
       --homepage=HOMEPAGE \
-      --license-expression=SPDX-EXPR
+      --license-expression=SPDX-EXPR \
       --license=LICENSE \
       TARGET
 
