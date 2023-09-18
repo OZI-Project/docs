@@ -75,4 +75,4 @@ html_context = {
 
 # -- sphinxcontrib.programoutput ----------------------------------------------
 
-_Path('TARGET').mkdir()
+_Path('TARGET').mkdir(exist_ok=True)
