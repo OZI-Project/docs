@@ -110,7 +110,7 @@ but can be turned on with the ``--verify-email`` flag.
 Find Missing Files and Metadata
 *******************************
 
-.. card:: :octicon:`terminal;1em;sd-text-info` Look for missing files with :abbr:`TAP (Test Anything Protocol)`:
+.. card:: :octicon:`terminal;1.5em;sd-text-info` Look for missing files with :abbr:`TAP (Test Anything Protocol)`:
 
    .. command-output:: ozi-fix -m TARGET
 
@@ -118,14 +118,14 @@ Find Missing Files and Metadata
 Create New Sources
 ^^^^^^^^^^^^^^^^^^
 
-.. card:: :octicon:`terminal;1em;sd-text-info` Create new Python source files with:
+.. card:: :octicon:`terminal;1.5em;sd-text-info` Create new Python source files with:
 
    .. command-output:: ozi-new source --author=AUTHOR TARGET NAME.py
 
 Add Created Sources
 ^^^^^^^^^^^^^^^^^^^
 
-.. card:: :octicon:`terminal;1em;sd-text-info`
+.. card:: :octicon:`terminal;1.5em;sd-text-info`
 
    .. code-block:: sh
 
