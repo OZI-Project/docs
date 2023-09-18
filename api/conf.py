@@ -7,6 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 from importlib.metadata import version as _version
 from pathlib import Path as _Path
+from shutil import rmtree
+import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
 # from sphinxawesome_theme.docsearch import DocSearchConfig
 
@@ -73,6 +75,8 @@ html_context = {
     'mode': 'production',
 }
 
-# -- sphinxcontrib.programoutput ----------------------------------------------
 
-_Path('TARGET').mkdir(exist_ok=True)
+def setup(app: sphinx.application.Sphinx) -> None:
+    """Sphinx setup function"""
+    app.connect('build-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
+    app.connect('build-finished', lambda *_: rmtree('TARGET'))
