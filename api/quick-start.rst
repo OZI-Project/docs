@@ -3,8 +3,6 @@ Quick-start Guide
 =================
 
 .. article-info::
-    :avatar: assets/ozi_logo_v2_90px.png
-    :avatar-outline: muted
     :author: Ross J. Duff MSc
     :date: 17-Sep-2023
     :read-time: 5 min read
