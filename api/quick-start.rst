@@ -126,13 +126,15 @@ Create New Sources
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info` Create new Python source files with:
 
-   .. command-output:: ozi-new source --author=AUTHOR TARGET NAME.py
+   .. command-output:: ozi-new source foo.py TARGET
 
 Add Created Sources
 ^^^^^^^^^^^^^^^^^^^
 
+Work in Progress
+
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
-   .. command-output:: ozi-fix --add NAME.py TARGET
+   .. command-output:: ozi-fix --add project_name/foo.py TARGET
 
 .. _initializing-a-git-repository: 
