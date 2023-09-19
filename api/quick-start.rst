@@ -133,6 +133,6 @@ Add Created Sources
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
-   .. command-output:: ozi-fix --add PROJECT_NAME/NAME.py . | meson rewrite command
+   .. command-output:: ozi-fix --add PROJECT_NAME/NAME.py TARGET
 
 .. _initializing-a-git-repository: 
