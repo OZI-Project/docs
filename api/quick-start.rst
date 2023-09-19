@@ -67,11 +67,17 @@ You should decide the license terms you want to distribute your project with [*]
 A good place to start is `choosealicense.com <https://choosealicense.com/>`_.
 Once you have decided on a license you should choose a Classifier matching that license.
 By default ``ozi-new project`` will warn you if you have chosen an ambiguous classifier
-per PEP-639 and prompt you to disambiguate with a ``--license-expression`` argument.
-This argument must be
-`SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_
-You should also provide a valid email. Deliverability checking is turned off by default 
-but can be turned on with the ``--verify-email`` flag.
+per :pep:`639` and prompt you to disambiguate with a ``--license-expression`` argument.
+OZI will recommend a short list of possible SPDX Short-ID matches that you should base this
+argument on. This argument must be
+`SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_.
+For example the OZI project itself uses ``--license-expression="Apache-2.0 WITH LLVM-exception"``.
+
+You should also provide a valid email.
+OZI will run some basic checks of well-formedness of the address.
+Deliverability checking is turned off by default but can be turned on with the 
+``--verify-email`` flag. Be warned that this is a direct DNS request and may fail or time-out
+for reasons external to OZI.
 
 .. card::
 
@@ -127,9 +133,6 @@ Add Created Sources
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
-   .. code-block:: sh
-
-      ozi-fix --add PROJECT_NAME/NAME.py . | meson rewrite command
-
+   .. command-output:: ozi-fix --add PROJECT_NAME/NAME.py . | meson rewrite command
 
 .. _initializing-a-git-repository: 
