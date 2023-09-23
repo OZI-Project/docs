@@ -131,10 +131,10 @@ Create New Sources
 Add Created Sources
 ^^^^^^^^^^^^^^^^^^^
 
-Work in Progress
-
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
-   .. command-output:: ozi-fix --add project_name/foo.py TARGET
+   The output of ozi-fix can be directly piped into ``meson rewrite command``.
+
+   .. command-output:: ozi-fix source --add foo.py TARGET
 
 .. _initializing-a-git-repository: 
