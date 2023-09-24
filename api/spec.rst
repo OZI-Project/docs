@@ -591,12 +591,12 @@ This section lists the third-party utility program requirements.
       .. versionadded:: 0.1
 
    .. index:: PKG-INFO; project; version
-   .. card:: Provide single source of truth for project version in ``PKG-INFO``(:doc:`specification <pypa:specifications/core-metadata>`).
+   .. card:: Provide single source of truth for project version in PKG-INFO (:doc:`specification <pypa:specifications/core-metadata>`).
 
       .. versionadded:: 0.1
 
    .. index:: PKG-INFO; future; metadata
-   .. card:: Provide header content fields that have yet to be implemented.
+   .. card:: Provide header content fields that have yet to be implemented in PKG-INFO payload.
 
       .. versionadded:: 0.1
 
