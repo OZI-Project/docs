@@ -31,18 +31,19 @@ release = '.'.join(_version('OZI').split('.')[:2])
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.intersphinx',
     'sphinx.ext.duration',
     'sphinx.ext.extlinks',
     'sphinx.ext.githubpages',
     'sphinx.ext.ifconfig',
+    'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
+    'sphinx_design',
+    'sphinx_last_updated_by_git',
     'sphinx_sitemap',
     'sphinxawesome_theme.highlighting',
     'sphinxcontrib.programoutput',
-    'sphinx_design',
 ]
 
 templates_path = ['_templates']
