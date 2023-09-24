@@ -118,7 +118,7 @@ Find Missing Files and Metadata
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info` Look for missing files with :abbr:`TAP (Test Anything Protocol)`:
 
-   .. command-output:: ozi-fix -m TARGET
+   .. command-output:: ozi-fix missing TARGET
 
 
 Create New Sources
