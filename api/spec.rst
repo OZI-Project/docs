@@ -410,6 +410,13 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Flexible function and variable annotations
 
+      .. grid-item-card:: :octicon:`rocket;1em;sd-text-info` implement :pep:`639`
+         :link: https://peps.python.org/pep-0639/
+
+         .. versionadded:: 0.1
+
+         Improving License Clarity with Better Package Metadata
+
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`660`
          :link: https://peps.python.org/pep-0660/
 
@@ -584,8 +591,12 @@ This section lists the third-party utility program requirements.
       .. versionadded:: 0.1
 
    .. index:: PKG-INFO; project; version
-   .. card:: Provide single source of truth for project version in ``PKG-INFO``
-     (:doc:`specification <pypa:specifications/core-metadata>`).
+   .. card:: Provide single source of truth for project version in ``PKG-INFO``(:doc:`specification <pypa:specifications/core-metadata>`).
+
+      .. versionadded:: 0.1
+
+   .. index:: PKG-INFO; future; metadata
+   .. card:: Provide header content fields that have yet to be implemented.
 
       .. versionadded:: 0.1
 
