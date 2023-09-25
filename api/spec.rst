@@ -61,17 +61,12 @@ in this document are to be interpreted as described in :rfc:`2119`.
 .. card:: See also
    :class-card: seealso
 
-   `gitmoji <https://gitmoji.dev/specification>`_ 
-
-   `Python Enhancement Proposal Index <https://peps.python.org/pep-0000/>`_
-
-   `Python Packaging Authority specifications <https://packaging.python.org/en/latest/specifications/#pypa-specifications>`_
-
-   `Request for Comments <https://www.rfc-editor.org/rfc-index-100a.html>`_
-
-   `Test Anything Protocol Specification <https://testanything.org/tap-specification.html>`
-
-   `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
+   * `gitmoji <https://gitmoji.dev/specification>`_ 
+   * `Python Enhancement Proposal Index <https://peps.python.org/pep-0000/>`_
+   * `Python Packaging Authority specifications <https://packaging.python.org/en/latest/specifications/#pypa-specifications>`_
+   * `Request for Comments <https://www.rfc-editor.org/rfc-index-100a.html>`_
+   * `Test Anything Protocol <https://testanything.org/tap-specification.html>`_
+   * `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
 
 Documentation
 -------------
