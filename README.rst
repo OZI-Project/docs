@@ -10,14 +10,6 @@ API Documentation
 
 This project serves as the host repository for our `documentation site <https://ozi.readthedocs.io/en/latest/>`_ at ReadTheDocs.io.
 
-
-Developer Guides
-----------------
-
-* `Test Strategy <policy/test-strategy.md>`_
-* `Test Code Standards <policy/test-code-standards.md>`_
-* `Performance Test Checkist <policy/performance-test-checklist.md>`_
-
 Software Engineering
 --------------------
 
@@ -27,22 +19,3 @@ These are the guiding principles for OZI's development:
 * Configuration as code
 * No is temporary but yes is forever
 
-Design Quality Assurance
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-The following documents contain the design quality policy we will implement along with normative references.
-
-* `Safety Assurance Guidance <policy/safety-assurance-guidance.md>`_
-* `Test Policy <policy/test-policy.md>`_
-
-Weekly Monitoring
-*****************
-
-OZI Repository
-
-* `snyk.io(Vulnerabilities) <https://app.snyk.io/org/rjdbcm/project/85aad859-3b4b-44de-94ff-8ced0373513a>`_
-* `FOSSA(Compliance) <https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi>`_
-
-blastpipe Test Repository
-
-* `snyk.io(Integration Vulnerabilities) <https://app.snyk.io/org/rjdbcm/project/de703b4c-a43b-4c64-93cd-a410ad23db82>`_
