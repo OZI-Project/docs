@@ -26,5 +26,5 @@
 
 ## Test and Defect Management
 
-* For Python projects, unit, integration and UI tests should exist in separate projects
+* For Python projects, tests should be separate project.
 * Open defects should be managed; a regular team/project review session is recommended 
