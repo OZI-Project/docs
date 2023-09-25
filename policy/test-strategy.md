@@ -15,7 +15,7 @@ This section will cover the three core methods of testing utilised with key poin
 
 Automation must be used when possible.
 
-* Use ``hypothesis codegen`` to create fuzz tests. Save an artifact of the code and use ``diffoscope`` at each distributed release with new cod.
+* Use ``hypothesis codegen`` to create fuzz tests.
 * Use Meson tests to connect and verify utilities for linting, formatting, unit testing, packaging, and distribution.
 
 We suggest that all teams using automation should adhere to these principles:
