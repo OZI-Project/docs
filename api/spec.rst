@@ -50,7 +50,8 @@ This document also contains normative references to :abbr:`RFC (Request for Comm
 gitmoji specification,
 :abbr:`ISO (International Organization for Standardization)`/:abbr:`IEC
 (International Electrotechnical Commission)` standards, 
-:abbr:`PyPA (Python Packaging Authority)` specifications, and
+:abbr:`PyPA (Python Packaging Authority)` specifications,
+:abbr:`TAP (Test Anything Protocol)` specification, and
 :abbr:`TOML (Tom's Obvious, Minimal Language)` specification.
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
@@ -67,6 +68,8 @@ in this document are to be interpreted as described in :rfc:`2119`.
    `Python Packaging Authority specifications <https://packaging.python.org/en/latest/specifications/#pypa-specifications>`_
 
    `Request for Comments <https://www.rfc-editor.org/rfc-index-100a.html>`_
+
+   `Test Anything Protocol Specification <https://testanything.org/tap-specification.html>`
 
    `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
 
@@ -564,6 +567,59 @@ Positional arguments are provided to a standardized ``meson test`` configuration
    .. card:: Use project configuration:
 
       .. literalinclude:: assets/ozi/ozi/templates/tox.pyproject.toml
+
+
+Publishing Scripts
+------------------
+
+This discusses the scripts that will be used to create packages with OZI.
+
+General
+^^^^^^^
+
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. card:: If stdout is not to be used directly output in :abbr:`TAP (Test Anything Protocol)`
+
+      .. versionadded:: 0.1
+
+ozi-fix
+^^^^^^^
+
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. card:: Output meson rewriter commands to edit ``meson.build`` file and subdir list targets.
+
+      .. versionadded:: 0.1
+
+   .. card:: Creates subdirectories with a ``meson.build`` containing file and subdir list targets.
+
+      .. versionadded:: 0.1
+
+ozi-new
+^^^^^^^
+
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. card:: Create new Python project files from specific templates.
+
+      .. versionadded:: 0.1
+
+   .. card:: List output of available PyPI classifiers.
+
+      .. versionadded:: 0.1
+
+   .. card:: List output of available header fields.
+
+      .. versionadded:: 0.1
+
+   .. card:: List output of SPDX short ID license names.
+
+      .. versionadded:: 0.1
+
+   .. card:: List output of SPDX license exceptions.
+
+      .. versionadded:: 0.1
 
 Utilities
 ---------
