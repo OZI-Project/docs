@@ -2,6 +2,12 @@
 Test Policy
 ===========
 
+.. article-info::
+   :author: Ross J. Duff MSc (adapted from UK Hydrographic Office materials under an MIT license)
+   :date: 25-Sep-2023
+   :read-time: 5 min read
+   :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 The purpose of this document is to communicate the policy for testing of new and updated software,
 
 Our goals for testing
@@ -15,7 +21,7 @@ Our goals for testing
 Scope of testing
 ----------------
 
-Our testing covers functional and non-functional areas as described in our [strategy](test-strategy.md).
+Our testing covers functional and non-functional areas as described in our `strategy <test-strategy.rst>`_.
 
 Who tests
 ---------

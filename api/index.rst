@@ -41,4 +41,7 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
       spec
       roadmap
       meson-support
+      test-policy
+      test-code-standards
+      test-strategy
       genindex

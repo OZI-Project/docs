@@ -2,6 +2,12 @@
 Test Strategy
 =============
 
+.. article-info::
+   :author: Ross J. Duff MSc (adapted from UK Hydrographic Office materials under an MIT license)
+   :date: 25-Sep-2023
+   :read-time: 15 min read
+   :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 This strategy details how we add value through testing. Our teams adhere to this strategy when deciding their approach to testing, creating a Test Approach document for their current project.
 
 Our core principles are:

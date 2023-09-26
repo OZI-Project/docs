@@ -2,6 +2,12 @@
 Test Automation Standards
 =========================
 
+.. article-info::
+   :author: Ross J. Duff MSc (adapted from UK Hydrographic Office materials under an MIT license)
+   :date: 25-Sep-2023
+   :read-time: 10 min read
+   :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 Python & Meson
 --------------
 
