@@ -135,6 +135,6 @@ Add Created Sources
 
    The output of ozi-fix can be directly piped into ``meson rewrite command``.
 
-   .. command-output:: ozi-fix source --add foo.py TARGET
+   .. command-output:: ozi-fix source --pretty --add foo.py TARGET
 
 .. _initializing-a-git-repository: 
