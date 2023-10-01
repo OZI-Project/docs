@@ -121,15 +121,8 @@ Find Missing Files and Metadata
    .. command-output:: ozi-fix missing TARGET
 
 
-Create New Sources
-^^^^^^^^^^^^^^^^^^
-
-.. card:: :octicon:`terminal;1.5em;sd-text-info` Create new Python source files with:
-
-   .. command-output:: ozi-new source foo.py TARGET
-
-Add Created Sources
-^^^^^^^^^^^^^^^^^^^
+Add New Sources
+^^^^^^^^^^^^^^^
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
