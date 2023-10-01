@@ -23,6 +23,11 @@ dist
 
    .. rubric:: pyc_wheel
 
+   .. dropdown:: Github actions
+      :icon: workflow
+
+      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/pyc_wheel.yml.j2
+
    .. card:: See also
       :class-card: seealso
 
@@ -43,7 +48,7 @@ dist
    .. dropdown:: Github actions
       :icon: workflow
 
-      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/ozi.yml
+      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/semantic_release.yml.j2
 
    .. dropdown:: configuration
       :icon: package
@@ -51,6 +56,11 @@ dist
       .. literalinclude:: assets/ozi/ozi/templates/semantic_release.pyproject.toml
 
    .. rubric:: sigstore
+
+   .. dropdown:: Github actions
+      :icon: workflow
+
+      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/sigstore.yml.j2
 
    .. card:: See also
       :class-card: seealso
