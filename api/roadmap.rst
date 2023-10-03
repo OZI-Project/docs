@@ -9,6 +9,19 @@ Project Roadmap
     :read-time: 5 min read
     :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
+Completed Milestones
+--------------------
+
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Test Policy
+
+    This covers multiple OpenSSF Silver attestations:
+
+    * :octicon:`check;1em;sd-text-info` automated_integration_testing
+    * :octicon:`check;1em;sd-text-info` regression_tests_added50
+    * :octicon:`check;1em;sd-text-info` test_policy_mandated
+
+Works in Progress
+-----------------
 
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Version: 0.1
 
@@ -20,29 +33,21 @@ Project Roadmap
     The current milestone status is Alpha, meaning that for OZI to change the status from
     Pre-Alpha to Alpha the committers need to satisfy the OZI specification.
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Specification: 🚧 Work in Progress 🚧
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Specification
 
     Currently the spec is being actively developed alongside the Pre-Alpha releases.
     This means that we will pin each specification card to a ``.. versionadded:: 0.1``
     and change the ``API Specification: ...`` title here before work begins on an Alpha
     release.
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Accessibility Best Practices: 🚧 Work in Progress 🚧
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Accessibility Best Practices
 
     This is an OpenSSF Silver attestation.
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Internationalization and Localization: 🚧 Work in Progress 🚧
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Internationalization and Localization
 
     This is an OpenSSF Silver attestation.
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Test Policy: 🚧 Work in Progress 🚧
-
-    This covers multiple OpenSSF Silver attestations:
-
-    * automated_integration_testing
-    * regression_tests_added50
-    * test_policy_mandated
-
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Vulnerability Response Process: 🚧 Work in Progress 🚧
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Vulnerability Response Process
 
     This is an OpenSSF Silver attestation.
