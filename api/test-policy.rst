@@ -17,6 +17,7 @@ Our goals for testing
 * To ensure our software maintains the good reputation of the organisation
 * To support our agile processes, allowing frequent releases containing valuable changes to our users
 * To spend our time on the most valuable testing activities
+* Add regression tests to an automated test suite for at least 50% of the bugs fixed within the last six months.
 
 Scope of testing
 ----------------

@@ -51,3 +51,19 @@ Works in Progress
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Vulnerability Response Process
 
     This is an OpenSSF Silver attestation.
+
+Help Needed
+-----------
+
+.. card:: :octicon:`people;1.5em;sd-text-info` Bus Factor
+
+    This is an OpenSSF Silver attestation.
+    Currently the bus factor is one; just the project lead.
+
+
+.. card:: :octicon:`people;1.5em;sd-text-info` Access Continuity
+
+    This is an OpenSSF Silver attestation.
+    We have yet to setup access continuity. When committers are more active in OZI
+    we will need to create a means of continuity.
+
