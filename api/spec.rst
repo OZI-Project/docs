@@ -222,6 +222,16 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
                Python package module entry point.
 
+               .. literalinclude:: assets/ozi/ozi/templates/project.name/_\_init\__.py.j2
+            
+            .. dropdown:: :file:`meson.build`
+
+               .. versionadded:: 0.1
+
+               The project source build script.
+               
+               .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
+
       .. grid-item::
 
          .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
@@ -247,34 +257,39 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
                Entry point for OZI to initialize a packaging environment.
 
+               .. literalinclude:: assets/ozi/ozi/templates/ozi.wrap.j2
+
       .. grid-item::
 
-         .. dropdown:: .gitignore
+         .. dropdown:: :file:`.gitignore`
             :icon: diff-ignored
 
             .. versionadded:: 0.1
 
             Specifies intentionally untracked files to ignore.
 
-      .. grid-item::
+            .. literalinclude:: assets/ozi/ozi/templates/.gitignore.j2
 
-         .. dropdown:: LICENSE.txt
-            :icon: law
 
-            .. versionadded:: 0.1
+   .. dropdown:: :file:`LICENSE.txt`
+      :icon: law
 
-            License terms for project distribution.
+      .. versionadded:: 0.1
 
-      .. grid-item::
+      License terms for project distribution.
 
-         .. dropdown:: README.rst
-            :icon: info
+      .. literalinclude:: assets/ozi/ozi/templates/LICENSE.txt.j2
 
-            .. versionadded:: 0.1
+   .. dropdown:: :file:`README.rst`
+      :icon: info
 
-            Repository and packaged README file.
+      .. versionadded:: 0.1
 
-   .. dropdown:: meson.build
+      Repository and packaged README file.
+
+      .. literalinclude:: assets/ozi/ozi/templates/README.rst.j2
+
+   .. dropdown:: :file:`meson.build`
       :icon: project
 
       .. versionadded:: 0.1
@@ -283,7 +298,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
       
       .. literalinclude:: assets/ozi/ozi/templates/project.meson.build
 
-   .. dropdown:: meson.options
+   .. dropdown:: :file:`meson.options`
       :icon: terminal
 
       .. versionadded:: 0.1
@@ -304,14 +319,14 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       .. literalinclude:: assets/ozi/ozi/templates/project.array.meson.options
 
-   .. dropdown:: pyproject.toml
+   .. dropdown:: :file:`pyproject.toml`
       :icon: package
 
       .. versionadded:: 0.1
 
       Packaging configuration and project metadata template.
 
-   .. dropdown:: PKG-INFO
+   .. dropdown:: :file:`PKG-INFO`
       :icon: info
 
       .. versionadded:: 0.1
