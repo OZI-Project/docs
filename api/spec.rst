@@ -204,71 +204,64 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. versionadded:: 0.1
-
-   .. grid:: 2
-
-      .. grid-item::
             
-         .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
-            :icon: file-directory
+   .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
+      :icon: file-directory
 
-            .. versionadded:: 0.1
+      .. versionadded:: 0.1
 
-            Python sources, submodules, and stubfiles.
+      Python sources, submodules, and stubfiles.
 
-            .. dropdown:: :file:`__init__.py`
+      .. dropdown:: :file:`__init__.py`
 
-               .. versionadded:: 0.1
+         .. versionadded:: 0.1
 
-               Python package module entry point.
+         Python package module entry point.
 
-               .. literalinclude:: assets/ozi/ozi/templates/project.name/_\_init\__.py.j2
-            
-            .. dropdown:: :file:`meson.build`
+         .. literalinclude:: assets/ozi/ozi/templates/project.name/_\_init\__.py.j2
+      
+      .. dropdown:: :file:`meson.build`
 
-               .. versionadded:: 0.1
+         .. versionadded:: 0.1
 
-               The project source build script.
-               
-               .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
+         The project source build script.
+         
+         .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
 
-      .. grid-item::
 
-         .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
-            :icon: file-directory
+   .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
+      :icon: file-directory
 
-            .. versionadded:: 0.1
+      .. versionadded:: 0.1
 
-            Source for pytest_ and :py:mod:`unittest`
+      Source for pytest_ and :py:mod:`unittest`
 
-      .. grid-item::
 
-         .. dropdown:: subprojects/
-            :icon: file-submodule
+   .. dropdown:: subprojects/
+      :icon: file-submodule
 
-            .. versionadded:: 0.1
+      .. versionadded:: 0.1
 
-            Meson subprojects and wrapfiles.
+      Meson subprojects and wrapfiles.
 
-            .. dropdown:: :file:`ozi.wrap`
-               :icon: file
+      .. dropdown:: :file:`ozi.wrap`
+         :icon: file
 
-               .. versionadded:: 0.1
+         .. versionadded:: 0.1
 
-               Entry point for OZI to initialize a packaging environment.
+         Entry point for OZI to initialize a packaging environment.
 
-               .. literalinclude:: assets/ozi/ozi/templates/ozi.wrap.j2
+         .. literalinclude:: assets/ozi/ozi/templates/ozi.wrap.j2
 
-      .. grid-item::
 
-         .. dropdown:: :file:`.gitignore`
-            :icon: diff-ignored
+   .. dropdown:: :file:`.gitignore`
+      :icon: diff-ignored
 
-            .. versionadded:: 0.1
+      .. versionadded:: 0.1
 
-            Specifies intentionally untracked files to ignore.
+      Specifies intentionally untracked files to ignore.
 
-            .. literalinclude:: assets/ozi/ozi/templates/.gitignore.j2
+      .. literalinclude:: assets/ozi/ozi/templates/.gitignore.j2
 
 
    .. dropdown:: :file:`LICENSE.txt`
