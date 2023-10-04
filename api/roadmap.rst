@@ -20,6 +20,11 @@ Completed Milestones
     * :octicon:`check;1em;sd-text-info` regression_tests_added50
     * :octicon:`check;1em;sd-text-info` test_policy_mandated
 
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Deprecated Python 3.9 Support
+
+    On 04-Oct-2023, in keeping with our rolling support policy for Python,
+    version 3.9 is deprecated as version 3.12 support is deployed.
+
 Works in Progress
 -----------------
 
