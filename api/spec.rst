@@ -219,7 +219,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
          Python package module entry point.
 
          .. literalinclude:: assets/ozi/ozi/templates/project.name/_\_init\__.py.j2
-      
+
       .. dropdown:: :file:`meson.build`
 
          .. versionadded:: 0.1
