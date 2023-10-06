@@ -175,6 +175,11 @@ lint
 
       .. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
 
+   .. dropdown:: configuration
+      :icon: package
+
+      .. literalinclude:: assets/ozi/ozi/templates/pyright.pyproject.toml
+
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
    .. versionadded:: 0.1
