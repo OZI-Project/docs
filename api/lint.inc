@@ -99,15 +99,15 @@ lint
       * flake8-annotations_ ANN001-ANN003, ANN101-ANN102, ANN201-ANN206
       * flake8-broken-line_ N400
       * flake8-bugbear_ B001-B034, B950
-      * k flake8-comprehensions_ C400-C406, C408-C419
+      * flake8-comprehensions_ C400-C406, C408-C419
       * flake8-datetimez_ DTZ001-DTZ012
       * flake8-docstring-checker_ DC100-DC104
       * flake8-eradicate_ E800
       * flake8-fixme_ T100-T102
       * flake8-leading-blank-lines_ LBL001
       * flake8-no-pep420_ INP001
-      * k flake8-pyi_ Y001-Y057
-      * k flake8-pytest-style_ PT001-PT027
+      * flake8-pyi_ Y001-Y057
+      * flake8-pytest-style_ PT001-PT027
       * flake8-quotes_ Q000-Q003
       * flake8-tidy-imports_ I250, I252
       * flake8-type-checking_ TC001-TC006
