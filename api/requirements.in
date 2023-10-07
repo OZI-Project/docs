@@ -1,4 +1,4 @@
-sphinxawesome-theme --pre
+sphinxawesome-theme>=5.0.0b3
 sphinxcontrib-programoutput
 sphinx-sitemap
 sphinx_design
