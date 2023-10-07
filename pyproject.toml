@@ -4,8 +4,6 @@ requires = ["setuptools>=64","setuptools_scm[toml]>=6.2"]
 [project]
 name = "OZI"
 authors = [{name = "Ross J. Duff MSc", email = "ozi.project@outlook.com"}]
-dynamic = ["version"]
-
 # pyproject.toml
 [tool.setuptools_scm]
 write_to = "api/_version.py"
