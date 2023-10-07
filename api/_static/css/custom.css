@@ -12,7 +12,7 @@ div a[href="index.html"]:hover {
 .fn-bracket {
     display: none;
 }
-.sd-avatar-sm {
+.sd-avatar-md {
     filter: invert(100)
 }
 #content img {
