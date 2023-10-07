@@ -4,6 +4,7 @@ Roles and Responsibilities
 
 .. article-info::
    :author: Ross Gardler and Gabriel Hanganu
+   :avatar: assets/100-percent-human-badge.png
    :date: 07-Nov-2013
    :read-time: 30 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1

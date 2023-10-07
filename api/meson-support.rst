@@ -18,6 +18,7 @@ Meson Version Support
 =====================
 
 .. article-info::
+   :avatar: assets/100-percent-human-badge.png
    :author: Ross J. Duff MSc
    :date: 18-Sep-2023
    :read-time: 1 min read

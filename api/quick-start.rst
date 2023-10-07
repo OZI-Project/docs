@@ -4,6 +4,7 @@ Quick-start Guide
 
 .. article-info::
     :author: Ross J. Duff MSc
+    :avatar: assets/100-percent-human-badge.png
     :date: 18-Sep-2023
     :read-time: 5 min read
     :class-container: sd-p-2 sd-outline-muted sd-rounded-1
