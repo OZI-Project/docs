@@ -7,6 +7,6 @@ repos:
     entry: pip-compile
     language: system
     always_run: false
-    args: [-o, api/requirements.txt]
+    args: [-p, -o, api/requirements.txt]
     files: api/requirements.in
     stages: [push]
