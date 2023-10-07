@@ -7,7 +7,7 @@ doc8 == 1.1.1 # --hash=sha256:e493aa3f36820197c49f407583521bb76a0fde4fffbcd0e092
 sphinx ~= 7.0.0 # --hash=sha256:60c5e04756c1709a98845ed27a2eed7a556af3993afb66e77fec48189f742616
 pydocstyle[toml] == 6.3.0 # --hash=sha256:118762d452a49d6b05e194ef344a55822987a462831ade91ec5c06fd2169d019
 sphinxawesome-codelinter == 2.0.0 # --hash=sha256:60ab1933c45322fc5507db0e085bc33b7a39b49fdfb717d110499f92e98cb4ff
-ozi >= 0.0.149
+ozi >= 0.0.150
 meson ~= 1.1.0
 email-validator
 jinja2
