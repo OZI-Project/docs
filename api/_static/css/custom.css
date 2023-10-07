@@ -15,3 +15,6 @@ div a[href="index.html"]:hover {
 .sd-avatar-sm {
     filter: invert(100)
 }
+#content img {
+    margin-top: 0;
+}
