@@ -1,0 +1,12 @@
+repos:
+
+- repo: local
+  hooks:
+  - id: pip-compile
+    name: compile api/requirements.txt
+    entry: pip-compile
+    language: system
+    always_run: false
+    args: [-o, api/requirements.txt]
+    files: api/requirements.in
+    stages: [push]

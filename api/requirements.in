@@ -1,0 +1,17 @@
+sphinxawesome-theme --pre
+sphinxcontrib-programoutput
+sphinx-sitemap
+sphinx_design
+doc8
+sphinx
+pydocstyle[toml]
+sphinxawesome-codelinter
+ozi
+meson
+email-validator
+jinja2
+pyparsing
+requests
+spdx-license-list
+trove-classifiers
+sphinx-last-updated-by-git
