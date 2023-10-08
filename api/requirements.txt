@@ -24,9 +24,7 @@ docutils==0.20.1
     #   restructuredtext-lint
     #   sphinx
 email-validator==2.0.0.post2
-    # via
-    #   -r api/requirements.in
-    #   ozi
+    # via ozi
 idna==3.4
     # via
     #   email-validator
@@ -35,7 +33,6 @@ imagesize==1.4.1
     # via sphinx
 jinja2==3.1.2
     # via
-    #   -r api/requirements.in
     #   ozi
     #   sphinx
 markupsafe==2.1.3
@@ -55,12 +52,9 @@ pygments==2.16.1
     #   doc8
     #   sphinx
 pyparsing==3.1.1
-    # via
-    #   -r api/requirements.in
-    #   ozi
+    # via ozi
 requests==2.31.0
     # via
-    #   -r api/requirements.in
     #   ozi
     #   sphinx
 restructuredtext-lint==1.4.0
@@ -72,14 +66,11 @@ snowballstemmer==2.2.0
 soupsieve==2.5
     # via beautifulsoup4
 spdx-license-list==3.21
-    # via
-    #   -r api/requirements.in
-    #   ozi
+    # via ozi
 sphinx==7.1.2
     # via
     #   -r api/requirements.in
     #   sphinx-design
-    #   sphinx-last-updated-by-git
     #   sphinx-sitemap
     #   sphinxawesome-codelinter
     #   sphinxawesome-theme
@@ -90,8 +81,6 @@ sphinx==7.1.2
     #   sphinxcontrib-qthelp
     #   sphinxcontrib-serializinghtml
 sphinx-design==0.5.0
-    # via -r api/requirements.in
-sphinx-last-updated-by-git==0.3.6
     # via -r api/requirements.in
 sphinx-sitemap==2.5.1
     # via -r api/requirements.in
@@ -120,8 +109,6 @@ tomli==2.0.1
     #   doc8
     #   pydocstyle
 trove-classifiers==2023.9.19
-    # via
-    #   -r api/requirements.in
-    #   ozi
+    # via ozi
 urllib3==2.0.6
     # via requests
