@@ -28,6 +28,17 @@ Completed Milestones
     On 04-Oct-2023, in keeping with our rolling support policy for Python,
     version 3.9 is deprecated as version 3.12 support is deployed.
 
+
+Deferred Milestones
+-------------------
+
+.. card:: :octicon:`calendar;1.5em;sd-text-info` Documentation(docs) utility environment
+
+    The project lead has decided it is best to defer the documentation utility environment
+    to a later roadmap and specification at very least until version 1.0, given the decision,
+    ``docs`` has been removed from the specification pre-0.1 as well as references to it.
+
+
 Works in Progress
 -----------------
 

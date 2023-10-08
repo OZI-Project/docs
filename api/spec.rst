@@ -486,7 +486,6 @@ Meson
       MUST use the following namespaces:
 
       * ``dist``
-      * ``docs``
       * ``lint``
       * ``test``
 
@@ -665,9 +664,6 @@ This section lists the third-party utility program requirements.
 
 .. index:: triple: specification; utilities; dist
 .. include:: dist.inc
-
-.. index:: triple: specification; utilities; docs
-.. include:: docs.inc
 
 .. index:: triple: specification; utilities; lint
 .. include:: lint.inc
