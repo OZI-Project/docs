@@ -8,10 +8,3 @@ pydocstyle[toml]
 sphinxawesome-codelinter
 ozi
 meson
-email-validator
-jinja2
-pyparsing
-requests
-spdx-license-list
-trove-classifiers
-sphinx-last-updated-by-git
