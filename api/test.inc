@@ -23,12 +23,9 @@ test
 
    .. rubric:: coverage
 
-   .. dropdown:: specification
-      :icon: info
-
-      * MUST target ``project_source``
-      * MUST cover 100.0% of statements
-      * MUST allow ``pragma: no cover`` and ``pragma: defer to ...``
+   * MUST target ``project_source``
+   * MUST cover 100.0% of statements
+   * MUST allow ``pragma: no cover`` and ``pragma: defer to ...``
 
    .. dropdown:: configuration
       :icon: package
@@ -54,3 +51,17 @@ test
       :icon: package
 
       .. literalinclude:: assets/ozi/ozi/templates/pytest.pyproject.toml
+
+   .. dropdown:: Github workflow
+      :icon: workflow
+
+      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/pytest.yml.j2
+
+   .. dropdown:: plugins
+      :icon: plugin
+
+      * pytest-asyncio 
+      * pytest-cov 
+      * pytest-randomly 
+      * pytest-tcpclient 
+      * pytest-xdist

@@ -29,19 +29,16 @@ lint
 
    .. rubric:: bandit
 
-   .. dropdown:: specification
-      :icon: info
-
-      * MUST respect :doc:`plugins <bandit:plugins/index>`:
-         * B101-B113
-         * B201-B202
-         * B301-B324
-         * B401-B415
-         * B501-B509
-         * B601-B612
-         * B701-B703
-      * MUST ignore nosec comments (``--ignore-nosec``)
-      * MUST target ``@project_name@`` recursively
+   * MUST respect :doc:`plugins <bandit:plugins/index>`:
+      * B101-B113
+      * B201-B202
+      * B301-B324
+      * B401-B415
+      * B501-B509
+      * B601-B612
+      * B701-B703
+   * MUST ignore nosec comments (``--ignore-nosec``)
+   * MUST target ``@project_name@`` recursively
 
    .. dropdown:: arguments
       :icon: terminal
@@ -58,14 +55,12 @@ lint
       triple: utilities; lint; formatters
 
    .. rubric:: black
-   .. dropdown:: specification
-      :icon: info
 
-      * MUST exclude gitignore listed (``--exclude .gitignore``)
-      * MUST show differences (``--diff``)
-      * MUST run in check mode (``--check``)
-      * MUST skip string normalization (``-S``)
-      * MUST target ``@project_name@``
+   * MUST exclude gitignore listed (``--exclude .gitignore``)
+   * MUST show differences (``--diff``)
+   * MUST run in check mode (``--check``)
+   * MUST skip string normalization (``-S``)
+   * MUST target ``@project_name@``
 
    .. dropdown:: arguments
       :icon: terminal
@@ -82,16 +77,13 @@ lint
       triple: utilities; lint; linters
 
    .. rubric:: flake8p(Flake8-pyproject)
-   
-   .. dropdown:: specification
-      :icon: info
 
-      * MUST respect noqa comments
-      * MUST check maximum complexity between 5 and 8
-      * MUST allow ``# noqa: C901`` if complexity <= 8
-      * MUST allow ``# noqa: INP001`` in ``tests/*.py`` and ``scripts/*.py``
-      * SHOULD check maximum complexity of 5 (``--max-complexity=5``)
-      * SHOULD exclude ``build-env-*``, ``venv``, ``build*``, ``*.pyi``
+   * MUST respect noqa comments
+   * MUST check maximum complexity between 5 and 8
+   * MUST allow ``# noqa: C901`` if complexity <= 8
+   * MUST allow ``# noqa: INP001`` in ``tests/*.py`` and ``scripts/*.py``
+   * SHOULD check maximum complexity of 5 (``--max-complexity=5``)
+   * SHOULD exclude ``build-env-*``, ``venv``, ``build*``, ``*.pyi``
 
    .. dropdown:: plugins
       :icon: plug
@@ -128,13 +120,10 @@ lint
 
    .. rubric:: isort
 
-   .. dropdown:: specification
-      :icon: info
-
-      * MUST show differences (``--diff``)
-      * MUST run in check mode (``--check``)
-      * MUST skip stubfiles (``--skip-glob *.pyi``)
-      * MUST target ``@project_name@``
+   * MUST show differences (``--diff``)
+   * MUST run in check mode (``--check``)
+   * MUST skip stubfiles (``--skip-glob *.pyi``)
+   * MUST target ``@project_name@``
 
    .. dropdown:: arguments
       :icon: terminal
@@ -151,12 +140,10 @@ lint
       triple: utilities; lint; linters
 
    .. rubric:: mypy
-   .. dropdown:: specification
-      :icon: info
 
-      * MUST target ``@project_name@`` and ``@test_source@``
-      * MUST run in strict mode
-      * MUST implicitly reexport modules
+   * MUST target ``@project_name@`` and ``@test_source@``
+   * MUST run in strict mode
+   * MUST implicitly reexport modules
 
    .. dropdown:: arguments
       :icon: terminal
