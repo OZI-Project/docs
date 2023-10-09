@@ -42,6 +42,10 @@ test
 
    .. rubric:: pytest
 
+   * MUST target ``project_source``
+   * MUST use ``temp/`` as the base directory for temporary test files
+   * MUST defer to system for number of workers.
+
    .. dropdown:: arguments
       :icon: terminal
 
