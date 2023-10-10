@@ -207,7 +207,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. versionadded:: 0.1
-            
+
    .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
       :icon: file-directory
 
@@ -516,10 +516,38 @@ Meson
 
       .. versionadded:: 0.1
 
+
+pip-compile
+^^^^^^^^^^^
+
+Compiles the requirements during the CI checkpoint step.
+
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. versionadded:: 0.1
+
+   .. card:: Github workflow
+
+      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/pip-compile.yml.j2
+
+
+pytest
+^^^^^^
+
+.. card:: See also
+   :class-card: seealso
+
+   :ref:`REQUIRED pytest`
+
+
+semantic-release
+^^^^^^^^^^^^^^^^
+
 .. card:: See also
    :class-card: seealso
 
    :ref:`REQUIRED semantic-release`
+
 
 setuptools_scm
 ^^^^^^^^^^^^^^
