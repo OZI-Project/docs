@@ -286,6 +286,15 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       .. literalinclude:: assets/ozi/ozi/templates/README.rst.j2
 
+   .. dropdown:: :file:`requirements.in`
+      :icon: info
+
+      .. versionadded:: 0.1
+
+      Any PyPI dependencies.
+
+      .. literalinclude:: assets/ozi/ozi/templates/requirements.in.j2
+
    .. dropdown:: :file:`meson.build`
       :icon: project
 
