@@ -103,7 +103,7 @@ for reasons external to OZI.
 
    .. card:: :octicon:`terminal;1.5em;sd-text-info` Create the new project.
 
-      .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=HOMEPAGE --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
+      .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=https://oziproject.dev --license-expression=MIT --license="OSI Approved :: MIT License" TARGET
 
    .. card:: :octicon:`link-external;1.5em;sd-text-info` Navigate to the TARGET directory and follow the CI Provider guide 
       :link: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository
