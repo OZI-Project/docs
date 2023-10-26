@@ -56,11 +56,6 @@ test
 
       .. literalinclude:: assets/ozi/ozi/templates/pytest.pyproject.toml
 
-   .. dropdown:: Github workflow
-      :icon: workflow
-
-      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/pytest.yml.j2
-
    .. dropdown:: plugins
       :icon: plugin
 

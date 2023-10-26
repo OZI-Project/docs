@@ -526,29 +526,6 @@ Meson
       .. versionadded:: 0.1
 
 
-pip-compile
-^^^^^^^^^^^
-
-Compiles the requirements during the CI checkpoint step.
-
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
-
-   .. versionadded:: 0.1
-
-   .. card:: Github workflow
-
-      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/pip-compile.yml.j2
-
-
-pytest
-^^^^^^
-
-.. card:: See also
-   :class-card: seealso
-
-   :ref:`REQUIRED pytest`
-
-
 semantic-release
 ^^^^^^^^^^^^^^^^
 
@@ -651,6 +628,14 @@ ozi-new
    .. card:: List output of available PyPI classifiers.
 
       .. versionadded:: 0.1
+
+      * Development Status
+      * Environment
+      * Framework
+      * Intended Audience
+      * License
+      * Natural Language
+      * Topic
 
    .. card:: List output of available header fields.
 
