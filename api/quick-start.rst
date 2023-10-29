@@ -125,7 +125,7 @@ Find Missing Files and Metadata
 
 
 Add New Sources
-^^^^^^^^^^^^^^^
+***************
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
