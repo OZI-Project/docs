@@ -133,4 +133,20 @@ Add New Sources
 
    .. command-output:: ozi-fix source --pretty --add foo.py TARGET
 
+   .. command-output:: ls TARGET/project_name
+
+
+Add New Source Subdirectories
+*****************************
+
+.. card:: :octicon:`terminal;1.5em;sd-text-info`
+
+   The output of ozi-fix can be directly piped into ``meson rewrite command``.
+
+   .. command-output:: ozi-fix source --pretty --add bar/ TARGET
+
+   .. command-output:: ls TARGET/project_name
+
+   .. command-output:: ls TARGET/project_name/bar
+
 .. _initializing-a-git-repository: 
