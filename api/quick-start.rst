@@ -23,46 +23,6 @@ Installation
 Usage
 ^^^^^
 
-Choose a Continuous Integration Provider
-****************************************
-
-Currently the available :abbr:`CI (Continuous Integration)` Providers are:
-
-* GitHub
-
-Setup Python Package Index publishing
-*************************************
-
-.. grid:: 2
-
-   .. grid-item-card::
-
-      You should create a PyPI account and
-      `add a new pending publisher <https://pypi.org/manage/account/publishing/>`_ using:
-
-      * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#f1]_
-      * Owner: :abbr:`GH_USER (your username or organization)`
-      * Repository name: :abbr:`GH_PROJECT_NAME (unique name for your repository)` [#f1]_
-      * Workflow name: ozi.yml
-      * Environment name: publish
-
-      .. rubric:: Footnotes
-
-      .. [#f1] OZI recommends using the same PROJECT_NAME and GH_PROJECT_NAME
-
-
-   .. grid-item-card::
-
-      Figure 1: PyPI New pending publishing form.
-      ^^^
-      .. figure:: assets/Fig1_PyPI_New_pending_publisher.png
-         :alt: Screenshot of PyPI New pending publishing form.
-      +++
-      Screenshot taken: 17-Sep-2023
-
-It is recommended to enable 2 Factor Authentication on both your CI provider and PyPI 
-account.
-
 
 Choose a License
 ****************
@@ -100,6 +60,48 @@ For example the OZI project itself uses ``--license-expression="Apache-2.0 WITH 
    intended to be construed as such.
 
 
+Choose a Continuous Integration Provider
+****************************************
+
+Currently the available :abbr:`CI (Continuous Integration)` Providers are:
+
+* GitHub
+
+
+Setup Python Package Index publishing
+*************************************
+
+.. grid:: 2
+
+   .. grid-item-card::
+
+      You should create a PyPI account and
+      `add a new pending publisher <https://pypi.org/manage/account/publishing/>`_ using:
+
+      * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#f1]_
+      * Owner: :abbr:`GH_USER (your username or organization)`
+      * Repository name: :abbr:`GH_PROJECT_NAME (unique name for your repository)` [#f1]_
+      * Workflow name: ozi.yml
+      * Environment name: publish
+
+      .. rubric:: Footnotes
+
+      .. [#f1] OZI recommends using the same PROJECT_NAME and GH_PROJECT_NAME
+
+
+   .. grid-item-card::
+
+      Figure 1: PyPI New pending publishing form.
+      ^^^
+      .. figure:: assets/Fig1_PyPI_New_pending_publisher.png
+         :alt: Screenshot of PyPI New pending publishing form.
+      +++
+      Screenshot taken: 17-Sep-2023
+
+It is recommended to enable 2 Factor Authentication on both your CI provider and PyPI 
+account.
+
+
 Create a New Packaged Project
 *****************************
 
@@ -118,6 +120,8 @@ for reasons external to OZI.
 
       .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=https://oziproject.dev --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
 
+      .. command-output:: ls TARGET
+
    .. card:: :octicon:`link-external;1.5em;sd-text-info` Navigate to the TARGET directory and follow the CI Provider guide 
       :link: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository
 
@@ -135,8 +139,8 @@ Find Missing Files and Metadata
    .. command-output:: ozi-fix missing TARGET
 
 
-Add New Sources
-***************
+Add New Python Source Files
+***************************
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
