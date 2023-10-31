@@ -63,8 +63,9 @@ Setup Python Package Index publishing
 It is recommended to enable 2 Factor Authentication on both your CI provider and PyPI 
 account.
 
-New Project
-***********
+
+Choose a License
+****************
 
 You should decide the license terms you want to distribute your project with [*]_
 A good place to start is `choosealicense.com <https://choosealicense.com/>`_.
@@ -75,12 +76,6 @@ OZI will recommend a short list of possible SPDX Short-ID matches that you shoul
 argument on. This argument must be
 `SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_.
 For example the OZI project itself uses ``--license-expression="Apache-2.0 WITH LLVM-exception"``.
-
-You should also provide a valid email.
-OZI will run some basic checks of well-formedness of the address.
-Deliverability checking is turned off by default but can be turned on with the 
-``--verify-email`` flag. Be warned that this is a direct DNS request and may fail or time-out
-for reasons external to OZI.
 
 .. card::
 
@@ -101,6 +96,24 @@ for reasons external to OZI.
       .. command-output:: ozi-new --list license-exception-id
          :ellipsis: 10
 
+.. [*] the OZI project cannot provide legal advice and nothing in this document is
+   intended to be construed as such.
+
+
+Create a New Packaged Project
+*****************************
+
+You should provide a valid email.
+OZI will run some basic checks of well-formedness of the address.
+Deliverability checking is turned off by default but can be turned on with the 
+``--verify-email`` flag. Be warned that this is a direct DNS request and may fail or time-out
+for reasons external to OZI.
+
+.. card::
+
+   Using the terminal emulator of your choice...
+   ^^^
+
    .. card:: :octicon:`terminal;1.5em;sd-text-info` Create the new project.
 
       .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=https://oziproject.dev --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
@@ -113,8 +126,6 @@ for reasons external to OZI.
    ``Topic :: Utilities``, ``Typing :: Typed``, and ``Natural Language :: English``.
    You can also change these defaults by providing parameters to their respective arguments.
 
-.. [*] the OZI project cannot provide legal advice and nothing in this document is
-   intended to be construed as such.
 
 Find Missing Files and Metadata
 *******************************
