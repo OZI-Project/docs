@@ -160,8 +160,8 @@ Add New Source Subdirectories
 
    .. command-output:: ozi-fix source --pretty --add bar/ TARGET
 
-   .. command-output:: ls TARGET/project_name
-
    .. command-output:: ls TARGET/project_name/bar
+
+   .. command-output:: cat TARGET/project_name/bar/meson.build
 
 .. _initializing-a-git-repository: 
