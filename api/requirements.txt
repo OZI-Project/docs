@@ -55,7 +55,7 @@ meson==1.2.2
     # via -r requirements.in
 mypy-extensions==1.0.0
     # via black
-ozi==0.0.230
+ozi==0.0.231
     # via -r requirements.in
 packaging==23.2
     # via
