@@ -84,10 +84,6 @@ Format
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
-   .. card:: Use mimetype :mimetype:`text/x-rst` for ``README.rst``
-
-      .. versionadded:: 0.1
-
    .. card:: Respect maximum line width limit 93.
 
       .. versionadded:: 0.1
@@ -370,6 +366,13 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Style Guide for Python Code
 
+      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`287`
+         :link: https://peps.python.org/pep-0287/
+
+         .. versionadded:: 0.1
+
+         reStructuredText Docstring Format
+
       .. grid-item-card:: :octicon:`checklist;1em;sd-text-info` implement :pep:`680`
 
          .. versionadded:: 0.1
@@ -380,13 +383,6 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
    .. grid:: 2
-
-      .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`287`
-         :link: https://peps.python.org/pep-0287/
-
-         .. versionadded:: 0.1
-
-         reStructuredText Docstring Format
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`420`
 
@@ -502,12 +498,19 @@ Meson
 
       .. versionadded:: 0.1
 
-   .. card:: Write fallback configuration to ``pyproject.toml``
+   .. card:: Write fallback configuration to ``pyproject.toml.pre``
 
       .. versionadded:: 0.1
 
-      * ``MESON_DIST_FALLBACK_VERSION``
-      * ``PROJECT_NAME``
+      * ``@VCS_TAG@`` replaces itself so that meson configure succeeds.
+      * ``@PYTHON_VERSION_DIST@`` is replaced with "pyXXX" where XXX is the python version without ".".
+      * uncomment statements that would cause top-level utility failure in source with scripts.
+
+   .. card:: Preprocess ``pyproject.toml.pre`` into ``pyproject.toml``
+
+      .. versionadded:: 0.1
+
+      * ``VCS_TAG`` is replaced with the actual supply chain managed version.
 
    .. card:: Distribute a binary in wheel format.
 
