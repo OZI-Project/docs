@@ -25,7 +25,7 @@ docutils==0.20.1
     #   sphinx
 gitdb==4.0.11
     # via gitpython
-gitpython==3.1.40
+gitpython==3.1.41
     # via ozi
 idna==3.4
     # via
@@ -118,10 +118,6 @@ trove-classifiers==2023.9.19
 types-requests==2.31.0.10
     # via ozi
 urllib3==2.0.7
-    # via requests
-wheel==0.41.3
-    # via pip-tools
-
-# The following packages are considered to be unsafe in a requirements file:
-# pip
-# setuptools
+    # via
+    #   requests
+    #   types-requests
