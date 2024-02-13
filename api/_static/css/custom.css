@@ -20,6 +20,7 @@ div a[href="index.html"]:hover {
 }
 code {
     font-family: "Martian Mono", "Jetbrains Mono" !important;
+    font-size: 12px;
 }
 .font-sans {
     font-family: "Atkinson Hyperlegible", "Helvetica Neue", "sans-serif" !important;
