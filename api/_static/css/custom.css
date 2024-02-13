@@ -18,3 +18,9 @@ div a[href="index.html"]:hover {
 #content img {
     margin-top: 0;
 }
+code {
+    font-family: "Martian Mono", "Jetbrains Mono";
+}
+.font-sans {
+    font-family: "Atkinson Hyperlegible", "Helvetica Neue", "sans-serif";
+}
