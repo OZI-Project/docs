@@ -92,9 +92,9 @@ latex_elements = {
     ),
     'fontpkg': dedent(
         r"""
-    \setmainfont{DejaVu Serif}
-    \setsansfont{DejaVu Sans}
-    \setmonofont{DejaVu Sans Mono}
+    \setmainfont{\atkinsonhyperlegible}
+    \setsansfont{\notoserifhk}
+    \setmonofont{\martianmono}
     """
     ),
 }
