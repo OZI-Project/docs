@@ -3,10 +3,7 @@ Quick-start Guide
 =================
 
 .. article-info::
-    :author: Ross J. Duff MSc
-    :avatar: assets/100-percent-human-badge.png
-    :avatar-link: https://no-ai-icon.com/statement/?url=docs.oziproject.dev
-    :class-avatar: sd-avatar-md
+    :author: Eden Rose Duff MSc
     :date: 18-Sep-2023
     :read-time: 5 min read
     :class-container: sd-p-2 sd-outline-muted sd-rounded-1
