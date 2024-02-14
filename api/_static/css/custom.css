@@ -1,22 +1,4 @@
 
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  src: local("Atkinson Hyperlegible"),
-    url("../assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Noto Serif HK";
-  src: local("Noto Serif HK"),
-    url("../assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf");
-}
-
-@font-face {
-  font-family: "Martian Mono";
-  src: local("Martian Mono"),
-    url("../assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf");
-}
-
 abbr {
     cursor: help;
 }
