@@ -98,7 +98,7 @@ latex_elements = {
     """
     ),
 }
-
+latex_show_urls = 'footnote'
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
