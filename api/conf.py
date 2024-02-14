@@ -89,7 +89,7 @@ latex_elements = {
     \newfontfamily{\martianmono}{assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf}
     \newfontfamily{\notoserifhk}{assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf}
     """
-    ),  # noqa: F821
+    ),
     'fontpkg': dedent(
         r"""
     \setmainfont{DejaVu Serif}
