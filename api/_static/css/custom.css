@@ -2,19 +2,19 @@
 @font-face {
   font-family: "Atkinson Hyperlegible";
   src: local("Atkinson Hyperlegible"),
-    url("https://oziproject.dev/assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf");
+    url("../assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Serif HK";
   src: local("Noto Serif HK"),
-    url("https://oziproject.dev/assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf");
+    url("../assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf");
 }
 
 @font-face {
   font-family: "Martian Mono";
   src: local("Martian Mono"),
-    url("https://oziproject.dev/assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf");
+    url("../assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf");
 }
 
 abbr {
