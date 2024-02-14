@@ -11,6 +11,7 @@ from shutil import rmtree
 from textwrap import dedent
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
+
 # from sphinxawesome_theme.docsearch import DocSearchConfig
 
 # This gets you code completion and documentation for your configuration options
@@ -50,16 +51,18 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
-                       'devguide': ('https://devguide.python.org', None),
-                       'pypa': ('https://packaging.python.org', None),
-                       'pytest': ('https://docs.pytest.org/en/stable/', None),
-                       'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
-                       'pytest': ('https://docs.pytest.org/en/stable/', None),
-                       'semantic_release': (
-                           'https://python-semantic-release.readthedocs.io/en/stable/', None
-                           )
-                       }
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+    'devguide': ('https://devguide.python.org', None),
+    'pypa': ('https://packaging.python.org', None),
+    'pytest': ('https://docs.pytest.org/en/stable/', None),
+    'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
+    'pytest': ('https://docs.pytest.org/en/stable/', None),
+    'semantic_release': (
+        'https://python-semantic-release.readthedocs.io/en/stable/',
+        None,
+    ),
+}
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -79,18 +82,26 @@ html_context = {
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_engine = "xelatex"
-
-latex_elements["preamble"] += dedent(  # noqa: F821
-    r"""
+latex_elements = {
+    'preamble': dedent(
+        r"""
     \newfontfamily{\atkinsonhyperlegible}{assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf}
     \newfontfamily{\martianmono}{assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf}
     \newfontfamily{\notoserifhk}{assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf}
     """
-)
+    ),  # noqa: F821
+    'fontpkg': dedent(
+        r"""
+    \setmainfont{DejaVu Serif}
+    \setsansfont{DejaVu Sans}
+    \setmonofont{DejaVu Sans Mono}
+    """
+    ),
+}
+
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
     app.add_latex_package("fontspec")
-
