@@ -8,6 +8,7 @@
 from importlib.metadata import version as _version
 from pathlib import Path as _Path
 from shutil import rmtree
+from textwrap import dedent
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
 # from sphinxawesome_theme.docsearch import DocSearchConfig
@@ -76,8 +77,20 @@ html_context = {
     'mode': 'production',
 }
 
+# -- Options for LaTeX output ------------------------------------------------
+latex_engine = "xelatex"
+
+latex_elements["preamble"] += dedent(  # noqa: F821
+    r"""
+    \newfontfamily{\atkinsonhyperlegible}{assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf}
+    \newfontfamily{\martianmono}{assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf}
+    \newfontfamily{\notoserifhk}{assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf}
+    """
+)
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
+    app.add_latex_package("fontspec")
+
