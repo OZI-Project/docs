@@ -1,3 +1,6 @@
 [submodule "api/assets/ozi"]
 	path = api/assets/ozi
 	url = https://github.com/rjdbcm/OZI/
+[submodule "api/assets/brand"]
+	path = api/assets/brand
+	url = https://github.com/OZI-Project/brand
