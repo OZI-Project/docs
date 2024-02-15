@@ -90,4 +90,3 @@ def setup(app: sphinx.application.Sphinx) -> None:
     app.add_latex_package('atkinson', 'sfdefault')
     app.add_latex_package('notomath')
     app.add_latex_package('lmodern')
-    app.add_latex_package('fontenc', 'T1')
