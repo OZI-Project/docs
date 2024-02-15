@@ -36,7 +36,7 @@ stated above. This document is primarily intended as:
 #. An OZI maintainers guide to compliance with the OZI specification.
 #. A place to document major and minor changes to the OZI specification.
 
-This is a work in progress as a part of Alpha development.
+This is a work in progress as a part of continued Alpha development.
 
 
 .. index::
