@@ -86,6 +86,8 @@ latex_elements = {
         \usepackage[sfdefault]{atkinson}
         \usepackage{notomath}
         \usepackage{lmodern}
+        \usepackage[T1]{fontenc}
+        \renewcommand\ttdefault{txtt}
         '''
     ),
 }
@@ -98,3 +100,4 @@ def setup(app: sphinx.application.Sphinx) -> None:
     app.add_latex_package('atkinson', 'sfdefault')
     app.add_latex_package('notomath')
     app.add_latex_package('lmodern')
+    app.add_latex_package('fontenc', 'T1')
