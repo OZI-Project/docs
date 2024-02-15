@@ -81,13 +81,9 @@ html_context = {
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_show_urls = 'inline'
+latex_logo = 'assets/brand/images/ozi_logo_square.png'
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
-    # Our normal lockups dont really work for typesetting.
-    # app.add_latex_package('atkinson')
-    # app.add_latex_package('notomath')
-    # app.add_latex_package('lmodern')
-    # app.add_latex_package('fontenc', 'T1')
