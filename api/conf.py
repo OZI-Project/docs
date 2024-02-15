@@ -84,8 +84,7 @@ html_context = {
 latex_logo = 'assets/brand/images/ozi_logo_v2.png'
 latex_elements = {
     'fontpkg': dedent(r'''
-        \usepackage{atkinson}
-        \usepackage[T1]{fontenc}
+        \usepackage{lmodern}
         '''
     ),
 }
@@ -95,7 +94,7 @@ def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
-    app.add_latex_package('atkinson')
-    app.add_latex_package('notomath')
+    #app.add_latex_package('atkinson')
+    #app.add_latex_package('notomath')
     app.add_latex_package('lmodern')
-    app.add_latex_package('fontenc', 'T1')
+    #app.add_latex_package('fontenc', 'T1')
