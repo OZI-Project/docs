@@ -80,7 +80,7 @@ html_context = {
 }
 
 # -- Options for LaTeX output ------------------------------------------------
-latex_logo = 'assets/brand/images/ozi_logo_v2.png'
+
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
