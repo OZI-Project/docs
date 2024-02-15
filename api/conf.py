@@ -90,6 +90,7 @@ latex_additional_files = [
 latex_elements = {
     'preamble': dedent(
         r"""
+    \usepackage{fontspec}
     \newfontfamily\atkinsonhyperlegible[Path=assets/brand/fonts/atkinsonhyperlegible/]{AtkinsonHyperlegible-Regular.ttf}
     \newfontfamily\martianmono[Path=assets/brand/fonts/martianmono/]{MartianMono[wdth,wght].ttf}
     \newfontfamily\notoserifhk[Path=assets/brand/fonts/notoserifhk/]{NotoSerifHK[wght].ttf}
