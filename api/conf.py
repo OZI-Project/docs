@@ -82,25 +82,13 @@ html_context = {
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_engine = "xelatex"
-latex_additional_files = [
-    'assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf',
-    'assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf',
-    'assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf'
-]
 latex_elements = {
-    'preamble': dedent(
-        r"""
-    \usepackage{fontspec}
-    \newfontfamily{\AtkinsonHyperlegible}[Path=./assets/brand/fonts/atkinsonhyperlegible/, Extension=.ttf]{AtkinsonHyperlegible}
-    \newfontfamily{\MartianMono}[Path=./assets/brand/fonts/martianmono/, Extension=.ttf]{MartianMono}
-    \newfontfamily{\NotoSerifHK}[Path=./assets/brand/fonts/notoserifhk/, Extension=.ttf]{NotoSerifHK}
-    """
-    ),
+    'preamble': '',
     'fontpkg': dedent(
         r"""
-    \setmainfont{AtkinsonHyperlegible}
-    \setsansfont{NotoSerifHK}
-    \setmonofont{MartianMono}
+    \setmainfont{atkinson}
+    \setsansfont{notomath}
+    \setmonofont{lmodern}
     """
     ),
 }
@@ -110,4 +98,8 @@ def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
-    app.add_latex_package("fontspec")
+    app.add_latex_package('fontspec')
+    app.add_latex_package('atkinson', 'sfdefault')
+    app.add_latex_package('notomath')
+    app.add_latex_package('lmodern')
+    app.add_latex_package('fontenc', 'T1')
