@@ -84,10 +84,10 @@ html_context = {
 latex_elements = {
     'fontpkg': dedent(
         r'''
-                    \setmainfont{notomath}
-                    \setsansfont{atkinson}
-                    \setmonofont{lmodern}
-                    '''
+        \setmainfont{Noto Serif}
+        \setsansfont{Atkinson Hyperlegible}
+        \setmonofont{Latin Modern Mono}
+        '''
     ),
 }
 
