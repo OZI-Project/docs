@@ -80,7 +80,6 @@ html_context = {
 }
 
 # -- Options for LaTeX output ------------------------------------------------
-latex_show_urls = 'inline'
 latex_logo = 'assets/brand/images/ozi_social_preview.png'
 
 def setup(app: sphinx.application.Sphinx) -> None:
