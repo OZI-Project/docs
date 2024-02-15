@@ -82,16 +82,6 @@ html_context = {
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_engine = "xelatex"
-latex_elements = {
-    'preamble': '',
-    'fontpkg': dedent(
-        r"""
-    \setmainfont{atkinson}
-    \setsansfont{notomath}
-    \setmonofont{lmodern}
-    """
-    ),
-}
 latex_show_urls = 'footnote'
 
 def setup(app: sphinx.application.Sphinx) -> None:
