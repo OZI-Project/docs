@@ -24,8 +24,8 @@ from sphinxawesome_theme.postprocess import Icons
 # )
 
 project = 'OZI'
-copyright = '2023, Ross J. Duff MSc'
-author = 'Ross J. Duff MSc'
+copyright = '2023-2024, Eden Rose Duff MSc'
+author = 'Eden Rose Duff MSc'
 release = '.'.join(_version('OZI').split('.')[:2])
 
 # -- General configuration ---------------------------------------------------
