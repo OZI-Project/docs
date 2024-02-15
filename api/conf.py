@@ -98,9 +98,9 @@ latex_elements = {
     ),
     'fontpkg': dedent(
         r"""
-    \setmainfont{atkinsonhyperlegible}
-    \setsansfont{notoserifhk}
-    \setmonofont{martianmono}
+    \setmainfont{AtkinsonHyperlegible}
+    \setsansfont{NotoSerifHK}
+    \setmonofont{MartianMono}
     """
     ),
 }
