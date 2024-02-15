@@ -81,6 +81,7 @@ html_context = {
 }
 
 # -- Options for LaTeX output ------------------------------------------------
+latex_logo = 'assets/brand/images/ozi_social_logo.png'
 latex_elements = {
     'fontpkg': dedent(r'''
         \usepackage{atkinson}
