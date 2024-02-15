@@ -91,9 +91,9 @@ latex_elements = {
     'preamble': dedent(
         r"""
     \usepackage{fontspec}
-    \newfontfamily\atkinsonhyperlegible[Path=./assets/brand/fonts/atkinsonhyperlegible/]{AtkinsonHyperlegible-Regular.ttf}
-    \newfontfamily\martianmono[Path=./assets/brand/fonts/martianmono/]{MartianMono\[wdth,wght\].ttf}
-    \newfontfamily\notoserifhk[Path=./assets/brand/fonts/notoserifhk/]{NotoSerifHK\[wght\].ttf}
+    \newfontfamily{\AtkinsonHyperlegible}[Path=./assets/brand/fonts/atkinsonhyperlegible/, Extension=.ttf]{AtkinsonHyperlegible}
+    \newfontfamily{\MartianMono}[Path=./assets/brand/fonts/martianmono/, Extension=.ttf]{MartianMono}
+    \newfontfamily{\NotoSerifHK}[Path=./assets/brand/fonts/notoserifhk/, Extension=.ttf]{NotoSerifHK}
     """
     ),
     'fontpkg': dedent(
