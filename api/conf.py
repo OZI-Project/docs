@@ -83,7 +83,7 @@ html_context = {
 # -- Options for LaTeX output ------------------------------------------------
 latex_elements = {
     'fontpkg': dedent(r'''
-        \usepackage{atkinson}
+        \usepackage[sfdefault]{atkinson}
         \usepackage{notomath}
         \usepackage{lmodern}
         '''
