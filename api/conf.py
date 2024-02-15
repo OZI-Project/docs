@@ -82,6 +82,11 @@ html_context = {
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_engine = "xelatex"
+latex_additional_files = [
+    'assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf',
+    'assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf',
+    'assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf'
+]
 latex_elements = {
     'preamble': dedent(
         r"""
