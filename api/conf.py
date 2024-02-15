@@ -85,7 +85,6 @@ latex_elements = {
     'fontpkg': dedent(r'''
         \usepackage[sfdefault]{atkinson}
         \usepackage[T1]{fontenc}
-        \renewcommand\ttdefault{txtt}
         '''
     ),
 }
