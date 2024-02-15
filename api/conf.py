@@ -83,20 +83,14 @@ html_context = {
 # -- Options for LaTeX output ------------------------------------------------
 latex_elements = {
     'fontpkg': dedent(r'''
+        \usepackage{atkinson}
+        \usepackage{notomath}
+        \usepackage{lmodern}
         \setmainfont{Noto Serif}
         \setsansfont{Atkinson Hyperlegible}
         \setmonofont{Latin Modern Mono}
         '''
     ),
-    'preamble': dedent(r'''
-    \usepackage[titles]{tocloft}
-    \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-    \setlength{\cftchapnumwidth}{0.75cm}
-    \setlength{\cftsecindent}{\cftchapnumwidth}
-    \setlength{\cftsecnumwidth}{1.25cm}
-    '''),
-    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
-    'printindex': r'\footnotesize\raggedright\printindex',
 }
 
 
