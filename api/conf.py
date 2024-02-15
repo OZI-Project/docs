@@ -87,7 +87,6 @@ def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
-    app.add_latex_package('fontspec')
     app.add_latex_package('atkinson', 'sfdefault')
     app.add_latex_package('notomath')
     app.add_latex_package('lmodern')
