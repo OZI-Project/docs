@@ -8,7 +8,6 @@
 from importlib.metadata import version as _version
 from pathlib import Path as _Path
 from shutil import rmtree
-from textwrap import dedent
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
 
@@ -81,7 +80,7 @@ html_context = {
 }
 
 # -- Options for LaTeX output ------------------------------------------------
-latex_logo = 'assets/brand/images/ozi_logo_v2.png'
+# latex_logo = 'assets/brand/images/ozi_logo_v2.png'
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
