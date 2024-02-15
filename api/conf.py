@@ -86,9 +86,6 @@ latex_elements = {
         \usepackage{atkinson}
         \usepackage{notomath}
         \usepackage{lmodern}
-        \setmainfont{Noto Serif}
-        \setsansfont{Atkinson Hyperlegible}
-        \setmonofont{Latin Modern Mono}
         '''
     ),
 }
