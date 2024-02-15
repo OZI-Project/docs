@@ -91,16 +91,16 @@ latex_elements = {
     'preamble': dedent(
         r"""
     \usepackage{fontspec}
-    \newfontfamily\atkinsonhyperlegible[Path=assets/brand/fonts/atkinsonhyperlegible/]{AtkinsonHyperlegible-Regular.ttf}
-    \newfontfamily\martianmono[Path=assets/brand/fonts/martianmono/]{MartianMono[wdth,wght].ttf}
-    \newfontfamily\notoserifhk[Path=assets/brand/fonts/notoserifhk/]{NotoSerifHK[wght].ttf}
+    \newfontfamily\atkinsonhyperlegible[Path=./assets/brand/fonts/atkinsonhyperlegible/]{AtkinsonHyperlegible-Regular.ttf}
+    \newfontfamily\martianmono[Path=./assets/brand/fonts/martianmono/]{MartianMono\[wdth,wght\].ttf}
+    \newfontfamily\notoserifhk[Path=./assets/brand/fonts/notoserifhk/]{NotoSerifHK\[wght\].ttf}
     """
     ),
     'fontpkg': dedent(
         r"""
-    \setmainfont{atkinsonhyperlegible}
-    \setsansfont{notoserifhk}
-    \setmonofont{martianmono}
+    \setmainfont{\atkinsonhyperlegible}
+    \setsansfont{\notoserifhk}
+    \setmonofont{\martianmono}
     """
     ),
 }
