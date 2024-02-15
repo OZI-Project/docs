@@ -81,7 +81,7 @@ html_context = {
 }
 
 # -- Options for LaTeX output ------------------------------------------------
-latex_show_urls = 'footnote'
+#latex_show_urls = 'footnote'
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
