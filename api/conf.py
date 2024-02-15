@@ -81,7 +81,6 @@ html_context = {
 }
 
 # -- Options for LaTeX output ------------------------------------------------
-latex_engine = "xelatex"
 latex_show_urls = 'footnote'
 
 def setup(app: sphinx.application.Sphinx) -> None:
