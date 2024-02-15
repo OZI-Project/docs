@@ -90,9 +90,9 @@ latex_additional_files = [
 latex_elements = {
     'preamble': dedent(
         r"""
-    \newfontfamily{\atkinsonhyperlegible}{assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf}
-    \newfontfamily{\martianmono}{assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf}
-    \newfontfamily{\notoserifhk}{assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf}
+    \newfontfamily\atkinsonhyperlegible{assets/brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf}
+    \newfontfamily\martianmono{assets/brand/fonts/martianmono/MartianMono[wdth,wght].ttf}
+    \newfontfamily\notoserifhk{assets/brand/fonts/notoserifhk/NotoSerifHK[wght].ttf}
     """
     ),
     'fontpkg': dedent(
