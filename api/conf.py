@@ -80,7 +80,7 @@ html_context = {
 }
 
 # -- Options for LaTeX output ------------------------------------------------
-
+latex_engine = 'xelatex'
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
