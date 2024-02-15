@@ -84,8 +84,6 @@ html_context = {
 latex_elements = {
     'fontpkg': dedent(r'''
         \usepackage[sfdefault]{atkinson}
-        \usepackage{notomath}
-        \usepackage{lmodern}
         \usepackage[T1]{fontenc}
         \renewcommand\ttdefault{txtt}
         '''
