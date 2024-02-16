@@ -102,6 +102,9 @@ Setup Python Package Index publishing
 It is recommended to enable 2 Factor Authentication on both your CI provider and PyPI 
 account.
 
+.. raw:: latex
+
+    \newpage
 
 Create a New Packaged Project
 *****************************
