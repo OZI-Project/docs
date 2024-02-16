@@ -19,6 +19,10 @@ docs
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
+   .. raw:: latex
+
+      \linebreak
+
    .. versionadded:: 0.1
 
    .. rubric:: doc8

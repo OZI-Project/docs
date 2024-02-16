@@ -19,6 +19,10 @@ dist
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. versionadded:: 0.1
 
    .. rubric:: pyc_wheel

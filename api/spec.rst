@@ -85,11 +85,19 @@ Format
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. card:: Respect maximum line width limit 93.
 
       .. versionadded:: 0.1
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. card:: Prefer LF over CRLF line-endings.
 
@@ -103,6 +111,10 @@ The following contains the requirements for the source code structure and format
 project.
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
+
+   .. raw:: latex
+
+      \linebreak
 
    .. index::
       triple: specification; python; support
@@ -122,6 +134,10 @@ Format
 ^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. grid:: 2
 
@@ -180,6 +196,10 @@ Format
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
 
       .. versionadded:: 0.1
@@ -188,6 +208,10 @@ Python Implementation
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. card:: CPython
       :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
@@ -202,6 +226,10 @@ Structure
 The following is the minimal project structure required by ``ozi`` to be a project.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. versionadded:: 0.1
 
@@ -358,6 +386,10 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. grid:: 2
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`8`
@@ -382,6 +414,10 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. grid:: 2
 
@@ -467,6 +503,10 @@ Meson
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. card:: Support 3 most recent :doc:`devguide:versions` in full releases.
 
       .. versionadded:: 0.1
@@ -525,6 +565,10 @@ Meson
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` RECOMMENDED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
 
       .. versionadded:: 0.1
@@ -546,6 +590,10 @@ setuptools_scm_ controls the version information for the project environment.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. versionadded:: 0.1
 
    .. card:: Use project configuration:
@@ -561,6 +609,10 @@ OZI uses ``tox`` to manage integration testing across supported Python releases.
 Positional arguments are provided to a standardized ``meson test`` configuration.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. grid:: 2
 
@@ -603,6 +655,10 @@ General
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. card:: If stdout is not to be used directly output in :abbr:`TAP (Test Anything Protocol)`
 
       .. versionadded:: 0.1
@@ -611,6 +667,10 @@ ozi-fix
 ^^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. card:: Output meson rewriter commands to edit ``meson.build`` file and subdir list targets.
 
@@ -624,6 +684,10 @@ ozi-new
 ^^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. card:: Create new Python project files from specific templates.
 
@@ -662,6 +726,10 @@ General
 This section lists the third-party utility program requirements.
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+
+   .. raw:: latex
+
+      \linebreak
 
    .. index:: utilities; exit; successfully
    .. card:: Exit successfully during environment test.

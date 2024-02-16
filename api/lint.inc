@@ -19,6 +19,10 @@ lint
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
+   .. raw:: latex
+
+      \linebreak
+
    .. versionadded:: 0.1
 
    .. index:: triple: utilities; environment; checkpointing
@@ -168,6 +172,10 @@ lint
       .. literalinclude:: assets/ozi/ozi/templates/pyright.pyproject.toml
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
+
+   .. raw:: latex
+
+      \linebreak
 
    .. versionadded:: 0.1
 
