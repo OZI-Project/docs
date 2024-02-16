@@ -114,9 +114,9 @@ Source
 The following contains the requirements for the source code structure and format of an OZI 
 project.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
@@ -201,9 +201,9 @@ Format
 
          .. versionadded:: 0.1
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
@@ -236,9 +236,9 @@ Structure
 
 The following is the minimal project structure required by ``ozi`` to be a project.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -399,9 +399,9 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
    triple: specification; check; pep639
    triple: specification; check; pep3107
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
@@ -431,9 +431,9 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          tomllib: Support for Parsing TOML in the Standard Library [#f1]_
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -498,11 +498,11 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Editable installs for pyproject.toml based builds (wheel based)
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
-.. card:: Footnotes
+.. card::
 
    .. [#f1] SHOULD use ``tomli`` if Python version < 3.11
 
@@ -589,9 +589,9 @@ Meson
 
       MUST distribute wheel releases as Python bytecode and stubfiles.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` RECOMMENDED
 
@@ -618,9 +618,9 @@ setuptools_scm
 
 setuptools_scm_ controls the version information for the project environment.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -642,9 +642,9 @@ tox_ is a mature solution to the problem of environment integration.
 OZI uses ``tox`` to manage integration testing across supported Python releases.
 Positional arguments are provided to a standardized ``meson test`` configuration.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -763,9 +763,9 @@ General
 
 This section lists the third-party utility program requirements.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
