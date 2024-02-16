@@ -93,9 +93,9 @@ Format
 
       .. versionadded:: 0.1
 
-   .. raw:: latex
+.. raw:: latex
 
-      \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
@@ -116,7 +116,7 @@ project.
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
@@ -203,7 +203,7 @@ Format
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
@@ -238,7 +238,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -401,7 +401,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
 
@@ -433,7 +433,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -591,7 +591,7 @@ Meson
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` RECOMMENDED
 
@@ -620,7 +620,7 @@ setuptools_scm_ controls the version information for the project environment.
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -644,7 +644,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
@@ -765,7 +765,7 @@ This section lists the third-party utility program requirements.
 
 .. raw:: latex
 
-   \linebreak
+   \linebreak[4]
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
 
