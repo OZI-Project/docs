@@ -52,9 +52,9 @@ This section outlines the test types that need to be considered when preparing a
 Accessibility
 ^^^^^^^^^^^^^
 
-* Testing to ensure the product(s) are accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions.
+* Testing to ensure the product(s) are accessible and accomodating to a diverse range of user ability.
+* Foster a culture of inclusion and consideration around the user experience.
 * Accessibility needs to be considered early and throughout the development process.
-* More details can be found on our `accessibility testing <accessibility-testing.rst>`_ page.
 
 API Contract
 ^^^^^^^^^^^^
@@ -67,8 +67,6 @@ Cross Browser
 * The team should define and document the browser (and device if mobile testing is required) requirements.
 * This requirement should be considered as early as possible by the team.
 * As a minimum, browser testing should be carried out on the latest version of Chrome.
-* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken.
-* More details can be found on the `browser automation <browser-automation.rst>`_ page.
 
 Infrastructure
 ^^^^^^^^^^^^^^
