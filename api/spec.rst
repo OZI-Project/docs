@@ -114,28 +114,6 @@ Source
 The following contains the requirements for the source code structure and format of an OZI 
 project.
 
-.. raw:: latex
-
-   \bigskip
-
-.. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
-
-   .. raw:: latex
-
-      \linebreak
-
-   .. index::
-      triple: specification; python; support
-      triple: python; support; unicodedata
-      pair: unicodedata; unidata_version
-
-   .. card:: Normalize unicodedata.unidata_version between minor Python releases.
-
-      .. versionadded:: 0.1
-
-      Use the latest ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0
-      of unidata.
-
 .. index:: triple: specification; source; format
 
 Format
@@ -215,6 +193,18 @@ Format
 
       .. versionadded:: 0.1
 
+   .. index::
+      triple: specification; python; support
+      triple: python; support; unicodedata
+      pair: unicodedata; unidata_version
+
+   .. card:: Normalize unicodedata.unidata_version between minor Python releases.
+
+      .. versionadded:: 0.1
+
+      Use the latest ISO/IEC 10646, 2021 being the most recent and aligned to version 14.0.0
+      of unidata.
+
 Python Implementation
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -225,7 +215,6 @@ Python Implementation
       \linebreak
 
    .. card:: CPython
-      :img-bottom: https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png
       :link: https://www.python.org
 
       .. versionadded:: 0.1
@@ -660,7 +649,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
          .. code-block:: sh
 
-            tox -- --setup=dist
+            tox -e dist
 
       .. grid-item-card:: Successful setup of :ref:`lint` environment
 
@@ -668,7 +657,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
          .. code-block:: sh
 
-            tox -- --setup=lint
+            tox -e lint
 
       .. grid-item-card:: Successful setup of :ref:`test` environment
 
@@ -676,7 +665,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
          .. code-block:: sh
 
-            tox -- --setup=test
+            tox -e test
 
    .. card:: Use project configuration:
 
