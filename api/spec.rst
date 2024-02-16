@@ -235,8 +235,6 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       \linebreak
 
-   .. versionadded:: 0.1
-
    .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
       :icon: file-directory
 
