@@ -8,6 +8,10 @@ Test Automation Standards
    :read-time: 10 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
+.. raw:: latex
+
+    \newpage
+
 Python & Meson
 --------------
 

@@ -8,6 +8,10 @@ Test Policy
    :read-time: 5 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
+.. raw:: latex
+
+    \newpage
+
 The purpose of this document is to communicate the policy for testing of new and updated software,
 
 Our goals for testing

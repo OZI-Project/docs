@@ -8,6 +8,10 @@ Test Strategy
    :read-time: 15 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
+.. raw:: latex
+
+    \newpage
+
 This strategy details how we add value through testing. Our teams adhere to this strategy when deciding their approach to testing, creating a Test Approach document for their current project.
 
 Our core principles are:

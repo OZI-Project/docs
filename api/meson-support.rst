@@ -23,6 +23,10 @@ Meson Version Support
    :read-time: 1 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
+.. raw:: latex
+
+    \newpage
+
 The OZI project's minimum supported version of Meson is
 `version 1.1.0 <https://mesonbuild.com/Release-notes-for-1-1-0.html>`_.
 

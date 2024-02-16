@@ -8,6 +8,10 @@ Quick-start Guide
     :read-time: 5 min read
     :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
+.. raw:: latex
+
+    \newpage
+
 Installation
 ^^^^^^^^^^^^
 
@@ -134,6 +138,9 @@ for reasons external to OZI.
    ``Topic :: Utilities``, ``Typing :: Typed``, and ``Natural Language :: English``.
    You can also change these defaults by providing parameters to their respective arguments.
 
+.. raw:: latex
+
+    \newpage
 
 Find Missing Files and Metadata
 *******************************
