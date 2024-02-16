@@ -30,7 +30,7 @@ the project governance including roles and responsibilities,
 the :abbr:`API (Application Programming Interface)` specification, 
 the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
-.. card:: Contents
+.. card::
 
    .. toctree::
       :maxdepth: 2

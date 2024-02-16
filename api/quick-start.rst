@@ -34,6 +34,10 @@ argument on. This argument must be
 `SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_.
 For example the OZI project itself uses ``--license-expression="Apache-2.0 WITH LLVM-exception"``.
 
+.. raw:: latex
+
+    \newpage
+
 .. card::
 
    Using the terminal emulator of your choice...
