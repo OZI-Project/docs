@@ -108,20 +108,11 @@ Performance
 
 * The purpose of performance testing is to determine how the product performs (stability and responsiveness) under specified conditions.
 * The requirements for performance testing should be considered from the outset of the project and recorded as part of the Non-Functional Requirements.  
-* [This checklist](performance-test-checklist.md) should be used to guide performance testing activities.
 
 Production
 ^^^^^^^^^^
 
 * Ensuring products delivered are up and behaving as expected is a key aspect of ongoing support and maintenance; this can be achieved via continuous testing and monitoring.
-
-Safety
-^^^^^^
-
-* Safety assurance is part of our core software engineering processes (ensuring our products are safe for the end user).
-* We are working to adopt `IEC 61508-3:2010 <https://fdocuments.in/document/iec-61508-6.html>`_ as our safety standard.
-* Safety is the responsibility of the whole team and is championed by the Test Engineer.
-* More details can be found on on the [safety assurance](safety-assurance-guidance.md) page.
 
 Security
 ^^^^^^^^

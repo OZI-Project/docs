@@ -47,12 +47,26 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/bandit.meson.options
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/bandit.meson.options
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/bandit.meson.options`
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/bandit.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/bandit.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/bandit.pyproject.toml`
 
    .. index:: 
       triple: utilities; formatters; black
@@ -69,12 +83,26 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/black.meson.options
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/black.meson.options
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/black.meson.options`
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/black.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/black.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/black.pyproject.toml`
 
    .. index::
       triple: utilities; linters; flake8
@@ -111,12 +139,26 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/flake8.meson.options
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/flake8.meson.options
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/flake8.meson.options`
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/flake8.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/flake8.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/flake8.pyproject.toml`
 
    .. index:: 
       triple: utilities; formatters; isort
@@ -132,12 +174,26 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/isort.meson.options
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/isort.meson.options
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/isort.meson.options`
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/isort.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/isort.pyproject.toml
+            :lines: 7-
+
+         .. only:: html
+
+            :download:`assets/ozi/ozi/templates/isort.pyproject.toml`
 
    .. index::
       triple: utilities; linters; pylint
@@ -152,24 +208,52 @@ lint
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
+            :lines: 7-
+
+         .. only:: html
+
+            :download:`assets/ozi/ozi/templates/mypy.meson.options`
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/mypy.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/mypy.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/mypy.pyproject.toml`
 
    .. rubric:: pyright
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/pyright.meson.options`
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/pyright.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/pyright.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/pyright.pyproject.toml`
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`OPTIONAL`
 
@@ -184,7 +268,14 @@ lint
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/pylint.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/pylint.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/pylint.pyproject.toml`
 
    .. index::
       triple: utilities; typecheckers; pyright

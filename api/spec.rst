@@ -614,8 +614,14 @@ setuptools_scm_ controls the version information for the project environment.
 
    .. card:: Use project configuration:
 
-      .. literalinclude:: assets/ozi/ozi/templates/setuptools_scm.pyproject.toml
+      .. only:: latex
 
+         .. literalinclude:: assets/ozi/ozi/templates/setuptools_scm.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/setuptools_scm.pyproject.toml`
 
 tox
 ^^^
@@ -669,6 +675,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
       .. only:: latex
 
          .. literalinclude:: assets/ozi/ozi/templates/tox.pyproject.toml
+            :lines: 7-
 
 .. raw:: latex
 

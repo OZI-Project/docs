@@ -25,13 +25,6 @@ dist
 
    .. versionadded:: 0.1
 
-   .. rubric:: pyc_wheel
-
-   .. dropdown:: Github actions
-      :icon: workflow
-
-      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/pyc_wheel.yml.j2
-
    .. card:: See also
       :class-card: seealso
 
@@ -49,22 +42,17 @@ dist
 
       Follow the :doc:`semantic_release:algorithm` for release automation.
 
-   .. dropdown:: Github actions
-      :icon: workflow
-
-      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/semantic_release.yml.j2
-
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/semantic_release.pyproject.toml
+      .. only:: latex
 
-   .. rubric:: sigstore
+         .. literalinclude:: assets/ozi/ozi/templates/semantic_release.pyproject.toml
+            :lines: 7-
 
-   .. dropdown:: Github actions
-      :icon: workflow
+      .. only:: html
 
-      .. literalinclude:: assets/ozi/ozi/templates/github_workflows/sigstore.yml.j2
+         :download:`assets/ozi/ozi/templates/semantic_release.pyproject.toml`
 
    .. card:: See also
       :class-card: seealso

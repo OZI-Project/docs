@@ -34,7 +34,14 @@ test
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/coverage.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/coverage.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/coverage.pyproject.toml`
 
    .. rubric:: hypothesis
 
@@ -53,12 +60,26 @@ test
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/ozi/ozi/templates/pytest.meson.options
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/pytest.meson.options
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/pytest.meson.options`
 
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/ozi/ozi/templates/pytest.pyproject.toml
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/pytest.pyproject.toml
+            :lines: 7-
+
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/pytest.pyproject.toml`
 
    .. dropdown:: plugins
       :icon: plugin
