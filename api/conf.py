@@ -82,6 +82,8 @@ html_context = {
 # -- Options for LaTeX output ------------------------------------------------
 latex_logo = 'assets/brand/images/ozi_social_preview.png'
 latex_elements = {'fncychap': r'\usepackage[Sonny]{fncychap}'}
+latex_show_pagerefs = True
+latex_show_urls = 'footnote'
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
