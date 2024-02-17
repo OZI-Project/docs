@@ -399,14 +399,12 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
    .. grid:: 2
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`8`
-         :link: https://peps.python.org/pep-0008/
 
          .. versionadded:: 0.1
 
          Style Guide for Python Code
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`287`
-         :link: https://peps.python.org/pep-0287/
 
          .. versionadded:: 0.1
 
@@ -437,49 +435,42 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
          Implicit Namespace Modules [#f2]_
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`440`
-         :link: https://peps.python.org/pep-0440/
 
          .. versionadded:: 0.1
 
          Version Identification and Dependency Specification
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`484`
-         :link: https://peps.python.org/pep-0484/
 
          .. versionadded:: 0.1
 
          Type Hints
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`585`
-         :link: https://peps.python.org/pep-0585/
 
          .. versionadded:: 0.1
 
          Type Hinting Generics In Standard Collections
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`3107`
-         :link: https://peps.python.org/pep-3107/
 
          .. versionadded:: 0.1
 
          Function Annotation
 
       .. grid-item-card:: :octicon:`skip;1em;sd-text-warning` allow :pep:`593`
-         :link: https://peps.python.org/pep-0593/
 
          .. versionadded:: 0.1
 
          Flexible function and variable annotations
 
       .. grid-item-card:: :octicon:`rocket;1em;sd-text-info` implement :pep:`639`
-         :link: https://peps.python.org/pep-0639/
 
          .. versionadded:: 0.1
 
          Improving License Clarity with Better Package Metadata
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`660`
-         :link: https://peps.python.org/pep-0660/
 
          .. versionadded:: 0.1
 
