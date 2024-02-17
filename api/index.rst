@@ -37,9 +37,8 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
       OZIproject.dev Homepage <https://oziproject.dev/>
       quick-start
-      roadmap
       spec
-      meson-support
+      roadmap
       roles-and-responsibilities
       test-code-standards
       test-policy
