@@ -235,14 +235,14 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       \linebreak
 
-   .. dropdown:: :abbr:`project_name (meson.build variable project_name)`/       
+   .. dropdown:: :abbr:`project_name/ (meson.build variable project_name)`       
       :icon: file-directory
 
       .. versionadded:: 0.1
 
       Python sources, submodules, and stubfiles.
 
-      .. dropdown:: :file:`__init__.py`
+      .. dropdown:: :file:`project_name/__init__.py`
 
          .. versionadded:: 0.1
 
@@ -251,7 +251,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
          .. literalinclude:: assets/ozi/ozi/templates/project.name/__init__.py.j2
 
 
-      .. dropdown:: :file:`meson.build`
+      .. dropdown:: :file:`project_name/meson.build`
 
          .. versionadded:: 0.1
 
@@ -260,7 +260,7 @@ The following is the minimal project structure required by ``ozi`` to be a proje
          .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
 
 
-   .. dropdown:: :abbr:`test_source (meson.build variable test_source)`/
+   .. dropdown:: :abbr:`test_source/ (meson.build variable test_source)`
       :icon: file-directory
 
       .. versionadded:: 0.1
@@ -408,11 +408,19 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Style Guide for Python Code
 
+      .. raw:: latex
+
+         \bigskip
+
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`287`
 
          .. versionadded:: 0.1
 
          reStructuredText Docstring Format
+
+      .. raw:: latex
+
+         \bigskip
 
       .. grid-item-card:: :octicon:`checklist;1em;sd-text-info` implement :pep:`680`
 
@@ -438,11 +446,19 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Implicit Namespace Modules [#f2]_
 
+      .. raw:: latex
+
+         \bigskip
+
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`440`
 
          .. versionadded:: 0.1
 
          Version Identification and Dependency Specification
+
+      .. raw:: latex
+
+         \bigskip
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`484`
 
@@ -450,11 +466,19 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Type Hints
 
+      .. raw:: latex
+
+         \bigskip
+
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`585`
 
          .. versionadded:: 0.1
 
          Type Hinting Generics In Standard Collections
+
+      .. raw:: latex
+
+         \bigskip
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`3107`
 
@@ -462,17 +486,29 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Function Annotation
 
+      .. raw:: latex
+
+         \bigskip
+
       .. grid-item-card:: :octicon:`skip;1em;sd-text-warning` allow :pep:`593`
 
          .. versionadded:: 0.1
 
          Flexible function and variable annotations
 
+      .. raw:: latex
+
+         \bigskip
+
       .. grid-item-card:: :octicon:`rocket;1em;sd-text-info` implement :pep:`639`
 
          .. versionadded:: 0.1
 
          Improving License Clarity with Better Package Metadata
+
+      .. raw:: latex
+
+         \bigskip
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`660`
 
@@ -488,12 +524,8 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
    .. [#f1] SHOULD use ``tomli`` if Python version < 3.11
 
-      .. versionadded:: 0.1
-
-   .. [#f2] SHOULD allow :pep:`420` in :abbr:`test_source (meson.build variable test_source)`
+   .. [#f2] SHOULD allow PEP 420 in :abbr:`test_source (meson.build variable test_source)`
       using ``# noqa: INP001``
-
-      .. versionadded:: 0.1
 
 .. card:: See also
    :class-card: seealso
