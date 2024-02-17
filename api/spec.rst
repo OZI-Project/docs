@@ -662,7 +662,13 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
    .. card:: Use project configuration:
 
-      .. literalinclude:: assets/ozi/ozi/templates/tox.pyproject.toml
+      .. only:: html
+
+         :download:`assets/ozi/ozi/templates/tox.pyproject.toml`
+
+      .. only:: latex
+
+         .. literalinclude:: assets/ozi/ozi/templates/tox.pyproject.toml
 
 .. raw:: latex
 
