@@ -592,7 +592,7 @@ semantic-release
 .. card:: See also
    :class-card: seealso
 
-   :ref:`:strong:`REQUIRED` semantic-release`
+   :ref:`REQUIRED semantic-release`
 
 
 setuptools_scm
