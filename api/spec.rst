@@ -368,6 +368,10 @@ The following is the minimal project structure required by ``ozi`` to be a proje
 
       .. literalinclude:: assets/ozi/ozi/templates/project.PKG-INFO
 
+.. raw:: latex
+
+    \newpage
+
 PEP Compliance
 ^^^^^^^^^^^^^^
 
