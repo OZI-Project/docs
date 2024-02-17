@@ -24,9 +24,9 @@ Unit Testing
 
 * Aim for naming consistency. Common standard is to use a When-Then name, for example, WhenTwoItemsExistsThenBothItemsAreReturned
 * Follow best practice:
-  * Tests for results not functionality
-  * One assertion per test
-  * Tests should be isolated, i.e. have no dependencies on other tests nor on order of execution
+   * Tests for results not functionality
+   * One assertion per test
+   * Tests should be isolated, i.e. have no dependencies on other tests nor on order of execution
 
 API Testing
 -----------
