@@ -23,15 +23,8 @@ dist
 
       \linebreak
 
-   .. versionadded:: 0.1
-
-   .. card:: See also
-      :class-card: seealso
-
-      :ref:`REQUIRED semantic-release`
-
-      :octicon:`alert;1em;sd-text-warning` External
-         pyc_wheel_
+   :octicon:`alert;1em;sd-text-warning` External
+      pyc_wheel_
 
    .. _REQUIRED semantic-release:
 

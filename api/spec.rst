@@ -213,7 +213,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
          Python package module entry point.
 
          .. literalinclude:: assets/ozi/ozi/templates/project.name/__init__.py.j2
-
+            :lines: 7-
 
       .. dropdown:: :file:`project_name/meson.build`
 
@@ -222,7 +222,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
          The project source build script.
          
          .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
-
+            :lines: 7-
 
    .. dropdown:: :abbr:`test_source/ (meson.build variable test_source)`
       :icon: file-directory
@@ -230,7 +230,6 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       .. versionadded:: 0.1
 
       Source for pytest_ and :py:mod:`unittest`
-
 
    .. dropdown:: subprojects/
       :icon: file-submodule
@@ -247,6 +246,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
          Entry point for OZI to initialize a packaging environment.
 
          .. literalinclude:: assets/ozi/ozi/templates/ozi.wrap.j2
+            :lines: 7-
 
 
    .. dropdown:: :file:`.gitignore`
@@ -257,6 +257,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       Specifies intentionally untracked files to ignore.
 
       .. literalinclude:: assets/ozi/ozi/templates/.gitignore.j2
+         :lines: 7-
 
 
    .. dropdown:: :file:`LICENSE.txt`
@@ -267,6 +268,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       License terms for project distribution.
 
       .. literalinclude:: assets/ozi/ozi/templates/LICENSE.txt.j2
+         :lines: 7-
 
    .. dropdown:: :file:`README.rst`
       :icon: info
@@ -276,6 +278,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       Repository and packaged README file.
 
       .. literalinclude:: assets/ozi/ozi/templates/README.rst.j2
+         :lines: 7-
 
    .. dropdown:: :file:`requirements.in`
       :icon: info
@@ -285,6 +288,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       Any PyPI dependencies.
 
       .. literalinclude:: assets/ozi/ozi/templates/requirements.in.j2
+         :lines: 7-
 
    .. dropdown:: :file:`meson.build`
       :icon: project
@@ -294,6 +298,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       The main project build script.
       
       .. literalinclude:: assets/ozi/ozi/templates/project.meson.build
+         :lines: 7-
 
    .. dropdown:: :file:`meson.options`
       :icon: terminal
@@ -306,15 +311,18 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
          
       .. literalinclude:: assets/ozi/ozi/templates/project.feature.meson.options
          :language: meson
+         :lines: 7-
 
       .. rubric:: integer
 
       .. literalinclude:: assets/ozi/ozi/templates/project.integer.meson.options
          :language: meson
+         :lines: 7-
 
       .. rubric:: array
 
       .. literalinclude:: assets/ozi/ozi/templates/project.array.meson.options
+         :lines: 7-
 
    .. dropdown:: :file:`pyproject.toml`
       :icon: package
@@ -331,6 +339,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       Packaged project metadata.
 
       .. literalinclude:: assets/ozi/ozi/templates/project.PKG-INFO
+         :lines: 7-
 
 .. raw:: latex
 
