@@ -496,6 +496,10 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
    :ref:`lint`
 
+.. raw:: latex
+
+    \newpage
+
 Environment
 -----------
 
@@ -660,6 +664,9 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
       .. literalinclude:: assets/ozi/ozi/templates/tox.pyproject.toml
 
+.. raw:: latex
+
+    \newpage
 
 Publishing Scripts
 ------------------
@@ -732,6 +739,10 @@ ozi-new
    .. card:: List output of SPDX license exceptions.
 
       .. versionadded:: 0.1
+
+.. raw:: latex
+
+    \newpage
 
 Utilities
 ---------
