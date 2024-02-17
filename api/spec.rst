@@ -6,7 +6,7 @@
 
       http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing,
+   Unless :strong:`REQUIRED` by applicable law or agreed to in writing,
    software distributed under the License is distributed on an
    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
    KIND, either express or implied.  See the License for the
@@ -72,42 +72,6 @@ in this document are to be interpreted as described in :rfc:`2119`.
    * `Test Anything Protocol <https://testanything.org/tap-specification.html>`_
    * `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
 
-Documentation
--------------
-
-The following contains the requirements for the documentation source format of an OZI
-project.
-
-.. index:: triple: specification; documentation; format
-
-Format
-^^^^^^
-
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
-
-   .. raw:: latex
-
-      \linebreak
-
-   .. card:: Respect maximum line width limit 93.
-
-      .. versionadded:: 0.1
-
-.. raw:: latex
-
-   \bigskip
-
-.. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
-
-   .. raw:: latex
-
-      \linebreak
-
-   .. card:: Prefer LF over CRLF line-endings.
-
-      .. versionadded:: 0.1
-
-
 Source
 ------
 
@@ -119,7 +83,7 @@ project.
 Format
 ^^^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -183,7 +147,7 @@ Format
 
    \bigskip
 
-.. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
+.. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
 
    .. raw:: latex
 
@@ -208,7 +172,7 @@ Format
 Python Implementation
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -223,13 +187,13 @@ Python Implementation
 Structure
 ^^^^^^^^^
 
-The following is the minimal project structure required by ``ozi`` to be a project.
+The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to be a project.
 
 .. raw:: latex
 
    \bigskip
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -394,7 +358,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
    \bigskip
 
-.. card:: :octicon:`info;1.5em;sd-text-warning` RECOMMENDED
+.. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
 
    .. raw:: latex
 
@@ -432,7 +396,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
    \bigskip
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -545,7 +509,7 @@ Project environment configuration expectations for ``tox`` are also provided.
 Meson
 ^^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -611,7 +575,7 @@ Meson
 
    \bigskip
 
-.. card:: :octicon:`skip;1.5em;sd-text-warning` RECOMMENDED
+.. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
 
    .. raw:: latex
 
@@ -628,7 +592,7 @@ semantic-release
 .. card:: See also
    :class-card: seealso
 
-   :ref:`REQUIRED semantic-release`
+   :ref:`:strong:`REQUIRED` semantic-release`
 
 
 setuptools_scm
@@ -640,7 +604,7 @@ setuptools_scm_ controls the version information for the project environment.
 
    \bigskip
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -664,7 +628,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
    \bigskip
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -712,7 +676,7 @@ This discusses the scripts that will be used to create packages with OZI.
 General
 ^^^^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -725,7 +689,7 @@ General
 ozi-fix
 ^^^^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -742,7 +706,7 @@ ozi-fix
 ozi-new
 ^^^^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -792,7 +756,7 @@ This section lists the third-party utility program requirements.
 
    \bigskip
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 

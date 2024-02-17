@@ -17,7 +17,7 @@
 test
 ^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 

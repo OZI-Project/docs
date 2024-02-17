@@ -17,7 +17,7 @@
 lint
 ^^^^
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` REQUIRED
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
    .. raw:: latex
 
@@ -171,7 +171,7 @@ lint
 
       .. literalinclude:: assets/ozi/ozi/templates/pyright.pyproject.toml
 
-.. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
+.. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`OPTIONAL`
 
    .. raw:: latex
 
