@@ -72,6 +72,10 @@ in this document are to be interpreted as described in :rfc:`2119`.
    * `Test Anything Protocol <https://testanything.org/tap-specification.html>`_
    * `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
 
+.. raw:: latex
+
+    \newpage
+
 Source
 ------
 
