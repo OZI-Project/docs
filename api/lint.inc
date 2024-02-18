@@ -191,9 +191,9 @@ lint
          .. literalinclude:: assets/ozi/ozi/templates/isort.pyproject.toml
             :lines: 7-
 
-         .. only:: html
+      .. only:: html
 
-            :download:`assets/ozi/ozi/templates/isort.pyproject.toml`
+         :download:`assets/ozi/ozi/templates/isort.pyproject.toml`
 
    .. index::
       triple: utilities; linters; pylint
@@ -213,9 +213,9 @@ lint
          .. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
             :lines: 7-
 
-         .. only:: html
+      .. only:: html
 
-            :download:`assets/ozi/ozi/templates/mypy.meson.options`
+         :download:`assets/ozi/ozi/templates/mypy.meson.options`
 
    .. dropdown:: configuration
       :icon: package
