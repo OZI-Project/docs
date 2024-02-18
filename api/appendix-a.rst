@@ -20,11 +20,15 @@ Specification Templates
 
     \newpage
 
+.. _source-init-py:
+
 project_name/\_\_init\_\_.py
 ----------------------------
 
 .. literalinclude:: assets/ozi/ozi/templates/project.name/__init__.py.j2
     :lines: 7-
+
+.. _source-meson-build:
 
 project_name/meson.build
 ------------------------
@@ -32,11 +36,15 @@ project_name/meson.build
 .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
     :lines: 7-
 
+.. _subprojects-ozi-wrap:
+
 subprojects/ozi.wrap
 --------------------
 
 .. literalinclude:: assets/ozi/ozi/templates/ozi.wrap.j2
     :lines: 7-
+
+.. _gitignore:
 
 .gitignore
 ----------
@@ -44,11 +52,15 @@ subprojects/ozi.wrap
 .. literalinclude:: assets/ozi/ozi/templates/.gitignore.j2
     :lines: 7-
 
+.. _license-txt:
+
 LICENSE.txt
 -----------
 
 .. literalinclude:: assets/ozi/ozi/templates/LICENSE.txt.j2
     :lines: 7-
+
+.. _readme-rst:
 
 README.rst
 ----------
@@ -56,17 +68,23 @@ README.rst
 .. literalinclude:: assets/ozi/ozi/templates/README.rst.j2
     :lines: 7-
 
+.. _requirements_in:
+
 requirements.in
 ---------------
 
 .. literalinclude:: assets/ozi/ozi/templates/requirements.in.j2
     :lines: 7-
 
+.. _meson-build:
+
 meson.build
 -----------
 
 .. literalinclude:: assets/ozi/ozi/templates/project.meson.build
     :lines: 7-
+
+.. _meson-options:
 
 meson.options
 -------------
@@ -83,60 +101,110 @@ meson.options
     :language: meson
     :lines: 7-
 
+.. literalinclude:: assets/ozi/ozi/templates/bandit.meson.options
+    :language: meson
+    :lines: 7-
+
+.. literalinclude:: assets/ozi/ozi/templates/black.meson.options
+    :language: meson
+    :lines: 7-
+
+.. literalinclude:: assets/ozi/ozi/templates/flake8.meson.options
+    :language: meson
+    :lines: 7-
+
+.. literalinclude:: assets/ozi/ozi/templates/isort.meson.options
+    :language: meson
+    :lines: 7-
+
+.. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
+    :language: meson
+    :lines: 7-
+
+.. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
+    :language: meson
+    :lines: 7-
+
+
+.. _pkg-info:
+
 PKG-INFO
 --------
 
 .. literalinclude:: assets/ozi/ozi/templates/project.PKG-INFO
     :lines: 7-
 
+.. _pyproject-toml:
+
 pyproject.toml
 --------------
+
+.. _setuptools_scm-config:
+
+.. rubric:: pyproject.toml:setuptools_scm
 
 .. literalinclude:: assets/ozi/ozi/templates/setuptools_scm.pyproject.toml
     :lines: 7-
 
+.. _tox-config:
+
+.. rubric:: pyproject.toml:tox
+
 .. literalinclude:: assets/ozi/ozi/templates/tox.pyproject.toml
     :lines: 7-
+
+.. _semantic_release-config:
+
+.. rubric:: pyproject.toml:semantic_release
 
 .. literalinclude:: assets/ozi/ozi/templates/semantic_release.pyproject.toml
     :lines: 7-
 
-.. literalinclude:: assets/ozi/ozi/templates/bandit.meson.options
-    :lines: 7-
+.. _bandit-config:
+
+.. rubric:: pyproject.toml:bandit
 
 .. literalinclude:: assets/ozi/ozi/templates/bandit.pyproject.toml
     :lines: 7-
 
-.. literalinclude:: assets/ozi/ozi/templates/black.meson.options
-    :lines: 7-
+.. _black-config:
+
+.. rubric:: pyproject.toml:black
 
 .. literalinclude:: assets/ozi/ozi/templates/black.pyproject.toml
     :lines: 7-
 
-.. literalinclude:: assets/ozi/ozi/templates/flake8.meson.options
-    :lines: 7-
+.. _flake8-config:
+
+.. rubric:: pyproject.toml:flake8
 
 .. literalinclude:: assets/ozi/ozi/templates/flake8.pyproject.toml
     :lines: 7-
 
-.. literalinclude:: assets/ozi/ozi/templates/isort.meson.options
-    :lines: 7-
+.. _isort-config:
+
+.. rubric:: pyproject.toml:isort
 
 .. literalinclude:: assets/ozi/ozi/templates/isort.pyproject.toml
     :lines: 7-
 
-.. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
-    :lines: 7-
+.. _mypy-config:
+
+.. rubric:: pyproject.toml:mypy
 
 .. literalinclude:: assets/ozi/ozi/templates/mypy.pyproject.toml
     :lines: 7-
 
-.. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
-    :lines: 7-
+.. _pyright-config:
+
+.. rubric:: pyproject.toml:pyright
 
 .. literalinclude:: assets/ozi/ozi/templates/pyright.pyproject.toml
     :lines: 7-
 
+.. _pylint-config:
+
+.. rubric:: pyproject.toml:pylint
+
 .. literalinclude:: assets/ozi/ozi/templates/pylint.pyproject.toml
     :lines: 7-
-

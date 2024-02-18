@@ -56,7 +56,6 @@ intersphinx_mapping = {
     'pypa': ('https://packaging.python.org', None),
     'pytest': ('https://docs.pytest.org/en/stable/', None),
     'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
-    'pytest': ('https://docs.pytest.org/en/stable/', None),
     'semantic_release': (
         'https://python-semantic-release.readthedocs.io/en/stable/',
         None,
@@ -84,7 +83,7 @@ latex_logo = 'assets/brand/images/ozi_social_preview.png'
 latex_elements = {'fncychap': r'\usepackage[Sonny]{fncychap}'}
 latex_show_pagerefs = True
 latex_show_urls = 'inline'
-latex_appendices = ['appendix']
+latex_appendices = ['appendix-a']
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
