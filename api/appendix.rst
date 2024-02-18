@@ -12,40 +12,64 @@
    KIND, either express or implied.  See the License for the
    specific language governing permissions and limitations
    under the License.
-==========
-Appendices
-==========
+=======================
+Specification Templates
+=======================
 
 .. raw:: latex
 
     \newpage
 
-Specification Templates
------------------------
+project_name/\_\_init\_\_.py
+----------------------------
 
 .. literalinclude:: assets/ozi/ozi/templates/project.name/__init__.py.j2
     :lines: 7-
 
+project_name/meson.build
+------------------------
+
 .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
     :lines: 7-
+
+subprojects/ozi.wrap
+--------------------
 
 .. literalinclude:: assets/ozi/ozi/templates/ozi.wrap.j2
     :lines: 7-
 
+.gitignore
+----------
+
 .. literalinclude:: assets/ozi/ozi/templates/.gitignore.j2
     :lines: 7-
+
+LICENSE.txt
+-----------
 
 .. literalinclude:: assets/ozi/ozi/templates/LICENSE.txt.j2
     :lines: 7-
 
+README.rst
+----------
+
 .. literalinclude:: assets/ozi/ozi/templates/README.rst.j2
     :lines: 7-
+
+requirements.in
+---------------
 
 .. literalinclude:: assets/ozi/ozi/templates/requirements.in.j2
     :lines: 7-
 
+meson.build
+-----------
+
 .. literalinclude:: assets/ozi/ozi/templates/project.meson.build
     :lines: 7-
+
+meson.options
+-------------
 
 .. literalinclude:: assets/ozi/ozi/templates/project.feature.meson.options
     :language: meson
@@ -59,8 +83,14 @@ Specification Templates
     :language: meson
     :lines: 7-
 
+PKG-INFO
+--------
+
 .. literalinclude:: assets/ozi/ozi/templates/project.PKG-INFO
     :lines: 7-
+
+pyproject.toml
+--------------
 
 .. literalinclude:: assets/ozi/ozi/templates/setuptools_scm.pyproject.toml
     :lines: 7-
