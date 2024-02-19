@@ -1,5 +1,5 @@
-.. |date| date:: %d-%b-%Y
 .. include:: latex-tools.rst
+
 ===============
 Project Roadmap
 ===============
