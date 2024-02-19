@@ -90,9 +90,7 @@ Format
 
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. grid:: 2
@@ -152,9 +150,7 @@ Format
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
-
-   |end-flushright|
+.. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED` |end-flushright|
    |linebreak|
 
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
@@ -178,9 +174,7 @@ Python Implementation
 
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. card:: CPython
@@ -197,9 +191,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. dropdown:: :abbr:`project_name/ (meson.build variable project_name)`       
@@ -429,9 +421,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
-
-   |end-flushright|
+.. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED` |end-flushright|
    |linebreak|
 
    .. grid:: 2
@@ -461,9 +451,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. grid:: 2
@@ -557,9 +545,7 @@ Meson
 
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. card:: The minimum supported version of Meson is `version 1.1.0 <https://mesonbuild.com/Release-notes-for-1-1-0.html>`_.
@@ -634,9 +620,7 @@ Meson
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
-
-   |end-flushright|
+.. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`RECOMMENDED` |end-flushright|
    |linebreak|
 
    .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
@@ -661,9 +645,7 @@ setuptools_scm_ controls the version information for the project environment.
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. versionadded:: 0.1
@@ -688,9 +670,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. grid:: 2
@@ -741,9 +721,7 @@ General
 
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. card:: If stdout is not to be used directly output in :abbr:`TAP (Test Anything Protocol)`
@@ -755,9 +733,7 @@ ozi-fix
 
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. card:: Output meson rewriter commands to edit ``meson.build`` file and subdir list targets.
@@ -773,9 +749,7 @@ ozi-new
 
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
-
-   |end-flushright|
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
    |linebreak|
 
    .. card:: Create new Python project files from specific templates.
@@ -819,9 +793,8 @@ This section lists the third-party utility program requirements.
 |bigskip|
 |begin-flushright|
 
-.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED` |end-flushright|
 
-   |end-flushright|
    |linebreak|
 
    .. index:: utilities; exit; successfully
