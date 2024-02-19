@@ -396,7 +396,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       .. only:: latex
 
-         See :raw:`pkg-info`
+         See :ref:`pkg-info`
 
       .. only:: html
 
