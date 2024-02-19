@@ -26,6 +26,7 @@ Completed Milestones
     * :octicon:`check;1em;sd-text-info` test_policy_mandated
 
 |bigskip|
+
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Deprecated Python 3.9 Support
 
     |linebreak|
@@ -54,6 +55,7 @@ Works in Progress
     the project committers will need to satisfy the OZI specification.
 
 |bigskip|
+
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Status: Alpha
 
     |linebreak|
@@ -61,6 +63,7 @@ Works in Progress
     Pre-Alpha to Alpha the committers need to satisfy the OZI specification.
 
 |bigskip|
+
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Specification
 
     |linebreak|
@@ -70,18 +73,21 @@ Works in Progress
     release.
 
 |bigskip|
+
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Accessibility Best Practices
 
     |linebreak|
     This is an OpenSSF Silver attestation.
 
 |bigskip|
+
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Internationalization and Localization
 
     |linebreak|
     This is an OpenSSF Silver attestation.
 
 |bigskip|
+
 .. card:: :octicon:`milestone;1.5em;sd-text-info` Vulnerability Response Process
 
     |linebreak|
@@ -97,6 +103,7 @@ Help Needed
     Currently the bus factor is one; just the project lead.
 
 |bigskip|
+
 .. card:: :octicon:`people;1.5em;sd-text-info` Access Continuity
 
     |linebreak|
