@@ -13,6 +13,8 @@
    specific language governing permissions and limitations
    under the License.
 
+.. include:: latex-tools.rst
+
 .. meta::
    :description: specification for the OZI Python packaging for Meson API.
    :keywords: specification, OZI, Python, API, packaging, Meson
@@ -21,15 +23,16 @@
 API Specification
 =================
 
+|begin-flushright|
+
 .. article-info::
    :author: Eden Rose Duff MSc
    :date: 18-Sep-2023
    :read-time: 45 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
-.. raw:: latex
-
-    \newpage
+|end-flushright|
+|newpage|
 
 This document contains the specification for the OZI Python packaging for Meson API.
 OZI is meant for Python developers as a standardized and flexible but opinionated
@@ -72,9 +75,7 @@ in this document are to be interpreted as described in :rfc:`2119`.
    * `Test Anything Protocol <https://testanything.org/tap-specification.html>`_
    * `Tom's Obvious Minimal Language <https://toml.io/en/v1.0.0>`_
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Source
 ------
@@ -89,9 +90,7 @@ Format
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. grid:: 2
 
@@ -147,15 +146,11 @@ Format
 
          .. versionadded:: 0.1
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
 
@@ -178,9 +173,7 @@ Python Implementation
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. card:: CPython
       :link: https://www.python.org
@@ -193,15 +186,11 @@ Structure
 
 The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to be a project.
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. dropdown:: :abbr:`project_name/ (meson.build variable project_name)`       
       :icon: file-directory
@@ -407,9 +396,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
          .. literalinclude:: assets/ozi/ozi/templates/project.PKG-INFO
             :lines: 7-
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 PEP Compliance
 ^^^^^^^^^^^^^^
@@ -429,15 +416,11 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
    triple: specification; check; pep639
    triple: specification; check; pep3107
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. grid:: 2
 
@@ -447,9 +430,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Style Guide for Python Code
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`287`
 
@@ -457,9 +438,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          reStructuredText Docstring Format
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`checklist;1em;sd-text-info` implement :pep:`680`
 
@@ -467,15 +446,11 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          tomllib: Support for Parsing TOML in the Standard Library [#f1]_
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. grid:: 2
 
@@ -485,9 +460,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Implicit Namespace Modules [#f2]_
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`440`
 
@@ -495,9 +468,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Version Identification and Dependency Specification
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`484`
 
@@ -505,9 +476,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Type Hints
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`585`
 
@@ -515,9 +484,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Type Hinting Generics In Standard Collections
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`check-circle;1em;sd-text-info` check :pep:`3107`
 
@@ -525,9 +492,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Function Annotation
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`skip;1em;sd-text-warning` allow :pep:`593`
 
@@ -535,9 +500,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Flexible function and variable annotations
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`rocket;1em;sd-text-info` implement :pep:`639`
 
@@ -545,9 +508,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Improving License Clarity with Better Package Metadata
 
-      .. raw:: latex
-
-         \bigskip
+      |bigskip|
 
       .. grid-item-card:: :octicon:`blocked;1em;sd-text-danger` reject :pep:`660`
 
@@ -555,9 +516,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
          Editable installs for pyproject.toml based builds (wheel based)
 
-.. raw:: latex
-
-   \linebreak
+|linebreak|
 
 .. card::
 
@@ -571,9 +530,7 @@ This section contains non-exhaustive lists of PEPs that OZI is an external stake
 
    :ref:`lint`
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Environment
 -----------
@@ -586,9 +543,7 @@ Meson
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. card:: The minimum supported version of Meson is `version 1.1.0 <https://mesonbuild.com/Release-notes-for-1-1-0.html>`_.
 
@@ -659,15 +614,11 @@ Meson
 
       MUST distribute wheel releases as Python bytecode and stubfiles.
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. card:: Support ``prerelease`` Python in alpha, beta, and release candidate versions.
 
@@ -688,15 +639,11 @@ setuptools_scm
 
 setuptools_scm_ controls the version information for the project environment.
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. versionadded:: 0.1
 
@@ -717,15 +664,11 @@ tox_ is a mature solution to the problem of environment integration.
 OZI uses ``tox`` to manage integration testing across supported Python releases.
 Positional arguments are provided to a standardized ``meson test`` configuration.
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. grid:: 2
 
@@ -763,9 +706,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
          See :ref:`tox-config`
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Publishing Scripts
 ------------------
@@ -777,9 +718,7 @@ General
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. card:: If stdout is not to be used directly output in :abbr:`TAP (Test Anything Protocol)`
 
@@ -790,9 +729,7 @@ ozi-fix
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. card:: Output meson rewriter commands to edit ``meson.build`` file and subdir list targets.
 
@@ -807,9 +744,7 @@ ozi-new
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. card:: Create new Python project files from specific templates.
 
@@ -839,9 +774,7 @@ ozi-new
 
       .. versionadded:: 0.1
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Utilities
 ---------
@@ -851,15 +784,11 @@ General
 
 This section lists the third-party utility program requirements.
 
-.. raw:: latex
-
-   \bigskip
+|bigskip|
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+   |linebreak|
 
    .. index:: utilities; exit; successfully
    .. card:: Exit successfully during environment test.
