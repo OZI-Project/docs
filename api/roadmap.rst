@@ -5,11 +5,13 @@ Project Roadmap
 ===============
 
 |begin-flushright|
+
 .. article-info::
     :author: Eden Rose Duff MSc
     :date: 04-Sep-2023
     :read-time: 5 min read
     :class-container: sd-p-2 sd-outline-muted sd-rounded-1
+
 |end-flushright|
 |newpage|
 
