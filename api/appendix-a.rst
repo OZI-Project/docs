@@ -169,6 +169,9 @@ PKG-INFO
 pyproject.toml
 --------------
 
+.. literalinclude:: assets/ozi/ozi/templates/root.pyproject.toml
+    :lines: 7-
+
 .. _setuptools_scm-config:
 
 .. rubric:: pyproject.toml:setuptools_scm
