@@ -387,6 +387,10 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       Packaging configuration and project metadata template.
 
+      .. only:: latex
+
+         See :ref:`pyproject-toml`
+
    .. dropdown:: :file:`PKG-INFO`
       :icon: info
 
