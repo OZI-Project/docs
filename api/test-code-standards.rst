@@ -1,6 +1,10 @@
+.. include:: latex-tools.rst
+
 =========================
 Test Automation Standards
 =========================
+
+|begin-flushright|
 
 .. article-info::
    :author: Eden Rose Duff MSc (adapted from UK Hydrographic Office materials under an MIT license)
@@ -8,9 +12,9 @@ Test Automation Standards
    :read-time: 10 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
-.. raw:: latex
+|end-flushright|
 
-    \newpage
+|newpage|
 
 Python & Meson
 --------------

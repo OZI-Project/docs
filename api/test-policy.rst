@@ -1,6 +1,10 @@
+.. include:: latex-tools.rst
+
 ===========
 Test Policy
 ===========
+
+|begin-flushright|
 
 .. article-info::
    :author: Eden Rose Duff MSc (adapted from UK Hydrographic Office materials under an MIT license)
@@ -8,9 +12,8 @@ Test Policy
    :read-time: 5 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
-.. raw:: latex
-
-    \newpage
+|end-flushright|
+|newpage|
 
 The purpose of this document is to communicate the policy for testing of new and updated software,
 

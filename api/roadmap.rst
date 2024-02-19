@@ -18,10 +18,9 @@ Project Roadmap
 Completed Milestones
 --------------------
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Test Policy
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Test Policy OpenSSF Silver attestations
 
     |linebreak|
-    This covers multiple OpenSSF Silver attestations:
 
     * :octicon:`check;1em;sd-text-info` automated_integration_testing
     * :octicon:`check;1em;sd-text-info` regression_tests_added50
@@ -76,40 +75,31 @@ Works in Progress
 
 |bigskip|
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Accessibility Best Practices
-
-    |linebreak|
-    This is an OpenSSF Silver attestation.
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Accessibility Best Practices OpenSSF Silver attestation
 
 |bigskip|
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Internationalization and Localization
-
-    |linebreak|
-    This is an OpenSSF Silver attestation.
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Internationalization and Localization OpenSSF Silver attestation
 
 |bigskip|
 
-.. card:: :octicon:`milestone;1.5em;sd-text-info` Vulnerability Response Process
+.. card:: :octicon:`milestone;1.5em;sd-text-info` Vulnerability Response Process OpenSSF Silver attestation
 
-    |linebreak|
-    This is an OpenSSF Silver attestation.
+
 
 Help Needed
 -----------
 
-.. card:: :octicon:`people;1.5em;sd-text-info` Bus Factor
+.. card:: :octicon:`people;1.5em;sd-text-info` Bus Factor OpenSSF Silver attestation
 
     |linebreak|
-    This is an OpenSSF Silver attestation.
     Currently the bus factor is one; just the project lead.
 
 |bigskip|
 
-.. card:: :octicon:`people;1.5em;sd-text-info` Access Continuity
+.. card:: :octicon:`people;1.5em;sd-text-info` Access Continuity OpenSSF Silver attestation
 
     |linebreak|
-    This is an OpenSSF Silver attestation.
     We have yet to setup access continuity. When committers are more active in OZI
     we will need to create a means of continuity.
 

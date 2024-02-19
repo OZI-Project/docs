@@ -1,6 +1,10 @@
+.. include:: latex-tools.rst
+
 =================
 Quick-start Guide
 =================
+
+|begin-flushright|
 
 .. article-info::
     :author: Eden Rose Duff MSc
@@ -8,9 +12,8 @@ Quick-start Guide
     :read-time: 5 min read
     :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
-.. raw:: latex
-
-    \newpage
+|end-flushright|
+|newpage|
 
 Installation
 ^^^^^^^^^^^^
@@ -24,9 +27,7 @@ or at the GitHub repository for download.
 
       pip install OZI
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Usage
 ^^^^^
@@ -109,9 +110,7 @@ Setup Python Package Index publishing
 It is recommended to enable 2 Factor Authentication on both your CI provider and PyPI 
 account.
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Create a New Packaged Project
 *****************************
@@ -141,9 +140,7 @@ for reasons external to OZI.
    ``Topic :: Utilities``, ``Typing :: Typed``, and ``Natural Language :: English``.
    You can also change these defaults by providing parameters to their respective arguments.
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Find Missing Files and Metadata
 *******************************
@@ -164,9 +161,7 @@ Add New Python Source Files
 
    .. command-output:: ls TARGET/project_name
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 Add New Source Subdirectories
 *****************************
