@@ -68,7 +68,7 @@ README.rst
 .. literalinclude:: assets/ozi/ozi/templates/README.rst.j2
     :lines: 7-
 
-.. _requirements_in:
+.. _requirements-in:
 
 requirements.in
 ---------------
@@ -101,30 +101,60 @@ meson.options
     :language: meson
     :lines: 7-
 
+.. _bandit-args:
+
+.. rubric:: meson.options:bandit-args
+
 .. literalinclude:: assets/ozi/ozi/templates/bandit.meson.options
     :language: meson
     :lines: 7-
+
+.. _black-args:
+
+.. rubric:: meson.options:black-args
 
 .. literalinclude:: assets/ozi/ozi/templates/black.meson.options
     :language: meson
     :lines: 7-
 
+.. _flake8-args:
+
+.. rubric:: meson.options:flake8-args
+
 .. literalinclude:: assets/ozi/ozi/templates/flake8.meson.options
     :language: meson
     :lines: 7-
+
+.. _isort-args:
+
+.. rubric:: meson.options:isort-args
 
 .. literalinclude:: assets/ozi/ozi/templates/isort.meson.options
     :language: meson
     :lines: 7-
 
+.. _mypy-args:
+
+.. rubric:: meson.options:mypy-args
+
 .. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
     :language: meson
     :lines: 7-
+
+.. _pyright-args:
+
+.. rubric:: meson.options:pyright-args
 
 .. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
     :language: meson
     :lines: 7-
 
+.. _pytest-args:
+
+.. rubric:: meson.options:pytest-args
+
+.. literalinclude:: assets/ozi/ozi/templates/pytest.meson.options
+    :lines: 7-
 
 .. _pkg-info:
 
@@ -208,3 +238,18 @@ pyproject.toml
 
 .. literalinclude:: assets/ozi/ozi/templates/pylint.pyproject.toml
     :lines: 7-
+
+.. _coverage-config:
+
+.. rubric:: pyproject.toml:coverage
+
+.. literalinclude:: assets/ozi/ozi/templates/coverage.pyproject.toml
+    :lines: 7-
+
+.. _pytest-config:
+
+.. rubric:: pyproject.toml:pytest
+
+.. literalinclude:: assets/ozi/ozi/templates/pytest.pyproject.toml
+    :lines: 7-
+

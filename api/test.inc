@@ -36,8 +36,7 @@ test
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/coverage.pyproject.toml
-            :lines: 7-
+         See :ref:`coverage-config`
 
       .. only:: html
 
@@ -62,8 +61,7 @@ test
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/pytest.meson.options
-            :lines: 7-
+         See :ref:`pytest-args`
 
       .. only:: html
 
@@ -74,8 +72,7 @@ test
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/pytest.pyproject.toml
-            :lines: 7-
+         See :ref:`pytest-config`
 
       .. only:: html
 

@@ -40,8 +40,7 @@ dist
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/semantic_release.pyproject.toml
-            :lines: 7-
+         See :ref:`semantic_release-config`
 
       .. only:: html
 

@@ -49,8 +49,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/bandit.meson.options
-            :lines: 7-
+         See :ref:`bandit-args`
 
       .. only:: html
 
@@ -61,8 +60,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/bandit.pyproject.toml
-            :lines: 7-
+         See :ref:`bandit-config`
 
       .. only:: html
 
@@ -85,8 +83,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/black.meson.options
-            :lines: 7-
+         See :ref:`black-args`
 
       .. only:: html
 
@@ -97,8 +94,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/black.pyproject.toml
-            :lines: 7-
+         See :ref:`black-config`
 
       .. only:: html
 
@@ -141,8 +137,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/flake8.meson.options
-            :lines: 7-
+         See :ref:`flake8-args`
 
       .. only:: html
 
@@ -153,8 +148,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/flake8.pyproject.toml
-            :lines: 7-
+         See :ref:`flake8-config`
 
       .. only:: html
 
@@ -176,8 +170,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/isort.meson.options
-            :lines: 7-
+         See :ref:`isort-args`
 
       .. only:: html
 
@@ -188,8 +181,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/isort.pyproject.toml
-            :lines: 7-
+         See :ref:`isort-config`
 
       .. only:: html
 
@@ -210,8 +202,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/mypy.meson.options
-            :lines: 7-
+         See :ref:`mypy-args`
 
       .. only:: html
 
@@ -222,8 +213,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/mypy.pyproject.toml
-            :lines: 7-
+         See :ref:`mypy-config`
 
       .. only:: html
 
@@ -236,8 +226,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/pyright.meson.options
-            :lines: 7-
+         See :ref:`pyright-args`
 
       .. only:: html
 
@@ -248,8 +237,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/pyright.pyproject.toml
-            :lines: 7-
+         See :ref:`pyright-config`
 
       .. only:: html
 
@@ -270,8 +258,7 @@ lint
 
       .. only:: latex
 
-         .. literalinclude:: assets/ozi/ozi/templates/pylint.pyproject.toml
-            :lines: 7-
+         See :ref:`pylint-config`
 
       .. only:: html
 
