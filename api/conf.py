@@ -30,8 +30,9 @@ release = '.'.join(_version('OZI').split('.')[:2])
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 extensions = [
+    'sphinx.ext.autodoc'
     'sphinx.ext.duration',
     'sphinx.ext.extlinks',
     'sphinx.ext.githubpages',
@@ -46,22 +47,7 @@ extensions = [
     'sphinxawesome_theme.highlighting',
     'sphinxcontrib.programoutput',
 ]
-
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3', None),
-    'devguide': ('https://devguide.python.org', None),
-    'pypa': ('https://packaging.python.org', None),
-    'pytest': ('https://docs.pytest.org/en/stable/', None),
-    'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
-    'semantic_release': (
-        'https://python-semantic-release.readthedocs.io/en/stable/',
-        None,
-    ),
-}
-
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -74,9 +60,7 @@ html_static_path = ['_static']
 html_css_files = ['css/custom.css']
 html_extra_path = ['robots.txt']
 html_permalinks_icon = Icons.permalinks_icon
-html_context = {
-    'mode': 'production',
-}
+html_context = {'mode': 'production'}
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_logo = 'assets/brand/images/ozi_social_preview.png'
@@ -84,6 +68,25 @@ latex_elements = {'fncychap': r'\usepackage[Sonny]{fncychap}'}
 latex_show_pagerefs = True
 latex_show_urls = 'inline'
 latex_appendices = ['appendix-a']
+
+# -- sphinx.ext.autodoc ------------------------------------------------------
+autodoc_typehints_format = 'short'
+
+# -- sphinx.ext.coverage -----------------------------------------------------
+coverage_show_missing_items = True
+
+# -- sphinx.ext.intersphinx --------------------------------------------------
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+    'devguide': ('https://devguide.python.org', None),
+    'pypa': ('https://packaging.python.org', None),
+    'pytest': ('https://docs.pytest.org/en/stable/', None),
+    'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
+    'semantic_release': (
+        'https://python-semantic-release.readthedocs.io/en/stable/',
+        None,
+    ),
+}
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
