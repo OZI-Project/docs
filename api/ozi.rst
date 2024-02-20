@@ -18,9 +18,7 @@ ozi.actions module
 ------------------
 
 .. automodule:: ozi.actions
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   :members: CloseMatch
 
 ozi.filter module
 -----------------
@@ -58,7 +56,7 @@ ozi.spec module
 ---------------
 
 .. automodule:: ozi.spec
-   :members:
+   :members: Build, CI, Checkpoint, CheckpointSuite, CommentPatterns, Default, License, Metadata, OZI, Pkg, PkgClassifiers, PkgInfo, PkgPattern, PkgRequired, Publish, PythonProject, PythonSupport, SrcFormat, SrcRequired, SrcTemplate, Support
    :undoc-members:
    :show-inheritance:
 
