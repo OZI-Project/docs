@@ -89,6 +89,7 @@ Format
 ^^^^^^
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
+
    |linebreak|
 
    .. grid:: 2
