@@ -79,7 +79,7 @@ coverage_show_missing_items = True
 
 # -- sphinx.ext.intersphinx --------------------------------------------------
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3', None),
+#    'python': ('https://docs.python.org/3', None),
     'devguide': ('https://devguide.python.org', None),
     'pypa': ('https://packaging.python.org', None),
     'pytest': ('https://docs.pytest.org/en/stable/', None),
