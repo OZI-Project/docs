@@ -9,7 +9,6 @@ Subpackages
 
    ozi.fix
    ozi.new
-   ozi.vendor
 
 Submodules
 ----------
