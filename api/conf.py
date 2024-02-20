@@ -71,6 +71,7 @@ latex_show_urls = 'inline'
 latex_appendices = ['appendix-a']
 
 # -- sphinx.ext.autodoc ------------------------------------------------------
+autodoc_preserve_defaults = True
 autodoc_typehints_format = 'short'
 
 # -- sphinx.ext.coverage -----------------------------------------------------
