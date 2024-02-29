@@ -43,7 +43,7 @@ meson==1.2.2
     # via
     #   -r requirements.in
     #   ozi
-ozi==0.0.234
+ozi==0.0.276
     # via -r requirements.in
 packaging==23.2
     # via sphinx
