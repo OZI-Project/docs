@@ -9,6 +9,7 @@ Subpackages
 
    ozi.fix
    ozi.new
+   ozi.scripts
 
 Submodules
 ----------
@@ -39,14 +40,6 @@ ozi.render module
 -----------------
 
 .. automodule:: ozi.render
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-ozi.spdx module
----------------
-
-.. automodule:: ozi.spdx
    :members:
    :undoc-members:
    :show-inheritance:
