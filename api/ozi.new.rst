@@ -19,3 +19,8 @@ Module contents
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. argparse::
+   :filename: assets/ozi/ozi/new/\_\_main\_\_.py
+   :func: parser
+   :prog: ozi-new
