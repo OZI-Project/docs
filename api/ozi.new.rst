@@ -21,6 +21,6 @@ Module contents
    :show-inheritance:
 
 .. argparse::
-   :filename: assets/ozi/ozi/new/\_\_main\_\_.py
+   :filename: assets/ozi/ozi/new/parser.py
    :func: parser
    :prog: ozi-new
