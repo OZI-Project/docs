@@ -67,8 +67,3 @@ Module contents
    :members:
    :undoc-members:
    :show-inheritance:
-
-.. argparse::
-   :filename: assets/ozi/ozi/\_\_main\_\_.py
-   :func: parser
-   :prog: ozi

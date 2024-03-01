@@ -19,8 +19,3 @@ Module contents
    :members:
    :undoc-members:
    :show-inheritance:
-
-.. argparse::
-   :filename: assets/ozi/ozi/fix/parser.py
-   :func: parser
-   :prog: ozi-fix
