@@ -42,6 +42,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
+    'sphinxarg.ext',
     'sphinx_design',
     'sphinx_last_updated_by_git',
     'sphinx_sitemap',
