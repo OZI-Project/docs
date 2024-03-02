@@ -19,4 +19,8 @@ Module contents
    :members:
    :undoc-members:
    :show-inheritance:
-   :special-members: __main__
+
+.. automodule:: ozi.fix.__main__
+   :members:
+   :undoc-members:
+   :show-inheritance:
