@@ -67,3 +67,4 @@ Module contents
    :members:
    :undoc-members:
    :show-inheritance:
+   :special-members: __main__
