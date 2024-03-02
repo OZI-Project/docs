@@ -22,3 +22,4 @@ Module contents
 
 .. command-output:: ozi-new --help
 
+.. command-output:: ozi-new project --help

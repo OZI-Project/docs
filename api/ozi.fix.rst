@@ -21,3 +21,9 @@ Module contents
    :show-inheritance:
 
 .. command-output:: ozi-fix --help
+
+.. command-output:: ozi-fix missing --help
+
+.. command-output:: ozi-fix source --help
+
+.. command-output:: ozi-fix test --help

@@ -69,3 +69,5 @@ Module contents
    :show-inheritance:
 
 .. command-output:: ozi --help
+
+.. command-output:: ozi project --help
