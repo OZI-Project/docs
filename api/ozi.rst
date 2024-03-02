@@ -1,15 +1,19 @@
 OZI package
 ===========
 
-Subpackages
------------
 
-.. toctree::
-   :maxdepth: 4
+Module contents
+---------------
 
-   ozi.fix
-   ozi.new
-   ozi.scripts
+.. automodule:: ozi
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. command-output:: ozi --help
+
+.. command-output:: ozi project --help
+
 
 Submodules
 ----------
@@ -60,14 +64,13 @@ ozi.tap module
    :undoc-members:
    :show-inheritance:
 
-Module contents
----------------
 
-.. automodule:: ozi
-   :members:
-   :undoc-members:
-   :show-inheritance:
+Subpackages
+-----------
 
-.. command-output:: ozi --help
+.. toctree::
+   :maxdepth: 4
 
-.. command-output:: ozi project --help
+   ozi.fix
+   ozi.new
+   ozi.scripts

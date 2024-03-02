@@ -1,16 +1,6 @@
 ozi.new package
 ===============
 
-Submodules
-----------
-
-ozi.new.parser module
----------------------
-
-.. automodule:: ozi.new.parser
-   :members:
-   :undoc-members:
-   :show-inheritance:
 
 Module contents
 ---------------
@@ -23,3 +13,15 @@ Module contents
 .. command-output:: ozi-new --help
 
 .. command-output:: ozi-new project --help
+
+
+Submodules
+----------
+
+ozi.new.parser module
+---------------------
+
+.. automodule:: ozi.new.parser
+   :members:
+   :undoc-members:
+   :show-inheritance:

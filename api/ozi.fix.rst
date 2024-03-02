@@ -1,16 +1,6 @@
 ozi.fix package
 ===============
 
-Submodules
-----------
-
-ozi.fix.parser module
----------------------
-
-.. automodule:: ozi.fix.parser
-   :members:
-   :undoc-members:
-   :show-inheritance:
 
 Module contents
 ---------------
@@ -27,3 +17,15 @@ Module contents
 .. command-output:: ozi-fix source --help
 
 .. command-output:: ozi-fix test --help
+
+
+Submodules
+----------
+
+ozi.fix.parser module
+---------------------
+
+.. automodule:: ozi.fix.parser
+   :members:
+   :undoc-members:
+   :show-inheritance:
