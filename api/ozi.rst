@@ -68,7 +68,4 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
-.. automodule:: ozi.__main__
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. command-output:: ozi --help

@@ -20,7 +20,4 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
-.. automodule:: ozi.fix.__main__
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. command-output:: ozi-fix --help

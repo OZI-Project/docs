@@ -20,8 +20,5 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
-.. automodule:: ozi.new.__main__
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. command-output:: ozi-new --help
 
