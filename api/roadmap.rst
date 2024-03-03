@@ -62,10 +62,10 @@ Pre-Alpha to Alpha the committers need to satisfy the OZI specification.
 Specification
 ^^^^^^^^^^^^^
 
-    Currently the spec is being actively developed alongside the Pre-Alpha releases.
-    This means that we will pin each specification card to a ``.. versionadded:: 0.1``
-    and change the ``API Specification: ...`` title here before work begins on an Alpha
-    release.
+Currently the spec is being actively developed alongside the Pre-Alpha releases.
+This means that we will pin each specification card to a ``.. versionadded:: 0.1``
+and change the ``API Specification: ...`` title here before work begins on an Alpha
+release.
 
 Accessibility Best Practices OpenSSF Silver attestation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -83,11 +83,11 @@ Help Needed
 Bus Factor OpenSSF Silver attestation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Currently the bus factor is one; just the project lead.
+Currently the bus factor is one; just the project lead.
 
 Access Continuity OpenSSF Silver attestation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    We have yet to setup access continuity. When committers are more active in OZI
-    we will need to create a means of continuity.
+We have yet to setup access continuity. When committers are more active in OZI
+we will need to create a means of continuity.
 
