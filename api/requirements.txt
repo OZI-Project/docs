@@ -43,7 +43,7 @@ meson==1.4.0rc1
     # via
     #   -r api/requirements.in
     #   ozi
-ozi==0.0.278
+ozi==0.0.280
     # via -r api/requirements.in
 packaging==23.2
     # via sphinx
