@@ -24,7 +24,7 @@ guix = ["kivy"]
 ## Textual User Interface
 tuix = ["click", "emoji", "pyfiglet", "tqdm"]
 ## Language cross-compilation utilities
-lang = ["astroid", "benigets", "Cython", "gast", "lark", "libcst", "pycparser", "sqlglot",
+lang = ["astroid", "beniget", "Cython", "gast", "lark", "libcst", "pycparser", "sqlglot",
         "xdsl"]
 ## NLP
 nlpx = ["nltk", "textblob"]
