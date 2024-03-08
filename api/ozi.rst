@@ -24,6 +24,14 @@ ozi.actions module
 .. automodule:: ozi.actions
    :members: CloseMatch
 
+ozi.comment module
+------------------
+
+.. automodule:: ozi.comment
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 ozi.filter module
 -----------------
 
