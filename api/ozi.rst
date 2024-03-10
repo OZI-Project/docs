@@ -56,14 +56,6 @@ ozi.render module
    :undoc-members:
    :show-inheritance:
 
-ozi.spec module
----------------
-
-.. automodule:: ozi.spec
-   :members: Build, CI, Checkpoint, CheckpointSuite, CommentPatterns, Default, License, Metadata, OZI, Pkg, PkgClassifiers, PkgInfo, PkgPattern, PkgRequired, Publish, PythonProject, PythonSupport, SrcFormat, SrcRequired, SrcTemplate, Support
-   :undoc-members:
-   :show-inheritance:
-
 ozi.tap module
 --------------
 
@@ -82,3 +74,4 @@ Subpackages
    ozi.fix
    ozi.new
    ozi.scripts
+   ozi.spec
