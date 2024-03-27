@@ -22,7 +22,7 @@ ozi.actions module
 ------------------
 
 .. automodule:: ozi.actions
-   :members: CloseMatch
+   :members:
 
 ozi.comment module
 ------------------
