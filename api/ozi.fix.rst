@@ -1,7 +1,3 @@
-.. include:: latex-tools.rst
-
-|newpage|
-
 ozi.fix package
 ===============
 

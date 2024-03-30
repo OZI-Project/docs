@@ -1,3 +1,5 @@
+.. include:: latex-tools.rst
+
 OZI package
 ===========
 
@@ -14,6 +16,7 @@ Module contents
 
 .. command-output:: ozi project --help
 
+|newpage|
 
 Submodules
 ----------
@@ -25,6 +28,8 @@ ozi.actions module
    :members:
    :exclude-members: ExactMatch
 
+|newpage|
+
 ozi.comment module
 ------------------
 
@@ -32,6 +37,8 @@ ozi.comment module
    :members:
    :undoc-members:
    :show-inheritance:
+
+|newpage|
 
 ozi.filter module
 -----------------
@@ -41,6 +48,8 @@ ozi.filter module
    :undoc-members:
    :show-inheritance:
 
+|newpage|
+
 ozi.meson module
 ----------------
 
@@ -48,6 +57,8 @@ ozi.meson module
    :members:
    :undoc-members:
    :show-inheritance:
+
+|newpage|
 
 ozi.render module
 -----------------
@@ -57,6 +68,8 @@ ozi.render module
    :undoc-members:
    :show-inheritance:
 
+|newpage|
+
 ozi.tap module
 --------------
 
@@ -65,6 +78,7 @@ ozi.tap module
    :undoc-members:
    :show-inheritance:
 
+|newpage|
 
 Subpackages
 -----------

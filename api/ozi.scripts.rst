@@ -1,7 +1,3 @@
-.. include:: latex-tools.rst
-
-|newpage|
-
 ozi.scripts namespace
 =====================
 
@@ -30,6 +26,14 @@ ozi.scripts.meson\_setuptools\_scm module
 -----------------------------------------
 
 .. automodule:: ozi.scripts.meson_setuptools_scm
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+ozi.scripts.render\_requirements module
+---------------------------------------
+
+.. automodule:: ozi.scripts.render_requirements
    :members:
    :undoc-members:
    :show-inheritance:
