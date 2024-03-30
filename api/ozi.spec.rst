@@ -1,3 +1,7 @@
+.. include:: latex-tools.rst
+
+|newpage|
+
 ozi.spec package
 ================
 
