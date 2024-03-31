@@ -17,7 +17,7 @@ under the License.
 
 {% block extrahead %}
   {{ super() }}
-  <meta http-equiv="Content-Security-Policy" content="default-src https: 'unsafe-eval' 'unsafe-inline'; script-src https: 'unsafe-eval' 'unsafe-inline' https://readthedocs.org/ 'self' font-src https: https://fonts.googleapis.com">
+  <meta http-equiv="Content-Security-Policy" content="default-src https: 'unsafe-eval' 'unsafe-inline'; script-src https: 'unsafe-eval' 'unsafe-inline' https://readthedocs.org/ https://giscus.app/client.js 'self' font-src https: https://fonts.googleapis.com style-src https: https://giscus.app">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Noto+Serif+HK:wght@200..900&display=swap" rel="stylesheet">
@@ -25,3 +25,19 @@ under the License.
 
 {% block linktags %}
 {% endblock %}
+<script src="https://giscus.app/client.js"
+      data-repo="OZI-Project/.github"
+      data-repo-id="R_kgDOLAb2hQ"
+      data-category="Announcements"
+      data-category-id="DIC_kwDOLAb2hc4Cca6C"
+      data-mapping="og:title"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="https://www.oziproject.dev/assets/css/giscus.css"
+      data-lang="en"
+      crossorigin="anonymous"
+      async>
+</script>
+{% block footer %}
