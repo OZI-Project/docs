@@ -26,3 +26,11 @@ code {
 .font-sans {
     font-family: "Atkinson Hyperlegible", "Helvetica Neue", "sans-serif" !important;
 }
+
+.rst-versions.rst-badge {
+    display: block;
+    bottom: 0px;
+    height: auto;
+    left: 2em;
+    width: fit-content;
+}
