@@ -29,7 +29,7 @@ code {
 
 .rst-versions.rst-badge {
     display: block;
-    bottom: 0px;
+    bottom: 0px !important;
     height: auto;
     left: 2em;
     width: fit-content;
