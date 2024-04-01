@@ -70,6 +70,29 @@ latex_show_pagerefs = True
 latex_show_urls = 'inline'
 latex_appendices = ['appendix-a']
 
+rst_epilog = """
+.. only:: html
+
+   .. raw:: html
+
+      <script src="https://giscus.app/client.js"
+              data-repo="OZI-Project/.github"
+              data-repo-id="R_kgDOLAb2hQ"
+              data-category="Announcements"
+              data-category-id="DIC_kwDOLAb2hc4Cca6C"
+              data-mapping="og:title"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="https://www.oziproject.dev/assets/css/giscus-docs.css"
+              data-lang="en"
+              crossorigin="anonymous"
+              async>
+       </script>
+
+"""
+
 # -- sphinx.ext.autodoc ------------------------------------------------------
 autodoc_preserve_defaults = True
 autodoc_typehints_format = 'short'
