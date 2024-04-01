@@ -48,28 +48,6 @@ extensions = [
     'sphinxawesome_theme.highlighting',
     'sphinxcontrib.programoutput',
 ]
-templates_path = ['_templates']
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-html_title = 'docs.OZIproject.dev'
-html_favicon = 'assets/ozi_logo_docs_144.png'
-html_logo = 'assets/ozi_logo_docs_144.png'
-html_theme = 'sphinxawesome_theme'
-html_baseurl = 'https://oziproject.dev/'
-html_static_path = ['_static']
-html_css_files = ['css/custom.css']
-html_extra_path = ['robots.txt']
-html_permalinks_icon = Icons.permalinks_icon
-html_context = {'mode': 'production'}
-
-# -- Options for LaTeX output ------------------------------------------------
-latex_logo = 'assets/brand/images/ozi_social_preview.png'
-latex_elements = {'fncychap': r'\usepackage[Sonny]{fncychap}'}
-latex_show_pagerefs = True
-latex_show_urls = 'inline'
-latex_appendices = ['appendix-a']
-
 rst_epilog = """
 .. only:: html
 
@@ -92,6 +70,27 @@ rst_epilog = """
        </script>
 
 """
+templates_path = ['_templates']
+
+# -- Options for HTML output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_title = 'docs.OZIproject.dev'
+html_favicon = 'assets/ozi_logo_docs_144.png'
+html_logo = 'assets/ozi_logo_docs_144.png'
+html_theme = 'sphinxawesome_theme'
+html_baseurl = 'https://oziproject.dev/'
+html_static_path = ['_static']
+html_css_files = ['css/custom.css']
+html_extra_path = ['robots.txt']
+html_permalinks_icon = Icons.permalinks_icon
+html_context = {'mode': 'production'}
+
+# -- Options for LaTeX output ------------------------------------------------
+latex_logo = 'assets/brand/images/ozi_social_preview.png'
+latex_elements = {'fncychap': r'\usepackage[Sonny]{fncychap}'}
+latex_show_pagerefs = True
+latex_show_urls = 'inline'
+latex_appendices = ['appendix-a']
 
 # -- sphinx.ext.autodoc ------------------------------------------------------
 autodoc_preserve_defaults = True
@@ -102,7 +101,6 @@ coverage_show_missing_items = True
 
 # -- sphinx.ext.intersphinx --------------------------------------------------
 intersphinx_mapping = {
-#    'python': ('https://docs.python.org/3', None),
     'devguide': ('https://devguide.python.org', None),
     'pypa': ('https://packaging.python.org', None),
     'pytest': ('https://docs.pytest.org/en/stable/', None),
@@ -112,6 +110,7 @@ intersphinx_mapping = {
         None,
     ),
 }
+
 
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
