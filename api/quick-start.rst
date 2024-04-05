@@ -161,6 +161,8 @@ Add New Python Source Files
 
    .. command-output:: ozi-fix source --pretty --add foo.py TARGET
 
+   .. command-output:: meson rewrite command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
+
    .. command-output:: ls TARGET/project_name
 
    .. command-output:: ls TARGET
@@ -176,6 +178,8 @@ Add New Source Subdirectories
    The output of ozi-fix can be used with ``meson rewrite command``.
 
    .. command-output:: ozi-fix source --pretty --add bar/ TARGET
+
+   .. command-output:: meson rewrite command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
 
    .. command-output:: ls TARGET/project_name/bar
 
