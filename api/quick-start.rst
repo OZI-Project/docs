@@ -159,7 +159,7 @@ Add New Python Source Files
 
    .. command-output:: cat TARGET/meson.build
 
-   .. command-output:: ozi-fix source --pretty --add foo.py TARGET \> addfoo.json
+   .. command-output:: ozi-fix source --pretty --add foo.py TARGET
 
    .. command-output:: ls TARGET/project_name
 
@@ -175,7 +175,7 @@ Add New Source Subdirectories
 
    The output of ozi-fix can be used with ``meson rewrite command``.
 
-   .. command-output:: ozi-fix source --pretty --add bar/ TARGET \> addfoo.json
+   .. command-output:: ozi-fix source --pretty --add bar/ TARGET
 
    .. command-output:: ls TARGET/project_name/bar
 
