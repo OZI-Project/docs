@@ -161,7 +161,8 @@ Add New Python Source Files
 
    .. command-output:: ozi-fix source --pretty --add foo.py TARGET
 
-   .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
+   .. command-output:: cd TARGET && meson rewrite command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
+      :shell:
 
    .. command-output:: ls TARGET/project_name
 
@@ -179,7 +180,7 @@ Add New Source Subdirectories
 
    .. command-output:: ozi-fix source --pretty --add bar/ TARGET
 
-   .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
+   .. command-output:: cd TARGET && meson rewrite command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
 
    .. command-output:: ls TARGET/project_name/bar
 
