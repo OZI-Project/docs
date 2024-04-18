@@ -18,6 +18,26 @@ Project Roadmap
 Completed Milestones
 --------------------
 
+Version 0.1
+^^^^^^^^^^^
+
+The current milestone version is 0.1, meaning that for OZI to release version 0.1
+the project committers will need to satisfy the OZI specification.
+
+Alpha Release
+^^^^^^^^^^^^^
+
+The current milestone status is Alpha, meaning that for OZI to change the status from
+Pre-Alpha to Alpha the committers need to satisfy the OZI specification.
+
+
+API Specification: 0.1
+^^^^^^^^^^^^^^^^^^^^^^
+
+The spec was developed alongside the Pre-Alpha releases.
+This means that we will pin each specification card to a ``.. versionadded:: 0.1``
+and change the ``API Specification: ...`` title here before work begins on an Alpha
+release.
 
 Test Policy OpenSSF Silver attestations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -46,26 +66,6 @@ to a later roadmap and specification at very least until version 1.0, given the 
 
 Works in Progress
 -----------------
-
-Version 0.1
-^^^^^^^^^^^
-
-The current milestone version is 0.1, meaning that for OZI to release version 0.1
-the project committers will need to satisfy the OZI specification.
-
-Alpha Release
-^^^^^^^^^^^^^
-
-The current milestone status is Alpha, meaning that for OZI to change the status from
-Pre-Alpha to Alpha the committers need to satisfy the OZI specification.
-
-Specification
-^^^^^^^^^^^^^
-
-Currently the spec is being actively developed alongside the Pre-Alpha releases.
-This means that we will pin each specification card to a ``.. versionadded:: 0.1``
-and change the ``API Specification: ...`` title here before work begins on an Alpha
-release.
 
 Accessibility Best Practices OpenSSF Silver attestation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
