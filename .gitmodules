@@ -1,9 +1,9 @@
-[submodule "api/assets/blastpipe"]
-	path = api/assets/blastpipe
-	url = https://github.com/OZI-Project/blastpipe/
 [submodule "api/assets/ozi"]
 	path = api/assets/ozi
 	url = https://github.com/OZI-Project/OZI/
 [submodule "api/assets/brand"]
 	path = api/assets/brand
 	url = https://github.com/OZI-Project/brand
+[submodule "blastpipe"]
+	path = api/assets/blastpipe
+	url = https://github.com/OZI-Project/blastpipe
