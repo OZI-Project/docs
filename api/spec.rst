@@ -211,7 +211,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
          .. only:: html
 
-            .. literalinclude:: assets/ozi/ozi/templates/project.name/__init__.py.j2
+            .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/__init__.py.j2
                :lines: 7-
 
       .. dropdown:: :file:`project_name/meson.build`
@@ -226,7 +226,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
          .. only:: html
 
-            .. literalinclude:: assets/ozi/ozi/templates/project.name/meson.build.j2
+            .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/meson.build.j2
                :lines: 7-
 
    .. dropdown:: :abbr:`test_source/ (meson.build variable test_source)`
@@ -256,7 +256,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
          .. only:: html
 
-            .. literalinclude:: assets/ozi/ozi/templates/ozi.wrap.j2
+            .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/ozi.wrap.j2
                :lines: 7-
 
    .. dropdown:: :file:`.gitignore`
@@ -272,7 +272,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       .. only:: html
 
-         .. literalinclude:: assets/ozi/ozi/templates/.gitignore.j2
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/.gitignore.j2
             :lines: 7-
 
    .. dropdown:: :file:`LICENSE.txt`
@@ -288,7 +288,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       .. only:: html
 
-         .. literalinclude:: assets/ozi/ozi/templates/LICENSE.txt.j2
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/LICENSE.txt.j2
             :lines: 7-
 
    .. dropdown:: :file:`README.rst`
@@ -304,7 +304,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       .. only:: html
 
-         .. literalinclude:: assets/ozi/ozi/templates/README.rst.j2
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.rst.j2
             :lines: 7-
 
    .. dropdown:: :file:`requirements.in`
@@ -320,7 +320,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       .. only:: html
 
-         .. literalinclude:: assets/ozi/ozi/templates/requirements.in.j2
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/requirements.in.j2
             :lines: 7-
 
    .. dropdown:: :file:`meson.build`
@@ -336,7 +336,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       .. only:: html
 
-         .. literalinclude:: assets/ozi/ozi/templates/project.meson.build
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.meson.build
             :lines: 7-
 
    .. dropdown:: :file:`meson.options`
@@ -354,19 +354,19 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
          .. rubric:: feature
             
-         .. literalinclude:: assets/ozi/ozi/templates/project.feature.meson.options
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.feature.meson.options
             :language: meson
             :lines: 7-
 
          .. rubric:: integer
 
-         .. literalinclude:: assets/ozi/ozi/templates/project.integer.meson.options
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.integer.meson.options
             :language: meson
             :lines: 7-
 
          .. rubric:: array
 
-         .. literalinclude:: assets/ozi/ozi/templates/project.array.meson.options
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.array.meson.options
             :lines: 7-
 
    .. dropdown:: :file:`pyproject.toml`
@@ -393,7 +393,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
       .. only:: html
 
-         .. literalinclude:: assets/ozi/ozi/templates/project.PKG-INFO
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.PKG-INFO
             :lines: 7-
 
 |newpage|
@@ -655,7 +655,7 @@ setuptools_scm_ controls the version information for the project environment.
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/setuptools_scm.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/setuptools_scm.pyproject.toml`
 
 tox
 ^^^
@@ -700,7 +700,7 @@ Positional arguments are provided to a standardized ``meson test`` configuration
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/tox.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/tox.pyproject.toml`
 
       .. only:: latex
 

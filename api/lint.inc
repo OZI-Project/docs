@@ -53,7 +53,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/bandit.meson.options`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/bandit.meson.options`
 
    .. dropdown:: configuration
       :icon: package
@@ -64,7 +64,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/bandit.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/bandit.pyproject.toml`
 
    .. index:: 
       triple: utilities; formatters; black
@@ -87,7 +87,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/black.meson.options`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/black.meson.options`
 
    .. dropdown:: configuration
       :icon: package
@@ -98,7 +98,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/black.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/black.pyproject.toml`
 
    .. index::
       triple: utilities; linters; flake8
@@ -141,7 +141,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/flake8.meson.options`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/flake8.meson.options`
 
    .. dropdown:: configuration
       :icon: package
@@ -152,7 +152,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/flake8.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/flake8.pyproject.toml`
 
    .. index:: 
       triple: utilities; formatters; isort
@@ -174,7 +174,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/isort.meson.options`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/isort.meson.options`
 
    .. dropdown:: configuration
       :icon: package
@@ -185,7 +185,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/isort.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/isort.pyproject.toml`
 
    .. index::
       triple: utilities; linters; pylint
@@ -206,7 +206,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/mypy.meson.options`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/mypy.meson.options`
 
    .. dropdown:: configuration
       :icon: package
@@ -217,7 +217,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/mypy.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/mypy.pyproject.toml`
 
    .. rubric:: pyright
 
@@ -230,7 +230,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/pyright.meson.options`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/pyright.meson.options`
 
    .. dropdown:: configuration
       :icon: package
@@ -241,7 +241,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/pyright.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/pyright.pyproject.toml`
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`OPTIONAL`
 
@@ -262,7 +262,7 @@ lint
 
       .. only:: html
 
-         :download:`assets/ozi/ozi/templates/pylint.pyproject.toml`
+         :download:`assets/blastpipe/blastpipe/ozi_templates/pylint.pyproject.toml`
 
    .. index::
       triple: utilities; typecheckers; pyright
