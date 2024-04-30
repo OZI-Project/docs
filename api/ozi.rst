@@ -60,15 +60,13 @@ ozi.meson module
 ozi.render module
 -----------------
 
-.. versionchanged:: 1.2
-   The function ``load_environment`` was moved to ``blastpipe.ozi_templates``
-
-|bigskip|
-
 .. automodule:: ozi.render
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. versionchanged:: 1.2
+   The function ``load_environment`` was moved to ``blastpipe.ozi_templates``
 
 |newpage|
 
