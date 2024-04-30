@@ -43,12 +43,9 @@ ozi.comment module
 ozi.filter module
 -----------------
 
-.. automodule:: ozi.filter
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. versionremoved:: 1.2
+   The module ``filters`` was moved to ``blastpipe.ozi_templates.filters``
 
-|newpage|
 
 ozi.meson module
 ----------------
@@ -62,6 +59,9 @@ ozi.meson module
 
 ozi.render module
 -----------------
+
+.. versionremoved:: 1.2
+   The function ``load_environment`` was moved to ``blastpipe.ozi_templates``
 
 .. automodule:: ozi.render
    :members:
