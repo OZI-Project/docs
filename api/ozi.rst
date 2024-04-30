@@ -43,7 +43,7 @@ ozi.comment module
 ozi.filter module
 -----------------
 
-.. versionremoved:: 1.2
+.. versionchanged:: 1.2
    The module ``filters`` was moved to ``blastpipe.ozi_templates.filters``
 
 
@@ -60,7 +60,7 @@ ozi.meson module
 ozi.render module
 -----------------
 
-.. versionremoved:: 1.2
+.. versionchanged:: 1.2
    The function ``load_environment`` was moved to ``blastpipe.ozi_templates``
 
 .. automodule:: ozi.render
