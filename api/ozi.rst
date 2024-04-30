@@ -63,7 +63,7 @@ ozi.render module
 .. versionchanged:: 1.2
    The function ``load_environment`` was moved to ``blastpipe.ozi_templates``
 
-|linebreak|
+|bigskip|
 
 .. automodule:: ozi.render
    :members:
