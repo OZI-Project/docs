@@ -73,7 +73,7 @@ soupsieve==2.5
     # via beautifulsoup4
 spdx-license-list==3.23
     # via ozi
-sphinx==7.2.6
+sphinx==7.3.7
     # via
     #   -r requirements.in
     #   sphinx-design
