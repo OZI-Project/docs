@@ -10,7 +10,7 @@ babel==2.14.0
     # via sphinx
 beautifulsoup4==4.12.3
     # via sphinxawesome-theme
-blastpipe==2024.4.3
+blastpipe==2024.5.0
     # via ozi
 certifi==2024.2.2
     # via requests
