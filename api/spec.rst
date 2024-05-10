@@ -383,6 +383,9 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
    .. dropdown:: :file:`PKG-INFO`
       :icon: info
 
+      .. versionchanged:: 0.2
+         MUST render PKG-INFO from template in :file:`pyproject.toml`.
+
       .. versionadded:: 0.1
 
       Packaged project metadata.
@@ -627,6 +630,18 @@ Meson
 
 semantic-release
 ^^^^^^^^^^^^^^^^
+
+Controls the release cycle based on commit patterns since the last release.
+
+|bigskip|
+
+.. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
+
+   |linebreak|
+
+   .. versionadded:: 0.2
+
+   .. card:: Must trigger releases in a discrete CI step.
 
 .. card:: See also
    :class-card: seealso

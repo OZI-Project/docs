@@ -24,7 +24,6 @@ dist
       \linebreak
 
    :octicon:`alert;1em;sd-text-warning` External
-      pyc_wheel_
 
    .. _REQUIRED semantic-release:
 
@@ -33,7 +32,10 @@ dist
    .. dropdown:: specification
       :icon: info
 
-      Follow the :doc:`semantic_release:algorithm` for release automation.
+      MUST follow the :doc:`semantic_release:algorithm` for release automation.
+
+      .. versionadded:: 0.2
+         MUST default to Angular commit style parser in new projects.
 
    .. dropdown:: configuration
       :icon: package
