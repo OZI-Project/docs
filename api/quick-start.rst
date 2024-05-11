@@ -19,13 +19,41 @@ Installation
 ^^^^^^^^^^^^
 
 The OZI package is available at :abbr:`PyPI (Python Package Index)` (preferred)
-or at the GitHub repository for download.
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
    .. code-block:: sh
 
       pip install OZI
+
+or at the GitHub repository for download.
+
+.. card:: :octicon:`terminal;2em;sd-text-info`
+
+   .. code-block:: sh
+
+      git clone --depth 1 https://github.com/OZI-Project/OZI.git
+      cd OZI
+      python -m build -w
+      pip install dist/*.whl
+
+Updating
+^^^^^^^^
+
+OZI can check whether an update is available with:
+
+.. card:: :octicon:`terminal;2em;sd-text-info`
+
+   .. code-block:: sh
+
+      ozi -c
+
+.. card:: :octicon:`terminal;2em;sd-text-info`
+
+   .. code-block:: sh
+
+      pip install OZI --upgrade
+
 
 |newpage|
 

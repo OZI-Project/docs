@@ -22,8 +22,6 @@ Documentation
 =============
 
 Welcome to the OZI Project documentation.
-The Quick-start guide is the place to start if you want to use OZI as a Python project
-publishing tool. 
 
 The latter part of the documentation covers
 the project governance including roles and responsibilities,
