@@ -89,8 +89,9 @@ as the toplevel :file:`meson.build` file.
 Build system section
 --------------------
 
-This tells tools like pip to build your project with flit. It's a standard
-defined by PEP 517. For any project using OZI.build, it will look like this:
+This tells tools like pip to build your project with the OZI.build backend.
+It's a standard defined by PEP 517.
+For any project using OZI.build, it will look like this:
 
 .. code-block:: toml
 
