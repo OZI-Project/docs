@@ -119,7 +119,7 @@ Your name
 
 Your email address
 
-e.g. for ozi-build itself:
+e.g. for OZI.build itself:
 
 .. code-block:: toml
 
