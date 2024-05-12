@@ -103,8 +103,9 @@ For any project using OZI.build, it will look like this:
 Metadata section
 ----------------
 
-> NOTE: The project version and name are extracted from the :file:`meson.build`
-> `project() <http://mesonbuild.com/Reference-manual.html#project>`_ section.
+.. note::
+   The project version and name are extracted from the :file:`meson.build`
+   `project() <http://mesonbuild.com/Reference-manual.html#project>`_ section.
 
 This section is called ``[tool.ozi-build.metadata]`` in the file.
 
