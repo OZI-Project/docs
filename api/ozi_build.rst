@@ -221,7 +221,7 @@ For example:
       "Source, https://gitlab.com/OZI-Project/OZI.build",
    ]
 
-`requires`
+``requires``
 ^^^^^^^^^^
 
 A list of other packages from PyPI that this package needs. Each package may
@@ -236,13 +236,13 @@ after a semicolon. For example:
      "configparser; python_version == '2.7'",
    ]
 
-`requires-python`
-^^^^^^^^^^^^^^^^^
+``requires-python`
+`^^^^^^^^^^^^^^^^^
 
 A version specifier for the versions of Python this requires, e.g. ``~=3.3`` or
 ``>=3.3,<4`` which are equivalents.
 
-`summary`
+``summary``
 ^^^^^^^^^
 
 A one sentence summary about the package
