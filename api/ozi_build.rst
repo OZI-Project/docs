@@ -236,8 +236,8 @@ after a semicolon. For example:
      "configparser; python_version == '2.7'",
    ]
 
-``requires-python`
-`^^^^^^^^^^^^^^^^^
+``requires-python``
+^^^^^^^^^^^^^^^^^
 
 A version specifier for the versions of Python this requires, e.g. ``~=3.3`` or
 ``>=3.3,<4`` which are equivalents.
