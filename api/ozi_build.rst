@@ -18,7 +18,7 @@ This is a python module that implements :pep:`517` for the meson build system.
 
 This implies that any project that deals with python code can easily distributed
 to the `Python Package Index (PyPI) <https://pypi.org/>`_ by just setting the right
-metadatas in its :file:`pyproject.toml` config file, per :pep`518`.
+metadatas in its :file:`pyproject.toml` config file, per :pep:`518`.
 
 meson: https://mesonbuild.com
 
@@ -71,7 +71,7 @@ though other standard tools like `pip <https://pip.pypa.io/en/stable/>`_,
 Workflow to upload a release to PyPI
 ------------------------------------
 
-1. Add a [pyproject.toml](pyproject.md) to your project
+1. Add a :file:`pyproject.toml` to your project
 2. Install build: ``pip3 install build``
 3. Build packages: ``python3 -m build`` (which adds the sdist and wheel to
    the :file:`dist/` folder)
