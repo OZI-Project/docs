@@ -17,7 +17,7 @@ OZI.build package
 This is a python module that implements :pep:`517` for the meson build system.
 
 This implies that any project that deals with python code can easily distributed
-to the `Python Package Index (PyPI)<https://pypi.org/>`_ by just setting the right
+to the `Python Package Index (PyPI) <https://pypi.org/>`_ by just setting the right
 metadatas in its :file:`pyproject.toml` config file, per :pep`518`.
 
 meson: https://mesonbuild.com
@@ -66,7 +66,7 @@ Usage
 
 ``OZI.build`` doesn't provide any command line tools and should be used
 though other standard tools like `pip <https://pip.pypa.io/en/stable/>`_,
- `twine <https://pypi.org/project/twine/>`_ and `build <https://pypi.org/project/build/>`_
+`twine <https://pypi.org/project/twine/>`_ and `build <https://pypi.org/project/build/>`_.
 
 Workflow to upload a release to PyPI
 ------------------------------------
@@ -120,6 +120,7 @@ Your email address
 e.g. for ozi-build itself:
 
 .. code-block:: toml
+
    [tool.ozi-build.metadata]
    author="Thibault Saunier"
    author-email="tsaunier@gnome.org"
@@ -227,6 +228,7 @@ be followed by a version specifier like ``(>=4.1)`` or ``>=4.1``, and/or an
 after a semicolon. For example:
 
 .. code-block:: toml
+
    requires = [
      "requests >=2.6",
      "configparser; python_version == '2.7'",
@@ -253,6 +255,7 @@ in the ``[tools.ozi_build.entry-points]`` section. It is a list of
 scripts entry points:
 
 .. code-block:: toml
+
    [tool.ozi-build.entry-points]
    console_scripts = [
      'otioview = opentimelineview.console:main',
