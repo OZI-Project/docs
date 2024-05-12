@@ -7,7 +7,7 @@ Quick-start Guide
 |begin-flushright|
 
 .. article-info::
-    :author: Eden Rose Duff MSc
+    :author: Eden Ross Duff MSc
     :date: 18-Sep-2023
     :read-time: 5 min read
     :class-container: sd-p-2 sd-outline-muted sd-rounded-1
