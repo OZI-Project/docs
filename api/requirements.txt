@@ -48,7 +48,7 @@ meson==1.4.0
     #   ozi
 ozi==1.6.3
     # via -r requirements.in
-packaging==23.2
+packaging==24.0
     # via sphinx
 pbr==6.0.0
     # via stevedore
