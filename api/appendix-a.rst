@@ -60,12 +60,28 @@ LICENSE.txt
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/LICENSE.txt.j2
     :lines: 7-
 
+.. _readme-md:
+
+README.md
+---------
+
+.. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.md.j2
+    :lines: 7-
+
 .. _readme-rst:
 
 README.rst
 ----------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.rst.j2
+    :lines: 7-
+
+.. _readme-txt:
+
+README.txt
+----------
+
+.. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.txt.j2
     :lines: 7-
 
 .. _requirements-in:
@@ -114,6 +130,14 @@ meson.options
 .. rubric:: meson.options:black-args
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/black.meson.options
+    :language: meson
+    :lines: 7-
+
+.. _readme-renderer-args:
+
+.. rubric:: meson.options:readme-renderer-args
+
+.. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/readme-renderer.meson.options
     :language: meson
     :lines: 7-
 

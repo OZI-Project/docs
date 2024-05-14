@@ -291,12 +291,22 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/LICENSE.txt.j2
             :lines: 7-
 
-   .. dropdown:: :file:`README.rst`
+   .. dropdown:: :file:`README`
       :icon: info
 
-      .. versionadded:: 0.1
+      .. versionchanged:: 0.3
+      
+      Was previously just :file:`README.rst`.
+      Repository and packaged README file (reStructuredText, Markdown, or plaintext).
 
-      Repository and packaged README file.
+      .. only:: latex
+
+         See :ref:`readme-md`
+
+      .. only:: html
+
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.md.j2
+            :lines: 7-
 
       .. only:: latex
 
@@ -305,6 +315,15 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.rst.j2
+            :lines: 7-
+
+      .. only:: latex
+
+         See :ref:`readme-txt`
+
+      .. only:: html
+
+         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.txt.j2
             :lines: 7-
 
    .. dropdown:: :file:`requirements.in`

@@ -243,6 +243,25 @@ lint
 
          :download:`assets/blastpipe/blastpipe/ozi_templates/pyright.pyproject.toml`
 
+   .. index:: 
+      triple: utilities; formatters; readme-renderer
+      triple: utilities; lint; formatters
+
+   .. rubric:: readme-renderer
+
+   .. versionadded:: 0.3
+
+   .. dropdown:: arguments
+      :icon: terminal
+
+      .. only:: latex
+
+         See :ref:`readme-renderer-args`
+
+      .. only:: html
+
+         :download:`assets/blastpipe/blastpipe/ozi_templates/readme-renderer.meson.options`
+
 .. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`OPTIONAL`
 
    .. raw:: latex
