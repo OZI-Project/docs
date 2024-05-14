@@ -26,7 +26,7 @@ The OZI package is available at :abbr:`PyPI (Python Package Index)` (preferred)
 
       pip install OZI
 
-.. note:: It is strongly recommended to use OZI tools through ``pipx run``.
+.. note:: It is strongly recommended to use OZI tools through ``pipx run`` instead of installing them directly.
 
 or at the GitHub repository for download.
 
