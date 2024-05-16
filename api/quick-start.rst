@@ -18,15 +18,15 @@ Quick-start Guide
 Installation
 ^^^^^^^^^^^^
 
-The OZI package is available at :abbr:`PyPI (Python Package Index)` (preferred)
+The OZI package is available at :abbr:`PyPI (Python Package Index)`
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
    .. code-block:: sh
 
-      pip install OZI
+      pipx install OZI
 
-.. note:: It is strongly recommended to use OZI tools through ``pipx run`` instead of installing them directly.
+.. note:: It is strongly recommended to use OZI tools through ``pipx`` instead of installing them directly.
 
 or at the GitHub repository for download.
 
@@ -48,13 +48,13 @@ OZI can check whether an update is available with:
 
    .. code-block:: sh
 
-      ozi -c
+      pipx run ozi -c
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
    .. code-block:: sh
 
-      pip install OZI --upgrade
+      pipx upgrade OZI
 
 
 |newpage|
