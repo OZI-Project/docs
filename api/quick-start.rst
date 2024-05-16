@@ -82,17 +82,17 @@ For example the OZI project itself uses ``--license-expression="Apache-2.0 WITH 
    .. card:: :octicon:`terminal;1.5em;sd-text-info` List the available License Classifiers with:
 
       .. command-output:: pipx run ozi --list license
-         :ellipsis: 3,-7
+         :ellipsis: 0,-7
 
    .. card:: :octicon:`terminal;1.5em;sd-text-info` List the SPDX Short-IDs that a license expression is composed of with:
 
       .. command-output:: pipx run ozi --list license-id
-         :ellipsis: 3,-7
+         :ellipsis: 0,-7
 
    .. card:: :octicon:`terminal;1.5em;sd-text-info` List the SPDX license exception IDs with:
 
       .. command-output:: pipx run ozi --list license-exception-id
-         :ellipsis: 3,-7
+         :ellipsis: 0,-7
 
 .. [*] the OZI project cannot provide legal advice and nothing in this document is
    intended to be construed as such.
