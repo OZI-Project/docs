@@ -242,6 +242,8 @@ after a semicolon. For example:
 A version specifier for the versions of Python this requires, e.g. ``~=3.3`` or
 ``>=3.3,<4`` which are equivalents.
 
+.. note:: Setting ``requires-python`` overrides compiliation of :file:`*.py` to :file:`*.pyc` in wheels.
+
 ``summary``
 ^^^^^^^^^
 
