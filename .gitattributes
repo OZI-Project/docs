@@ -1,1 +1,2 @@
+*.rst linguist-detectable
 *.inc linguist-language=rst
