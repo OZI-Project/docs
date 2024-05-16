@@ -254,7 +254,7 @@ Entry points section (Optional)
 -------------------------------
 
 You can declare `entry points <http://entrypoints.readthedocs.io/en/latest/>`_
-in the ``[tools.ozi_build.entry-points]`` section. It is a list of
+in the ``[tools.ozi-build.entry-points]`` section. It is a list of
 ``entrypointname = module:funcname`` strings, for example for console
 scripts entry points:
 
