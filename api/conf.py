@@ -75,7 +75,7 @@ templates_path = ['_templates']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_title = 'docs.OZIproject.dev'
-html_favicon = 'assets/ozi_logo_docs_144.png'
+html_favicon = 'assets/ozi_logo_72.png'
 html_logo = 'assets/ozi_logo_master.png'
 html_theme = 'sphinxawesome_theme'
 html_baseurl = 'https://oziproject.dev/'
