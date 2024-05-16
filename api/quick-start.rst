@@ -23,7 +23,7 @@ The OZI package is available at :abbr:`PyPI (Python Package Index)`
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
    .. command-output:: pipx install OZI
-      :ellipsis: 0,3
+      :ellipsis: 4,-6
 
 .. note:: It is strongly recommended to use OZI tools through ``pipx`` instead of installing them directly.
 
