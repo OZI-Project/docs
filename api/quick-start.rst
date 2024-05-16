@@ -47,6 +47,7 @@ OZI can check whether an update is available with:
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
    .. command-output:: pipx run ozi -c
+      :ellipsis: 0,3
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
