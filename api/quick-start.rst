@@ -157,7 +157,7 @@ for reasons external to OZI.
 
    .. card:: :octicon:`terminal;1.5em;sd-text-info` Create the new project.
 
-      .. command-output:: pipx run ozi-new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=https://oziproject.dev --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
+      .. command-output:: pipx run ozi -new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=https://oziproject.dev --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
          :ellipsis: 0,3
 
       .. command-output:: ls TARGET
@@ -177,7 +177,7 @@ Find Missing Files and Metadata
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info` Look for missing files with :abbr:`TAP (Test Anything Protocol)`:
 
-   .. command-output:: pipx run ozi-fix missing TARGET
+   .. command-output:: pipx run ozi -fix missing TARGET
       :ellipsis: 0,3
 
 Add New Python Source Files
@@ -187,7 +187,7 @@ Add New Python Source Files
 
    The output of ozi-fix can be used with ``meson rewrite command``.
 
-   .. command-output:: pipx run ozi-fix source --pretty --add foo.py TARGET
+   .. command-output:: pipx run ozi -fix source --pretty --add foo.py TARGET
       :ellipsis: 0,3
 
    .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
@@ -202,7 +202,7 @@ Add New Source Subdirectories
 
    The output of ozi-fix can be used with ``meson rewrite command``.
 
-   .. command-output:: pipx run ozi-fix source --pretty --add bar/ TARGET
+   .. command-output:: pipx run ozi -fix source --pretty --add bar/ TARGET
       :ellipsis: 0,3
 
    .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
