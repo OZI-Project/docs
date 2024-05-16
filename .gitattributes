@@ -1,2 +1,3 @@
 *.rst linguist-detectable
+api/* -linguist-documentation
 *.inc linguist-language=rst
