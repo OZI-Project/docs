@@ -636,6 +636,12 @@ Meson
 
       MUST distribute wheel releases as Python bytecode and stubfiles.
 
+   .. card:: Isolate the executable with ``pipx``.
+
+      .. versionadded:: 0.4
+
+      MUST be executed via ``pipx run``
+
 |bigskip|
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
@@ -848,6 +854,16 @@ This section lists the third-party utility program requirements.
    .. card:: Provide header content fields that have yet to be implemented in PKG-INFO payload.
 
       .. versionadded:: 0.1
+
+   .. index:: utilities; isolate; pipx
+   .. card:: Isolate python executables with ``pipx``.
+
+      .. versionadded:: 0.4
+
+      Excluding:
+         * ``pytest``
+
+      Python apps with ``console_scripts`` entrypoints MUST be installed via ``pipx runpip meson install ...``
 
 .. index:: triple: specification; utilities; dist
 .. include:: dist.inc

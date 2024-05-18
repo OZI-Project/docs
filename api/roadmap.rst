@@ -34,10 +34,35 @@ Pre-Alpha to Alpha the committers need to satisfy the OZI specification.
 API Specification: 0.1
 ^^^^^^^^^^^^^^^^^^^^^^
 
-The spec was developed alongside the Pre-Alpha releases.
+The spec was developed alongside the Pre-Alpha 0.0.x releases.
 This means that we will pin each specification card to a ``.. versionadded:: 0.1``
 and change the ``API Specification: ...`` title here before work begins on an Alpha
 release.
+
+API Specification: 0.2
+^^^^^^^^^^^^^^^^^^^^^^
+
+These spec changes matured from the pre-1.6 Alpha releases.
+
+* :file:`PKG-INFO` must be rendered from a template in :file:`pyproject.toml`
+* Must isolate the semantic-release CI workflow step.
+
+API Specification: 0.3
+^^^^^^^^^^^^^^^^^^^^^^
+
+These spec changes matured from the pre-1.7 Alpha releases.
+
+* :file:`README.rst` no longer required.
+* :file:`README` now required.
+* Support for markdown and plaintext :file:`README`
+
+API Specification: 0.4
+^^^^^^^^^^^^^^^^^^^^^^
+
+These spec changes came alongside the pre-1.8 Alpha releases.
+
+* Isolation of all CI utility applications, with ``pipx``, excluding ``pytest``.
+
 
 Test Policy OpenSSF Silver attestations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
