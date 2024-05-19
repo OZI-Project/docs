@@ -45,6 +45,7 @@ ozi.spec.project module
 .. automodule:: ozi.spec.project
    :members:
    :undoc-members:
+   :exclude-members: PythonProject, ClassicProject, RuffProject
    :show-inheritance:
 
 ozi.spec.python module
