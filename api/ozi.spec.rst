@@ -35,7 +35,8 @@ ozi.spec.pkg module
 
 .. automodule:: ozi.spec.pkg
    :members:
-   :undoc-members: Pkg
+   :undoc-members:
+   :exclude-members: Pkg
    :show-inheritance:
 
 ozi.spec.project module
