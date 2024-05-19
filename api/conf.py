@@ -71,6 +71,7 @@ rst_epilog = """
 
 """
 templates_path = ['_templates']
+python_display_short_literal_types = True
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
