@@ -9,3 +9,47 @@ Module contents
    :members:
    :undoc-members:
    :show-inheritance:
+
+
+Submodules
+----------
+
+ozi.spec.base module
+--------------------
+
+.. automodule:: ozi.spec.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+ozi.spec.ci module
+------------------
+
+.. automodule:: ozi.spec.ci
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+ozi.spec.pkg module
+-------------------
+
+.. automodule:: ozi.spec.pkg
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+ozi.spec.project module
+-----------------------
+
+.. automodule:: ozi.spec.project
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+ozi.spec.python module
+----------------------
+
+.. automodule:: ozi.spec.python
+   :members:
+   :undoc-members:
+   :show-inheritance:
