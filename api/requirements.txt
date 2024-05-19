@@ -46,7 +46,7 @@ meson==1.4.0
     # via
     #   -r requirements.in
     #   ozi
-ozi==1.8.1
+ozi==1.8.2
     # via -r requirements.in
 packaging==24.0
     # via sphinx
