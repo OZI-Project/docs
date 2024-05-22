@@ -39,8 +39,8 @@ License
 
 In addition to the code licensed under Apache-2.0 we have also vendored pyc_wheel:
 
-| Copyright (c) 2016 Grant Patten <grant@gpatten.com> 
-| Copyright (c) 2019-2021 Adam Karpierz <adam@karpierz.net>
+   | Copyright (c) 2016 Grant Patten <grant@gpatten.com> 
+   | Copyright (c) 2019-2021 Adam Karpierz <adam@karpierz.net>
 
    Permission is hereby granted, free of charge, to any person obtaining a
    copy of this software and associated documentation files 
