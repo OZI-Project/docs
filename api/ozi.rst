@@ -23,7 +23,10 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
-.. command-output:: ozi --help
+.. exec::
+
+   from ozi.__main__ import parser
+   parser.print_help()
 
 .. command-output:: ozi project --help
 

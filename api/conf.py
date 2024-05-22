@@ -10,6 +10,16 @@ from pathlib import Path as _Path
 from shutil import rmtree
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
+import sys
+from os.path import basename
+
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
+
+from docutils.parsers.rst import Directive
+from docutils import nodes, statemachine
 
 # from sphinxawesome_theme.docsearch import DocSearchConfig
 
@@ -113,7 +123,43 @@ intersphinx_mapping = {
 }
 
 
+class ExecDirective(Directive):
+    """Execute the specified python code and insert the output into the document"""
+
+    has_content = True
+
+    def run(self):
+        oldStdout, sys.stdout = sys.stdout, StringIO()
+
+        tab_width = self.options.get(
+            'tab-width', self.state.document.settings.tab_width
+        )
+        source = self.state_machine.input_lines.source(
+            self.lineno - self.state_machine.input_offset - 1
+        )
+
+        try:
+            exec('\n'.join(self.content))
+            text = sys.stdout.getvalue()
+            lines = statemachine.string2lines(text, tab_width, convert_whitespace=True)
+            self.state_machine.insert_input(lines, source)
+            return []
+        except Exception:
+            return [
+                nodes.error(
+                    None,
+                    nodes.paragraph(
+                        text=f'Unable to execute python code at {basename(source)}:{self.lineno}:'
+                    ),
+                    nodes.paragraph(text=str(sys.exc_info()[1])),
+                )
+            ]
+        finally:
+            sys.stdout = oldStdout
+
+
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
+    app.add_directive('exec', ExecDirective)
