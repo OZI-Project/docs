@@ -28,7 +28,6 @@ Module contents
    from ozi.__main__ import parser
    parser.print_help()
 
-.. command-output:: ozi project --help
 
 |newpage|
 

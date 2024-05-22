@@ -10,9 +10,15 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
-.. command-output:: ozi-new --help
+.. exec::
 
-.. command-output:: ozi-new project --help
+   from ozi.new.parser import parser
+   parser.print_help()
+
+.. exec::
+
+   from ozi.new.parser import project_parser
+   project_parser.print_help()
 
 
 Submodules

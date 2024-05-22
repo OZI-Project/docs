@@ -10,13 +10,26 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
-.. command-output:: ozi-fix --help
 
-.. command-output:: ozi-fix missing --help
+.. exec::
 
-.. command-output:: ozi-fix source --help
+   from ozi.fix.parser import parser
+   parser.print_help()
 
-.. command-output:: ozi-fix test --help
+.. exec::
+
+   from ozi.fix.parser import missing_parser
+   missing_parser.print_help()
+
+.. exec::
+
+   from ozi.fix.parser import source_parser
+   source_parser.print_help()
+
+.. exec::
+
+   from ozi.fix.parser import test_parser
+   test_parser.print_help()
 
 
 Submodules
