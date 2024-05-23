@@ -10,7 +10,7 @@ babel==2.14.0
     # via sphinx
 beautifulsoup4==4.12.3
     # via sphinxawesome-theme
-blastpipe==2024.9.1
+blastpipe==2024.9.2
     # via ozi
 build==1.2.1
     # via pip-tools
@@ -52,7 +52,7 @@ meson[ninja]==1.4.0
     #   ozi
 ninja==1.11.1.1
     # via meson
-ozi==1.9.5
+ozi==1.9.6
     # via -r requirements.in
 pipx==1.5.0
 
