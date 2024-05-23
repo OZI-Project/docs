@@ -138,12 +138,14 @@ class ExecDirective(Directive):
         source = self.state_machine.input_lines.source(
             self.lineno - self.state_machine.input_offset - 1
         )
-        content = self.content
-        content = re.sub(r'\b\s\[', ' <', content)
-        content = re.sub(r'\]\n', '>\n', content)
-        content = re.sub(r'\],', '>,', content)
+        content = []
+        for i in self.content:
+            i = re.sub(r'\b\s\[', ' <', i)
+            i = re.sub(r'\]\n', '>\n', i)
+            i = re.sub(r'\],', '>,', i)
+            content += i
         try:
-            exec('\n'.join(self.content))
+            exec('\n'.join(content))
             text = sys.stdout.getvalue()
             lines = statemachine.string2lines(text, tab_width, convert_whitespace=True)
             self.state_machine.insert_input(lines, source)
