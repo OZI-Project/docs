@@ -138,12 +138,7 @@ class ExecDirective(Directive):
         source = self.state_machine.input_lines.source(
             self.lineno - self.state_machine.input_offset - 1
         )
-        content = []
-        for i in self.content:
-            i = re.sub(r'\b\s\[', ' <', i)
-            i = re.sub(r'\]\n', '>\n', i)
-            i = re.sub(r'\],', '>,', i)
-            content += i
+        content = [i.replace('[', '<').replace("]", ">") for i in self.content]
         try:
             exec('\n'.join(content))
             text = sys.stdout.getvalue()
