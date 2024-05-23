@@ -61,6 +61,14 @@ In addition to the code licensed under Apache-2.0 we have also vendored pyc_whee
    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+Module contents
+---------------
+
+.. automodule:: ozi_build
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Usage
 -----
 
