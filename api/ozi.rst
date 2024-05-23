@@ -23,8 +23,8 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
-``ozi`` console application
----------------------------
+ozi console application
+-----------------------
 
 .. exec::
 

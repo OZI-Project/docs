@@ -1,5 +1,5 @@
-``ozi-new`` console application
-===============================
+ozi-new console application
+===========================
 
 
 .. exec::

@@ -1,5 +1,5 @@
-``ozi-fix`` console application
-===============================
+ozi-fix console application
+===========================
 
 
 .. exec::
