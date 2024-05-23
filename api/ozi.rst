@@ -23,6 +23,9 @@ Module contents
    :undoc-members:
    :show-inheritance:
 
+``ozi`` console application
+---------------------------
+
 .. exec::
 
    from ozi.__main__ import parser
