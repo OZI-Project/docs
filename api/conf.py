@@ -7,6 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 from importlib.metadata import version as _version
 from pathlib import Path as _Path
+import re
 from shutil import rmtree
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
@@ -137,9 +138,12 @@ class ExecDirective(Directive):
         source = self.state_machine.input_lines.source(
             self.lineno - self.state_machine.input_offset - 1
         )
-
+        content = self.content
+        content = re.sub(r'\b\s\[', ' <', content)
+        content = re.sub(r'\]\n', '>\n', content)
+        content = re.sub(r'\],', '>,', content)
         try:
-            exec('\n'.join(['\n' + i if i.startswith('  --') else i for i in self.content]))
+            exec('\n'.join(self.content))
             text = sys.stdout.getvalue()
             lines = statemachine.string2lines(text, tab_width, convert_whitespace=True)
             self.state_machine.insert_input(lines, source)
