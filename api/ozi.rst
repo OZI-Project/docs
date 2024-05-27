@@ -14,24 +14,6 @@ OZI package
 |end-flushright|
 |newpage|
 
-
-Module contents
----------------
-
-.. automodule:: ozi
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-ozi console application
-^^^^^^^^^^^^^^^^^^^^^^^
-
-.. exec::
-
-   from ozi.__main__ import parser
-   parser.print_help()
-
-
 Submodules
 ----------
 
@@ -100,6 +82,7 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
+   ozi.main
    ozi.fix
    ozi.new
    ozi.scripts
