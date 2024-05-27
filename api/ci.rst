@@ -15,6 +15,7 @@ Continuous Integration
 |end-flushright|
 |newpage|
 
+
 OZI continuous integration strategies have the same main components
 across the different providers.
 
