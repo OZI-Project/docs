@@ -1,10 +1,10 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 ======================
 Continuous Integration
 ======================
+
+|newpage|
 
 OZI continuous integration strategies have the same main components
 across the different providers.
