@@ -1,4 +1,4 @@
-.. Copyright 2023 Ross J. Duff MSc 
+.. Copyright 2023 Ross J. Duff MSc
    The copyright holder licenses this file
    to you under the Apache License, Version 2.0 (the
    "License"); you may not use this file except in compliance
@@ -34,11 +34,13 @@ API Specification
 |end-flushright|
 |newpage|
 
-This document contains the specification for the OZI Python packaging for Meson API.
-OZI is meant for Python developers as a standardized and flexible but opinionated
-Python packaging style guide and checkpointing API using the Meson build system.
-The API specification not meant to be used by Python developers seeking OZI for the purposes
-stated above. This document is primarily intended as:
+This document contains the specification for the OZI Python packaging
+for Meson API. OZI is meant for Python developers as a standardized
+and flexible but opinionated Python packaging style guide and checkpointing
+API using the Meson build system.
+
+The API specification not meant to be used by Python developers seeking
+OZI for the purposes stated above. This document is primarily intended as:
 
 #. An OZI maintainers guide to compliance with the OZI specification.
 #. A place to document major and minor changes to the OZI specification.
@@ -52,11 +54,12 @@ This is a work in progress as a part of continued Alpha development.
 Normative References
 --------------------
 
-This document also contains normative references to :abbr:`RFC (Request for Comments)`,
+This document also contains normative references to
+:abbr:`RFC (Request for Comments)`,
 :abbr:`PEP (Python Enhancement Proposal)` standards,
 gitmoji specification,
-:abbr:`ISO (International Organization for Standardization)`/:abbr:`IEC
-(International Electrotechnical Commission)` standards, 
+:abbr:`ISO (International Organization for Standardization)`/
+:abbr:`IEC (International Electrotechnical Commission)` standards,
 :abbr:`PyPA (Python Packaging Authority)` specifications,
 :abbr:`TAP (Test Anything Protocol)` specification, and
 :abbr:`TOML (Tom's Obvious, Minimal Language)` specification.
@@ -68,7 +71,7 @@ in this document are to be interpreted as described in :rfc:`2119`.
 .. card:: See also
    :class-card: seealso
 
-   * `gitmoji <https://gitmoji.dev/specification>`_ 
+   * `gitmoji <https://gitmoji.dev/specification>`_
    * `Python Enhancement Proposal Index <https://peps.python.org/pep-0000/>`_
    * `Python Packaging Authority specifications <https://packaging.python.org/en/latest/specifications/#pypa-specifications>`_
    * `Request for Comments <https://www.rfc-editor.org/rfc-index-100a.html>`_
@@ -80,8 +83,8 @@ in this document are to be interpreted as described in :rfc:`2119`.
 Source
 ------
 
-The following contains the requirements for the source code structure and format of an OZI 
-project.
+The following contains the requirements for the source code structure and
+format of an OZI project.
 
 .. index:: triple: specification; source; format
 
@@ -184,7 +187,8 @@ Python Implementation
 Structure
 ^^^^^^^^^
 
-The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to be a project.
+The following is the minimal project structure :strong:`REQUIRED` by
+``ozi`` to be a project.
 
 |bigskip|
 
@@ -192,7 +196,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
    |linebreak|
 
-   .. dropdown:: :abbr:`project_name/ (meson.build variable project_name)`       
+   .. dropdown:: :abbr:`project_name/ (meson.build variable project_name)`
       :icon: file-directory
 
       .. versionadded:: 0.1
@@ -203,7 +207,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 
          .. versionadded:: 0.1
 
-         Python package module entry point. 
+         Python package module entry point.
 
          .. only:: latex
 
@@ -295,7 +299,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       :icon: info
 
       .. versionchanged:: 0.3
-      
+
       Was previously just :file:`README.rst`.
       Repository and packaged README file (reStructuredText, Markdown, or plaintext).
 
@@ -372,7 +376,7 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
       .. only:: html
 
          .. rubric:: feature
-            
+
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.feature.meson.options
             :language: meson
             :lines: 7-
@@ -423,7 +427,8 @@ The following is the minimal project structure :strong:`REQUIRED` by ``ozi`` to 
 PEP Compliance
 ^^^^^^^^^^^^^^
 
-This section contains non-exhaustive lists of PEPs that OZI is an external stakeholder for.
+This section contains non-exhaustive lists of PEPs that OZI is an external
+stakeholder for.
 
 .. index::
    triple: specification; check; pep8
@@ -597,7 +602,7 @@ Meson
       * SHOULD fallback to ``pip show`` for version.
       * SHOULD indicate version source for each utility.
       * MUST indicate unknown version if all checks fail.
-   
+
    .. card:: Check ``dev`` key in ``project.optional-dependencies``.
 
       .. versionadded:: 0.1
@@ -701,8 +706,9 @@ tox
 ^^^
 
 tox_ is a mature solution to the problem of environment integration.
-OZI uses ``tox`` to manage integration testing across supported Python releases.
-Positional arguments are provided to a standardized ``meson test`` configuration.
+OZI uses ``tox`` to manage integration testing across supported Python
+releases. Positional arguments are provided to a standardized
+``meson test`` configuration.
 
 |bigskip|
 

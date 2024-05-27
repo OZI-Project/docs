@@ -1,4 +1,4 @@
-.. Copyright 2023 Ross J. Duff MSc 
+.. Copyright 2023 Ross J. Duff MSc
    The copyright holder licenses this file
    to you under the Apache License, Version 2.0 (the
    "License"); you may not use this file except in compliance
@@ -25,7 +25,7 @@ Welcome to the OZI Project documentation.
 
 The latter part of the documentation covers
 the project governance including roles and responsibilities,
-the :abbr:`API (Application Programming Interface)` specification, 
+the :abbr:`API (Application Programming Interface)` specification,
 the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
 .. card::
@@ -35,11 +35,8 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 
       OZIproject.dev Homepage <https://oziproject.dev/>
       quick-start
-      spec
+      ci
       ozi
       ozi_build
-      roadmap
-      roles-and-responsibilities
-      test-code-standards
-      test-policy
-      test-strategy
+      development
+      governance

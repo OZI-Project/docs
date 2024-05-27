@@ -37,24 +37,25 @@ License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-In addition to the code licensed under Apache-2.0 we have also vendored pyc_wheel:
+In addition to the code licensed under Apache-2.0 we have also vendored
+pyc_wheel:
 
-   | Copyright (c) 2016 Grant Patten <grant@gpatten.com> 
+   | Copyright (c) 2016 Grant Patten <grant@gpatten.com>
    | Copyright (c) 2019-2021 Adam Karpierz <adam@karpierz.net>
 
    Permission is hereby granted, free of charge, to any person obtaining a
-   copy of this software and associated documentation files 
-   (the "Software"), to deal in the Software without restriction, 
+   copy of this software and associated documentation files
+   (the "Software"), to deal in the Software without restriction,
    including without limitation the rights to use, copy, modify, merge,
-   publish, distribute, sublicense, and/or sell copies of the Software, 
-   and to permit persons to whom the Software is furnished to do so, 
+   publish, distribute, sublicense, and/or sell copies of the Software,
+   and to permit persons to whom the Software is furnished to do so,
    subject to the following conditions:
 
    The above copyright notice and this permission notice shall be included
    in all copies or substantial portions of the Software.
 
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
@@ -78,7 +79,9 @@ Workflow to upload a release to PyPI
 4. Publish the package ``twine upload dist/*``
 
 
-In short for the next release: ``rm dist/* && python3 -m build && twine upload dist/*``
+In short for the next release:
+
+``rm dist/* && python3 -m build && twine upload dist/*``
 
 The pyproject.toml config file
 ------------------------------
@@ -128,25 +131,26 @@ e.g. for OZI.build itself:
    author-email="tsaunier@gnome.org"
 
 ``classifiers``
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 A list of `classifiers <https://pypi.python.org/pypi?%3Aaction=list_classifiers>`_.
 
 ``description``
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
-The description of the project as a string if you do not want to specify 'description-file'
+The description of the project as a string if you do not want to specify
+'description-file'
 
 ``description-file``
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 
 A path (relative to the .toml file) to a file containing a longer description
 of your package to show on PyPI. This should be written in reStructuredText
-  Markdown or plain text, and the filename should have the appropriate extension
-  (`.rst`, `.md` or `.txt`).
+Markdown or plain text, and the filename should have the appropriate extension
+(`.rst`, `.md` or `.txt`).
 
 ``home-page``
-^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 A string containing the URL for the package's home page.
 
@@ -155,17 +159,17 @@ Example:
 `http://www.example.com/~cschultz/bvote/`
 
 ``license``
-^^^^^^^^^
+^^^^^^^^^^^
 
 Text indicating the license covering the distribution. This text can be either a valid license expression as defined in [pep639](https://www.python.org/dev/peps/pep-0639/#id88) or any free text.
 
 ``maintainer``
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 Name of current maintainer of the project (if different from author)
 
 ``maintainer-email``
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 
 Maintainer email address
 
@@ -178,25 +182,26 @@ Example:
    maintainer-email="rgoode@example.org"
 
 ``meson-options``
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
-A list of default meson options to set, can be overriden and expended through the :envvar:`MESON_ARGS`
-environement variable at build time.
+A list of default meson options to set, can be overriden and
+expanded through the :envvar:`MESON_ARGS`
+environment variable at build time.
 
 ``meson-python-option-name``
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The name of the meson options that is used in the meson build definition
 to set the python installation when using
 `python.find_installation() <http://mesonbuild.com/Python-module.html#find_installation>`_.
 
 ``module``
-^^^^^^^^
+^^^^^^^^^^
 
 The name of the module, will use the meson project name if not specified
 
 ``pkg-info-file``
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 Pass a PKG-INFO file direcly usable.
 
@@ -204,12 +209,12 @@ Pass a PKG-INFO file direcly usable.
 
 
 ``platforms``
-^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Supported Python platforms, can be 'any', py3, etc...
 
 ``project-urls``
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 A list of ``Type, url`` as described in the
 `pep345 <https://www.python.org/dev/peps/pep-0345/#project-url-multiple-use>`_.
@@ -222,7 +227,7 @@ For example:
    ]
 
 ``requires``
-^^^^^^^^^^
+^^^^^^^^^^^^
 
 A list of other packages from PyPI that this package needs. Each package may
 be followed by a version specifier like ``(>=4.1)`` or ``>=4.1``, and/or an
@@ -237,7 +242,7 @@ after a semicolon. For example:
    ]
 
 ``requires-python``
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 A version specifier for the versions of Python this requires, e.g. ``~=3.3`` or
 ``>=3.3,<4`` which are equivalents.
@@ -245,7 +250,7 @@ A version specifier for the versions of Python this requires, e.g. ``~=3.3`` or
 .. note:: Setting ``requires-python`` overrides compiliation of :file:`*.py` to :file:`*.pyc` in wheels.
 
 ``summary``
-^^^^^^^^^
+^^^^^^^^^^^
 
 A one sentence summary about the package
 

@@ -7,7 +7,6 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 from importlib.metadata import version as _version
 from pathlib import Path as _Path
-import re
 from shutil import rmtree
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons

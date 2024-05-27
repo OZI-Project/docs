@@ -32,8 +32,6 @@ ozi console application
    parser.print_help()
 
 
-|newpage|
-
 Submodules
 ----------
 

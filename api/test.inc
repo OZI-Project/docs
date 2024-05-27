@@ -79,7 +79,7 @@ test
          :download:`assets/blastpipe/blastpipe/ozi_templates/pytest.pyproject.toml`
 
    .. dropdown:: plugins
-      :icon: plugin
+      :icon: plug
 
       * pytest-asyncio 
       * pytest-cov 

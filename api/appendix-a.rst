@@ -1,4 +1,4 @@
-.. Copyright 2024 Ross J. Duff MSc 
+.. Copyright 2024 Ross J. Duff MSc
    The copyright holder licenses this file
    to you under the Apache License, Version 2.0 (the
    "License"); you may not use this file except in compliance
@@ -12,6 +12,7 @@
    KIND, either express or implied.  See the License for the
    specific language governing permissions and limitations
    under the License.
+
 =======================
 Specification Templates
 =======================
@@ -114,7 +115,6 @@ meson.options
     :lines: 7-
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.array.meson.options
-    :language: meson
     :lines: 7-
 
 .. _bandit-args:
