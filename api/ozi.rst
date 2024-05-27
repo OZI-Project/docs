@@ -24,7 +24,7 @@ Module contents
    :show-inheritance:
 
 ozi console application
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. exec::
 
@@ -36,7 +36,7 @@ Submodules
 ----------
 
 ozi.actions module
-------------------
+^^^^^^^^^^^^^^^^^^
 
 .. automodule:: ozi.actions
    :members:
@@ -45,7 +45,7 @@ ozi.actions module
 |newpage|
 
 ozi.comment module
-------------------
+^^^^^^^^^^^^^^^^^^
 
 .. automodule:: ozi.comment
    :members:
@@ -55,14 +55,14 @@ ozi.comment module
 |newpage|
 
 ozi.filter module
------------------
+^^^^^^^^^^^^^^^^^
 
 .. versionchanged:: 1.2
    The module ``filters`` was moved to ``blastpipe.ozi_templates.filters``
 
 
 ozi.meson module
-----------------
+^^^^^^^^^^^^^^^^
 
 .. automodule:: ozi.meson
    :members:
@@ -72,7 +72,7 @@ ozi.meson module
 |newpage|
 
 ozi.render module
------------------
+^^^^^^^^^^^^^^^^^
 
 .. automodule:: ozi.render
    :members:
@@ -85,7 +85,7 @@ ozi.render module
 |newpage|
 
 ozi.tap module
---------------
+^^^^^^^^^^^^^^
 
 .. automodule:: ozi.tap
    :members:
