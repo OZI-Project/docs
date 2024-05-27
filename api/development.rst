@@ -1,3 +1,7 @@
+.. include:: latex-tools.rst
+
+|newpage|
+
 ===================
 OZI Developer Guide
 ===================
