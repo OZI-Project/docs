@@ -1,5 +1,7 @@
 .. include:: latex-tools.rst
 
+|newpage|
+
 ==========================
 Roles and Responsibilities
 ==========================

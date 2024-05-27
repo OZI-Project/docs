@@ -1,10 +1,6 @@
-.. include:: latex-tools.rst
-
 ===================
 OZI Developer Guide
 ===================
-
-|newpage|
 
 .. card::
 

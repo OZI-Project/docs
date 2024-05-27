@@ -15,6 +15,8 @@
 
 .. include:: latex-tools.rst
 
+|newpage|
+
 .. meta::
    :description: specification for the OZI Python packaging for Meson API.
    :keywords: specification, OZI, Python, API, packaging, Meson
