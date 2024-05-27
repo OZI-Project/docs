@@ -14,3 +14,4 @@ OZI Project Governance
 
       roles-and-responsibilities
       test-policy
+      assets/brand/README
