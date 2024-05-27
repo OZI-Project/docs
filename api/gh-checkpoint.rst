@@ -7,7 +7,12 @@ checkpoint
 Applicable Version
 ------------------
 
-0.4.x releases
+====== ========
+OZI    releases
+====== ========
+1.9.x  0.3.x
+1.10.x 0.4.x
+====== ========
 
 Inputs
 ------
