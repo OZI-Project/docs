@@ -3,25 +3,10 @@ Continuous Integration
 ======================
 
 OZI continuous integration strategies have the same main components
-across different providers:
-
-* checkpoint
-* draft
-* release
-* publish
-
-GitHub Actions
---------------
+across the different providers.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
-   gh-checkpoint
-   gh-draft
-   gh-release
-   gh-publish
+   github
 
-GitLab Components
------------------
-
-Coming soon...
