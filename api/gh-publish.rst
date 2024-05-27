@@ -1,7 +1,5 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 =======
 publish
 =======
@@ -31,3 +29,5 @@ github-token
 GitHub workflow-generated token.
 
 * required: true
+
+|newpage|

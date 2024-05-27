@@ -1,8 +1,6 @@
 
 .. include:: latex-tools.rst
 
-|newpage|
-
 =====
 draft
 =====
@@ -60,3 +58,4 @@ Side-effects
 * Creates an artifact of the repo in the tagged state for the first
   release step (security).
 
+|newpage|

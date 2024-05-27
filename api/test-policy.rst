@@ -1,7 +1,5 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 ===========
 Test Policy
 ===========
@@ -67,3 +65,5 @@ Where a copy of live data is used then its use is to be risk assessed
 and the data sanitised as appropriate, removing references to customers,
 employees, personal identifying information, and corporate proprietary
 information.
+
+|newpage|

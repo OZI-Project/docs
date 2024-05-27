@@ -1,7 +1,5 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 ==========
 checkpoint
 ==========
@@ -55,3 +53,5 @@ posargs for tox.
 
 * required: false
 * default: ""
+
+|newpage|

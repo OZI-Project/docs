@@ -1,7 +1,5 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 =======
 release
 =======
@@ -60,3 +58,5 @@ Side-effects
 * Creates a security, bugfix2, and bugfix1 wheel release file
 * Creates a tarball release file during bugfix1
 * Optionally creates a prerelease wheel release file
+
+|newpage|

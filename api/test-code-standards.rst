@@ -1,7 +1,5 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 =========================
 Test Automation Standards
 =========================
@@ -56,3 +54,5 @@ Test and Defect Management
 * For Python projects, e2e tests should be separate project.
 * Open defects should be managed; a regular team/project review session
   is recommended
+
+|newpage|

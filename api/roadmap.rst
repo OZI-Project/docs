@@ -1,7 +1,5 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 ===============
 Project Roadmap
 ===============
@@ -118,3 +116,4 @@ Access Continuity OpenSSF Silver attestation
 We have yet to setup access continuity. When committers are more active in OZI
 we will need to create a means of continuity.
 
+|newpage|

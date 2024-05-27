@@ -1,7 +1,5 @@
 .. include:: latex-tools.rst
 
-|newpage|
-
 =============
 Test Strategy
 =============
@@ -157,3 +155,5 @@ User Acceptance
 
 * The team should involve users throughout the development process to
   ensure the developed product satisfies their requirements.
+
+|newpage|

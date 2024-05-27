@@ -1,6 +1,11 @@
+
+.. include:: latex-tools.rst
+
 ======================
 OZI Project Governance
 ======================
+
+|newpage|
 
 .. card::
 

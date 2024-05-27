@@ -15,8 +15,6 @@
 
 .. include:: latex-tools.rst
 
-|newpage|
-
 .. meta::
    :description: specification for the OZI Python packaging for Meson API.
    :keywords: specification, OZI, Python, API, packaging, Meson
@@ -883,3 +881,5 @@ This section lists the third-party utility program requirements.
 .. include:: test.inc
 
 .. include:: pypi_links.inc
+
+|newpage|
