@@ -12,24 +12,15 @@ OZI.build package
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
 |end-flushright|
-|newpage|
 
-This is a python module that implements :pep:`517` for the meson build system.
-
-This implies that any project that deals with python code can easily distributed
-to the `Python Package Index (PyPI) <https://pypi.org/>`_ by just setting the right
-metadatas in its :file:`pyproject.toml` config file, per :pep:`518`.
-
-meson: https://mesonbuild.com
-
-License
--------
+.. dropdown:: License Notice
+   :icon: law
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-   http://www.apache.org/licenses/LICENSE-2.0
+   | http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -37,8 +28,8 @@ License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-In addition to the code licensed under Apache-2.0 we have also vendored
-pyc_wheel:
+   In addition to the code licensed under Apache-2.0 we have also vendored
+   pyc_wheel:
 
    | Copyright (c) 2016 Grant Patten <grant@gpatten.com>
    | Copyright (c) 2019-2021 Adam Karpierz <adam@karpierz.net>
@@ -61,6 +52,16 @@ pyc_wheel:
    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+|newpage|
+
+This is a python module that implements :pep:`517` for the meson build system.
+
+This implies that any project that deals with python code can easily distributed
+to the `Python Package Index (PyPI) <https://pypi.org/>`_ by just setting the right
+metadatas in its :file:`pyproject.toml` config file, per :pep:`518`.
+
+meson: https://mesonbuild.com
 
 Usage
 -----
