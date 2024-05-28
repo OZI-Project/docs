@@ -14,6 +14,15 @@ OZI package
 |end-flushright|
 |newpage|
 
+.. toctree::
+   :maxdepth: 4
+
+   ozi.main
+   ozi.fix
+   ozi.new
+   ozi.scripts
+   ozi.spec
+
 Submodules
 ----------
 
@@ -75,15 +84,3 @@ ozi.tap module
    :show-inheritance:
 
 |newpage|
-
-Subpackages
------------
-
-.. toctree::
-   :maxdepth: 4
-
-   ozi.main
-   ozi.fix
-   ozi.new
-   ozi.scripts
-   ozi.spec
