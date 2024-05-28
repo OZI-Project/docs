@@ -7,12 +7,26 @@ Roles and Responsibilities
 |begin-flushright|
 
 .. article-info::
-   :author: Ross Gardler and Gabriel Hanganu
+   :author: Ross Gardler and Gabriel Hanganu (Adapted by Eden Ross Duff)
    :date: 07-Nov-2013
    :read-time: 30 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
 |end-flushright|
+
+.. dropdown:: License Notice
+   :icon: law
+
+   Adapted from the Benevolent dictator governance model:
+   http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel
+
+   .. image:: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
+      :target: http://creativecommons.org/licenses/by-sa/4.0/
+      :alt: Creative Commons License
+
+   Benevolent dictator governance model by Ross Gardler and Gabriel Hanganu is licensed under
+   a Creative Commons Attribution-ShareAlike 4.0 International License.
+
 |newpage|
 
 Overview
@@ -145,15 +159,5 @@ The benevolent dictatorship model does not need a formal conflict resolution pro
 since the project lead's word is final. If the community chooses to question the wisdom
 of the actions of a committer, the project lead can review their decisions by checking the
 email archives, and either uphold or reverse them.
-
-Adapted from the Benevolent dictator governance model:
-http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel
-
-.. image:: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
-   :target: http://creativecommons.org/licenses/by-sa/4.0/
-   :alt: Creative Commons Licence
-
-Benevolent dictator governance model by Ross Gardler and Gabriel Hanganu is licensed under
-a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 |newpage|
