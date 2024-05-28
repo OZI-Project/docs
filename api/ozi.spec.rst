@@ -1,18 +1,11 @@
-ozi.spec package
-================
-
-
-Module contents
----------------
+ozi.spec module
+===============
 
 .. automodule:: ozi.spec
    :members:
    :undoc-members:
    :show-inheritance:
    :exclude-members: Spec
-
-Submodules
-----------
 
 ozi.spec.base module
 --------------------

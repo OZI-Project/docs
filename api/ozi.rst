@@ -15,72 +15,16 @@ OZI package
 |newpage|
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
    ozi.main
    ozi.fix
    ozi.new
    ozi.scripts
    ozi.spec
-
-Submodules
-----------
-
-ozi.actions module
-^^^^^^^^^^^^^^^^^^
-
-.. automodule:: ozi.actions
-   :members:
-   :exclude-members: ExactMatch
-
-|newpage|
-
-ozi.comment module
-^^^^^^^^^^^^^^^^^^
-
-.. automodule:: ozi.comment
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-|newpage|
-
-ozi.filter module
-^^^^^^^^^^^^^^^^^
-
-.. versionchanged:: 1.2
-   The module ``filters`` was moved to ``blastpipe.ozi_templates.filters``
-
-
-ozi.meson module
-^^^^^^^^^^^^^^^^
-
-.. automodule:: ozi.meson
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-|newpage|
-
-ozi.render module
-^^^^^^^^^^^^^^^^^
-
-.. automodule:: ozi.render
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-.. versionchanged:: 1.2
-   The function ``load_environment`` was moved to ``blastpipe.ozi_templates``
-
-|newpage|
-
-ozi.tap module
-^^^^^^^^^^^^^^
-
-.. automodule:: ozi.tap
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-|newpage|
+   ozi.actions
+   ozi.comment
+   ozi.filter
+   ozi.meson
+   ozi.render
+   ozi.tap
