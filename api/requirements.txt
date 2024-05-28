@@ -130,6 +130,7 @@ sphinxcontrib-qthelp==1.0.7
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
+sphinxcontrib-svg2pdfconverter[CairoSVG]
 stevedore==5.2.0
     # via doc8
 trove-classifiers==2024.3.3

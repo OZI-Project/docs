@@ -57,6 +57,7 @@ extensions = [
     'sphinx_sitemap',
     'sphinxawesome_theme.highlighting',
     'sphinxcontrib.programoutput',
+    'sphinxcontrib.cairosvgconverter',
 ]
 rst_epilog = """
 .. only:: html
