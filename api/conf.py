@@ -102,7 +102,6 @@ html_context = {'mode': 'production'}
 latex_logo = 'assets/brand/images/ozi_social_preview.png'
 latex_engine = 'lualatex'
 latex_elements = {
-    'fontpkg': r'\usepackage{tgtermes}\usepackage{tgheros}\renewcommand\ttdefault{txtt}',
     'preamble': r'''\directlua {
   luaotfload.add_fallback("emoji",
   {
