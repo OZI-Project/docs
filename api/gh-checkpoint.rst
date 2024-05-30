@@ -4,6 +4,12 @@
 checkpoint
 ==========
 
+Github actions :term:`checkpoint step`
+
+.. seealso::
+
+   `OZI-Project/checkpoint <https://github.com/OZI-Project/checkpoint>`_
+
 Applicable Version
 ------------------
 
@@ -12,6 +18,7 @@ OZI    OZI-Project/checkpoint
 ====== ======================
 1.9.x  0.3.x
 1.10.x 0.4.x
+1.11.x 0.4.x
 ====== ======================
 
 Inputs

@@ -23,7 +23,7 @@ Glossary of Terms
       the CI system automatically builds the project, runs tests, and checks for any errors or failures.
 
    draft step
-      The beginning of the CD process for OZI after a successful :term:`checkpoint step`.
+      The beginning of the :term:`CD` process for OZI after a successful :term:`checkpoint step`.
 
    entry points
    entry points: console_scripts
@@ -43,9 +43,17 @@ Glossary of Terms
       Information needed by a build backend to build the
       :file:`PKG-INFO`/:file:`METADATA` in a Python software package.
 
+   publish step
+      The next step in the :term:`CD` process after the :term:`release step`,
+      publishes distribution packages.
+
    PyPI
    Python Package Index
       The official online repository for Python software packages.
+
+   release step
+      The next step in the :term:`CD` process after the :term:`draft step`,
+      creates release distribution packages.
 
    utility
    utility applications

@@ -4,6 +4,12 @@
 release
 =======
 
+Github actions :term:`release step`
+
+.. seealso::
+
+   `OZI-Project/release <https://github.com/OZI-Project/release>`_
+
 Applicable Version
 ------------------
 

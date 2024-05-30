@@ -5,6 +5,12 @@
 draft
 =====
 
+Github actions :term:`draft step`
+
+.. seealso::
+
+   `OZI-Project/draft <https://github.com/OZI-Project/draft>`_
+
 Applicable Version
 ------------------
 
