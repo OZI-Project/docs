@@ -22,7 +22,10 @@ Inputs
 python-dist
 ^^^^^^^^^^^
 
-Python dist version string e.g. bugfix1, bugfix2, security, prerelease
+Python dist version string e.g. security2, security1, bugfix, prerelease
+
+.. versionchanged:: 0.6
+   previously stated "... bugfix, bugfix1, security ..."
 
 * required: true
 
