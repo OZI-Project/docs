@@ -36,13 +36,13 @@ docs
       :icon: package
 
       .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/doc8.pyproject.toml
-         :lines: 4-
+         :start-after: -#}
 
    .. dropdown:: arguments
       :icon: terminal
 
       .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/doc8.meson.options
-         :lines: 4-
+         :start-after: -#}
 
    .. rubric:: pydocstyle
 
@@ -58,7 +58,7 @@ docs
       :icon: terminal
 
       .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/pydocstyle.meson.options
-         :lines: 4-
+         :start-after: -#}
 
    .. rubric:: sphinx-build(sphinx)
 

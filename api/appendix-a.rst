@@ -27,7 +27,7 @@ project_name/\_\_init\_\_.py
 ----------------------------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/__init__.py.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _source-meson-build:
 
@@ -35,7 +35,7 @@ project_name/meson.build
 ------------------------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/meson.build.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _subprojects-ozi-wrap:
 
@@ -43,7 +43,7 @@ subprojects/ozi.wrap
 --------------------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/ozi.wrap.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _gitignore:
 
@@ -51,7 +51,7 @@ subprojects/ozi.wrap
 ----------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/.gitignore.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _license-txt:
 
@@ -59,7 +59,7 @@ LICENSE.txt
 -----------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/LICENSE.txt.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _readme-md:
 
@@ -67,7 +67,7 @@ README.md
 ---------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.md.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _readme-rst:
 
@@ -75,7 +75,7 @@ README.rst
 ----------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.rst.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _readme-txt:
 
@@ -83,7 +83,7 @@ README.txt
 ----------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.txt.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _requirements-in:
 
@@ -91,7 +91,7 @@ requirements.in
 ---------------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/requirements.in.j2
-    :lines: 4-
+    :start-after: -#}
 
 .. _meson-build:
 
@@ -99,7 +99,7 @@ meson.build
 -----------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.meson.build
-    :lines: 4-
+    :start-after: -#}
 
 .. _meson-options:
 
@@ -108,14 +108,14 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.feature.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.integer.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.array.meson.options
-    :lines: 4-
+    :start-after: -#}
 
 .. _bandit-args:
 
@@ -123,7 +123,7 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/bandit.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. _black-args:
 
@@ -131,7 +131,7 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/black.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. _readme-renderer-args:
 
@@ -139,7 +139,7 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/readme-renderer.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. _flake8-args:
 
@@ -147,7 +147,7 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/flake8.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. _isort-args:
 
@@ -155,7 +155,7 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/isort.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. _mypy-args:
 
@@ -163,7 +163,7 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/mypy.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. _pyright-args:
 
@@ -171,14 +171,14 @@ meson.options
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/pyright.meson.options
     :language: meson
-    :lines: 4-
+    :start-after: -#}
 
 .. _pytest-args:
 
 .. rubric:: meson.options:pytest-args
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/pytest.meson.options
-    :lines: 4-
+    :start-after: -#}
 
 .. _pkg-info:
 
@@ -186,7 +186,7 @@ PKG-INFO
 --------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.PKG-INFO
-    :lines: 4-
+    :start-after: -#}
 
 .. _pyproject-toml:
 
@@ -194,89 +194,89 @@ pyproject.toml
 --------------
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/root.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _setuptools_scm-config:
 
 .. rubric:: pyproject.toml:setuptools_scm
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/setuptools_scm.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _tox-config:
 
 .. rubric:: pyproject.toml:tox
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/tox.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _semantic_release-config:
 
 .. rubric:: pyproject.toml:semantic_release
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/semantic_release.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _bandit-config:
 
 .. rubric:: pyproject.toml:bandit
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/bandit.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _black-config:
 
 .. rubric:: pyproject.toml:black
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/black.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _flake8-config:
 
 .. rubric:: pyproject.toml:flake8
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/flake8.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _isort-config:
 
 .. rubric:: pyproject.toml:isort
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/isort.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _mypy-config:
 
 .. rubric:: pyproject.toml:mypy
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/mypy.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _pyright-config:
 
 .. rubric:: pyproject.toml:pyright
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/pyright.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _pylint-config:
 
 .. rubric:: pyproject.toml:pylint
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/pylint.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _coverage-config:
 
 .. rubric:: pyproject.toml:coverage
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/coverage.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
 .. _pytest-config:
 
 .. rubric:: pyproject.toml:pytest
 
 .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/pytest.pyproject.toml
-    :lines: 4-
+    :start-after: -#}
 
