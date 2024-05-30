@@ -7,12 +7,13 @@ release
 Applicable Version
 ------------------
 
-====== ========
-OZI    releases
-====== ========
+====== ===================
+OZI    OZI-Project/release
+====== ===================
 1.9.x  \>=0.5.10,<0.6.0
 1.10.x \>=0.5.10,<0.6.0
-====== ========
+1.11.x 0.6.x
+====== ===================
 
 
 Inputs
@@ -59,12 +60,12 @@ Side-effects
 
 * Creates a security2, security1, and bugfix wheel release file
 
-.. versionchanged:: 0.7
+.. versionchanged:: 0.6
    previously stated "... security, bugfix1, and bugfix ..."
 
 * Creates a tarball release file during bugfix
 
-.. versionchanged:: 0.7
+.. versionchanged:: 0.6
     previously stated "... during bugfix1"
 
 * Optionally creates a prerelease wheel release file
