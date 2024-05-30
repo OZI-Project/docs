@@ -335,7 +335,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. versionadded:: 0.1
 
-      Any PyPI dependencies.
+      Any :term:`PyPI` dependencies.
 
       .. only:: latex
 
@@ -796,7 +796,7 @@ ozi-new
 
       .. versionadded:: 0.1
 
-   .. card:: List output of available PyPI classifiers.
+   .. card:: List output of available :term:`PyPI` classifiers.
 
       .. versionadded:: 0.1
 

@@ -53,7 +53,7 @@ This is a python module that implements :pep:`517` for the meson build system.
 
 This implies that any project that deals with python code can easily distributed
 to the `Python Package Index (PyPI) <https://pypi.org/>`_ by just setting the right
-metadatas in its :file:`pyproject.toml` config file, per :pep:`518`.
+:term:`metadata` in its :file:`pyproject.toml` config file, per :pep:`518`.
 
 meson: https://mesonbuild.com
 
@@ -88,7 +88,7 @@ Build system section
 ^^^^^^^^^^^^^^^^^^^^
 
 This tells tools like pip to build your project with the OZI.build backend.
-It's a standard defined by PEP 517.
+The :term:`build backend` is a standard defined by PEP 517.
 For any project using OZI.build, it will look like this:
 
 .. code-block:: toml
@@ -140,9 +140,9 @@ The description of the project as a string if you do not want to specify
 """"""""""""""""""""
 
 A path (relative to the .toml file) to a file containing a longer description
-of your package to show on PyPI. This should be written in reStructuredText
-Markdown or plain text, and the filename should have the appropriate extension
-(`.rst`, `.md` or `.txt`).
+of your package to show on :term:`PyPI`. This should be written in
+reStructuredText Markdown or plain text, and the filename should have the
+appropriate extension (`.rst`, `.md` or `.txt`).
 
 ``home-page``
 """""""""""""
@@ -179,14 +179,14 @@ Example:
 ``meson-options``
 """""""""""""""""
 
-A list of default meson options to set, can be overriden and
+A list of default :term:`meson options` to set, can be overriden and
 expanded through the :envvar:`MESON_ARGS`
 environment variable at build time.
 
 ``meson-python-option-name``
 """"""""""""""""""""""""""""
 
-The name of the meson options that is used in the meson build definition
+The name of the :term:`meson options` that is used in the meson build definition
 to set the python installation when using
 `python.find_installation() <http://mesonbuild.com/Python-module.html#find_installation>`_.
 
@@ -224,7 +224,7 @@ For example:
 ``requires``
 """"""""""""
 
-A list of other packages from PyPI that this package needs. Each package may
+A list of other packages from :term:`PyPI` that this package needs. Each package may
 be followed by a version specifier like ``(>=4.1)`` or ``>=4.1``, and/or an
 `environment marker <https://www.python.org/dev/peps/pep-0345/#environment-markers>`_
 after a semicolon. For example:

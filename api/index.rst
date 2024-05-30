@@ -40,3 +40,4 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
       ozi_build
       development
       governance
+      glossary

@@ -119,7 +119,7 @@ Setup Python Package Index publishing
 
    .. grid-item-card::
 
-      You should create a PyPI account and
+      You should create a :term:`PyPI` account and
       `add a new pending publisher <https://pypi.org/manage/account/publishing/>`_ using:
 
       * PyPI Project Name: :abbr:`PROJECT_NAME (unique name for your project on PyPI)` [#f1]_
