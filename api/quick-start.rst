@@ -68,15 +68,18 @@ Usage
 Choose a License
 ****************
 
-You should decide the license terms you want to distribute your project with [*]_
-A good place to start is `choosealicense.com <https://choosealicense.com/>`_.
-Once you have decided on a license you should choose a Classifier matching that license.
-By default ``ozi-new project`` will warn you if you have chosen an ambiguous classifier
-per :pep:`639` and prompt you to disambiguate with a ``--license-expression`` argument.
-OZI will recommend a short list of possible SPDX Short-ID matches that you should base this
-argument on. This argument must be
-`SPDX license expression syntax <https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_.
-For example the OZI project itself uses ``--license-expression="Apache-2.0 WITH LLVM-exception"``.
+You should decide the license terms you want to distribute your project
+with [*]_ A good place to start is `choosealicense.com
+<https://choosealicense.com/>`_. Once you have decided on a license you
+should choose a Classifier matching that license. By default ``ozi-new
+project`` will warn you if you have chosen an ambiguous classifier per
+:pep:`639` and prompt you to disambiguate with a ``--license-expression``
+argument. OZI will recommend a short list of possible SPDX Short-ID matches
+that you should base this argument on. This argument must be `SPDX license
+expression syntax
+<https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_. For
+example the OZI project itself uses ``--license-expression="Apache-2.0 WITH
+LLVM-exception"``.
 
 .. card::
 
@@ -139,19 +142,19 @@ Setup Python Package Index publishing
       +++
       Screenshot taken: 17-Sep-2023
 
-It is recommended to enable 2 Factor Authentication on both your CI provider and PyPI 
-account.
+It is recommended to enable 2 Factor Authentication on both your CI
+provider and PyPI account.
 
 |newpage|
 
 Create a New Packaged Project
 *****************************
 
-You should provide a valid email.
-OZI will run some basic checks of well-formedness of the address.
-Deliverability checking is turned off by default but can be turned on with the 
-``--verify-email`` flag. Be warned that this is a direct DNS request and may fail or time-out
-for reasons external to OZI.
+You should provide a valid email. OZI will run some basic checks of
+well-formedness of the address. Deliverability checking is turned off by
+default but can be turned on with the ``--verify-email`` flag. Be warned
+that this is a direct DNS request and may fail or time-out for reasons
+external to OZI.
 
 .. card::
 
@@ -207,4 +210,4 @@ Add New Source Subdirectories
    .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
 
-.. _initializing-a-git-repository: 
+.. _initializing-a-git-repository:
