@@ -1,8 +1,8 @@
 .. include:: latex-tools.rst
 
-======================
-Continuous Integration
-======================
+===================================
+Continuous Integration & Deployment
+===================================
 
 |begin-flushright|
 
@@ -16,7 +16,7 @@ Continuous Integration
 |newpage|
 
 
-OZI continuous integration strategies have the same main components
+OZI :term:`CI`/:term:`CD` strategies have the same main components
 across the different providers.
 
 .. toctree::

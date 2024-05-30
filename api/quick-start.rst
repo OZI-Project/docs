@@ -107,7 +107,7 @@ LLVM-exception"``.
 Choose a Continuous Integration Provider
 ****************************************
 
-Currently the available :abbr:`CI (Continuous Integration)` Providers are:
+Currently the available :term:`CI` Providers are:
 
 * GitHub
 
@@ -167,7 +167,7 @@ external to OZI.
 
       .. command-output:: ls TARGET
 
-   .. card:: :octicon:`link-external;1.5em;sd-text-info` Navigate to the TARGET directory and follow the CI Provider guide 
+   .. card:: :octicon:`link-external;1.5em;sd-text-info` Navigate to the TARGET directory and follow the CI Provider guide
       :link: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository
 
    +++

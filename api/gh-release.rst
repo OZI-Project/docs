@@ -50,8 +50,23 @@ The release file hashes for provenance.
 Side-effects
 ------------
 
-* Creates a security, bugfix2, and bugfix1 wheel release file
-* Creates a tarball release file during bugfix1
+* Creates releases in the order security2, security1, bugfix,
+  and optionally prerelease using a shared artifact,
+
+* Each ``python-dist`` expects that a matching named artifact exists,
+  created by the previous in succession or for security2 created by the
+  :term:`draft step`.
+
+* Creates a security2, security1, and bugfix wheel release file
+
+.. versionchanged:: 0.7
+   previously stated "... security, bugfix1, and bugfix ..."
+
+* Creates a tarball release file during bugfix
+
+.. versionchanged:: 0.7
+    previously stated "... during bugfix1"
+
 * Optionally creates a prerelease wheel release file
 
 |newpage|

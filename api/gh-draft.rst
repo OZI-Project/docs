@@ -44,6 +44,10 @@ Side-effects
 
 * Creates a new tag commit if semantic-release determines one is needed.
 * Creates an artifact of the repo in the tagged state for the first
-  release step (security).
+  release step (security2).
+
+.. versionchanged:: 0.3
+
+   Previously stated that a "security" artifact is created.
 
 |newpage|
