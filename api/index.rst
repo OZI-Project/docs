@@ -31,7 +31,7 @@ the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
 .. card::
 
    .. toctree::
-      :maxdepth: 2
+      :maxdepth: 3
 
       OZIproject.dev Homepage <https://oziproject.dev/>
       quick-start
