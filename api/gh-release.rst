@@ -55,7 +55,7 @@ Side-effects
 ------------
 
 * Creates releases in the order security2, security1, bugfix,
-  and optionally prerelease using a shared artifact,
+  and optionally prerelease using a shared artifact.
 
 * Each ``python-dist`` expects that a matching named artifact exists,
   created by the previous in succession or for security2 created by the
@@ -72,5 +72,7 @@ Side-effects
     previously stated "... during bugfix1"
 
 * Optionally creates a prerelease wheel release file
+
+* Creates a combined artifact with the built package releases.
 
 |newpage|
