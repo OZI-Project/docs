@@ -216,7 +216,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
          .. only:: html
 
             .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/__init__.py.j2
-               :lines: 7-
+               :lines: 4-
 
       .. dropdown:: :file:`project_name/meson.build`
 
@@ -231,7 +231,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
          .. only:: html
 
             .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/meson.build.j2
-               :lines: 7-
+               :lines: 4-
 
    .. dropdown:: :abbr:`test_source/ (meson.build variable test_source)`
       :icon: file-directory
@@ -261,7 +261,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
          .. only:: html
 
             .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/ozi.wrap.j2
-               :lines: 7-
+               :lines: 4-
 
    .. dropdown:: :file:`.gitignore`
       :icon: diff-ignored
@@ -277,7 +277,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/.gitignore.j2
-            :lines: 7-
+            :lines: 4-
 
    .. dropdown:: :file:`LICENSE.txt`
       :icon: law
@@ -293,7 +293,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/LICENSE.txt.j2
-            :lines: 7-
+            :lines: 4-
 
    .. dropdown:: :file:`README`
       :icon: info
@@ -310,7 +310,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.md.j2
-            :lines: 7-
+            :lines: 4-
 
       .. only:: latex
 
@@ -319,7 +319,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.rst.j2
-            :lines: 7-
+            :lines: 4-
 
       .. only:: latex
 
@@ -328,7 +328,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.txt.j2
-            :lines: 7-
+            :lines: 4-
 
    .. dropdown:: :file:`requirements.in`
       :icon: info
@@ -344,7 +344,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/requirements.in.j2
-            :lines: 7-
+            :lines: 4-
 
    .. dropdown:: :file:`meson.build`
       :icon: project
@@ -360,7 +360,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.meson.build
-            :lines: 7-
+            :lines: 4-
 
    .. dropdown:: :file:`meson.options`
       :icon: terminal
@@ -379,18 +379,18 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.feature.meson.options
             :language: meson
-            :lines: 7-
+            :lines: 4-
 
          .. rubric:: integer
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.integer.meson.options
             :language: meson
-            :lines: 7-
+            :lines: 4-
 
          .. rubric:: array
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.array.meson.options
-            :lines: 7-
+            :lines: 4-
 
    .. dropdown:: :file:`pyproject.toml`
       :icon: package
@@ -420,7 +420,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.PKG-INFO
-            :lines: 7-
+            :lines: 4-
 
 |newpage|
 
