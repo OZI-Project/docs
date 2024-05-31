@@ -21,12 +21,11 @@
 Documentation
 =============
 
-Welcome to the OZI Project documentation.
+.. only:: html
 
-The latter part of the documentation covers
-the project governance including roles and responsibilities,
-the :abbr:`API (Application Programming Interface)` specification,
-the project roadmap, and `Meson <https://mesonbuild.com>`_ support information.
+   .. raw:: html
+
+      <img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi_social_preview.png" class="dark:invert"></img>
 
 .. card::
 
