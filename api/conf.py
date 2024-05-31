@@ -134,6 +134,7 @@ intersphinx_mapping = {
         'https://python-semantic-release.readthedocs.io/en/stable/',
         None,
     ),
+    'setuptools': ('https://setuptools.pypa.io/en/latest/', None),
 }
 
 

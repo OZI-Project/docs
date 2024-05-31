@@ -88,7 +88,7 @@ Build system section
 ^^^^^^^^^^^^^^^^^^^^
 
 This tells tools like pip to build your project with the OZI.build backend.
-The :term:`build backend` is a standard defined by PEP 517.
+The :term:`build backend` is a standard defined by :pep:`517`.
 For any project using OZI.build, it will look like this:
 
 .. code-block:: toml
@@ -156,7 +156,9 @@ Example:
 ``license``
 """""""""""
 
-Text indicating the license covering the distribution. This text can be either a valid license expression as defined in [pep639](https://www.python.org/dev/peps/pep-0639/#id88) or any free text.
+Text indicating the license covering the distribution. This text can be
+either a valid license expression as defined in :pep:`639` or any free
+text.
 
 ``maintainer``
 """"""""""""""
@@ -212,7 +214,7 @@ Supported Python platforms, can be 'any', py3, etc...
 """"""""""""""""
 
 A list of ``Type, url`` as described in the
-`pep345 <https://www.python.org/dev/peps/pep-0345/#project-url-multiple-use>`_.
+:pep:`345`.
 For example:
 
 .. code-block:: toml
@@ -224,10 +226,10 @@ For example:
 ``requires``
 """"""""""""
 
-A list of other packages from :term:`PyPI` that this package needs. Each package may
-be followed by a version specifier like ``(>=4.1)`` or ``>=4.1``, and/or an
-`environment marker <https://www.python.org/dev/peps/pep-0345/#environment-markers>`_
-after a semicolon. For example:
+A list of other packages from :term:`PyPI` that this package needs. Each
+package may be followed by a version specifier like ``(>=4.1)`` or
+``>=4.1``, and/or a :pep:`345` environment marker after a semicolon.
+For example:
 
 .. code-block:: toml
 

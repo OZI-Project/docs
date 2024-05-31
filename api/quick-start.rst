@@ -69,15 +69,15 @@ Choose a License
 ****************
 
 You should decide the license terms you want to distribute your project
-with [*]_ A good place to start is `choosealicense.com
+with\ [*]_. A good place to start is `choosealicense.com
 <https://choosealicense.com/>`_. Once you have decided on a license you
 should choose a Classifier matching that license. By default ``ozi-new
-project`` will warn you if you have chosen an ambiguous classifier per
-:pep:`639` and prompt you to disambiguate with a ``--license-expression``
-argument. OZI will recommend a short list of possible SPDX Short-ID matches
-that you should base this argument on. This argument must be `SPDX license
-expression syntax
-<https://spdx.github.io/spdx-spec/v2.2.2/SPDX-license-expressions/>`_. For
+project`` will warn you if you have chosen an :term:`ambiguous license`
+classifier per :pep:`639` and prompt you to disambiguate with a
+``--license-expression`` argument. OZI will recommend a short list of
+possible SPDX Short-ID matches that you should base this argument on. This
+argument must be `SPDX license expression syntax
+<https://spdx.github.io/spdx-spec/v3.0/SPDX-license-expressions/>`_. For
 example the OZI project itself uses ``--license-expression="Apache-2.0 WITH
 LLVM-exception"``.
 

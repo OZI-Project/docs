@@ -5,6 +5,15 @@ Glossary of Terms
 
 .. glossary::
 
+   ambiguous license
+      A :term:`PyPI` trove license classifier that OZI cannot match to one
+      license template unless given additional information in the form of
+      an SPDX license expression.
+
+      .. seealso::
+
+         :pep:`639`
+
    build backend
       A library that interacts with standardized Python packaging tools to assemble
       a python package.
@@ -33,7 +42,9 @@ Glossary of Terms
       which define shell commands with access to standard input, output, and error streams
       by identifying a Python function to run.
 
-      .. seealso:: https://setuptools.pypa.io/en/latest/userguide/entry_point.html
+      .. seealso::
+
+         :ref:`setuptools:entry_points`
 
    meson options
       Confguration options set using the meson command argument :samp:`-D{option}={value}`
