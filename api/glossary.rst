@@ -16,9 +16,18 @@ Glossary of Terms
 
          `Request: more precise license classifiers <https://github.com/pypa/trove-classifiers/issues/17>`_
 
+   build
+   build frontend
+      The Python module that serves as the simple standardized frontend for a :term:`build backend`.
+
+      .. seealso::
+
+         `build <https://pypi.org/project/build/>`_
+
    build backend
-      A library that interacts with standardized Python packaging tools to assemble
-      a python package.
+      A library that interacts with standardized Python packaging tools
+      like :term:`build`, :term:`twine`, and :term:`pip`, to assemble,
+      publish, and download Python package distributions.
 
       .. seealso::
 
@@ -185,9 +194,18 @@ Glossary of Terms
 
          `Annex D: License Expressions <https://spdx.github.io/spdx-spec/v3.0/annexes/SPDX-license-expressions/>`_
 
+   SPDX short identifier
+      A standard component of a :term:`SPDX license expression` communicating a license in shortened form.
+
+      .. seealso::
+
+         `Annex E: Using SPDX license list short identifiers in source files (Informative) <https://spdx.github.io/spdx-spec/v2.3/using-SPDX-short-identifiers-in-source-files/>`_
+
    TAP
    Test Anything Protocol
       A text-based interface for communicating test results.
+      Used by :program:`ozi`, :program:`ozi-new`, and :program:`ozi-fix`
+      for outputs where stdout is not intended for another use.
 
       .. seealso::
 

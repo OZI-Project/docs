@@ -63,7 +63,7 @@ Usage
 
 ``OZI.build`` doesn't provide any command line tools and should be used
 though other standard tools like :term:`pip`,
-:term:`twine` and `build <https://pypi.org/project/build/>`_.
+:term:`twine` and :term:`build`.
 
 Workflow to upload a release to PyPI
 ------------------------------------

@@ -543,7 +543,7 @@ stakeholder for.
 
          .. versionadded:: 0.1
 
-         Editable installs for pyproject.toml based builds (wheel based)
+         Editable installs for pyproject.toml based builds (:term:`wheel` based)
 
 |linebreak|
 
@@ -633,7 +633,7 @@ Meson
 
       * ``VCS_TAG`` is replaced with the actual supply chain managed version.
 
-   .. card:: Distribute a binary in wheel format.
+   .. card:: Distribute a binary in :term:`wheel` format.
 
       .. versionadded:: 0.1
 
@@ -641,7 +641,7 @@ Meson
 
       .. versionadded:: 0.1
 
-      MUST distribute wheel releases as Python bytecode and stubfiles.
+      MUST distribute :term:`wheel` releases as Python bytecode and stubfiles.
 
    .. card:: Isolate the executable with ``pipx``.
 
@@ -813,11 +813,11 @@ ozi-new
 
       .. versionadded:: 0.1
 
-   .. card:: List output of :term:`SPDX` short ID license names.
+   .. card:: List output of :term:`SPDX short identifier` license names.
 
       .. versionadded:: 0.1
 
-   .. card:: List output of :term:`SPDX` license exceptions.
+   .. card:: List output of :term:`SPDX license exception`.
 
       .. versionadded:: 0.1
 
@@ -863,7 +863,7 @@ This section lists the third-party :term:`utility program` specifications.
       .. versionadded:: 0.1
 
    .. index:: utilities; isolate; pipx
-   .. card:: Isolate python executables with ``pipx``.
+   .. card:: Isolate python executables with :term:`pipx`.
 
       .. versionadded:: 0.4
 

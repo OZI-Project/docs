@@ -67,7 +67,7 @@ Side-effects
   created by the previous in succession or for security2 created by the
   :term:`draft step`.
 
-* Creates a security2, security1, and bugfix wheel release file
+* Creates a security2, security1, and bugfix :term:`wheel` release file
 
 .. versionchanged:: 0.6
    previously stated "... security, bugfix1, and bugfix ..."
@@ -77,7 +77,7 @@ Side-effects
 .. versionchanged:: 0.6
     previously stated "... during bugfix1"
 
-* Optionally creates a prerelease wheel release file
+* Optionally creates a prerelease :term:`wheel` release file
 
 * Creates a combined artifact with the built package releases.
 
