@@ -8,6 +8,8 @@ ozi-new console application
    parser.print_help()
 
 
+.. _ozi-new-project:
+
 ``ozi-new project``
 -------------------
 

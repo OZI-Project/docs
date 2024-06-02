@@ -107,7 +107,7 @@ LLVM-exception"``.
 Choose a Continuous Integration Provider
 ****************************************
 
-Currently the available :term:`CI` Providers are:
+Currently, the available :term:`CI` providers are:
 
 * GitHub
 
@@ -167,13 +167,15 @@ external to OZI.
 
       .. command-output:: ls TARGET
 
-   .. card:: :octicon:`link-external;1.5em;sd-text-info` Navigate to the TARGET directory and follow the CI Provider guide
-      :link: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository
+   Navigate to the TARGET directory and follow the :term:`CI`
+   `Provider guide <https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#initializing-a-git-repository>`_
 
    +++
    This will create a project with ``Development Status :: 1 - Planning``,
    ``Topic :: Utilities``, ``Typing :: Typed``, and ``Natural Language :: English``.
    You can also change these defaults by providing parameters to their respective arguments.
+
+   .. seealso:: :ref:`ozi-new-project`
 
 |newpage|
 

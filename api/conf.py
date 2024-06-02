@@ -127,7 +127,11 @@ coverage_show_missing_items = True
 # -- sphinx.ext.intersphinx --------------------------------------------------
 intersphinx_mapping = {
     'devguide': ('https://devguide.python.org', None),
+    'pip': ('https://pip.pypa.io/en/latest', None),
+    'pipx': ('https://pipx.pypa.io/stable/', None),
+    'pip-tools': ('https://pip-tools.readthedocs.io/en/stable/', None),
     'pypa': ('https://packaging.python.org', None),
+    'python': ('https://docs.python.org/3.10/', None),
     'pytest': ('https://docs.pytest.org/en/stable/', None),
     'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
     'semantic_release': (
@@ -135,6 +139,7 @@ intersphinx_mapping = {
         None,
     ),
     'setuptools': ('https://setuptools.pypa.io/en/latest/', None),
+    'tox': ('https://tox.wiki/en/stable/', None)
 }
 
 

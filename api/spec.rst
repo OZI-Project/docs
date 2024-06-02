@@ -85,7 +85,7 @@ in this document are to be interpreted as described in :rfc:`2119`.
 Source
 ------
 
-The following contains the requirements for the source code structure and
+The following contains the specification for the source code structure and
 format of an OZI project.
 
 .. index:: triple: specification; source; format
@@ -369,7 +369,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. versionadded:: 0.1
 
-      Options for OZI and utility commandline arguments.
+      Use :term:`meson options` for OZI and :term:`utility application` commandline arguments.
 
       .. only:: latex
 
@@ -394,12 +394,12 @@ The following is the minimal project structure :strong:`REQUIRED` by
          .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.array.meson.options
             :start-after: -#}
 
-   .. dropdown:: :file:`pyproject.toml`
+   .. dropdown:: :term:`pyproject.toml`
       :icon: package
 
       .. versionadded:: 0.1
 
-      Packaging configuration and project metadata template.
+      Packaging configuration and project :term:`metadata` template.
 
       .. only:: latex
 
@@ -409,7 +409,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
       :icon: info
 
       .. versionchanged:: 0.2
-         MUST render PKG-INFO from template in :file:`pyproject.toml`.
+         MUST render PKG-INFO from :term:`metadata` template in :term:`pyproject.toml`.
 
       .. versionadded:: 0.1
 
@@ -627,7 +627,7 @@ Meson
       * ``@PYTHON_VERSION_DIST@`` is replaced with "pyXXX" where XXX is the python version without ".".
       * uncomment statements that would cause top-level utility failure in source with scripts.
 
-   .. card:: Preprocess ``pyproject.toml.pre`` into ``pyproject.toml``
+   .. card:: Preprocess ``pyproject.toml.pre`` into :term:`pyproject.toml`
 
       .. versionadded:: 0.1
 
@@ -707,8 +707,7 @@ setuptools_scm_ controls the version information for the project environment.
 tox
 ^^^
 
-tox_ is a mature solution to the problem of environment integration.
-OZI uses ``tox`` to manage integration testing across supported Python
+OZI uses :term:`tox` to manage integration testing across supported Python
 releases. Positional arguments are provided to a standardized
 ``meson test`` configuration.
 
@@ -768,7 +767,7 @@ General
 
    |linebreak|
 
-   .. card:: If stdout is not to be used directly output in :abbr:`TAP (Test Anything Protocol)`
+   .. card:: If stdout is not to be used directly output in :term:`Test Anything Protocol`
 
       .. versionadded:: 0.1
 
@@ -779,11 +778,11 @@ ozi-fix
 
    |linebreak|
 
-   .. card:: Output meson rewriter commands to edit ``meson.build`` file and subdir list targets.
+   .. card:: Output :term:`meson rewriter commands` to edit ``meson.build`` file and subdir list targets.
 
       .. versionadded:: 0.1
 
-   .. card:: Creates subdirectories with a ``meson.build`` containing file and subdir list targets.
+   .. card:: Creates subdirectories with a :term:`meson build definition` containing file and subdir list targets.
 
       .. versionadded:: 0.1
 
@@ -798,7 +797,7 @@ ozi-new
 
       .. versionadded:: 0.1
 
-   .. card:: List output of available :term:`PyPI` classifiers.
+   .. card:: List output of available :term:`PyPI` :term:`classifiers`.
 
       .. versionadded:: 0.1
 
@@ -810,15 +809,15 @@ ozi-new
       * Natural Language
       * Topic
 
-   .. card:: List output of available header fields.
+   .. card:: List output of available :term:`metadata` header fields.
 
       .. versionadded:: 0.1
 
-   .. card:: List output of SPDX short ID license names.
+   .. card:: List output of :term:`SPDX` short ID license names.
 
       .. versionadded:: 0.1
 
-   .. card:: List output of SPDX license exceptions.
+   .. card:: List output of :term:`SPDX` license exceptions.
 
       .. versionadded:: 0.1
 
@@ -830,7 +829,7 @@ Utilities
 General
 ^^^^^^^
 
-This section lists the third-party utility program requirements.
+This section lists the third-party :term:`utility program` specifications.
 
 |bigskip|
 
@@ -839,27 +838,27 @@ This section lists the third-party utility program requirements.
    |linebreak|
 
    .. index:: utilities; exit; successfully
-   .. card:: Exit successfully during environment test.
+   .. card:: Exit successfully during environment test within :term:`checkpoint step`.
 
       .. versionadded:: 0.1
 
    .. index:: pyproject.toml; configuration; packaging
-   .. card:: Provide packaging configuration with ``pyproject.toml``.
+   .. card:: Provide packaging configuration with :term:`pyproject.toml`.
 
       .. versionadded:: 0.1
 
-   .. index:: meson.options; options; commandline
-   .. card:: Provide commandline arguments with ``meson.options``.
+   .. index:: meson; options; commandline
+   .. card:: Provide commandline arguments through :term:`meson options` with :file:`meson.options`.
 
       .. versionadded:: 0.1
 
    .. index:: PKG-INFO; project; version
-   .. card:: Provide single source of truth for project version in PKG-INFO (:doc:`specification <pypa:specifications/core-metadata>`).
+   .. card:: Provide single source of truth for project version :term:`metadata` in PKG-INFO (:doc:`specification <pypa:specifications/core-metadata>`).
 
       .. versionadded:: 0.1
 
    .. index:: PKG-INFO; future; metadata
-   .. card:: Provide header content fields that have yet to be implemented in PKG-INFO payload.
+   .. card:: Provide header content field :term:`metadata` that have yet to be implemented in PKG-INFO payload.
 
       .. versionadded:: 0.1
 
@@ -871,7 +870,7 @@ This section lists the third-party utility program requirements.
       Excluding:
          * ``pytest``
 
-      Python apps with ``console_scripts`` entrypoints MUST be installed via ``pipx runpip meson install ...``
+      Python apps with ``console_scripts`` :term:`entry points` MUST be installed via ``pipx runpip meson install ...``
 
 .. index:: triple: specification; utilities; dist
 .. include:: dist.inc

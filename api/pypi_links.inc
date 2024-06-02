@@ -1,4 +1,3 @@
-.. _tox: https://tox.wiki/
 .. _setuptools_scm: https://pypi.org/project/setuptools_scm
 .. dist
 .. _pyc_wheel: https://pypi.org/project/pyc_wheel/

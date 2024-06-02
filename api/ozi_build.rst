@@ -49,11 +49,12 @@ OZI.build package
 
 |newpage|
 
-This is a python module that implements :pep:`517` for the meson build system.
+This is a python module that implements :pep:`517` for the
+:term:`meson build system`.
 
-This implies that any project that deals with python code can easily distributed
-to the `Python Package Index (PyPI) <https://pypi.org/>`_ by just setting the right
-:term:`metadata` in its :file:`pyproject.toml` config file, per :pep:`518`.
+This implies that any project that deals with python code can be distributed
+to the :term:`Python Package Index` by just setting the right
+:term:`metadata` in its :term:`pyproject.toml` config file, per :pep:`518`.
 
 meson: https://mesonbuild.com
 
@@ -61,16 +62,16 @@ Usage
 -----
 
 ``OZI.build`` doesn't provide any command line tools and should be used
-though other standard tools like `pip <https://pip.pypa.io/en/stable/>`_,
-`twine <https://pypi.org/project/twine/>`_ and `build <https://pypi.org/project/build/>`_.
+though other standard tools like :term:`pip`,
+:term:`twine` and `build <https://pypi.org/project/build/>`_.
 
 Workflow to upload a release to PyPI
 ------------------------------------
 
-1. Add a :file:`pyproject.toml` to your project
+1. Add a :term:`pyproject.toml` to your project
 2. Install build: ``pip3 install build``
-3. Build packages: ``python3 -m build`` (which adds the sdist and wheel to
-   the :file:`dist/` folder)
+3. Build packages: ``python3 -m build`` (which adds the sdist and :term:`wheel`
+   to the :file:`dist/` folder)
 4. Publish the package ``twine upload dist/*``
 
 
@@ -81,13 +82,15 @@ In short for the next release:
 The pyproject.toml config file
 ------------------------------
 
-This file lives at the root of the module/package, at the same place
-as the toplevel :file:`meson.build` file.
+The :term:`pyproject.toml` lives at the root of the module/package,
+at the same place as the toplevel :file:`meson.build` file containing the
+project's :term:`meson build definition`.
 
 Build system section
 ^^^^^^^^^^^^^^^^^^^^
 
-This tells tools like pip to build your project with the OZI.build backend.
+This tells tools like :term:`pip` to build your project with the
+OZI.build backend.
 The :term:`build backend` is a standard defined by :pep:`517`.
 For any project using OZI.build, it will look like this:
 
@@ -128,7 +131,7 @@ e.g. for OZI.build itself:
 ``classifiers``
 """""""""""""""
 
-A list of `classifiers <https://pypi.python.org/pypi?%3Aaction=list_classifiers>`_.
+A list of valid :term:`classifiers`.
 
 ``description``
 """""""""""""""
@@ -141,8 +144,7 @@ The description of the project as a string if you do not want to specify
 
 A path (relative to the .toml file) to a file containing a longer description
 of your package to show on :term:`PyPI`. This should be written in
-reStructuredText Markdown or plain text, and the filename should have the
-appropriate extension (`.rst`, `.md` or `.txt`).
+reStructuredText, Markdown, or plain text.
 
 ``home-page``
 """""""""""""
@@ -157,8 +159,8 @@ Example:
 """""""""""
 
 Text indicating the license covering the distribution. This text can be
-either a valid license expression as defined in :pep:`639` or any free
-text.
+either a valid :term:`SPDX license expression` as defined in :pep:`639`
+or any free text.
 
 ``maintainer``
 """"""""""""""
@@ -188,14 +190,14 @@ environment variable at build time.
 ``meson-python-option-name``
 """"""""""""""""""""""""""""
 
-The name of the :term:`meson options` that is used in the meson build definition
+The name of the :term:`meson options` that is used in the :term:`meson build definition`
 to set the python installation when using
 `python.find_installation() <http://mesonbuild.com/Python-module.html#find_installation>`_.
 
 ``module``
 """"""""""
 
-The name of the module, will use the meson project name if not specified
+The name of the module, will use the meson project name if not specified.
 
 ``pkg-info-file``
 """""""""""""""""
@@ -244,7 +246,8 @@ For example:
 A version specifier for the versions of Python this requires, e.g. ``~=3.3`` or
 ``>=3.3,<4`` which are equivalents.
 
-.. note:: Setting ``requires-python`` overrides compiliation of :file:`*.py` to :file:`*.pyc` in wheels.
+.. note:: Setting ``requires-python`` overrides compiliation of :file:`*.py` to :file:`*.pyc` in wheels
+     and assumes you want a single :term:`wheel` that works for a *range* of Python versions.
 
 ``summary``
 """""""""""
