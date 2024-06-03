@@ -673,7 +673,7 @@ Controls the release cycle based on commit patterns since the last release.
 
    .. versionadded:: 0.2
 
-   .. card:: Must trigger releases in a discrete CI step.
+   .. card:: Must trigger releases in a discrete CI :term:`release step`.
 
 .. card:: See also
    :class-card: seealso
@@ -684,7 +684,7 @@ Controls the release cycle based on commit patterns since the last release.
 setuptools_scm
 ^^^^^^^^^^^^^^
 
-:term:`setuptools_scm` controls the version information for the project
+:term:`setuptools_scm` controls the version :term:`metadata` for the project
 environment.
 
 |bigskip|
