@@ -230,7 +230,13 @@ Glossary of Terms
          addition-ref: ["DocumentRef-"(idstring)":"]"AdditionRef-"(idstring)
          simple-expression: license-id | license-id"+" | license-ref
          addition-expression: license-exception-id | addition-ref
-         compound-expression: (simple-expression | simple-expression ( "WITH" | "with" ) addition-expression | compound-expression ( "AND" | "and" ) compound-expression | compound-expression ( "OR" | "or" ) compound-expression | "(" compound-expression ")" )
+         paren-expression: (compound-expression | "(" compound-expression ")")
+         or-stmt: (compound-expression ( "OR" | "or" ) paren-expression)
+         and-stmt: (compound-expression ( "AND" | "and" ) or-expression)
+         or-expression: (compound-expression | or-stmt)
+         and-expression: (addition-expression | and-stmt)
+         with-expression: (simple-expression ( "WITH" | "with" ) and-expression)
+         compound-expression: (simple-expression | with-expression)
          license-expression: (simple-expression | compound-expression)
 
       .. seealso::
