@@ -684,7 +684,8 @@ Controls the release cycle based on commit patterns since the last release.
 setuptools_scm
 ^^^^^^^^^^^^^^
 
-setuptools_scm_ controls the version information for the project environment.
+:term:`setuptools_scm` controls the version information for the project
+environment.
 
 |bigskip|
 
@@ -838,7 +839,7 @@ This section lists the third-party :term:`utility program` specifications.
    |linebreak|
 
    .. index:: utilities; exit; successfully
-   .. card:: Exit successfully during environment test within :term:`checkpoint step`.
+   .. card:: Exit successfully within :term:`checkpoint step`.
 
       .. versionadded:: 0.1
 

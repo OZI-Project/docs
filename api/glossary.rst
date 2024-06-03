@@ -176,6 +176,24 @@ Glossary of Terms
    Software Bill of Materials
       A record of the components and processes used in a software distribution's supply chain.
 
+   sdist
+   source distribution
+      A Python package distribution's source format, a zipped tarball with :term:`metadata`.
+
+   setuptools
+      The stable Python packaging library.
+
+      .. seealso::
+
+         :std:ref:`setuptools:api-reference`
+
+   setuptools_scm
+      Uses repository version control system to generate version info at build time.
+
+      .. seealso::
+
+         `Usage <https://setuptools-scm.readthedocs.io/en/latest/usage/>`_
+
    SPDX
    System Package Data Exchange
       An open standard for :term:`SBOM` interoperability.
@@ -248,3 +266,7 @@ Glossary of Terms
 
    wheel
       The standard format for distributing a binary Python package.
+
+      .. seealso::
+
+         :std:doc:`pypa:specifications/binary-distribution-format`

@@ -70,8 +70,8 @@ Workflow to upload a release to PyPI
 
 1. Add a :term:`pyproject.toml` to your project
 2. Install build: ``pip3 install build``
-3. Build packages: ``python3 -m build`` (which adds the sdist and :term:`wheel`
-   to the :file:`dist/` folder)
+3. Build packages: ``python3 -m build`` (which adds the :term:`sdist`
+   and :term:`wheel` to the :file:`dist/` folder)
 4. Publish the package ``twine upload dist/*``
 
 

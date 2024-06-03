@@ -18,13 +18,13 @@ Quick-start Guide
 Installation
 ^^^^^^^^^^^^
 
-The OZI package is available at :abbr:`PyPI (Python Package Index)`
+The OZI package is available at the :term:`Python Package Index`
 
 .. card:: :octicon:`terminal;2em;sd-text-info`
 
    .. command-output:: pipx install -q OZI
 
-.. note:: It is strongly recommended to use OZI tools through ``pipx`` instead of installing them directly.
+.. note:: It is strongly recommended to use OZI tools through :term:`pipx` instead of installing them directly.
 
 or at the GitHub repository for download.
 
@@ -71,15 +71,14 @@ Choose a License
 You should decide the license terms you want to distribute your project
 with\ [*]_. A good place to start is `choosealicense.com
 <https://choosealicense.com/>`_. Once you have decided on a license you
-should choose a Classifier matching that license. By default ``ozi-new
+should choose a :term:`classifier` matching that license. By default ``ozi-new
 project`` will warn you if you have chosen an :term:`ambiguous license`
 classifier per :pep:`639` and prompt you to disambiguate with a
 ``--license-expression`` argument. OZI will recommend a short list of
-possible SPDX Short-ID matches that you should base this argument on. This
-argument must be `SPDX license expression syntax
-<https://spdx.github.io/spdx-spec/v3.0/SPDX-license-expressions/>`_. For
-example the OZI project itself uses ``--license-expression="Apache-2.0 WITH
-LLVM-exception"``.
+possible :term:`SPDX short identifier` matches that you should base this
+argument on. This argument must be :term:`SPDX license expression` syntax.
+For example the OZI project itself uses
+``--license-expression="Apache-2.0 WITH LLVM-exception"``.
 
 .. card::
 
@@ -191,7 +190,7 @@ Add New Python Source Files
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
-   The output of ozi-fix can be used with ``meson rewrite command``.
+   The output of ozi-fix can be used with :term:`meson rewriter commands`.
 
    .. command-output:: pipx run -q ozi -fix source --pretty --add foo.py TARGET
 
@@ -205,7 +204,7 @@ Add New Source Subdirectories
 *****************************
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
-   The output of ozi-fix can be used with ``meson rewrite command``.
+   The output of ozi-fix can be used with :term:`meson rewriter commands`.
 
    .. command-output:: pipx run -q ozi -fix source --pretty --add bar/ TARGET
 
