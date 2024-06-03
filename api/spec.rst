@@ -641,7 +641,7 @@ Meson
 
       .. versionadded:: 0.1
 
-      MUST distribute :term:`wheel` releases as Python bytecode and/or :term:`stubfiles`.
+      MUST distribute :term:`wheel` releases as :term:`Python bytecode` and/or :term:`stubfiles`.
 
    .. card:: Isolate the meson executable with :term:`pipx`.
 

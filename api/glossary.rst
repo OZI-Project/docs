@@ -40,7 +40,6 @@ Glossary of Terms
 
          :pep:`Build backend interface <517#build-backend-interface>`
 
-
    checkpoint step
       The OZI standardized :term:`CI` process that runs :term:`utility applications`.
 
@@ -158,6 +157,10 @@ Glossary of Terms
 
          :std:doc:`pip:reference/build-system/pyproject-toml`
 
+   Python bytecode
+      The compiled minor-version specific binary of a python source file.
+      These use the file extension ``*.pyc``.
+
    PyPI
    Python Package Index
       The official online repository for Python software packages.
@@ -210,21 +213,32 @@ Glossary of Terms
       An open standard for :term:`SBOM` interoperability.
 
    SPDX license exception
-      A standard component of a :term:`SPDX license expression` communicating exceptions applicable to a license.
+      A standard component, :token:`license-exception-id`, of a :term:`SPDX license expression` communicating exceptions applicable to a license.
 
       .. seealso::
 
          `License Exceptions <https://spdx.org/licenses/exceptions-index.html>`_
 
    SPDX license expression
-      A standardized way of communicating software licensing information, part of :term:`SPDX`.
+      A standardized way of communicating software licensing information as :token:`license-expression`, part of :term:`SPDX`.
+
+      .. productionlist::
+         idstring: (ALPHA | DIGIT | "-" | "." )
+         license-id: `SPDX short identifier`
+         license-exception-id: `SPDX license exception`
+         license-ref: ["DocumentRef-"(idstring)":"]"LicenseRef-"(idstring)
+         addition-ref: ["DocumentRef-"(idstring)":"]"AdditionRef-"(idstring)
+         simple-expression: license-id | license-id"+" | license-ref
+         addition-expression: license-exception-id | addition-ref
+         compound-expression: (simple-expression | simple-expression ( "WITH" | "with" ) addition-expression | compound-expression ( "AND" | "and" ) compound-expression | compound-expression ( "OR" | "or" ) compound-expression | "(" compound-expression ")" )
+         license-expression: (simple-expression | compound-expression)
 
       .. seealso::
 
          `Annex D: License Expressions <https://spdx.github.io/spdx-spec/v3.0/annexes/SPDX-license-expressions/>`_
 
    SPDX short identifier
-      A standard component of a :term:`SPDX license expression` communicating a license in shortened form.
+      A standard component, :token:`license-id`, of a :term:`SPDX license expression` communicating a license in shortened form.
 
       .. seealso::
 
