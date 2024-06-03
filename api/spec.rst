@@ -203,7 +203,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. versionadded:: 0.1
 
-      Python sources, submodules, and stubfiles.
+      Python sources, submodules, and :term:`stubfiles`.
 
       .. dropdown:: :file:`project_name/__init__.py`
 
@@ -641,9 +641,9 @@ Meson
 
       .. versionadded:: 0.1
 
-      MUST distribute :term:`wheel` releases as Python bytecode and stubfiles.
+      MUST distribute :term:`wheel` releases as Python bytecode and/or :term:`stubfiles`.
 
-   .. card:: Isolate the executable with ``pipx``.
+   .. card:: Isolate the meson executable with :term:`pipx`.
 
       .. versionadded:: 0.4
 
@@ -674,6 +674,11 @@ Controls the release cycle based on commit patterns since the last release.
    .. versionadded:: 0.2
 
    .. card:: Must trigger releases in a discrete CI :term:`release step`.
+
+      MUST follow the :doc:`semantic_release:algorithm` for release automation.
+
+      .. versionadded:: 0.2
+         MUST default to :term:`Angular commit style` parser in new projects.
 
 .. card:: See also
    :class-card: seealso

@@ -28,14 +28,6 @@ dist
    .. _REQUIRED semantic-release:
 
    .. rubric:: semantic-release
-   
-   .. dropdown:: specification
-      :icon: info
-
-      MUST follow the :doc:`semantic_release:algorithm` for release automation.
-
-      .. versionadded:: 0.2
-         MUST default to Angular commit style parser in new projects.
 
    .. dropdown:: configuration
       :icon: package

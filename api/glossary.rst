@@ -16,6 +16,13 @@ Glossary of Terms
 
          `Request: more precise license classifiers <https://github.com/pypa/trove-classifiers/issues/17>`_
 
+   Angular commit style
+      A simple commit convention.
+
+      .. seealso::
+
+         `Commit Message Format <https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#commit-message-format>`_
+
    build
    build frontend
       The Python module that serves as the simple standardized frontend for a :term:`build backend`.
@@ -193,6 +200,10 @@ Glossary of Terms
       .. seealso::
 
          `Usage <https://setuptools-scm.readthedocs.io/en/latest/usage/>`_
+
+   stubs
+   stubfiles
+      Python typing information as a separate file with the extension ``*.pyi``.
 
    SPDX
    System Package Data Exchange

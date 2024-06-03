@@ -162,7 +162,7 @@ lint
 
    * MUST show differences (``--diff``)
    * MUST run in check mode (``--check``)
-   * MUST skip stubfiles (``--skip-glob *.pyi``)
+   * MUST skip :term:`stubfiles` (``--skip-glob *.pyi``)
    * MUST target ``@project_name@``
 
    .. dropdown:: arguments
