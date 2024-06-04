@@ -864,7 +864,7 @@ This section lists the third-party :term:`utility program` specifications.
       .. versionadded:: 0.1
 
    .. index:: PKG-INFO; future; metadata
-   .. card:: Provide header content field :term:`metadata` that have yet to be implemented in PKG-INFO payload.
+   .. card:: Provide header content field :term:`metadata` that have yet to be implemented in :term:`extra PKG-INFO` payload.
 
       .. versionadded:: 0.1
 

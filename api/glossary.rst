@@ -79,6 +79,12 @@ Glossary of Terms
 
          :ref:`setuptools:entry_points`
 
+   extra PKG-INFO
+      Additional :term:`metadata` keys used by OZI but not supported by :term:`PyPI`.
+      These are placed in the :file:`README` of a project.
+      These metadata are commented out in Markdown and reStructuredText but
+      not plaintext.
+
    meson
    mesonbuild
    meson build system
@@ -223,21 +229,21 @@ Glossary of Terms
       A standardized way of communicating software licensing information as :token:`license-expression`, part of :term:`SPDX`.
 
       .. productionlist::
-         idstring: (ALPHA | DIGIT | "-" | "." )
+         idstring: (ALPHA | DIGIT | "-" | ".")
          license-id: `SPDX short identifier`
          license-exception-id: `SPDX license exception`
          license-ref: ["DocumentRef-"(idstring)":"]"LicenseRef-"(idstring)
          addition-ref: ["DocumentRef-"(idstring)":"]"AdditionRef-"(idstring)
          simple-expression: license-id | license-id"+" | license-ref
          addition-expression: license-exception-id | addition-ref
-         paren-expression: (compound-expression | "(" compound-expression ")")
-         or-stmt: (compound-expression ( "OR" | "or" ) paren-expression)
-         and-stmt: (compound-expression ( "AND" | "and" ) or-expression)
-         or-expression: (compound-expression | or-stmt)
-         and-expression: (addition-expression | and-stmt)
-         with-expression: (simple-expression ( "WITH" | "with" ) and-expression)
-         compound-expression: (simple-expression | with-expression)
-         license-expression: (simple-expression | compound-expression)
+         paren-expression: compound-expression | "(" compound-expression ")"
+         or-stmt: compound-expression ("OR" | "or") paren-expression
+         and-stmt: compound-expression ("AND" | "and") or-expression
+         or-expression: compound-expression | or-stmt
+         and-expression: addition-expression | and-stmt
+         with-expression: simple-expression ("WITH" | "with") and-expression
+         compound-expression: simple-expression | with-expression
+         license-expression: simple-expression | compound-expression
 
       .. seealso::
 
