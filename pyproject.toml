@@ -11,3 +11,7 @@ tag_regex = "^(?P<prefix>v)?(?P<version>[^\\+]+)(?P<suffix>.*)?$"
 
 [tool.setuptools]
 packages = ["api"]
+
+[[tool.mypy.overrides]]
+module = ["sphinxawesome_theme.*"]
+ignore_missing_imports = true
