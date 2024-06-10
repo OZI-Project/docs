@@ -134,6 +134,7 @@ intersphinx_mapping = {
     'python': ('https://docs.python.org/3.10/', None),
     'pytest': ('https://docs.pytest.org/en/stable/', None),
     'bandit': ('https://bandit.readthedocs.io/en/1.7.5/', None),
+    'jinja2': ('https://jinja.palletsprojects.com/en/3.1.x/', None),
     'semantic_release': (
         'https://python-semantic-release.readthedocs.io/en/stable/',
         None,
