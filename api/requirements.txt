@@ -53,7 +53,7 @@ meson[ninja]==1.4.0
     #   ozi
 ninja==1.11.1.1
     # via meson
-ozi==1.11.2
+ozi==1.11.3
     # via -r requirements.in
 OZI.build==0.0.18
 pipx==1.5.0
