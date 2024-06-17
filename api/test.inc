@@ -40,7 +40,7 @@ test
 
       .. only:: html
 
-         :download:`assets/blastpipe/blastpipe/ozi_templates/coverage.pyproject.toml`
+         :download:`assets/ozi_templates/ozi_templates/coverage.pyproject.toml`
 
    .. rubric:: hypothesis
 
@@ -65,7 +65,7 @@ test
 
       .. only:: html
 
-         :download:`assets/blastpipe/blastpipe/ozi_templates/pytest.meson.options`
+         :download:`assets/ozi_templates/ozi_templates/pytest.meson.options`
 
    .. dropdown:: configuration
       :icon: package
@@ -76,7 +76,7 @@ test
 
       .. only:: html
 
-         :download:`assets/blastpipe/blastpipe/ozi_templates/pytest.pyproject.toml`
+         :download:`assets/ozi_templates/ozi_templates/pytest.pyproject.toml`
 
    .. dropdown:: plugins
       :icon: plug

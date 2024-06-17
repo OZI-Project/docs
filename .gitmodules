@@ -4,6 +4,6 @@
 [submodule "api/assets/brand"]
 	path = api/assets/brand
 	url = https://github.com/OZI-Project/brand
-[submodule "blastpipe"]
-	path = api/assets/blastpipe
-	url = https://github.com/OZI-Project/blastpipe
+[submodule "api/assets/ozi_templates"]
+	path = api/assets/ozi_templates
+	url = https://github.com/OZI-Project/ozi_templates

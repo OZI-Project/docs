@@ -38,7 +38,7 @@ dist
 
       .. only:: html
 
-         :download:`assets/blastpipe/blastpipe/ozi_templates/semantic_release.pyproject.toml`
+         :download:`assets/ozi_templates/ozi_templates/semantic_release.pyproject.toml`
 
    .. card:: See also
       :class-card: seealso

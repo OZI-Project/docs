@@ -217,7 +217,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
          .. only:: html
 
-            .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/__init__.py.j2
+            .. literalinclude:: assets/ozi_templates/ozi_templates/project.name/__init__.py.j2
                :start-after: -#}
 
       .. dropdown:: :file:`project_name/meson.build`
@@ -232,7 +232,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
          .. only:: html
 
-            .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.name/meson.build.j2
+            .. literalinclude:: assets/ozi_templates/ozi_templates/project.name/meson.build.j2
                :start-after: -#}
 
    .. dropdown:: :abbr:`test_source/ (meson.build variable test_source)`
@@ -262,7 +262,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
          .. only:: html
 
-            .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/ozi.wrap.j2
+            .. literalinclude:: assets/ozi_templates/ozi_templates/ozi.wrap.j2
                :start-after: -#}
 
    .. dropdown:: :file:`.gitignore`
@@ -278,7 +278,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/.gitignore.j2
+         .. literalinclude:: assets/ozi_templates/ozi_templates/.gitignore.j2
             :start-after: -#}
 
    .. dropdown:: :file:`LICENSE.txt`
@@ -294,7 +294,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/LICENSE.txt.j2
+         .. literalinclude:: assets/ozi_templates/ozi_templates/LICENSE.txt.j2
             :start-after: -#}
 
    .. dropdown:: :file:`README`
@@ -311,7 +311,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.md.j2
+         .. literalinclude:: assets/ozi_templates/ozi_templates/README.md.j2
             :start-after: -#}
 
       .. only:: latex
@@ -320,7 +320,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.rst.j2
+         .. literalinclude:: assets/ozi_templates/ozi_templates/README.rst.j2
             :start-after: -#}
 
       .. only:: latex
@@ -329,7 +329,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/README.txt.j2
+         .. literalinclude:: assets/ozi_templates/ozi_templates/README.txt.j2
             :start-after: -#}
 
    .. dropdown:: :file:`requirements.in`
@@ -345,7 +345,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/requirements.in.j2
+         .. literalinclude:: assets/ozi_templates/ozi_templates/requirements.in.j2
             :start-after: -#}
 
    .. dropdown:: :file:`meson.build`
@@ -361,7 +361,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.meson.build
+         .. literalinclude:: assets/ozi_templates/ozi_templates/project.meson.build
             :start-after: -#}
 
    .. dropdown:: :file:`meson.options`
@@ -379,19 +379,19 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
          .. rubric:: feature
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.feature.meson.options
+         .. literalinclude:: assets/ozi_templates/ozi_templates/project.feature.meson.options
             :language: meson
             :start-after: -#}
 
          .. rubric:: integer
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.integer.meson.options
+         .. literalinclude:: assets/ozi_templates/ozi_templates/project.integer.meson.options
             :language: meson
             :start-after: -#}
 
          .. rubric:: array
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.array.meson.options
+         .. literalinclude:: assets/ozi_templates/ozi_templates/project.array.meson.options
             :start-after: -#}
 
    .. dropdown:: :term:`pyproject.toml`
@@ -421,7 +421,7 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. only:: html
 
-         .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/project.PKG-INFO
+         .. literalinclude:: assets/ozi_templates/ozi_templates/project.PKG-INFO
             :start-after: -#}
 
 |newpage|
@@ -708,7 +708,7 @@ environment.
 
       .. only:: html
 
-         :download:`assets/blastpipe/blastpipe/ozi_templates/setuptools_scm.pyproject.toml`
+         :download:`assets/ozi_templates/ozi_templates/setuptools_scm.pyproject.toml`
 
 tox
 ^^^
@@ -753,7 +753,7 @@ releases. Positional arguments are provided to a standardized
 
       .. only:: html
 
-         :download:`assets/blastpipe/blastpipe/ozi_templates/tox.pyproject.toml`
+         :download:`assets/ozi_templates/ozi_templates/tox.pyproject.toml`
 
       .. only:: latex
 

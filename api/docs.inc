@@ -35,13 +35,13 @@ docs
    .. dropdown:: configuration
       :icon: package
 
-      .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/doc8.pyproject.toml
+      .. literalinclude:: assets/ozi_templates/ozi_templates/doc8.pyproject.toml
          :start-after: -#}
 
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/doc8.meson.options
+      .. literalinclude:: assets/ozi_templates/ozi_templates/doc8.meson.options
          :start-after: -#}
 
    .. rubric:: pydocstyle
@@ -57,7 +57,7 @@ docs
    .. dropdown:: arguments
       :icon: terminal
 
-      .. literalinclude:: assets/blastpipe/blastpipe/ozi_templates/pydocstyle.meson.options
+      .. literalinclude:: assets/ozi_templates/ozi_templates/pydocstyle.meson.options
          :start-after: -#}
 
    .. rubric:: sphinx-build(sphinx)
