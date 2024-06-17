@@ -21,6 +21,14 @@
 
     \end{flushright}
 
+.. |begin-samepage| raw:: latex
+
+    \begin{samepage}
+
+.. |end-samepage| raw:: latex
+
+    \end{samepage}
+
 .. |newpage| raw:: latex
 
     \newpage

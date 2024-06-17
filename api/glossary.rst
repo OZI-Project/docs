@@ -1,3 +1,4 @@
+.. include:: latex-tools.rst
 .. _glossary:
 
 Glossary of Terms
@@ -228,6 +229,8 @@ Glossary of Terms
    SPDX license expression
       A standardized way of communicating software licensing information as :token:`license-expression`, part of :term:`SPDX`.
 
+      |begin-samepage|
+
       .. productionlist::
          idstring: (ALPHA | DIGIT | "-" | ".")
          license-id: `SPDX short identifier`
@@ -244,6 +247,8 @@ Glossary of Terms
          with-expression: simple-expression ("WITH" | "with") and-expression
          compound-expression: simple-expression | with-expression
          license-expression: simple-expression | compound-expression
+
+      |end-samepage|
 
       .. seealso::
 
