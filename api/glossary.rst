@@ -4,6 +4,8 @@
 Glossary of Terms
 =================
 
+|newpage|
+
 .. glossary::
 
    ambiguous license
@@ -358,6 +360,8 @@ Glossary of Terms
          `License Exceptions <https://spdx.org/licenses/exceptions-index.html>`_
 
       |end-samepage|
+
+      |newpage|
 
    SPDX license expression
       |begin-samepage|
