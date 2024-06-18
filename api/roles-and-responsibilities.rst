@@ -1,4 +1,4 @@
-.. include:: latex-tools.rst
+
 
 .. |cc-by-sa| image:: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
    :target: http://creativecommons.org/licenses/by-sa/4.0/

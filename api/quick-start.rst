@@ -1,4 +1,4 @@
-.. include:: latex-tools.rst
+
 
 =================
 Quick-start Guide

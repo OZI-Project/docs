@@ -17,9 +17,7 @@
 Specification Templates
 =======================
 
-.. raw:: latex
-
-    \newpage
+|newpage|
 
 .. _source-init-py:
 

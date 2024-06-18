@@ -19,9 +19,7 @@ lint
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+|linebreak|
 
    .. versionadded:: 0.1
 
@@ -264,9 +262,7 @@ lint
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` :emphasis:`OPTIONAL`
 
-   .. raw:: latex
-
-      \linebreak
+|linebreak|
 
    .. versionadded:: 0.1
 

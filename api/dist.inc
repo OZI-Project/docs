@@ -19,9 +19,7 @@ dist
 
 .. card:: :octicon:`tasklist;1.5em;sd-text-info` :strong:`REQUIRED`
 
-   .. raw:: latex
-
-      \linebreak
+|linebreak|
 
    :octicon:`alert;1em;sd-text-warning` External
 

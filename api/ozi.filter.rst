@@ -1,4 +1,3 @@
-.. include:: latex-tools.rst
 
 ozi.filter module
 =================

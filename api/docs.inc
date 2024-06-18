@@ -19,9 +19,7 @@ docs
 
 .. card:: :octicon:`skip;1.5em;sd-text-warning` OPTIONAL
 
-   .. raw:: latex
-
-      \linebreak
+|linebreak|
 
    .. versionadded:: 0.1
 

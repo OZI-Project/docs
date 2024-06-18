@@ -13,7 +13,7 @@
    specific language governing permissions and limitations
    under the License.
 
-.. include:: latex-tools.rst
+
 
 .. meta::
    :description: specification for the OZI Python packaging for Meson API.

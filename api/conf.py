@@ -60,6 +60,7 @@ extensions = [
     'sphinxcontrib.programoutput',
     'sphinxcontrib.cairosvgconverter',
 ]
+rst_prolog = '.. include:: latex-tools.rst'
 rst_epilog = """
 .. only:: html
 
