@@ -103,6 +103,8 @@ Glossary of Terms
       |begin-samepage|
       The beginning of the :term:`CD` process for OZI after a successful :term:`checkpoint step`.
 
+      |end-samepage|
+
    entry points
    entry points: console_scripts
    entry points: gui_scripts
@@ -354,6 +356,8 @@ Glossary of Terms
       .. seealso::
 
          `License Exceptions <https://spdx.org/licenses/exceptions-index.html>`_
+
+      |end-samepage|
 
    SPDX license expression
       |begin-samepage|
