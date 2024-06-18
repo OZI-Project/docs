@@ -85,8 +85,6 @@ Glossary of Terms
       When a developer commits code to a shared repository,
       the CI system automatically builds the project, runs tests, and checks for any errors or failures.
 
-      |nopagebreak|
-
       |end-samepage|
 
    classifier
@@ -108,8 +106,6 @@ Glossary of Terms
    draft step
       |begin-samepage|
       The beginning of the :term:`CD` process for OZI after a successful :term:`checkpoint step`.
-
-      |nopagebreak|
 
    entry points
    entry points: console_scripts
@@ -135,8 +131,6 @@ Glossary of Terms
       These metadata are commented out in Markdown and reStructuredText but
       not plaintext.
 
-      |nopagebreak|
-
       |end-samepage|
 
    meson
@@ -144,8 +138,6 @@ Glossary of Terms
    meson build system
       |begin-samepage|
       An open-source, Python-native, fast, and friendly build system for software.
-
-      |nopagebreak|
 
       .. seealso::
 
@@ -157,8 +149,6 @@ Glossary of Terms
       |begin-samepage|
       The build script, used by meson to build a software project,
       defined in a project's :file:`meson.build` file.
-
-      |nopagebreak|
 
       |end-samepage|
 
@@ -227,6 +217,8 @@ Glossary of Terms
 
          `How pipx works <https://pipx.pypa.io/stable/how-pipx-works/>`_
 
+      |end-samepage|
+
    pip-compile
       |begin-samepage|
       A tool for compiling an up-to-date compatible :file:`requirements.txt`
@@ -246,7 +238,7 @@ Glossary of Terms
       The next step in the :term:`CD` process after the :term:`release step`,
       publishes distribution packages.
 
-      |nopagebreak|
+      |end-samepage|
 
    pyproject.toml
       |begin-samepage|
@@ -267,8 +259,6 @@ Glossary of Terms
       The compiled minor-version specific binary of a python source file.
       These use the file extension ``*.pyc``.
 
-      |nopagebreak|
-
       |end-samepage|
 
    PyPI
@@ -287,8 +277,6 @@ Glossary of Terms
       |begin-samepage|
       The next step in the :term:`CD` process after the :term:`draft step`,
       creates release distribution packages.
-
-      |nopagebreak|
 
       |end-samepage|
 
@@ -312,16 +300,12 @@ Glossary of Terms
       |begin-samepage|
       A record of the components and processes used in a software distribution's supply chain.
 
-      |nopagebreak|
-
       |end-samepage|
 
    sdist
    source distribution
       |begin-samepage|
       A Python package distribution's source format, a zipped tarball with :term:`metadata`.
-
-      |nopagebreak|
 
       |end-samepage|
 
@@ -354,16 +338,12 @@ Glossary of Terms
       |begin-samepage|
       Python typing information as a separate file with the extension ``*.pyi``.
 
-      |nopagebreak|
-
       |end-samepage|
 
    SPDX
    System Package Data Exchange
       |begin-samepage|
       An open standard for :term:`SBOM` interoperability.
-
-      |nopagebreak|
 
       |end-samepage|
 
@@ -499,3 +479,5 @@ Glossary of Terms
       .. seealso::
 
          :std:doc:`pypa:specifications/binary-distribution-format`
+
+      |end-samepage|
