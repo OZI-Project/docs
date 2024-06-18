@@ -41,3 +41,6 @@
 
     \bigskip
 
+.. |nopagebreak| raw:: latex
+
+    \nopagebreak
