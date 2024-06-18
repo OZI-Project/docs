@@ -65,16 +65,12 @@ Glossary of Terms
       |begin-samepage|
       The OZI standardized :term:`CI` process that runs :term:`utility applications`.
 
-      |nopagebreak|
-
       |end-samepage|
 
    CD
    continuous deployment
       |begin-samepage|
       The process of building, certifying, and publishing an up-to-date software distribution.
-
-      |nopagebreak|
 
       |end-samepage|
 
@@ -138,6 +134,8 @@ Glossary of Terms
    meson build system
       |begin-samepage|
       An open-source, Python-native, fast, and friendly build system for software.
+
+      |nopagebreak|
 
       .. seealso::
 
