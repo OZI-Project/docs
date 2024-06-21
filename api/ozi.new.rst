@@ -24,6 +24,8 @@ ozi-new console application
 ``ozi-new interactive``
 -----------------------
 
+.. versionadded:: 1.13
+
 .. exec::
 
    from ozi.new.parser import interactive_parser
