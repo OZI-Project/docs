@@ -10,8 +10,6 @@ babel==2.14.0
     # via sphinx
 beautifulsoup4==4.12.3
     # via sphinxawesome-theme
-blastpipe==2024.10.1
-    # via ozi
 build==1.2.1
     # via pip-tools
 certifi==2024.2.2
@@ -29,7 +27,6 @@ docutils==0.20.1
     #   doc8
     #   restructuredtext-lint
     #   sphinx
-types-docutils
 gitdb==4.0.11
     # via gitpython
 gitpython==3.1.42
@@ -42,8 +39,8 @@ imagesize==1.4.1
     # via sphinx
 jinja2==3.1.4
     # via
-    #   blastpipe
     #   ozi
+    #   ozi-templates
     #   sphinx
 markupsafe==2.1.5
     # via jinja2
@@ -55,9 +52,8 @@ ninja==1.11.1.1
     # via meson
 ozi==1.13.1
     # via -r requirements.in
-OZI.build==0.0.26
 ozi-templates==2.1.2
-pipx==1.5.0
+    # via ozi
 packaging==24.0
     # via
     #   build
@@ -67,6 +63,8 @@ packaging==24.0
 pbr==6.0.0
     # via stevedore
 pip-tools==7.4.1
+    # via ozi
+prompt-toolkit==3.0.47
     # via ozi
 pydocstyle[toml]==6.3.0
     # via -r requirements.in
@@ -82,8 +80,8 @@ pyproject-hooks==1.1.0
     #   pip-tools
 requests==2.32.0
     # via
-    #   blastpipe
     #   ozi
+    #   ozi-templates
     #   sphinx
 restructuredtext-lint==1.4.0
     # via doc8
@@ -132,19 +130,19 @@ sphinxcontrib-qthelp==1.0.7
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
-sphinxcontrib-svg2pdfconverter[CairoSVG]
-sphinxemoji
 stevedore==5.2.0
     # via doc8
 trove-classifiers==2024.3.3
     # via ozi
 types-requests==2.31.0.20240218
     # via
-    #   blastpipe
     #   ozi
-urllib3==2.2.1
+    #   ozi-templates
+urllib3==2.2.2
     # via
     #   requests
     #   types-requests
+wcwidth==0.2.13
+    # via prompt-toolkit
 wheel==0.43.0
     # via pip-tools
