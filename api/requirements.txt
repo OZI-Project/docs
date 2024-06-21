@@ -53,10 +53,10 @@ meson[ninja]==1.4.0
     #   ozi
 ninja==1.11.1.1
     # via meson
-ozi==1.12.2
+ozi==1.13.1
     # via -r requirements.in
 OZI.build==0.0.26
-ozi-templates==2.0.4
+ozi-templates==2.1.2
 pipx==1.5.0
 packaging==24.0
     # via

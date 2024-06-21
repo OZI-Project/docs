@@ -18,3 +18,13 @@ ozi-new console application
    from ozi.new.parser import project_parser
    project_parser.print_help()
 
+
+.. _ozi-new-interactive:
+
+``ozi-new interactive``
+-----------------------
+
+.. exec::
+
+   from ozi.new.parser import interactive_parser
+   interactive_parser.print_help()
