@@ -106,6 +106,7 @@ sphinx==7.2.6
     #   sphinxawesome-codelinter
     #   sphinxawesome-theme
     #   sphinxcontrib-programoutput
+sphinxemoji==0.3.1
 sphinx-design==0.5.0
     # via -r requirements.in
 sphinx-last-updated-by-git==0.3.6
