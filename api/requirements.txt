@@ -123,7 +123,7 @@ sphinxcontrib-devhelp==1.0.6
     # via sphinx
 sphinxcontrib-htmlhelp==2.0.5
     # via sphinx
-sphinxcontrib-svg2pdfconverter
+sphinxcontrib-svg2pdfconverter[CairoSVG]
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-programoutput==0.17
