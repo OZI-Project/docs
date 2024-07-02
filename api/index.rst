@@ -40,4 +40,5 @@ Documentation
       ozi_spec
       development
       governance
+      changelogs
       glossary

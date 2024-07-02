@@ -117,7 +117,7 @@ latex_elements = {
 }
 latex_show_pagerefs = True
 latex_show_urls = 'inline'
-latex_appendices = ['appendix-a', 'appendix-b']
+latex_appendices = ['appendix-a']
 
 # -- sphinx.ext.autodoc ------------------------------------------------------
 autodoc_preserve_defaults = True
