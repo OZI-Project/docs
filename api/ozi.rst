@@ -28,4 +28,3 @@ OZI package
    ozi.meson
    ozi.render
    ozi.tap
-   assets/ozi/CHANGELOG.md
