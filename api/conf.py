@@ -112,6 +112,9 @@ latex_elements = {
   } 
   )
 }
+\setmainfont{LatinModernRoman}[RawFeature={fallback=emoji},SmallCapsFont={* Caps}]
+\setsansfont{LatinModernSans}[RawFeature={fallback=emoji}]
+\setmonofont{DejaVuSansMono}[RawFeature={fallback=emoji},Scale=0.8]
 ''',
     'fncychap': r'\usepackage[Sonny]{fncychap}'
 }
