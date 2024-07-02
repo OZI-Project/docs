@@ -37,6 +37,7 @@ Documentation
       ci
       ozi
       ozi_build
+      ozi_spec
       development
       governance
       glossary
