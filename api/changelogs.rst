@@ -2,11 +2,8 @@
 Changelogs
 ==========
 
-
-OZI
----
-
 .. toctree::
    :maxdepth: 1
 
-   assets/ozi/CHANGELOG.md
+   OZI Changelog <assets/ozi/CHANGELOG.md>
+   ozi-templates Changelog <assets/ozi-templates/CHANGELOG.md>
