@@ -51,13 +51,15 @@ meson[ninja]==1.4.0
 myst-parser>=3.0
 ninja==1.11.1.1
     # via meson
-ozi==1.14.5
+ozi==1.14.9
     # via -r requirements.in
 ozi-spec==0.4.1
     # via ozi
-ozi-templates==2.4.6
+ozi-templates==2.4.9
     # via ozi
-packaging==24.0
+TAP-Producer==0.0.2
+    # via ozi
+packaging==24.1
     # via
     #   build
     #   ozi

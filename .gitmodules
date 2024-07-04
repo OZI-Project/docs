@@ -7,3 +7,6 @@
 [submodule "api/assets/ozi_templates"]
 	path = api/assets/ozi_templates
 	url = https://github.com/OZI-Project/ozi_templates
+[submodule "api/assets/tap_producer"]
+	path = api/assets/tap_producer
+	url = https://github.com/OZI-Project/TAP-Producer
