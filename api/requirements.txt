@@ -12,7 +12,7 @@ beautifulsoup4==4.12.3
     # via sphinxawesome-theme
 build==1.2.1
     # via pip-tools
-certifi==2024.2.2
+certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
     # via requests
@@ -48,7 +48,6 @@ meson[ninja]==1.4.0
     # via
     #   -r requirements.in
     #   ozi
-myst-parser>=3.0
 ninja==1.11.1.1
     # via meson
 ozi==1.14.10
@@ -91,7 +90,9 @@ requests==2.32.0
 restructuredtext-lint==1.4.0
     # via doc8
 setuptools-scm[toml]==8.1.0
-    # via ozi
+    # via
+    #   ozi
+    #   ozi-spec
 smmap==5.0.1
     # via gitdb
 snowballstemmer==2.2.0
@@ -111,7 +112,6 @@ sphinx==7.2.6
     #   sphinxawesome-codelinter
     #   sphinxawesome-theme
     #   sphinxcontrib-programoutput
-sphinxemoji==0.3.1
 sphinx-design==0.5.0
     # via -r requirements.in
 sphinx-last-updated-by-git==0.3.6
@@ -128,7 +128,6 @@ sphinxcontrib-devhelp==1.0.6
     # via sphinx
 sphinxcontrib-htmlhelp==2.0.5
     # via sphinx
-sphinxcontrib-svg2pdfconverter[CairoSVG]
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-programoutput==0.17
@@ -139,6 +138,8 @@ sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
 stevedore==5.2.0
     # via doc8
+tap-producer==0.0.2
+    # via ozi
 trove-classifiers==2024.3.3
     # via ozi
 types-requests==2.31.0.20240218
