@@ -68,6 +68,8 @@ pbr==6.0.0
     # via stevedore
 pip-tools==7.4.1
     # via ozi
+pipx
+    # via ozi
 prompt-toolkit==3.0.47
     # via ozi
 pydocstyle[toml]==6.3.0
