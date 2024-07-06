@@ -136,6 +136,7 @@ sphinxcontrib-programoutput==0.17
 sphinxcontrib-qthelp==1.0.7
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.10
+sphinxcontrib-svg2pdfconverter[CairoSVG]
     # via sphinx
 stevedore==5.2.0
     # via doc8
