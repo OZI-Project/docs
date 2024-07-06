@@ -38,6 +38,7 @@ Documentation
       ozi
       ozi_build
       ozi_spec
+      tap_producer
       development
       governance
       changelogs
