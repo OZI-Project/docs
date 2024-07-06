@@ -138,8 +138,6 @@ sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
 stevedore==5.2.0
     # via doc8
-tap-producer==0.0.2
-    # via ozi
 trove-classifiers==2024.3.3
     # via ozi
 types-requests==2.31.0.20240218
