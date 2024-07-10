@@ -7,8 +7,8 @@ OZI package
 
 .. article-info::
    :author: Eden Ross Duff
-   :date: 11-May-2024
-   :read-time: 80 min read
+   :date: 10-Jul-2024
+   :read-time: 20 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
 |end-flushright|

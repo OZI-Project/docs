@@ -37,6 +37,7 @@ Documentation
       ci
       ozi
       ozi_build
+      ozi_core
       ozi_spec
       tap_producer
       development

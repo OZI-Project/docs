@@ -1,7 +1,7 @@
 
 
-OZI package
-===========
+ozi-core package
+================
 
 |begin-flushright|
 
