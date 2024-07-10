@@ -50,8 +50,9 @@ meson[ninja]==1.4.0
     #   ozi
 ninja==1.11.1.1
     # via meson
-ozi==1.15.1
+ozi==1.16.0
     # via -r requirements.in
+ozi-core==0.0.0
 ozi-spec==0.5.0
     # via ozi
 ozi-templates==2.5.2

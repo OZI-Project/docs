@@ -1,9 +1,9 @@
 
 
-ozi.render module
-=================
+ozi_core.render module
+======================
 
-.. automodule:: ozi.render
+.. automodule:: ozi_core.render
    :members:
    :undoc-members:
    :show-inheritance:
