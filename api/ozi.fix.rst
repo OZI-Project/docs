@@ -4,7 +4,7 @@ ozi-fix console application
 
 .. exec::
 
-   from ozi.fix.parser import parser
+   from ozi_core.fix.parser import parser
    parser.print_help()
 
 ``ozi-fix missing``
@@ -12,7 +12,7 @@ ozi-fix console application
 
 .. exec::
 
-   from ozi.fix.parser import missing_parser
+   from ozi_core.fix.parser import missing_parser
    missing_parser.print_help()
 
 ``ozi-fix source``
@@ -20,7 +20,7 @@ ozi-fix console application
 
 .. exec::
 
-   from ozi.fix.parser import source_parser
+   from ozi_core.fix.parser import source_parser
    source_parser.print_help()
 
 
@@ -29,6 +29,6 @@ ozi-fix console application
 
 .. exec::
 
-   from ozi.fix.parser import test_parser
+   from ozi_core.fix.parser import test_parser
    test_parser.print_help()
 
