@@ -194,7 +194,7 @@ Add New Python Source Files
 
    .. command-output:: ozi-fix source --pretty --add foo.py
 
-   .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
+   .. command-output:: meson rewrite -s . command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
 
 
@@ -208,7 +208,7 @@ Add New Source Subdirectories
 
    .. command-output:: ozi-fix source --pretty --add bar/
 
-   .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
+   .. command-output:: meson rewrite -s . command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
 
 .. _initializing-a-git-repository:
