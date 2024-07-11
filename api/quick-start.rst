@@ -183,7 +183,7 @@ Find Missing Files and Metadata
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info` Look for missing files with :abbr:`TAP (Test Anything Protocol)`:
 
-   .. command-output:: ozi-fix missing
+   .. command-output:: cd TARGET && ozi-fix missing
 
 Add New Python Source Files
 ***************************
@@ -192,9 +192,9 @@ Add New Python Source Files
 
    The output of ozi-fix can be used with :term:`meson rewriter commands`.
 
-   .. command-output:: ozi-fix source --pretty --add foo.py
+   .. command-output:: cd TARGET && ozi-fix source --pretty --add foo.py
 
-   .. command-output:: meson rewrite -s . command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
+   .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
 
 
@@ -206,9 +206,9 @@ Add New Source Subdirectories
 
    The output of ozi-fix can be used with :term:`meson rewriter commands`.
 
-   .. command-output:: ozi-fix source --pretty --add bar/
+   .. command-output:: cd TARGET && ozi-fix source --pretty --add bar/
 
-   .. command-output:: meson rewrite -s . command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
+   .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
 
 .. _initializing-a-git-repository:
