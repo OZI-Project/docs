@@ -162,7 +162,7 @@ external to OZI.
 
    .. card:: :octicon:`terminal;1.5em;sd-text-info` Create the new project.
 
-      .. command-output:: pipx run -q ozi-new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=https://oziproject.dev --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
+      .. command-output:: ozi-new project --name=PROJECT_NAME --author=AUTHOR --author-email=PHONY@oziproject.dev --summary=SUMMARY --home-page=https://oziproject.dev --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
 
       .. command-output:: ls TARGET
 
@@ -183,7 +183,7 @@ Find Missing Files and Metadata
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info` Look for missing files with :abbr:`TAP (Test Anything Protocol)`:
 
-   .. command-output:: pipx run -q ozi-fix missing TARGET
+   .. command-output:: ozi-fix missing TARGET
 
 Add New Python Source Files
 ***************************
@@ -192,7 +192,7 @@ Add New Python Source Files
 
    The output of ozi-fix can be used with :term:`meson rewriter commands`.
 
-   .. command-output:: pipx run -q ozi-fix source --pretty --add foo.py TARGET
+   .. command-output:: ozi-fix source --pretty --add foo.py TARGET
 
    .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
@@ -206,7 +206,7 @@ Add New Source Subdirectories
 
    The output of ozi-fix can be used with :term:`meson rewriter commands`.
 
-   .. command-output:: pipx run -q ozi-fix source --pretty --add bar/ TARGET
+   .. command-output:: ozi-fix source --pretty --add bar/ TARGET
 
    .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_children", "operation": "src_add", "sources": ["bar"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
