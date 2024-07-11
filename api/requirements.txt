@@ -52,7 +52,7 @@ ninja==1.11.1.1
     # via meson
 ozi==1.16.1
     # via -r requirements.in
-ozi-core==0.0.0
+ozi-core==0.0.1
 ozi-spec==0.5.0
     # via ozi
 ozi-templates==2.5.2
