@@ -94,6 +94,7 @@ html_title = 'docs.OZIproject.dev'
 html_favicon = 'assets/ozi_logo_72.png'
 html_logo = 'assets/ozi_logo_master.png'
 html_theme = 'sphinxawesome_theme'
+html_context = {'mode': 'production'}
 # Set canonical URL from the Read the Docs Domain
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
 
@@ -106,7 +107,6 @@ html_static_path = ['_static']
 html_css_files = ['css/custom.css']
 html_extra_path = ['robots.txt']
 html_permalinks_icon = Icons.permalinks_icon
-html_context = {'mode': 'production'}
 
 # -- Options for LaTeX output ------------------------------------------------
 latex_logo = 'assets/brand/images/ozi_social_preview.png'
