@@ -10,6 +10,7 @@ from pathlib import Path as _Path
 from shutil import rmtree
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
+import os
 import sys
 from os.path import basename
 
@@ -93,6 +94,13 @@ html_title = 'docs.OZIproject.dev'
 html_favicon = 'assets/ozi_logo_72.png'
 html_logo = 'assets/ozi_logo_master.png'
 html_theme = 'sphinxawesome_theme'
+# Set canonical URL from the Read the Docs Domain
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    html_context["READTHEDOCS"] = True
+
 html_baseurl = 'https://oziproject.dev/'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
