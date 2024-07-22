@@ -10,3 +10,9 @@
 [submodule "api/assets/tap_producer"]
 	path = api/assets/tap_producer
 	url = https://github.com/OZI-Project/TAP-Producer
+[submodule "api/assets/ozi_core"]
+	path = api/assets/ozi_core
+	url = https://github.com/OZI-Project/ozi-core
+[submodule "api/assets/ozi_spec"]
+	path = api/assets/ozi_spec
+	url = https://github.com/OZI-Project/ozi-spec
