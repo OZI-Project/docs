@@ -311,6 +311,18 @@ Glossary of Terms
 
       |end-samepage|
 
+   semantic_release
+      |begin-samepage|
+      A library to syncronize package releases to repository version control system.
+
+      |nopagebreak|
+
+      .. seealso::
+
+         :std:doc:`semantic_release:index`
+
+      |end-samepage|
+
    setuptools
       |begin-samepage|
       The stable Python packaging library.
