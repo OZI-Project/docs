@@ -98,8 +98,6 @@ snowballstemmer==2.2.0
     #   sphinx
 soupsieve==2.5
     # via beautifulsoup4
-spdx-license-list==3.23
-    # via ozi
 sphinx==7.2.6
     # via
     #   -r requirements.in
@@ -138,12 +136,6 @@ sphinxemoji
     # via sphinx
 stevedore==5.2.0
     # via doc8
-trove-classifiers~=2024.7
-    # via ozi
-types-requests==2.31.0.20240218
-    # via
-    #   ozi
-    #   ozi-templates
 urllib3==2.2.2
     # via
     #   requests
