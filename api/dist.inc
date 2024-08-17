@@ -23,6 +23,31 @@ dist
 
    :octicon:`alert;1em;sd-text-warning` External
 
+   .. _REQUIRED cibuildwheel:
+
+   .. rubric:: cibuildwheel
+
+   .. versionadded:: 0.6
+
+   .. dropdown:: configuration
+      :icon: package
+
+      .. only:: latex
+
+         See :ref:`cibuildwheel-config`
+
+      .. only:: html
+
+         :download:`assets/ozi_templates/ozi_templates/cibuildwheel.pyproject.toml`
+
+   .. _REQUIRED sigstore:
+
+   .. rubric:: sigstore
+
+   .. versionadded:: 0.6
+
+   configuration not needed
+
    .. _REQUIRED semantic-release:
 
    .. rubric:: semantic-release
@@ -42,8 +67,16 @@ dist
       :class-card: seealso
 
       :ref:`REQUIRED semantic-release`
-      
+
       :octicon:`alert;1em;sd-text-warning` External
          sigstore_
 
          sigstore-python_
+   
+   .. _REQUIRED twine:
+
+   .. rubric:: twine
+
+   .. versionadded:: 0.6
+
+   configuration not needed

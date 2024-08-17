@@ -215,6 +215,13 @@ pyproject.toml
 .. literalinclude:: assets/ozi_templates/ozi_templates/semantic_release.pyproject.toml
     :start-after: -#}
 
+.. _cibuildwheel-config:
+
+.. rubric:: pyproject.toml:cibuildwheel
+
+.. literalinclude:: assets/ozi_templates/ozi_templates/cibuildwheel.pyproject.toml
+    :start-after: -#}
+
 .. _bandit-config:
 
 .. rubric:: pyproject.toml:bandit
