@@ -66,6 +66,19 @@ These spec changes came alongside the pre-1.8 Alpha releases.
 * Isolation of all CI :term:`utility applications`, with ``pipx``,
   excluding ``pytest``.
 
+API Specification: 0.5
+^^^^^^^^^^^^^^^^^^^^^^
+
+* Added the expectation of ``templates`` and ``subprojects`` folders to the
+  spec implementation.
+
+API Specification: 0.6
+^^^^^^^^^^^^^^^^^^^^^^
+
+These spec changes came alongside the pre-1.18 Beta releases.
+
+* Added the plugins ``twine`` and ``cibuildwheel`` to the ``dist`` checkpoint.
+
 
 Test Policy OpenSSF Silver attestations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -88,10 +101,11 @@ Documentation(docs) utility environment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The project lead has decided it is best to defer the documentation utility
-environment to a later roadmap and specification at very least until
-version 1.0, given the decision, ``docs`` has been removed from the
-specification pre-0.1 as well as references to it.
-
+environment to a later roadmap and specification, ``docs`` has been removed
+from the specification pre-0.1 as well as references to it.
+Pull requests and volunteers are welcome. A single fulltime maintainer
+is currently responsible for the whole of the OZI Project. This effort would
+need to be maintained by someone else.
 
 Works in Progress
 -----------------
