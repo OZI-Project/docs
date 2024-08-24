@@ -8,8 +8,8 @@ Continuous Integration & Deployment
 
 .. article-info::
    :author: Eden Ross Duff MSc
-   :date: 26-May-2024
-   :read-time: 5 min read
+   :date: |today|
+   :read-time: 15 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
 |end-flushright|

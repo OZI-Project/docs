@@ -87,6 +87,7 @@ rst_epilog = """
 
 """
 templates_path = ['_templates']
+today_fmt = '%d-%b-%Y'
 python_display_short_literal_types = True
 
 # -- Options for HTML output -------------------------------------------------

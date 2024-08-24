@@ -7,7 +7,7 @@ ozi-core package
 
 .. article-info::
    :author: Eden Ross Duff
-   :date: 10-Jul-2024
+   :date: |today|
    :read-time: 60 min read
    :class-container: sd-p-2 sd-outline-muted sd-rounded-1
 
