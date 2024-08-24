@@ -21,3 +21,4 @@ OZI package
    ozi.fix
    ozi.new
    ozi.scripts
+   ozi.tasks

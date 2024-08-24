@@ -3,7 +3,7 @@ tox Environments
 ================
 
 :term:`tox` is the interface of choice for maintainers of projects
-created with OZI. It is also the preferred API for :term:'CI'/:term:`CD`
+created with OZI. It is also the preferred API for :term:`CI`/:term:`CD`
 tools. Library dependencies are installed by an OZI subproject with
 :term:`pip` and :term:`pip-compile` or with ``uv`` if a project was
 created with ``--enable-uv``, and application dependencies are installed

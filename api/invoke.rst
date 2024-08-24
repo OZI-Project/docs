@@ -4,7 +4,8 @@
 Invoke Tasks
 ============
 
-.. automodule:: ozi.tasks
-   :members:
-   :undoc-members:
-   :inherited-members:
+Invoke tasks are provided for every project created with OZI.
+
+.. seealso::
+
+   :py:mod:`ozi.tasks`
