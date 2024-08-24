@@ -17,10 +17,12 @@ Continuous Integration & Deployment
 
 
 OZI :term:`CI`/:term:`CD` strategies have the same main components
-across the different providers.
+across the different providers. OZI also provides invoke tasks for
+self-hosted CI/CD.
 
 .. toctree::
    :maxdepth: 2
 
    github
-
+   invoke
+   tox

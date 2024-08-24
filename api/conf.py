@@ -43,6 +43,7 @@ release = '.'.join(_version('OZI').split('.')[:2])
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 extensions = [
+    'invocations.autodoc',
     'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.coverage',
