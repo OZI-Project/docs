@@ -337,6 +337,9 @@ The following is the minimal project structure :strong:`REQUIRED` by
 
       .. versionadded:: 0.1
 
+      .. versionchanged:: 0.9
+         All dependency requirement specifications should now be in :file:`pyproject.toml`.
+
       Any :term:`PyPI` dependencies.
 
       .. only:: latex

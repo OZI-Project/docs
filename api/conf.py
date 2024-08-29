@@ -15,7 +15,7 @@ import sys
 from os.path import basename
 
 try:
-    from StringIO import StringIO # type: ignore
+    from StringIO import StringIO  # type: ignore
 except ImportError:
     from io import StringIO
 

@@ -14,15 +14,29 @@ dependency resolution.
 default
 -------
 
+By default you can run all of the OZI checkpoint suites with:
+
+.. code-block:: sh
+
+   $ tox
+
 dist
 ^^^^
 
 Run the OZI distribution and packaging checkpoint.
 
+.. code-block:: sh
+
+   $ tox -e dist
+
 lint
 ^^^^
 
 Run the OZI linting and formatting checkpoint.
+
+.. code-block:: sh
+
+   $ tox -e lint
 
 test
 ^^^^
