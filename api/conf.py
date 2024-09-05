@@ -158,6 +158,7 @@ intersphinx_mapping = {
     'tox': ('https://tox.wiki/en/stable/', None)
 }
 
+myst_enable_extensions = ['colon_fence']
 
 class ExecDirective(Directive):
     """Execute the specified python code and insert the output into the document"""

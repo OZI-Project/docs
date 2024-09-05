@@ -16,3 +16,6 @@
 [submodule "api/assets/ozi_spec"]
 	path = api/assets/ozi_spec
 	url = https://github.com/OZI-Project/ozi-spec
+[submodule "api/assets/ozi_build"]
+	path = api/assets/ozi_build
+	url = https://github.com/OZI-Project/OZI.build
