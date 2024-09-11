@@ -20,7 +20,15 @@ OZI           OZI-Project/draft
 1.9.x         0.2.x
 1.10.x        0.2.x
 1.11.x-1.20.x 0.3.x
+1.21.x        1.0.x
 ============= =================
+
+Dependencies
+------------
+
+* actions/checkout
+* actions/upload-artifact
+* python-semantic-release/python-semantic-release
 
 
 Inputs

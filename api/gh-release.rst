@@ -21,8 +21,16 @@ OZI           OZI-Project/release
 1.11.x-1.16.x 0.6.x
 1.17.x        0.7.x
 1.18.x-1.20.x 0.8.x
+1.21.x        1.0.x
 ============= ===================
 
+Dependencies
+------------
+
+* actions/download-artifact
+* actions/setup-python
+* actions/upload-artifact
+* sigstore/gh-action-sigstore-python
 
 Inputs
 ------

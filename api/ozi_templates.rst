@@ -1,5 +1,5 @@
 =====================
-ozi-templates Package
+ozi-templates package
 =====================
 
 .. automodule:: ozi_templates

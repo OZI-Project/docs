@@ -20,7 +20,16 @@ OZI           OZI-Project/checkpoint
 1.10.x        0.4.x
 1.11.x-1.16.x 0.4.x
 1.17.x-1.20.x 0.5.x
+1.21.x        1.0.x
 ============= ======================
+
+Dependencies
+------------
+
+* actions/checkout
+* actions/setup-python
+* actions/upload-artifact
+* sigstore/gh-action-sigstore-python
 
 Inputs
 ------
