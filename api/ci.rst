@@ -25,4 +25,5 @@ self-hosted CI/CD.
 
    github
    invoke
+   meson-options
    tox
