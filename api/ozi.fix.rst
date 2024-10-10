@@ -2,33 +2,85 @@ ozi-fix console application
 ===========================
 
 
-.. exec::
+usage: ozi-fix <options> | <positional arguments>
 
-   from ozi_core.fix.parser import parser
-   parser.print_help()
+``ozi-fix`` console application.
+
+positional arguments:
+
+missing (m, mis)
+   Check your OZI project for missing files.
+source (s, src)
+   Create a new Python source in an OZI project.
+test (t, tests)
+   Create a new Python test in an OZI project.
+
+options:
+  -h, --help        show this help message and exit
+
 
 ``ozi-fix missing``
 -------------------
 
-.. exec::
+usage: ozi-fix missing <options> <output> target
 
-   from ozi_core.fix.parser import missing_parser
-   missing_parser.print_help()
+positional arguments:
+  target                target OZI project directory
+
+options:
+  -h, --help            show this help message and exit
+
+output:
+  --strict, --no-strict
+                        strict mode raises warnings to errors, default: no
+  --pretty, --no-pretty
+                        output indented JSON, default: no
+
 
 ``ozi-fix source``
 ------------------
 
-.. exec::
+usage: ozi-fix source <options> <output> target
 
-   from ozi_core.fix.parser import source_parser
-   source_parser.print_help()
+positional arguments:
+  target                target OZI project directory
+
+options:
+  -h, --help            show this help message and exit
+  -a <FILENAME>, --add <FILENAME>
+                        add files or directories to a project
+  -r <FILENAME>, --remove <FILENAME>
+                        remove files or directories from a project
+  -c HEADER, --copyright-head HEADER
+                        copyright header string
+
+output:
+  --strict, --no-strict
+                        strict mode raises warnings to errors, default: no
+  --pretty, --no-pretty
+                        output indented JSON, default: no
 
 
 ``ozi-fix test``
 ----------------
 
-.. exec::
+usage: ozi-fix test <options> <output> target
 
-   from ozi_core.fix.parser import test_parser
-   test_parser.print_help()
+positional arguments:
+  target                target OZI project directory
+
+options:
+  -h, --help            show this help message and exit
+  -a <FILENAME>, --add <FILENAME>
+                        add files or directories to a project
+  -r <FILENAME>, --remove <FILENAME>
+                        remove files or directories from a project
+  -c HEADER, --copyright-head HEADER
+                        copyright header string
+
+output:
+  --strict, --no-strict
+                        strict mode raises warnings to errors, default: no
+  --pretty, --no-pretty
+                        output indented JSON, default: no
 
