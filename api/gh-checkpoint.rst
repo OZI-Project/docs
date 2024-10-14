@@ -17,6 +17,7 @@ Applicable Version
 OZI           OZI-Project/checkpoint
 ============= ======================
 1.22.x        1.0.x
+1.23.x        1.0.x
 ============= ======================
 
 Dependencies
