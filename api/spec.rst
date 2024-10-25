@@ -851,6 +851,12 @@ This section lists the third-party :term:`utility program` specifications.
 
       .. versionadded:: 0.1
 
+   .. index:: utilities; build; successfully
+   .. card:: Fail the :term:`checkpoint step` if a distribution cannot be built.
+
+      .. versionadded:: 0.11
+         This is the default behavior of OZI-Project/checkpoint starting with version 1.1.0.
+
    .. index:: pyproject.toml; configuration; packaging
    .. card:: Provide packaging configuration with :term:`pyproject.toml`.
 
