@@ -80,7 +80,7 @@ pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
-requests==2.32.0
+requests==2.32.2
     # via
     #   ozi
     #   ozi-templates
@@ -145,3 +145,4 @@ wcwidth==0.2.13
     # via prompt-toolkit
 wheel==0.43.0
     # via pip-tools
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
