@@ -19,6 +19,7 @@ OZI           OZI-Project/release
 1.22.x        1.0.x
 1.23.x        1.0.x
 1.24.x        1.0.x
+1.25.x        1.0.x
 ============= ===================
 
 Dependencies
