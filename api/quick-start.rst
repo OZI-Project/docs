@@ -185,8 +185,8 @@ Find Missing Files and Metadata
 
    .. command-output:: ozi-fix missing TARGET
 
-Add New Python Source Files
-***************************
+Add New Python Source Files Manually
+************************************
 
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
@@ -197,11 +197,10 @@ Add New Python Source Files
    .. command-output:: meson rewrite -s ./TARGET command '[{"type": "target", "target": "source_files", "operation": "src_add", "sources": ["foo.py"], "subdir": "", "target_type": "executable"}]'
       :ellipsis: 1
 
-
 |newpage|
 
-Add New Source Subdirectories
-*****************************
+Add New Source Subdirectories Manually
+**************************************
 .. card:: :octicon:`terminal;1.5em;sd-text-info`
 
    The output of ozi-fix can be used with :term:`meson rewriter commands`.
@@ -212,3 +211,17 @@ Add New Source Subdirectories
       :ellipsis: 1
 
 .. _initializing-a-git-repository:
+
+Add or Remove Files and Folders Interactively
+*********************************************
+
+.. versionadded:: 1.25
+
+.. card:: :octicon:`terminal;1.5em;sd-text-info`
+
+   Calling ozi-fix in interactive mode will prompt the user to select/input sources
+   and then calls the meson rewriter task.
+
+   .. code-block:: sh
+
+      $ ozi-fix interactive

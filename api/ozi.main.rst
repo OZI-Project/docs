@@ -14,6 +14,8 @@ options:
   -i, --info            Print all metadata as JSON and exit.
   -l METADATA_FIELD, --list-available METADATA_FIELD
                         Print a list of valid values for a key and exit.
+  --uninstall-user-files
+                        Remove configuration and log files created by OZI.
 
 METADATA_FIELD choices:
   | audience
