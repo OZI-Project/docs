@@ -40,7 +40,6 @@ Documentation
       ozi_core
       ozi_spec
       ozi_templates
-      tap_producer
       development
       governance
       changelogs
