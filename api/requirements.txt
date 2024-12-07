@@ -20,7 +20,7 @@ click==8.1.7
     # via pip-tools
 dnspython==2.6.1
     # via ozi
-doc8==1.1.1
+doc8==1.1.2
     # via -r requirements.in
 docutils==0.20.1
     # via
