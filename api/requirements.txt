@@ -111,7 +111,7 @@ sphinx==7.2.6
 myst-parser
 sphinx-design==0.6.1
     # via -r requirements.in
-sphinx-last-updated-by-git==0.3.6
+sphinx-last-updated-by-git==0.3.8
     # via -r requirements.in
 sphinx-sitemap==2.6.0
     # via -r requirements.in
