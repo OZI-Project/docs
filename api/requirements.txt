@@ -29,7 +29,7 @@ docutils==0.20.1
     #   sphinx
 gitdb==4.0.11
     # via gitpython
-gitpython==3.1.42
+gitpython==3.1.43
     # via ozi
 idna==3.7
     # via
