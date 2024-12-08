@@ -127,7 +127,7 @@ sphinxcontrib-htmlhelp==2.0.5
     # via sphinx
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
-sphinxcontrib-programoutput==0.17
+sphinxcontrib-programoutput==0.18
     # via -r requirements.in
 sphinxcontrib-qthelp==1.0.7
     # via sphinx
