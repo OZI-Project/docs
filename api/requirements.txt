@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=-P --pre api/requirements.in
 #
-alabaster~=0.7.0
+alabaster~=1.0.0
     # via sphinx
 babel==2.16.0
     # via sphinx
