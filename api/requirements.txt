@@ -97,7 +97,7 @@ snowballstemmer==2.2.0
     # via
     #   pydocstyle
     #   sphinx
-soupsieve==2.5
+soupsieve==2.6
     # via beautifulsoup4
 sphinx==7.2.6
     # via
