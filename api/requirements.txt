@@ -131,7 +131,7 @@ sphinxcontrib-programoutput==0.17
     # via -r requirements.in
 sphinxcontrib-qthelp==1.0.7
     # via sphinx
-sphinxcontrib-serializinghtml==1.1.10
+sphinxcontrib-serializinghtml==2.0.0
 sphinxcontrib-svg2pdfconverter[CairoSVG]
 sphinxemoji
     # via sphinx
