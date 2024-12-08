@@ -115,7 +115,7 @@ sphinx-last-updated-by-git==0.3.8
     # via -r requirements.in
 sphinx-sitemap==2.6.0
     # via -r requirements.in
-sphinxawesome-codelinter==2.0.0
+sphinxawesome-codelinter==3.0.0
     # via -r requirements.in
 sphinxawesome-theme==5.3.2
     # via -r requirements.in
