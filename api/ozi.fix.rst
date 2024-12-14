@@ -14,6 +14,8 @@ source (s, src)
    Create a new Python source in an OZI project.
 test (t, tests)
    Create a new Python test in an OZI project.
+interactive (i)
+   Add missing source and test files to a project interactively.
 
 options:
   -h, --help        show this help message and exit
@@ -84,3 +86,13 @@ output:
   --pretty, --no-pretty
                         output indented JSON, default: no
 
+``ozi-fix interactive``
+-----------------------
+
+usage: ozi-fix interactive target
+
+positional arguments:
+  target      target OZI project directory
+
+options:
+  -h, --help  show this help message and exit
