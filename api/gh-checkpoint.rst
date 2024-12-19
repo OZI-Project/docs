@@ -13,14 +13,7 @@ Github actions :term:`checkpoint step`
 Applicable Version
 ------------------
 
-============= ======================
-OZI           OZI-Project/checkpoint
-============= ======================
-1.22          1.0
-1.23          1.0
-1.24          1.1
-1.25-1.27     1.2
-============= ======================
+For security purposes it is always best to use the most recent release tag.
 
 Dependencies
 ------------

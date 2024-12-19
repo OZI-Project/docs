@@ -43,6 +43,10 @@ test
 
 Run the OZI testing and coverage checkpoint.
 
+.. code-block:: sh
+
+   $ tox -e test
+
 other
 -----
 

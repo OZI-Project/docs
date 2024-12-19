@@ -13,15 +13,7 @@ Github actions :term:`publish step`
 Applicable Version
 ------------------
 
-============= ===================
-OZI           OZI-Project/publish
-============= ===================
-1.22          1.0 - 1.2
-1.23          1.3 - 1.4
-1.24          1.4
-1.25-1.26     1.5
-1.27          1.6
-============= ===================
+For security purposes it is always best to use the most recent release tag.
 
 Dependencies
 ------------

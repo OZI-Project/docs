@@ -13,11 +13,7 @@ Github actions :term:`release step`
 Applicable Version
 ------------------
 
-============= ===================
-OZI           OZI-Project/release
-============= ===================
-1.22-1.27     1.0
-============= ===================
+For security purposes it is always best to use the most recent release tag.
 
 Dependencies
 ------------
