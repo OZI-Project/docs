@@ -42,5 +42,4 @@ Documentation
       ozi_templates
       development
       governance
-      changelogs
       glossary
