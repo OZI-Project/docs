@@ -33,6 +33,7 @@ Documentation
       :maxdepth: 3
 
       OZIproject.dev Homepage <https://oziproject.dev/>
+      changes.OZIproject.dev Changelog <https://changes.oziproject.dev/>
       quick-start
       ci
       ozi
