@@ -137,7 +137,7 @@ sphinxemoji
     # via sphinx
 stevedore==5.4.0
     # via doc8
-urllib3==2.2.3
+urllib3==2.3.0
     # via
     #   requests
     #   types-requests
