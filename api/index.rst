@@ -34,10 +34,10 @@ Documentation
 
       OZIproject.dev Homepage <https://oziproject.dev/>
       changes.OZIproject.dev Changelog <https://changes.oziproject.dev/>
+      build.OZIproject.dev OZI.build <https://build.oziproject.dev/>
       quick-start
       ci
       ozi
-      ozi_build
       ozi_core
       ozi_spec
       ozi_templates
