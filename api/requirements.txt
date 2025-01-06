@@ -91,7 +91,7 @@ setuptools-scm[toml]==8.1.0
     # via
     #   ozi
     #   ozi-spec
-smmap==5.0.1
+smmap==5.0.2
     # via gitdb
 snowballstemmer==2.2.0
     # via
