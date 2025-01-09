@@ -34,3 +34,7 @@ code {
     left: 2em;
     width: fit-content;
 }
+
+main .gsc-loading-image {
+    background-image: url("https://raw.githubusercontent.com/OZI-Project/brand/refs/heads/main/images/ozi-build-loading.gif");
+}
