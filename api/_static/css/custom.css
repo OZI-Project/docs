@@ -36,5 +36,5 @@ code {
 }
 
 main .gsc-loading-image {
-    background-image: url("https://raw.githubusercontent.com/OZI-Project/brand/refs/heads/main/images/ozi-build-loading.gif");
+    background-image: url("https://raw.githubusercontent.com/OZI-Project/brand/refs/heads/main/images/ozi-build-loading.gif") !important;
 }
