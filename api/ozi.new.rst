@@ -80,6 +80,8 @@ defaults:
   --ci-provider github  continuous integration and release provider
   --verify-email, --no-verify-email
                         verify deliverability of email domain, default: no
+  --update-wrapfile, --no-update-wrapfile
+                        Update "subprojects/ozi.wrap" to the latest version of OZI.
   --enable-cython, --no-enable-cython
                         use Cython to build Python extension modules. default: no
   --enable-uv, --no-enable-uv

@@ -31,6 +31,8 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
+  --update-wrapfile, --no-update-wrapfile
+                        Update "subprojects/ozi.wrap" to the latest version of OZI.
 
 output:
   --strict, --no-strict
