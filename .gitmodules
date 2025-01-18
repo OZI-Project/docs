@@ -1,18 +1,6 @@
-[submodule "api/assets/ozi"]
-	path = api/assets/ozi
-	url = https://github.com/OZI-Project/OZI/
 [submodule "api/assets/brand"]
 	path = api/assets/brand
 	url = https://github.com/OZI-Project/brand
 [submodule "api/assets/ozi_templates"]
 	path = api/assets/ozi_templates
 	url = https://github.com/OZI-Project/ozi_templates
-[submodule "api/assets/ozi_core"]
-	path = api/assets/ozi_core
-	url = https://github.com/OZI-Project/ozi-core
-[submodule "api/assets/ozi_spec"]
-	path = api/assets/ozi_spec
-	url = https://github.com/OZI-Project/ozi-spec
-[submodule "api/assets/ozi_build"]
-	path = api/assets/ozi_build
-	url = https://github.com/OZI-Project/OZI.build
