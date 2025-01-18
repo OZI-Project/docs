@@ -11,12 +11,12 @@ ozi.scripts.core\_metadata\_template
    :undoc-members:
    :show-inheritance:
 
-ozi.scripts.create\_project\_symlink
-------------------------------------
+ozi.scripts.create\_subproject\_symlink
+---------------------------------------
 
 .. versionadded:: 1.33
 
-.. automodule:: ozi.scripts.create_project_symlink
+.. automodule:: ozi.scripts.create_subproject_symlink
    :members:
    :undoc-members:
    :show-inheritance:
