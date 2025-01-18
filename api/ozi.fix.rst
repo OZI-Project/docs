@@ -57,6 +57,8 @@ options:
                         remove files or directories from a project
   -c HEADER, --copyright-head HEADER
                         copyright header string
+  --update-wrapfile, --no-update-wrapfile
+                        Update "subprojects/ozi.wrap" to the latest version of OZI.
 
 output:
   --strict, --no-strict
@@ -81,6 +83,8 @@ options:
                         remove files or directories from a project
   -c HEADER, --copyright-head HEADER
                         copyright header string
+  --update-wrapfile, --no-update-wrapfile
+                        Update "subprojects/ozi.wrap" to the latest version of OZI.
 
 output:
   --strict, --no-strict
