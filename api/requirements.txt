@@ -133,6 +133,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
 sphinxcontrib-svg2pdfconverter[CairoSVG]
+sphinxcontrib-autoprogram==0.1.9
 sphinxemoji
     # via sphinx
 stevedore==5.4.0

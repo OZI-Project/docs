@@ -11,28 +11,6 @@ from shutil import rmtree
 import sphinx.application
 from sphinxawesome_theme.postprocess import Icons
 import os
-import sys
-from os.path import basename
-
-try:
-    from StringIO import StringIO  # type: ignore
-except ImportError:
-    from io import StringIO
-
-from docutils.parsers.rst import Directive
-from docutils import nodes, statemachine
-
-# from sphinxawesome_theme.docsearch import DocSearchConfig
-
-# This gets you code completion and documentation for your configuration options
-# docsearch_app_id = os.getenv('DOCSEARCH_APP_ID', '')
-# docsearch_api_key = os.getenv('DOCSEARCH_API_KEY', '')
-# docsearch_index_name = os.getenv('DOCSEARCH_INDEX_NAME', '')
-# config = DocSearchConfig(
-#     docsearch_app_id=docsearch_app_id,
-#     docsearch_api_key=docsearch_api_key,
-#     docsearch_index_name=docsearch_index_name,
-# )
 
 project = 'OZI'
 copyright = '2023-2024, Eden Ross Duff MSc'
@@ -62,6 +40,7 @@ extensions = [
     'sphinxawesome_theme.highlighting',
     'sphinxcontrib.programoutput',
     'sphinxcontrib.cairosvgconverter',
+    'sphinxcontrib.autoprogram',
 ]
 rst_prolog = '.. include:: latex-tools.rst'
 rst_epilog = """
@@ -160,42 +139,7 @@ intersphinx_mapping = {
 
 myst_enable_extensions = ['colon_fence']
 
-class ExecDirective(Directive):
-    """Execute the specified python code and insert the output into the document"""
-
-    has_content = True
-
-    def run(self):
-        oldStdout, sys.stdout = sys.stdout, StringIO()
-
-        tab_width = self.options.get(
-            'tab-width', self.state.document.settings.tab_width
-        )
-        source = self.state_machine.input_lines.source(
-            self.lineno - self.state_machine.input_offset - 1
-        )
-        try:
-            exec('\n'.join(self.content))
-            text = sys.stdout.getvalue().replace('[', '<').replace("]", ">")
-            lines = statemachine.string2lines(text, tab_width, convert_whitespace=True)
-            self.state_machine.insert_input(lines, source)
-            return []
-        except Exception:
-            return [
-                nodes.error(
-                    None,
-                    nodes.paragraph(
-                        text=f'Unable to execute python code at {basename(source)}:{self.lineno}:'
-                    ),
-                    nodes.paragraph(text=str(sys.exc_info()[1])),
-                )
-            ]
-        finally:
-            sys.stdout = oldStdout
-
-
 def setup(app: sphinx.application.Sphinx) -> None:
     """Sphinx setup function"""
     app.connect('builder-inited', lambda *_: _Path('TARGET').mkdir(exist_ok=True))
     app.connect('build-finished', lambda *_: rmtree('TARGET'))
-    app.add_directive('exec', ExecDirective)
