@@ -162,7 +162,7 @@ external to OZI.
 
    .. card:: :octicon:`terminal;1.5em;sd-text-info` Create the new project.
 
-      .. command-output:: ozi-new project --name="PROJECT_NAME" --author="AUTHOR" --author-email="PHONY@oziproject.dev" --summary="SUMMARY" --home-page="https://oziproject.dev" --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
+      .. command-output:: ozi-new project --name="PROJECT_NAME" --author="AUTHOR" --author-email="PHONY@oziproject.dev" --summary="SUMMARY" --license-expression=MIT --license="OSI Approved :: MIT License" --keywords="Private,example-only" TARGET
 
       .. command-output:: ls TARGET
 
