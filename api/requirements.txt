@@ -50,7 +50,7 @@ meson[ninja]==1.7.2
     #   ozi
 ninja==1.11.1.4
     # via meson
-ozi==1.37.0
+ozi==1.38.4
     # via -r requirements.in
     # via ozi
 packaging==24.2
