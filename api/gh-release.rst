@@ -43,12 +43,15 @@ GitHub workflow-generated token
 
 * required: true
 
-tag
-^^^
+freethreaded
+^^^^^^^^^^^^
 
-The release tag name.
+.. versionadded:: 1.6
 
-* required: true
+Enable freethreaded python builds when applicable (Python >= 3.13)"
+
+* required: false
+* default: false
 
 Outputs
 -------

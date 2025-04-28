@@ -33,4 +33,20 @@ GitHub workflow-generated token.
 
 * required: true
 
+create-pull-request
+^^^^^^^^^^^^^^^^^^^
+
+Create a pull request on the default branch.
+
+* required: false
+* default: false
+
+pull-request-body
+^^^^^^^^^^^^^^^^^
+
+Text to use for the pull request body.
+
+* required: false
+* default: "Created automatically. Manually close and reopen to enable checks."
+
 |newpage|

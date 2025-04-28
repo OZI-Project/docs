@@ -35,6 +35,16 @@ GitHub workflow-generated token.
 
 * required: true
 
+checkout-submodules
+^^^^^^^^^^^^^^^^^^^
+
+.. versionadded:: 1.8
+
+Whether to checkout submodules as well. true, false, or recursive.
+
+* required: false
+* default: true
+
 Outputs
 -------
 

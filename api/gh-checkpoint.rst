@@ -49,6 +49,26 @@ Operating system to run on.
 * required: false
 * default: "ubuntu-latest"
 
+submodules
+^^^^^^^^^^
+
+.. versionadded:: 1.6
+
+Whether to fetch git submodules.
+
+* required: false
+* default: ""
+  
+freethreaded
+^^^^^^^^^^^^
+
+.. versionadded:: 1.7
+
+Enable freethreaded Python when available.
+
+* required: false
+* default: false
+
 args
 ^^^^
 
