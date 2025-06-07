@@ -131,14 +131,6 @@ Format
 
          .. versionadded:: 0.1
 
-      .. grid-item-card:: :octicon:`typography;1em;sd-text-info` Use ``"""`` for docstrings and multi-line string quotes.
-
-         .. versionadded:: 0.1
-
-      .. grid-item-card:: :octicon:`typography;1em;sd-text-info` Use ``'`` for string quotes.
-
-         .. versionadded:: 0.1
-
       .. grid-item-card:: :octicon:`shield;1em;sd-text-info` Guard type-checking imports.
 
          .. versionadded:: 0.1
@@ -156,6 +148,20 @@ Format
 .. card:: :octicon:`info;1.5em;sd-text-warning` :emphasis:`RECOMMENDED`
 
    |linebreak|
+
+   .. card:: :octicon:`typography;1em;sd-text-info` Use ``"""`` for docstrings and multi-line string quotes.
+
+      .. versionadded:: 0.1
+
+      .. versionchanged:: 1.0
+         This is now only a RECOMMENDED behavior.
+
+   .. card:: :octicon:`typography;1em;sd-text-info` Use ``'`` for string quotes.
+
+      .. versionadded:: 0.1
+      
+      .. versionchanged:: 1.0
+         This is now only a RECOMMENDED behavior.
 
    .. card:: :octicon:`rows;1em;sd-text-warning` Prefer LF over CRLF line-endings.
 
@@ -330,25 +336,6 @@ The following is the minimal project structure :strong:`REQUIRED` by
       .. only:: html
 
          .. literalinclude:: assets/ozi_templates/ozi_templates/README.txt.j2
-            :start-after: -#}
-
-   .. dropdown:: :file:`requirements.in`
-      :icon: info
-
-      .. versionadded:: 0.1
-
-      .. versionchanged:: 0.9
-         All dependency requirement specifications should now be in :file:`pyproject.toml`.
-
-      Any :term:`PyPI` dependencies.
-
-      .. only:: latex
-
-         See :ref:`requirements-in`
-
-      .. only:: html
-
-         .. literalinclude:: assets/ozi_templates/ozi_templates/requirements.in.j2
             :start-after: -#}
 
    .. dropdown:: :file:`meson.build`

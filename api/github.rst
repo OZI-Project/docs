@@ -9,6 +9,6 @@ They are intended for use in GitHub Actions runners.
    :maxdepth: 2
 
    gh-checkpoint
-   gh-draft
-   gh-release
-   gh-publish
+   assets/draft/README.md
+   assets/release/README.md
+   assets/publish/README.md

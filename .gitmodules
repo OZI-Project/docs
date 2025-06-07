@@ -4,3 +4,15 @@
 [submodule "api/assets/ozi_templates"]
 	path = api/assets/ozi_templates
 	url = https://github.com/OZI-Project/ozi_templates
+[submodule "api/assets/checkpoint"]
+	path = api/assets/checkpoint
+	url = https://github.com/OZI-Project/checkpoint
+[submodule "api/assets/draft"]
+	path = api/assets/draft
+	url = https://github.com/OZI-Project/draft
+[submodule "api/assets/release"]
+	path = api/assets/release
+	url = https://github.com/OZI-Project/release
+[submodule "api/assets/publish"]
+	path = api/assets/publish
+	url = https://github.com/OZI-Project/publish
