@@ -53,6 +53,7 @@ ninja==1.11.1.4
 ozi==2.0.12
     # via -r requirements.in
     # via ozi
+ozi-core==1.21.1
 packaging==25.0
     # via
     #   build
