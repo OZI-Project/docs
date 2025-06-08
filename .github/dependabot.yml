@@ -9,4 +9,4 @@ updates:
     directory: "/api" # Location of package manifests
     schedule:
       interval: "weekly"
-    open-pull-request-limit: 20
+    open-pull-requests-limit: 20
