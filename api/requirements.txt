@@ -113,7 +113,7 @@ sphinx-design==0.6.1
     # via -r requirements.in
 sphinx-last-updated-by-git==0.3.8
     # via -r requirements.in
-sphinx-sitemap==2.6.0
+sphinx-sitemap==2.7.2
     # via -r requirements.in
 sphinxawesome-codelinter==3.0.0
     # via -r requirements.in
