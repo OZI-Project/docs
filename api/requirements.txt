@@ -48,7 +48,7 @@ meson[ninja]==1.8.2
     # via
     #   -r requirements.in
     #   ozi
-ninja==1.11.1.4
+ninja==1.13.0
     # via meson
 ozi==2.0.22
     # via -r requirements.in
