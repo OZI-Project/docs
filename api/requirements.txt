@@ -22,7 +22,7 @@ dnspython==2.7.0
     # via ozi
 doc8==1.1.2
     # via -r requirements.in
-docutils==0.20.1
+docutils==0.22
     # via
     #   doc8
     #   restructuredtext-lint
