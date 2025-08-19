@@ -87,7 +87,7 @@ requests==2.32.4
     #   sphinx
 restructuredtext-lint==1.4.0
     # via doc8
-setuptools-scm[toml]==8.3.1
+setuptools-scm[toml]==9.2.0
     # via
     #   ozi
     #   ozi-spec
