@@ -136,7 +136,7 @@ sphinxcontrib-svg2pdfconverter[CairoSVG]
 sphinxcontrib-autoprogram==0.1.9
 sphinxemoji
     # via sphinx
-stevedore==5.4.1
+stevedore==5.5.0
     # via doc8
 urllib3==2.5.0
     # via
